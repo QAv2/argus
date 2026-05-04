@@ -46,6 +46,19 @@ const Intel = (() => {
   async function init(viewer) {
     viewerRef = viewer;
     intelData = [...INTEL_ENTITIES];
+
+    // Non-blocking: merge curated photo URLs from data/intel-photos.json
+    // (file is written by tools/photo-approval/apply_approvals.py).
+    fetch('data/intel-photos.json', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(map => {
+        if (!map) return;
+        intelData.forEach(e => { if (map[e.id]) e.photo_url = map[e.id]; });
+        renderEntities(viewer);
+        Globe.requestRender();
+      })
+      .catch(() => {});
+
     renderEntities(viewer);
     Globe.requestRender();
 

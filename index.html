@@ -43,7 +43,7 @@
   <main id="cesiumContainer"></main>
   <div class="sr-only">
     Interactive 3D globe showing geospatial intelligence data including vessel tracking, earthquake monitoring, conflict events, and satellite imagery.
-    Use keyboard shortcuts F1-F12 to toggle data layers. Click entities on the map for detailed information.
+    Use keyboard shortcuts F1-F10 to toggle data layers. Click entities on the map for detailed information.
   </div>
 
   <!-- Shader overlay for post-processing (CSS-driven, no canvas) -->
@@ -81,6 +81,16 @@
     <div class="panel-section">
       <div class="panel-section-title">Data Layers</div>
       <div id="layer-toggles"></div>
+    </div>
+
+    <!-- Theater Filter -->
+    <div class="panel-section">
+      <div class="panel-section-title">Theater Filter</div>
+      <div class="theater-controls">
+        <button class="theater-ctrl-btn" id="theaters-all">ALL</button>
+        <button class="theater-ctrl-btn" id="theaters-none">NONE</button>
+      </div>
+      <div id="theater-toggles"></div>
     </div>
 
     <!-- Replay Panel -->
@@ -154,8 +164,6 @@
     <div class="stat-item"><div class="stat-dot" style="background:var(--traffic-color)"></div><span id="stat-traffic">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--conflict-color)"></div><span id="stat-conflicts">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--playback-color)"></div><span id="stat-playback">—</span></div>
-    <div class="stat-item"><div class="stat-dot" style="background:var(--jamming-color)"></div><span id="stat-jamming">—</span></div>
-    <div class="stat-item"><div class="stat-dot" style="background:var(--airspace-color)"></div><span id="stat-airspace">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--antarctica-color)"></div><span id="stat-antarctica">—</span></div>
   </div>
 
@@ -181,8 +189,6 @@
           <div class="landing-layer"><span class="landing-dot" style="background:var(--traffic-color)"></span><span class="landing-key">F8</span> Traffic Flow</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--conflict-color)"></span><span class="landing-key">F9</span> Conflict Events</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--playback-color)"></span><span class="landing-key">F10</span> Replay Data</div>
-          <div class="landing-layer"><span class="landing-dot" style="background:var(--jamming-color)"></span><span class="landing-key">F11</span> GPS Jamming</div>
-          <div class="landing-layer"><span class="landing-dot" style="background:var(--airspace-color)"></span><span class="landing-key">F12</span> Airspace / TFR</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--antarctica-color)"></span><span class="landing-key">A</span> Antarctica</div>
 
           <div class="landing-section-title" style="margin-top:16px">Vessel Types</div>
@@ -220,11 +226,15 @@
 
           <div class="landing-section-title" style="margin-top:16px">Camera Presets</div>
           <div class="landing-row"><span class="landing-key">Q</span><span class="landing-val">US Overview</span></div>
-          <div class="landing-row"><span class="landing-key">W</span><span class="landing-val">Dulce</span></div>
-          <div class="landing-row"><span class="landing-key">E</span><span class="landing-val">Area 51</span></div>
-          <div class="landing-row"><span class="landing-key">R</span><span class="landing-val">Denver</span></div>
           <div class="landing-row"><span class="landing-key">G</span><span class="landing-val">Global</span></div>
           <div class="landing-row"><span class="landing-key">I</span><span class="landing-val">Iran Theater</span></div>
+          <div class="landing-row"><span class="landing-key">U</span><span class="landing-val">Ukraine Theater</span></div>
+          <div class="landing-row"><span class="landing-key">F</span><span class="landing-val">Indo-Pacific</span></div>
+          <div class="landing-row"><span class="landing-key">D</span><span class="landing-val">Sudan</span></div>
+          <div class="landing-row"><span class="landing-key">H</span><span class="landing-val">Sahel</span></div>
+          <div class="landing-row"><span class="landing-key">M</span><span class="landing-val">Myanmar</span></div>
+          <div class="landing-row"><span class="landing-key">V</span><span class="landing-val">Korea</span></div>
+          <div class="landing-row"><span class="landing-key">B</span><span class="landing-val">Arctic</span></div>
           <div class="landing-row"><span class="landing-key">P</span><span class="landing-val">Antarctica</span></div>
         </div>
       </div>
@@ -257,11 +267,16 @@
     <div class="help-row"><span class="help-desc">COG Network</span><span class="help-key">C</span></div>
     <div class="help-row"><span class="help-desc">NM Corridor</span><span class="help-key">N</span></div>
     <div class="help-row"><span class="help-desc">Iran Theater</span><span class="help-key">I</span></div>
+    <div class="help-row"><span class="help-desc">Ukraine Theater</span><span class="help-key">U</span></div>
+    <div class="help-row"><span class="help-desc">Indo-Pacific</span><span class="help-key">F</span></div>
+    <div class="help-row"><span class="help-desc">Sudan</span><span class="help-key">D</span></div>
+    <div class="help-row"><span class="help-desc">Sahel</span><span class="help-key">H</span></div>
+    <div class="help-row"><span class="help-desc">Myanmar</span><span class="help-key">M</span></div>
+    <div class="help-row"><span class="help-desc">Korea</span><span class="help-key">V</span></div>
+    <div class="help-row"><span class="help-desc">Arctic</span><span class="help-key">B</span></div>
     <div class="help-row"><span class="help-desc">Antarctica</span><span class="help-key">P</span></div>
     <hr style="border-color:var(--border);margin:8px 0">
     <div class="help-row"><span class="help-desc">Replay Data</span><span class="help-key">F10</span></div>
-    <div class="help-row"><span class="help-desc">GPS Jamming</span><span class="help-key">F11</span></div>
-    <div class="help-row"><span class="help-desc">Airspace / TFR</span><span class="help-key">F12</span></div>
     <div class="help-row"><span class="help-desc">Sat Correlations</span><span class="help-key">K</span></div>
     <div class="help-row"><span class="help-desc">Naval Vessels</span><span class="help-key">F7</span></div>
     <div class="help-row"><span class="help-desc">Traffic Flow</span><span class="help-key">F8</span></div>
@@ -297,8 +312,6 @@
   <script src="js/traffic.js"></script>
   <script src="js/conflicts.js"></script>
   <script src="js/playback.js"></script>
-  <script src="js/jamming.js"></script>
-  <script src="js/airspace.js"></script>
   <script src="js/antarctica.js"></script>
   <script src="js/sat-correlation.js"></script>
   <script src="js/timeline.js"></script>
@@ -306,5 +319,6 @@
   <script src="js/controls.js"></script>
   <script src="js/hashstate.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/cinema.js"></script>
 </body>
 </html>

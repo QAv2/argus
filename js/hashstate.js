@@ -18,12 +18,10 @@ const HashState = (() => {
       cam.roll.toFixed(1),
     ].join(',');
 
-    // 13-bit layer mask: F1-F9 + Playback + Jamming + Airspace + Antarctica
+    // 11-bit layer mask: F1-F9 + Playback + Antarctica
     const modules = [
       Earthquakes, Satellites, Aircraft, Bases, Military, Intel, Vessels, Traffic, Conflicts,
       typeof Playback !== 'undefined' ? Playback : null,
-      typeof Jamming !== 'undefined' ? Jamming : null,
-      typeof Airspace !== 'undefined' ? Airspace : null,
       typeof Antarctica !== 'undefined' ? Antarctica : null,
     ];
     const layers = modules.map(m => (m && m.isVisible()) ? '1' : '0').join('');
@@ -38,6 +36,11 @@ const HashState = (() => {
     if (typeof Playback !== 'undefined' && Playback.isReplayActive()) {
       const replay = Playback.getReplay();
       if (replay) hash += `/replay:${replay.slug}`;
+    }
+
+    const theaterMask = Conflicts.getTheaterMask();
+    if (theaterMask && !theaterMask.split('').every(b => b === '1')) {
+      hash += `/theaters:${theaterMask}`;
     }
 
     return hash;
@@ -64,7 +67,7 @@ const HashState = (() => {
       },
     };
 
-    // Accept 8-13 bit layer masks (backward compatible)
+    // Accept 8-13 bit layer masks (backward compatible — old URLs may have F11/F12 bits)
     if (parts[1] && /^[01]{8,13}$/.test(parts[1])) {
       state.layers = parts[1];
     }
@@ -76,6 +79,8 @@ const HashState = (() => {
       const p = parts[i];
       if (p.startsWith('replay:')) {
         state.replay = p.slice(7);
+      } else if (p.startsWith('theaters:')) {
+        state.theaters = p.slice(9);
       } else if (['normal', 'crt', 'nvg', 'flir'].includes(p)) {
         state.mode = p;
       }
@@ -123,6 +128,19 @@ const HashState = (() => {
     if (state.replay && typeof Playback !== 'undefined') {
       Playback.loadReplay(state.replay);
     }
+
+    if (state.theaters) {
+      Conflicts.applyTheaterMask(state.theaters);
+      const theaters = Conflicts.getTheaters();
+      theaters.forEach(t => {
+        const el = document.getElementById(`theater-${t.id}`);
+        if (el) {
+          const active = Conflicts.isTheaterActive(t.id);
+          el.classList.toggle('off', !active);
+          el.setAttribute('aria-checked', String(active));
+        }
+      });
+    }
   }
 
   function applyLayers(state) {
@@ -132,13 +150,11 @@ const HashState = (() => {
     const modules = [
       Earthquakes, Satellites, Aircraft, Bases, Military, Intel, Vessels, Traffic, Conflicts,
       typeof Playback !== 'undefined' ? Playback : null,
-      typeof Jamming !== 'undefined' ? Jamming : null,
-      typeof Airspace !== 'undefined' ? Airspace : null,
       typeof Antarctica !== 'undefined' ? Antarctica : null,
     ];
     const layerIds = [
       'earthquakes', 'satellites', 'aircraft', 'bases', 'military', 'intel', 'vessels', 'traffic', 'conflicts',
-      'playback', 'jamming', 'airspace', 'antarctica',
+      'playback', 'antarctica',
     ];
 
     // Apply as many bits as the hash provides (Math.min for old 8-bit URLs)

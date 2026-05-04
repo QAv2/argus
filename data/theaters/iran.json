@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "epic-fury-tehran-mod",
+    "name": "Tehran Ministry of Defense Strike",
+    "lat": 35.7219,
+    "lon": 51.3897,
+    "type": "airstrike",
+    "date": "2026-02-28T02:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Iranian Ministry of Defense HQ",
+    "casualties": "Unknown — building destroyed",
+    "description": "Combined US/Israeli strike on Iran's Ministry of Defense compound in central Tehran as part of opening salvo of Operation Epic Fury.",
+    "sources": [
+      "CENTCOM Statement Feb 28 2026",
+      "CNN Breaking News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tehran-mois",
+    "name": "MOIS Headquarters Strike",
+    "lat": 35.6997,
+    "lon": 51.423,
+    "type": "airstrike",
+    "date": "2026-02-28T02:35:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Ministry of Intelligence (MOIS) HQ",
+    "casualties": "Ali Shamkhani killed",
+    "description": "Precision strike on Iran's Ministry of Intelligence and Security headquarters in Tehran. Secretary Ali Shamkhani among confirmed killed.",
+    "sources": [
+      "CENTCOM Statement",
+      "PBS NewsHour"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tehran-aeoi",
+    "name": "AEOI Headquarters Strike",
+    "lat": 35.73,
+    "lon": 51.34,
+    "type": "airstrike",
+    "date": "2026-02-28T02:40:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Atomic Energy Organization of Iran HQ",
+    "casualties": "Unknown",
+    "description": "Strike on AEOI headquarters in Tehran, targeting Iran's civilian nuclear administration.",
+    "sources": [
+      "CENTCOM Statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-parchin",
+    "name": "Parchin Military Complex Strike",
+    "lat": 35.52,
+    "lon": 51.77,
+    "type": "airstrike",
+    "date": "2026-02-28T02:45:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Parchin Military Complex",
+    "casualties": "IRGC Ground Forces Commander Gen. Mohammad Pakpour killed",
+    "description": "Massive strike on Parchin military-industrial complex southeast of Tehran. IRGC Ground Forces Commander-in-Chief among confirmed killed.",
+    "sources": [
+      "CENTCOM Statement",
+      "CBS satellite imagery report"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tehran-leadership",
+    "name": "Supreme Leader Compound Strike",
+    "lat": 35.705,
+    "lon": 51.418,
+    "type": "airstrike",
+    "date": "2026-02-28T02:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Supreme Leader compound",
+    "casualties": "Ali Khamenei killed, Abdul Rahim Mousavi killed",
+    "description": "Decapitation strike on the Supreme Leader's compound in Tehran. Ayatollah Ali Khamenei and Armed Forces Chief of Staff Abdul Rahim Mousavi confirmed killed.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN",
+      "NPR"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tehran-irgc-hq",
+    "name": "IRGC Headquarters Strike",
+    "lat": 35.715,
+    "lon": 51.405,
+    "type": "airstrike",
+    "date": "2026-02-28T02:35:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "IRGC Central Command HQ",
+    "casualties": "Multiple senior IRGC commanders",
+    "description": "Strike on IRGC central headquarters in Tehran as part of the systematic targeting of Iran's military command structure.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-isfahan",
+    "name": "Isfahan Military Complex Strike",
+    "lat": 32.6546,
+    "lon": 51.668,
+    "type": "airstrike",
+    "date": "2026-02-28T03:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Isfahan military-industrial facilities",
+    "casualties": "Unknown",
+    "description": "Strikes on military-industrial targets around Isfahan, Iran's second major defense production hub.",
+    "sources": [
+      "CENTCOM Statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-bushehr",
+    "name": "Bushehr Area Strikes",
+    "lat": 28.9234,
+    "lon": 50.8203,
+    "type": "airstrike",
+    "date": "2026-02-28T03:15:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Bushehr military installations",
+    "casualties": "Unknown",
+    "description": "Strikes on military installations in the Bushehr province, separate from the civilian nuclear power plant.",
+    "sources": [
+      "CENTCOM Statement",
+      "CSIS analysis"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-konarak",
+    "name": "Konarak Naval Base Strike",
+    "lat": 25.35,
+    "lon": 60.38,
+    "type": "airstrike",
+    "date": "2026-02-28T03:10:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Navy",
+      "US Air Force"
+    ],
+    "target": "Konarak Naval Base",
+    "casualties": "Base largely destroyed, multiple IRIN vessels sunk at berth",
+    "description": "Combined air and naval strike on Konarak Naval Base in southeastern Iran, a key IRIN facility on the Gulf of Oman.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-chabahar",
+    "name": "Chabahar Port Military Strike",
+    "lat": 25.2919,
+    "lon": 60.643,
+    "type": "airstrike",
+    "date": "2026-02-28T03:20:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Chabahar military port facilities",
+    "casualties": "Unknown",
+    "description": "Strikes on military port infrastructure at Chabahar, Iran's strategic southeastern port near the Pakistan border.",
+    "sources": [
+      "CENTCOM Statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-qom",
+    "name": "Qom Military Targets Strike",
+    "lat": 34.6401,
+    "lon": 50.8764,
+    "type": "airstrike",
+    "date": "2026-02-28T03:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Military command facilities near Qom",
+    "casualties": "Unknown",
+    "description": "Strikes on IRGC command and control facilities in the Qom area.",
+    "sources": [
+      "CENTCOM Statement"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tabriz",
+    "name": "Tabriz Air Defense Strike",
+    "lat": 38.08,
+    "lon": 46.2919,
+    "type": "airstrike",
+    "date": "2026-02-28T02:45:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Tabriz air defense network",
+    "casualties": "Unknown",
+    "description": "SEAD/DEAD strikes on integrated air defense systems around Tabriz in northwestern Iran.",
+    "sources": [
+      "CENTCOM Statement",
+      "Atlantic Council analysis"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-minab-school",
+    "name": "Minab Girls' School Strike (Civilian)",
+    "lat": 27.15,
+    "lon": 57.08,
+    "type": "airstrike",
+    "date": "2026-02-28T04:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Reported military target — hit school",
+    "casualties": "175 killed including primary school girls",
+    "description": "US Tomahawk strike on the Shajareh Tayyebeh school in Minab, a converted military facility adjacent to the IRGC Asif Brigade HQ. Pentagon investigation confirmed a US Tomahawk targeting error. Iranian state media reported 175 civilian casualties including primary school girls.",
+    "sources": [
+      "Iranian state media",
+      "CNN",
+      "Al Jazeera",
+      "Pentagon briefing",
+      "NPR",
+      "The Intercept",
+      "PolitiFact"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "b2-natanz-underground",
+    "name": "B-2 Strike on Underground Missile Site (Natanz area)",
+    "lat": 33.725,
+    "lon": 51.727,
+    "type": "airstrike",
+    "date": "2026-02-28T03:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force — B-2 Spirit"
+    ],
+    "target": "Underground missile production facility",
+    "casualties": "Unknown — deeply buried target",
+    "description": "B-2 Spirit stealth bombers flying round-trip from CONUS (Whiteman AFB) delivered GBU-57 Massive Ordnance Penetrators on hardened underground missile production sites. Part of 4-bomber strike package.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News",
+      "CSIS analysis"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "b2-fordow-area",
+    "name": "B-2 Strike on Underground Facility (Fordow area)",
+    "lat": 34.882,
+    "lon": 51.259,
+    "type": "airstrike",
+    "date": "2026-02-28T03:15:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force — B-2 Spirit"
+    ],
+    "target": "Hardened underground facility near Fordow",
+    "casualties": "Unknown",
+    "description": "GBU-57 MOP strikes on hardened mountain facilities in the Fordow area by B-2 bombers, targeting suspected missile storage and production infrastructure.",
+    "sources": [
+      "CENTCOM Statement",
+      "CBS satellite imagery report"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "roaring-lion-tehran",
+    "name": "Israeli Strikes on Tehran (Roaring Lion)",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "airstrike",
+    "date": "2026-02-28T02:30:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "Multiple Tehran military targets",
+    "casualties": "Unknown",
+    "description": "Israeli Air Force contribution to the combined strike package under Operation Roaring Lion, Israel's parallel codename for the joint operation.",
+    "sources": [
+      "IDF Statement",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "roaring-lion-isfahan",
+    "name": "Israeli Strikes on Isfahan",
+    "lat": 32.62,
+    "lon": 51.65,
+    "type": "airstrike",
+    "date": "2026-02-28T03:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "Isfahan defense facilities",
+    "casualties": "Unknown",
+    "description": "Israeli strikes on defense-industrial targets in the Isfahan area as part of Operation Roaring Lion.",
+    "sources": [
+      "IDF Statement"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "aziz-nasirzadeh-killed",
+    "name": "Defense Minister Aziz Nasirzadeh Killed",
+    "lat": 35.71,
+    "lon": 51.41,
+    "type": "airstrike",
+    "date": "2026-02-28T02:35:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Defense Ministry compound",
+    "casualties": "Defense Minister Aziz Nasirzadeh killed",
+    "description": "Iranian Defence Minister Brigadier General Aziz Nasirzadeh confirmed killed in strikes on the Defense Ministry compound in Tehran.",
+    "sources": [
+      "CENTCOM Statement",
+      "NPR",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "jamaran-corvette-sunk",
+    "name": "IRIS Jamaran Corvette Sunk",
+    "lat": 26.55,
+    "lon": 56.25,
+    "type": "naval",
+    "date": "2026-02-28T05:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Navy",
+      "Iranian Navy"
+    ],
+    "target": "IRIS Jamaran (76) — Moudge-class corvette",
+    "casualties": "Crew casualties unknown",
+    "description": "Iranian Navy corvette IRIS Jamaran sunk in the Strait of Hormuz area during engagement with US Navy forces. The Jamaran was Iran's first domestically built warship.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-closure",
+    "name": "Strait of Hormuz Closure",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "blockade",
+    "date": "2026-02-28T06:00:00Z",
+    "operation": "IRGC Navy",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Strait of Hormuz shipping lanes",
+    "casualties": "None reported",
+    "description": "IRGC Navy declared closure of the Strait of Hormuz to all shipping following the start of Operation Epic Fury. Mine-laying operations and fast attack craft deployed across the shipping lanes. ~21% of global oil transit affected.",
+    "sources": [
+      "IRGC statement",
+      "Al Jazeera",
+      "USNI News",
+      "CSIS analysis"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-minelaying",
+    "name": "Hormuz Mine-Laying Operations",
+    "lat": 26.6,
+    "lon": 56.3,
+    "type": "naval",
+    "date": "2026-02-28T04:30:00Z",
+    "operation": "IRGC Navy",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Strait of Hormuz shipping lanes",
+    "casualties": "None initial",
+    "description": "IRGC Navy deployed naval mines across the Strait of Hormuz shipping channels as part of the blockade operation.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-beit-shemesh",
+    "name": "Iranian Missile Strike on Beit Shemesh, Israel",
+    "lat": 31.7469,
+    "lon": 34.9865,
+    "type": "retaliation",
+    "date": "2026-02-28T08:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Beit Shemesh, Israel",
+    "casualties": "Unknown — partially intercepted",
+    "description": "Iranian ballistic missile salvo targeting populated area of Beit Shemesh, Israel. Partially intercepted by Iron Dome and Arrow systems.",
+    "sources": [
+      "IDF Statement",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-bahrain-5thfleet",
+    "name": "Iranian Strike on US 5th Fleet HQ, Bahrain",
+    "lat": 26.2285,
+    "lon": 50.49,
+    "type": "retaliation",
+    "date": "2026-02-28T07:30:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "NSA Bahrain / US 5th Fleet HQ",
+    "casualties": "Unknown — defensive systems engaged",
+    "description": "Ballistic missile and drone attack on Naval Support Activity Bahrain, headquarters of US 5th Fleet and US Naval Forces Central Command.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-ali-al-salem",
+    "name": "Iranian Strike on Ali al-Salem Air Base, Kuwait",
+    "lat": 29.3467,
+    "lon": 47.5208,
+    "type": "retaliation",
+    "date": "2026-02-28T07:45:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Ali al-Salem Air Base, Kuwait",
+    "casualties": "Unknown",
+    "description": "Iranian missile and drone strikes targeting Ali al-Salem Air Base in Kuwait, a major US Air Force forward operating location.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-riyadh",
+    "name": "Iranian Missile Strike on Riyadh",
+    "lat": 24.7136,
+    "lon": 46.6753,
+    "type": "retaliation",
+    "date": "2026-02-28T08:15:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Riyadh, Saudi Arabia",
+    "casualties": "Unknown — Saudi defenses engaged",
+    "description": "Iranian ballistic missile strike on Riyadh, targeting Saudi military and government infrastructure. Saudi Patriot systems engaged incoming missiles.",
+    "sources": [
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-dubai-jebel-ali",
+    "name": "Iranian Strike on Jebel Ali, Dubai",
+    "lat": 25.0223,
+    "lon": 55.0608,
+    "type": "retaliation",
+    "date": "2026-02-28T08:30:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Jebel Ali Port / military facilities, Dubai",
+    "casualties": "Unknown",
+    "description": "Iranian missile strikes targeting the Jebel Ali area in Dubai, which hosts both commercial port infrastructure and US logistics facilities.",
+    "sources": [
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-duqm-oman",
+    "name": "Iranian Strike on Duqm, Oman",
+    "lat": 19.6667,
+    "lon": 57.7,
+    "type": "retaliation",
+    "date": "2026-02-28T08:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Duqm port/airfield, Oman",
+    "casualties": "Unknown",
+    "description": "Iranian strikes on Duqm, Oman, where the US has access agreements for military logistics and staging.",
+    "sources": [
+      "CENTCOM Statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-erbil-iraq",
+    "name": "Iranian Strike on Erbil, Iraq",
+    "lat": 36.1912,
+    "lon": 44.0119,
+    "type": "retaliation",
+    "date": "2026-02-28T07:15:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "US facilities near Erbil, Kurdistan Region, Iraq",
+    "casualties": "Unknown",
+    "description": "Iranian missile strikes targeting US military facilities near Erbil International Airport in the Kurdistan Region of Iraq.",
+    "sources": [
+      "CENTCOM Statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-qatar",
+    "name": "Iranian Strike on Al Udeid, Qatar",
+    "lat": 25.1174,
+    "lon": 51.3148,
+    "type": "retaliation",
+    "date": "2026-02-28T07:45:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Al Udeid Air Base, Qatar",
+    "casualties": "Unknown — CENTCOM forward HQ engaged defenses",
+    "description": "Iranian strikes targeting Al Udeid Air Base in Qatar, the forward headquarters of US Central Command and Combined Air Operations Center.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "uss-lincoln-ops",
+    "name": "USS Abraham Lincoln CSG Operations",
+    "lat": 24.5,
+    "lon": 60,
+    "type": "naval",
+    "date": "2026-02-28T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Navy — CSG 3"
+    ],
+    "target": "Carrier strike operations",
+    "casualties": "N/A",
+    "description": "USS Abraham Lincoln (CVN-72) Carrier Strike Group operating in the North Arabian Sea, providing air support for Operation Epic Fury and fleet defense.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "uss-ford-ops",
+    "name": "USS Gerald R. Ford CSG Operations",
+    "lat": 25.5,
+    "lon": 57,
+    "type": "naval",
+    "date": "2026-02-28T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Navy — CSG 12"
+    ],
+    "target": "Carrier strike operations",
+    "casualties": "N/A",
+    "description": "USS Gerald R. Ford (CVN-78) Carrier Strike Group positioned in the Gulf of Oman, the largest concentration of American carrier aviation in the region in a generation.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "midnight-hammer-natanz",
+    "name": "Operation Midnight Hammer — Natanz",
+    "lat": 33.725,
+    "lon": 51.727,
+    "type": "airstrike",
+    "date": "2025-06-15T00:00:00Z",
+    "operation": "Midnight Hammer",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Natanz Nuclear Facility",
+    "casualties": "Unknown",
+    "description": "June 2025 nuclear strikes on Iran's primary uranium enrichment facility at Natanz as part of Operation Midnight Hammer. This earlier operation set the context for the February 2026 escalation.",
+    "sources": [
+      "CENTCOM Statement June 2025",
+      "Britannica",
+      "CSIS"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "midnight-hammer-fordow",
+    "name": "Operation Midnight Hammer — Fordow",
+    "lat": 34.882,
+    "lon": 51.259,
+    "type": "airstrike",
+    "date": "2025-06-15T00:00:00Z",
+    "operation": "Midnight Hammer",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Fordow Enrichment Plant",
+    "casualties": "Unknown",
+    "description": "June 2025 strikes on the Fordow Fuel Enrichment Plant, built deep inside a mountain near Qom. Part of Operation Midnight Hammer targeting Iran's nuclear infrastructure.",
+    "sources": [
+      "CENTCOM Statement June 2025",
+      "Britannica"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "midnight-hammer-isfahan-nuc",
+    "name": "Operation Midnight Hammer — Isfahan Nuclear",
+    "lat": 32.73,
+    "lon": 51.68,
+    "type": "airstrike",
+    "date": "2025-06-15T00:00:00Z",
+    "operation": "Midnight Hammer",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Isfahan Nuclear Technology Center",
+    "casualties": "Unknown",
+    "description": "June 2025 strikes on Isfahan's Nuclear Technology Center, which housed the uranium conversion facility. Part of Operation Midnight Hammer.",
+    "sources": [
+      "CENTCOM Statement June 2025",
+      "Britannica"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-air-defense-shiraz",
+    "name": "Shiraz Air Defense Suppression",
+    "lat": 29.5918,
+    "lon": 52.5836,
+    "type": "airstrike",
+    "date": "2026-02-28T02:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Shiraz air defense systems",
+    "casualties": "Unknown",
+    "description": "SEAD operations against integrated air defense systems around Shiraz as part of the opening wave of Epic Fury.",
+    "sources": [
+      "CENTCOM Statement"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-bandar-abbas",
+    "name": "Bandar Abbas Naval/Military Strike",
+    "lat": 27.1865,
+    "lon": 56.2808,
+    "type": "airstrike",
+    "date": "2026-02-28T03:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Navy",
+      "US Air Force"
+    ],
+    "target": "IRIN/IRGCN facilities at Bandar Abbas",
+    "casualties": "Unknown",
+    "description": "Strikes on Iranian naval facilities at Bandar Abbas, Iran's primary naval port on the Strait of Hormuz, targeting both regular Navy and IRGC Navy assets.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-dezful-missile",
+    "name": "Dezful Missile Base Strike",
+    "lat": 32.3838,
+    "lon": 48.4,
+    "type": "airstrike",
+    "date": "2026-02-28T03:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "IRGC Aerospace Force missile base",
+    "casualties": "Unknown",
+    "description": "Strikes on IRGC Aerospace Force underground missile storage and launch facilities in the Dezful area of Khuzestan province.",
+    "sources": [
+      "CENTCOM Statement",
+      "CSIS"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-kermanshah",
+    "name": "Kermanshah Military Strikes",
+    "lat": 34.3142,
+    "lon": 47.066,
+    "type": "airstrike",
+    "date": "2026-02-28T03:15:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "IRGC facilities near Kermanshah",
+    "casualties": "Unknown",
+    "description": "Strikes on IRGC military facilities in western Iran near Kermanshah, a key logistics hub for Iran's western defenses.",
+    "sources": [
+      "CENTCOM Statement"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-jordan-tanf",
+    "name": "Iranian Strike Toward Al-Tanf, Syria/Jordan Border",
+    "lat": 33.51,
+    "lon": 38.97,
+    "type": "retaliation",
+    "date": "2026-02-28T08:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "US garrison at Al-Tanf, Syria",
+    "casualties": "Unknown",
+    "description": "Iranian missile and drone strikes targeting the US garrison at Al-Tanf base on the Syria-Jordan border.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-semnan-space",
+    "name": "Semnan Space/Missile Center Strike",
+    "lat": 35.2346,
+    "lon": 53.921,
+    "type": "airstrike",
+    "date": "2026-02-28T03:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Semnan Space Launch Center / missile test facility",
+    "casualties": "Unknown",
+    "description": "Strikes on the Semnan Space Launch Center, which also serves as a ballistic missile test and development facility.",
+    "sources": [
+      "CENTCOM Statement",
+      "CSIS"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-khatam-al-anbiya",
+    "name": "Khatam al-Anbiya Air Defense Strike",
+    "lat": 35.745,
+    "lon": 51.35,
+    "type": "airstrike",
+    "date": "2026-02-28T02:30:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "Khatam al-Anbiya Air Defense HQ, Tehran",
+    "casualties": "Unknown",
+    "description": "Opening strike on Iran's centralized air defense command to degrade coordinated response capability.",
+    "sources": [
+      "CENTCOM Statement",
+      "Atlantic Council"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "houthi-solidarity-redSea",
+    "name": "Houthi Conditional Deterrence — Red Sea",
+    "lat": 14,
+    "lon": 42.5,
+    "type": "blockade",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Ansar Allah (Houthis)"
+    ],
+    "target": "Commercial shipping in Red Sea / Bab el-Mandeb",
+    "casualties": "None",
+    "description": "As of Mar 11, Houthis have maintained a conditional deterrence posture in solidarity with Iran but have not launched attacks. Leader Abdul-Malik al-Houthi stated forces had 'hands on the trigger' on Mar 5, with rhetoric and demonstrations but no confirmed kinetic operations in the Red Sea or Bab el-Mandeb strait.",
+    "sources": [
+      "Al Jazeera",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hezbollah-solidarity",
+    "name": "Hezbollah Rocket Barrage — Northern Israel",
+    "lat": 33.2774,
+    "lon": 35.2035,
+    "type": "retaliation",
+    "date": "2026-03-02T06:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Hezbollah"
+    ],
+    "target": "Northern Israel",
+    "casualties": "Unknown",
+    "description": "Hezbollah launched rocket and drone barrages against northern Israel in solidarity with Iran following Operation Epic Fury. This was the first Hezbollah rocket fire toward Israel since the November 2024 ceasefire, breaking the truce in response to the killing of Khamenei.",
+    "sources": [
+      "IDF Statement",
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "cyber-iran-retaliation",
+    "name": "Iranian Cyber Retaliation",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "cyber",
+    "date": "2026-02-28T12:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "Iranian cyber units"
+    ],
+    "target": "US/Israeli critical infrastructure",
+    "casualties": "No physical casualties",
+    "description": "Iranian state-sponsored cyber operations targeting US and Israeli critical infrastructure, financial systems, and government networks in retaliation for Operation Epic Fury.",
+    "sources": [
+      "CSIS",
+      "Atlantic Council"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "b2-whiteman-launch",
+    "name": "B-2 Strike Package — Whiteman AFB Launch",
+    "lat": 38.7267,
+    "lon": -93.5479,
+    "type": "airstrike",
+    "date": "2026-02-27T18:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force — 509th Bomb Wing"
+    ],
+    "target": "Launch point for B-2 round-trip mission",
+    "casualties": "N/A",
+    "description": "Four B-2 Spirit stealth bombers launched from Whiteman Air Force Base, Missouri for a round-trip mission to Iran carrying GBU-57 Massive Ordnance Penetrators. Total mission time ~30 hours with aerial refueling.",
+    "sources": [
+      "CENTCOM Statement",
+      "USNI News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-malek-ashtar",
+    "name": "IRGC Malek-Ashtar Building Destroyed",
+    "lat": 35.71,
+    "lon": 51.42,
+    "type": "airstrike",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "IRGC Malek-Ashtar Building, Tehran",
+    "casualties": "Unknown — building completely destroyed",
+    "description": "US/Israeli strike destroyed the IRGC Malek-Ashtar Building in Tehran. Video footage confirmed complete destruction of the structure.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN",
+      "Video footage"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "roaring-lion-irib",
+    "name": "IRIB State Broadcaster HQ Strike",
+    "lat": 35.7,
+    "lon": 51.41,
+    "type": "airstrike",
+    "date": "2026-03-03T03:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "IRIB State Broadcaster HQ, Tehran",
+    "casualties": "Unknown",
+    "description": "Israel Air Force conducted a separate operation striking the IRIB (Islamic Republic of Iran Broadcasting) State Broadcaster headquarters in Tehran during early morning hours.",
+    "sources": [
+      "IDF Statement",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-tehran-isfahan-day9",
+    "name": "Wide-Scale Tehran + Isfahan Government Strikes",
+    "lat": 35.69,
+    "lon": 51.39,
+    "type": "airstrike",
+    "date": "2026-03-06T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Iranian government infrastructure, Tehran and Isfahan",
+    "casualties": "Unknown",
+    "description": "Wide-scale US/Israeli strikes targeting infrastructure of the Iranian government across Tehran and Isfahan. IDF confirmed targeting 'infrastructure of the Iranian government' as part of continuing combined operations.",
+    "sources": [
+      "IDF Statement",
+      "CENTCOM Statement",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "roaring-lion-irgc-airforce",
+    "name": "IRGC Air Force HQ Destroyed",
+    "lat": 35.72,
+    "lon": 51.4,
+    "type": "airstrike",
+    "date": "2026-03-09T00:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "IRGC Air Force Headquarters",
+    "casualties": "Unknown — HQ destroyed",
+    "description": "Israel Defense Forces confirmed the destruction of the IRGC Air Force headquarters in Tehran as part of ongoing Operation Roaring Lion strikes.",
+    "sources": [
+      "IDF Statement",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "epic-fury-day12-tehran",
+    "name": "Overnight Strikes — Tehran and Northern Iran",
+    "lat": 35.7,
+    "lon": 51.4,
+    "type": "airstrike",
+    "date": "2026-03-10T22:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Tehran and northern Iran targets",
+    "casualties": "Unknown",
+    "description": "Overnight US/Israeli strikes on Tehran and northern Iran as part of the ongoing campaign. By this point, over 5,000 total targets had been struck since the start of Operation Epic Fury.",
+    "sources": [
+      "CENTCOM Statement",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-dubai-abudhabi-mar2",
+    "name": "Iranian Strikes on Dubai and Abu Dhabi",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "type": "retaliation",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Iranian Retaliation Wave 2",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "UAE military and infrastructure targets, Dubai and Abu Dhabi",
+    "casualties": "Unknown",
+    "description": "IRGC Aerospace Force launched missile and drone strikes targeting military and infrastructure targets in Dubai and Abu Dhabi as part of the second wave of Iranian retaliation.",
+    "sources": [
+      "IRGC statement",
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-doha-mar2",
+    "name": "Iranian Strikes on Doha",
+    "lat": 25.2854,
+    "lon": 51.531,
+    "type": "retaliation",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Iranian Retaliation Wave 2",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Doha, Qatar",
+    "casualties": "Unknown",
+    "description": "Iranian missile strikes targeting Doha, Qatar as part of the second wave of IRGC retaliatory operations against Gulf states hosting US military assets.",
+    "sources": [
+      "IRGC statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-beersheba-mar2",
+    "name": "Iranian Missile Strike on Beersheba",
+    "lat": 31.2518,
+    "lon": 34.7913,
+    "type": "retaliation",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Iranian Retaliation Wave 2",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Beersheba, Israel",
+    "casualties": "Unknown",
+    "description": "IRGC Aerospace Force targeted Beersheba in southern Israel with ballistic missiles as part of the second wave of Iranian retaliation.",
+    "sources": [
+      "IDF Statement",
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-kuwait-embassy",
+    "name": "US Embassy Kuwait Struck",
+    "lat": 29.3759,
+    "lon": 47.9774,
+    "type": "retaliation",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Iranian Retaliation Wave 2",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "US Embassy, Kuwait City",
+    "casualties": "Unknown — embassy closed indefinitely",
+    "description": "Iranian strike hit the US Embassy compound in Kuwait City. The embassy was subsequently closed indefinitely.",
+    "sources": [
+      "CENTCOM",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-iran-barrage-mar5",
+    "name": "Iran 500+ Missile / 2000 Drone Cumulative Barrage",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "missile",
+    "date": "2026-03-05T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Israel and US regional targets",
+    "casualties": "Unknown",
+    "description": "Iran fired over 500 ballistic and naval missiles and 2,000 drones cumulatively. Fars News Agency confirmed approximately 40% aimed at Israel and 60% at US regional targets across the Persian Gulf.",
+    "sources": [
+      "Fars News Agency",
+      "Al Jazeera",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-tel-aviv-mar5",
+    "name": "Iranian Missiles at Tel Aviv",
+    "lat": 32.0853,
+    "lon": 34.7818,
+    "type": "missile",
+    "date": "2026-03-05T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Tel Aviv, Israel",
+    "casualties": "No immediate casualties reported",
+    "description": "IRGC Aerospace Force launched ballistic missiles at Tel Aviv, triggering air raid alerts across central Israel. No immediate casualties reported as Israeli defense systems engaged incoming projectiles.",
+    "sources": [
+      "IDF Statement",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "retaliation-iran-intense-mar11",
+    "name": "Iran's Most Intense Operation of the War",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "missile",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Israel, Persian Gulf nations, Hormuz shipping",
+    "casualties": "Unknown",
+    "description": "Iran launched what was described as its most intense military operation of the war, simultaneously targeting Israel, Persian Gulf nations, and shipping in the Strait of Hormuz.",
+    "sources": [
+      "IRGC statement",
+      "Al Jazeera",
+      "CNN",
+      "Reuters"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-traffic-collapse",
+    "name": "Hormuz Shipping Traffic Drops 70%",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "blockade",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Strait of Hormuz commercial shipping",
+    "casualties": "None",
+    "description": "Shipping traffic through the Strait of Hormuz collapsed by 70% as commercial vessels diverted or anchored outside the strait. Over 150 ships were anchoring outside the strait, and by Mar 9 only 2 outbound Iranian-flagged vessels had transited.",
+    "sources": [
+      "Bloomberg",
+      "USNI News",
+      "Lloyd's List"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-china-exception",
+    "name": "Iran Allows China-Only Passage Through Hormuz",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "blockade",
+    "date": "2026-03-04T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "Iran",
+      "China"
+    ],
+    "target": "Strait of Hormuz — selective passage",
+    "casualties": "None",
+    "description": "Iran established a selective passage regime through the Strait of Hormuz, allowing Chinese-flagged vessels to transit while blocking others. Iran had shipped 11.7 million barrels of oil to China since the start of the war.",
+    "sources": [
+      "CNBC",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-mayuree-naree",
+    "name": "Thai Cargo Ship Mayuree Naree Attacked",
+    "lat": 26.4,
+    "lon": 56.4,
+    "type": "naval",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Mayuree Naree — Thai cargo vessel",
+    "casualties": "20 crew rescued, 3 remain aboard",
+    "description": "IRGC Navy attacked the Thai cargo ship Mayuree Naree in the Strait of Hormuz area. Two projectiles hit above the waterline, causing explosions in the stern and engine room. 20 crew members were rescued while 3 remained aboard.",
+    "sources": [
+      "Newsweek",
+      "Bangkok Post",
+      "CNBC"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-express-rome",
+    "name": "Liberian-Flag Vessel Express Rome Attacked",
+    "lat": 26.35,
+    "lon": 56.35,
+    "type": "naval",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Express Rome — Liberian-flag, Israeli-owned vessel",
+    "casualties": "Unknown",
+    "description": "IRGC Navy fired upon the Israeli-owned, Liberian-flagged vessel Express Rome for allegedly ignoring warnings. The IRGC named the vessel specifically in social media posts justifying the attack.",
+    "sources": [
+      "IRGC statement",
+      "Reuters",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-third-vessel",
+    "name": "Third Vessel Struck in Persian Gulf",
+    "lat": 26.5,
+    "lon": 56.1,
+    "type": "naval",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Unidentified commercial vessel",
+    "casualties": "Unknown",
+    "description": "A third commercial vessel was struck in the Persian Gulf on March 11, making it one of the heaviest days of maritime attacks since the war began.",
+    "sources": [
+      "Bloomberg",
+      "UK Navy report"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "kuwait-friendly-fire",
+    "name": "Kuwait F/A-18 Shoots Down 3 US F-15Es",
+    "lat": 29.3467,
+    "lon": 47.5208,
+    "type": "airstrike",
+    "date": "2026-03-02T04:03:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "Kuwait Air Force",
+      "US Air Force"
+    ],
+    "target": "Friendly fire — 3 US F-15E Strike Eagles",
+    "casualties": "All 6 aircrew ejected safely",
+    "description": "A Kuwaiti F/A-18 shot down 3 US F-15E Strike Eagles in a friendly fire incident during active Iranian missile and drone attacks. Highly active combat conditions contributed to misidentification. All 6 aircrew ejected safely and were recovered.",
+    "sources": [
+      "CENTCOM",
+      "Military Times",
+      "The War Zone"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-kia-mar1",
+    "name": "3 US Service Members Killed, 5 Seriously Wounded",
+    "lat": 26.2285,
+    "lon": 50.49,
+    "type": "retaliation",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "US forces — casualties from Iranian attacks",
+    "casualties": "3 killed, 5 seriously wounded",
+    "description": "First US combat deaths in Operation Epic Fury. Three service members were killed and five seriously wounded in Iranian retaliatory attacks on US positions.",
+    "sources": [
+      "USNI News",
+      "NPR"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-kia-saudi-mar1",
+    "name": "US Soldier Killed in Saudi Arabia",
+    "lat": 24.7136,
+    "lon": 46.6753,
+    "type": "retaliation",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "US forces — casualty from Iranian attack",
+    "casualties": "1 killed",
+    "description": "A Kentucky-based US soldier died of injuries sustained in an Iranian attack on Saudi Arabia, adding to the first day's combat deaths.",
+    "sources": [
+      "PBS",
+      "NPR"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-casualties-day10",
+    "name": "US Casualties: 7 KIA, ~140 Wounded",
+    "lat": 26.2285,
+    "lon": 50.49,
+    "type": "retaliation",
+    "date": "2026-03-10T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "US forces — cumulative casualty count",
+    "casualties": "7 KIA, ~140 wounded (8 severe, 108 returned to duty), plus 1 health-related death in Kuwait",
+    "description": "Pentagon confirmed cumulative US casualties as of Mar 10: 7 killed in action plus 1 health-related death in Kuwait, approximately 140 wounded with 8 severe injuries, and 108 who had returned to duty.",
+    "sources": [
+      "PBS",
+      "Al Jazeera",
+      "Pentagon briefing"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iraq-militia-erbil-mar1",
+    "name": "Iraqi Militia Drone Strikes on Erbil",
+    "lat": 36.1912,
+    "lon": 44.0119,
+    "type": "retaliation",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Saraya Awliya Al-Dam",
+      "Islamic Resistance in Iraq"
+    ],
+    "target": "Erbil International Airport area / US assets",
+    "casualties": "Unknown",
+    "description": "Iraqi militia groups launched drone strikes on the Erbil International Airport area, claiming 23+ drone strikes on US assets in coordination with the broader Axis of Resistance response to Operation Epic Fury.",
+    "sources": [
+      "Long War Journal",
+      "ACLED"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iraq-militia-victory-base",
+    "name": "Victory Base Baghdad Attacked",
+    "lat": 33.26,
+    "lon": 44.23,
+    "type": "retaliation",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Guardians of the Blood Brigade"
+    ],
+    "target": "US Victory Base near Baghdad International Airport",
+    "casualties": "Unknown",
+    "description": "Guardians of the Blood Brigade (Saraya Awliya Al-Dam) launched drone and rocket attacks on US Victory Base near Baghdad International Airport.",
+    "sources": [
+      "Long War Journal",
+      "ACLED"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iraq-militias-join-war",
+    "name": "Kataib Hezbollah and Allies Formally Join Fighting",
+    "lat": 33.3152,
+    "lon": 44.3661,
+    "type": "retaliation",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Kataib Hezbollah",
+      "Kataib Sayyid al Shuhada",
+      "Harakat Hezbollah al Nujaba"
+    ],
+    "target": "US and coalition forces in Iraq",
+    "casualties": "N/A",
+    "description": "Kataib Hezbollah and allied Iraqi militia groups formally announced their entry into the war, citing 'attacks on Iran and violations of Iraq's sovereignty' as justification.",
+    "sources": [
+      "Long War Journal",
+      "Al Jazeera",
+      "ACLED"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iraq-resistance-291-attacks",
+    "name": "Islamic Resistance in Iraq: 291 Total Attacks",
+    "lat": 33.3152,
+    "lon": 44.3661,
+    "type": "retaliation",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Islamic Resistance in Iraq"
+    ],
+    "target": "US and coalition forces across Iraq",
+    "casualties": "Unknown",
+    "description": "The Islamic Resistance in Iraq claimed a cumulative total of 291 attacks since the start of the war, including 31 new operations on Mar 10-11.",
+    "sources": [
+      "Islamic Resistance statement",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hezbollah-breaks-ceasefire",
+    "name": "Hezbollah Formally Breaks November 2024 Ceasefire",
+    "lat": 33.8547,
+    "lon": 35.8623,
+    "type": "missile",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Hezbollah"
+    ],
+    "target": "Northern Israel",
+    "casualties": "Unknown",
+    "description": "Hezbollah launched its first rockets from Lebanon toward Israel since the November 27, 2024 ceasefire, formally breaking the truce in response to the killing of Khamenei in Operation Epic Fury.",
+    "sources": [
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-lebanon-500-strikes",
+    "name": "Israel Strikes 500+ Targets Across Lebanon",
+    "lat": 33.8547,
+    "lon": 35.8623,
+    "type": "airstrike",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Defense Forces"
+    ],
+    "target": "Hezbollah positions across Lebanon",
+    "casualties": "At least 50 killed, 330+ injured",
+    "description": "Israel struck over 500 targets across Lebanon between Mar 2-6, targeting Hezbollah positions in response to the ceasefire breach. At least 50 people were killed and over 330 injured.",
+    "sources": [
+      "Long War Journal",
+      "CNN",
+      "ACLED"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-litani-evacuation",
+    "name": "Israel Orders Evacuation South of Litani River",
+    "lat": 33.3,
+    "lon": 35.3,
+    "type": "ground",
+    "date": "2026-03-04T00:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Defense Forces"
+    ],
+    "target": "Southern Lebanon — 250-300 settlements",
+    "casualties": "N/A",
+    "description": "Israel ordered evacuation of all areas south of the Litani River, affecting 250-300 settlements including the cities of Tyre and Nabatieh. Widely seen as a precursor to ground invasion.",
+    "sources": [
+      "Washington Post",
+      "HRW",
+      "Amnesty International"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "lebanon-displacement",
+    "name": "500,000+ Displaced in Lebanon",
+    "lat": 33.8938,
+    "lon": 35.5018,
+    "type": "ground",
+    "date": "2026-03-08T00:00:00Z",
+    "operation": "Humanitarian",
+    "parties": [
+      "Lebanon"
+    ],
+    "target": "Civilian population",
+    "casualties": "517,000 registered displaced, 667,831 self-registered",
+    "description": "Lebanese social affairs minister reported 517,000 registered displaced persons, 538 active shelters, 119,700 IDPs in shelters, and 667,831 self-registered displaced people across the country.",
+    "sources": [
+      "Al Jazeera",
+      "ACLED"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-ground-incursion-lebanon",
+    "name": "Israeli Ground Incursion Into Southern Lebanon",
+    "lat": 33.12,
+    "lon": 35.25,
+    "type": "ground",
+    "date": "2026-03-10T00:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Defense Forces"
+    ],
+    "target": "Southern Lebanon — village of Qaouzah",
+    "casualties": "Unknown — intense clashes reported",
+    "description": "IDF ground forces entered the village of Qaouzah, approximately 2.75km north of the Blue Line, marking the furthest verified Israeli ground incursion into Lebanon. Intense clashes with Hezbollah reported.",
+    "sources": [
+      "CGTN",
+      "CNN",
+      "L'Orient Today"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hezbollah-smotrich-son",
+    "name": "Hezbollah Projectile Wounds 8 IDF Soldiers",
+    "lat": 33.1,
+    "lon": 35.2,
+    "type": "missile",
+    "date": "2026-03-06T00:00:00Z",
+    "operation": "Axis of Resistance",
+    "parties": [
+      "Hezbollah"
+    ],
+    "target": "IDF soldiers near Lebanese border",
+    "casualties": "8 soldiers injured (5 severe), including Finance Minister Smotrich's son",
+    "description": "A Hezbollah projectile wounded 8 IDF soldiers near the Lebanese border, including 5 with severe injuries. Finance Minister Bezalel Smotrich's son was among the wounded.",
+    "sources": [
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-interim-council",
+    "name": "Interim Leadership Council Formed",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "political",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Political",
+    "parties": [
+      "Iran"
+    ],
+    "target": "Iranian governance — interim authority",
+    "casualties": "N/A",
+    "description": "An Interim Leadership Council was established per the Iranian constitution to exercise head of state functions pending the election of a new supreme leader following the killing of Ayatollah Khamenei.",
+    "sources": [
+      "Al Jazeera",
+      "NPR",
+      "BBC"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "mojtaba-khamenei-supreme-leader",
+    "name": "Mojtaba Khamenei Elected Supreme Leader",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "political",
+    "date": "2026-03-08T00:00:00Z",
+    "operation": "Political",
+    "parties": [
+      "Iran",
+      "Assembly of Experts",
+      "IRGC"
+    ],
+    "target": "Iranian supreme leadership succession",
+    "casualties": "N/A",
+    "description": "Mojtaba Khamenei, son of the killed Ali Khamenei, was elected as Iran's new Supreme Leader. The IRGC reportedly pressured the Assembly of Experts. Russia pledged 'unwavering' support while Trump called it 'unacceptable' and Israel vowed to target him.",
+    "sources": [
+      "NBC",
+      "NPR",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "un-security-council-emergency",
+    "name": "UN Security Council Emergency Session",
+    "lat": 40.7489,
+    "lon": -73.968,
+    "type": "political",
+    "date": "2026-03-01T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "UN Security Council",
+      "China",
+      "Russia",
+      "US"
+    ],
+    "target": "International diplomatic response",
+    "casualties": "N/A",
+    "description": "China and Russia requested an emergency UN Security Council session, citing an 'unprovoked and reckless act of military aggression' and calling for an immediate ceasefire. The US and Israel were diplomatically isolated.",
+    "sources": [
+      "UN News",
+      "Democracy Now"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-crude-128",
+    "name": "Brent Crude Hits $128/Barrel",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-03-08T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "Global Markets"
+    ],
+    "target": "Global oil markets",
+    "casualties": "N/A",
+    "description": "Brent crude oil surged to $128 per barrel, the first time above $100 since 2022. The Hormuz closure was driving one of the biggest oil supply disruptions in history, forcing Gulf states to cut output.",
+    "sources": [
+      "Bloomberg",
+      "CNBC"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iea-400m-barrel-release",
+    "name": "IEA Agrees to Release Record 400M Barrels",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "type": "economic",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "IEA",
+      "G7"
+    ],
+    "target": "Strategic petroleum reserves — global release",
+    "casualties": "N/A",
+    "description": "The International Energy Agency agreed to release a record 400 million barrels from strategic petroleum reserves, the largest reserve release in IEA history — dwarfing the 182 million barrel response during the Ukraine crisis. Contributors included the UK (13.5M barrels), South Korea (22.46M), Germany, Austria, and Japan.",
+    "sources": [
+      "CNBC",
+      "Al Jazeera",
+      "NPR",
+      "Euronews"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "kc135-crash-iraq",
+    "name": "KC-135 Tanker Crash in Western Iraq — 6 Airmen Killed",
+    "lat": 33.5,
+    "lon": 42.5,
+    "type": "airstrike",
+    "date": "2026-03-12T14:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force"
+    ],
+    "target": "N/A — non-hostile aircraft loss",
+    "casualties": "6 airmen killed",
+    "description": "A US Air Force KC-135 Stratotanker crashed in western Iraq while supporting Operation Epic Fury. All six crew members were killed. CENTCOM confirmed the loss was not due to hostile or friendly fire. First loss of a KC-135 in 13 years.",
+    "sources": [
+      "CENTCOM",
+      "Washington Post",
+      "Air & Space Forces Magazine",
+      "CNN"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "bahrain-muharraq-fuel-tanks",
+    "name": "Iranian Drones Hit Bahrain Fuel Tanks at Muharraq",
+    "lat": 26.2667,
+    "lon": 50.6333,
+    "type": "retaliation",
+    "date": "2026-03-12T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Bahrain International Airport — fuel tanks, Muharraq",
+    "casualties": "Unknown — fire set in fuel tanks",
+    "description": "Iranian drones struck fuel tanks at Muharraq near Bahrain International Airport, setting them ablaze. Bahrain Defense Force reported cumulative interception of 114 missiles and 190 drones since the war began. Residents told to stay inside and close windows.",
+    "sources": [
+      "FDD Long War Journal",
+      "Al Jazeera",
+      "Defense One"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-pmf-qaim",
+    "name": "US Strikes PMF at Qaim — 99 Killed",
+    "lat": 34.3767,
+    "lon": 41.0728,
+    "type": "airstrike",
+    "date": "2026-03-12T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military",
+      "PMF 19th Brigade"
+    ],
+    "target": "PMF 19th Brigade (Ansar Allah al Awfiya) — HQ, medical unit, logistics",
+    "casualties": "99 killed, 43 missing, 123 wounded",
+    "description": "US airstrikes targeted three PMF 19th Brigade sites in the Qaim border district of Anbar province. PMF reported 32 total US airstrikes on militia HQs across 7 Iraqi governorates since Feb 28.",
+    "sources": [
+      "The National",
+      "FDD Long War Journal",
+      "Iraqi News Agency"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "saudi-intercept-31-drones-mar12",
+    "name": "Saudi Arabia Intercepts 31 Drones and 3 Ballistic Missiles",
+    "lat": 26.42,
+    "lon": 50.1,
+    "type": "retaliation",
+    "date": "2026-03-12T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC",
+      "Saudi Arabia"
+    ],
+    "target": "Saudi Arabia — Eastern Province, Shaybah oilfield",
+    "casualties": "None reported",
+    "description": "Saudi air defenses intercepted and destroyed 31 drones and three ballistic missiles targeting the kingdom, including waves aimed at the Eastern Province and Shaybah oilfield.",
+    "sources": [
+      "Saudi Ministry of Defense",
+      "Euronews",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "saudi-50-drones-mar13",
+    "name": "Saudi Arabia Targeted With 50 Drones — 2 Killed in al-Kharj",
+    "lat": 24.1489,
+    "lon": 47.3067,
+    "type": "retaliation",
+    "date": "2026-03-13T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Saudi Arabia — Eastern Province, Riyadh, al-Kharj",
+    "casualties": "2 killed, 12 injured in al-Kharj residential area",
+    "description": "Iran launched 50 drones at Saudi Arabia within hours. Saudi intercepted 51 drones including over Riyadh. A projectile fell in a residential area in al-Kharj governorate, killing 2 and injuring 12.",
+    "sources": [
+      "The National",
+      "Euronews",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-militias-iraq-mar13",
+    "name": "US Strikes Kataib Hezbollah and Asaib Ahl al Haq",
+    "lat": 34,
+    "lon": 43.5,
+    "type": "airstrike",
+    "date": "2026-03-13T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "Asaib Ahl al Haq HQ (Salah al Din), Kataib Hezbollah HQ (Fallujah)",
+    "casualties": "Unknown",
+    "description": "US airstrikes targeted an Asaib Ahl al Haq headquarters in Salah al Din province and a Kataib Hezbollah headquarters in Fallujah, continuing the campaign against Iran-backed militias in Iraq.",
+    "sources": [
+      "FDD Long War Journal",
+      "Shafaq News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "heaviest-bombardment-iran-mar15",
+    "name": "Heaviest Single-Night Bombardment of Iran",
+    "lat": 32.6546,
+    "lon": 51.668,
+    "type": "airstrike",
+    "date": "2026-03-15T03:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Air Force",
+      "Israel Air Force"
+    ],
+    "target": "Isfahan, Shiraz, Dezful, Tehran, Tabriz, Hamedan, Qom, Sirjan, Garmsar",
+    "casualties": "At least 15 killed in Isfahan; 66+ total casualties",
+    "description": "Heaviest single-night bombardment since Epic Fury began. Strikes hit military and state-linked sites across 9+ Iranian cities. Isfahan IRGC airbase, Dezful 4th Tactical Air Base hit. Over 20 explosions heard near Shiraz alone.",
+    "sources": [
+      "Al Jazeera",
+      "NCRI",
+      "Alma Research Center",
+      "Critical Threats"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-rejects-ceasefire-mar15",
+    "name": "Iran FM Rejects Ceasefire: 'We Never Asked'",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "political",
+    "date": "2026-03-15T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Iran",
+      "US"
+    ],
+    "target": "Ceasefire diplomacy",
+    "casualties": "N/A",
+    "description": "Iranian FM Abbas Araghchi rejected ceasefire talks: 'We never asked for a ceasefire, and we have never asked for negotiation. We are ready to defend ourselves as long as it takes.' Trump had claimed Iran was willing to negotiate.",
+    "sources": [
+      "NPR",
+      "Time",
+      "Iran International",
+      "Times of Israel"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-ground-invasion-lebanon-mar16",
+    "name": "Israel Launches Full Ground Invasion of Southern Lebanon",
+    "lat": 33.27,
+    "lon": 35.2,
+    "type": "ground",
+    "date": "2026-03-16T00:00:00Z",
+    "operation": "Roaring Lion",
+    "parties": [
+      "Israel Defense Forces",
+      "Hezbollah"
+    ],
+    "target": "Southern Lebanon — south of Litani River",
+    "casualties": "1,000+ killed in Lebanon since conflict began",
+    "description": "IDF launched 'limited and targeted ground operations' in southern Lebanon, aiming to seize the entire area south of the Litani River. Heavy fighting around strategic Khiam stronghold. IDF destroyed a bridge over the Litani River.",
+    "sources": [
+      "Al Jazeera",
+      "Time",
+      "Axios",
+      "Antiwar.com"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "dubai-airport-drone-strike",
+    "name": "Iranian Drone Hits Dubai Airport Fuel Tank — 7hr Shutdown",
+    "lat": 25.2532,
+    "lon": 55.3657,
+    "type": "retaliation",
+    "date": "2026-03-16T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Dubai International Airport — fuel tank",
+    "casualties": "No injuries reported",
+    "description": "An Iranian drone struck a fuel tank at Dubai International Airport, one of the world's busiest hubs, sparking a fire. The airport suspended operations for 7+ hours. UAE intercepted 13 ballistic missiles and 27 drones from Iran during the same period.",
+    "sources": [
+      "Al Jazeera",
+      "Washington Post",
+      "Bloomberg",
+      "CNBC"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-zero-transit-mar16",
+    "name": "Hormuz Commercial Transit Collapses to Zero — 300+ Ships Stranded",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "blockade",
+    "date": "2026-03-16T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy"
+    ],
+    "target": "Strait of Hormuz — all commercial shipping",
+    "casualties": "N/A",
+    "description": "Commercial transit through the Strait of Hormuz collapsed to effectively zero, with over 300 ships stranded inside the Persian Gulf. Only a small number of negotiated safe voyages occurred. Crisis affected ~20% of global daily oil supply.",
+    "sources": [
+      "CNBC",
+      "Bloomberg",
+      "Euronews"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "lebanon-1m-displaced-mar16",
+    "name": "1 Million Displaced in Lebanon — 1/5 of Population",
+    "lat": 33.8938,
+    "lon": 35.5018,
+    "type": "ground",
+    "date": "2026-03-16T00:00:00Z",
+    "operation": "Humanitarian",
+    "parties": [
+      "Lebanon"
+    ],
+    "target": "Civilian population",
+    "casualties": "1M displaced (19% of population), 119K Syrians crossed to Syria",
+    "description": "Lebanon displacement reached 1 million — one-fifth of the country's population. By March 18, 119,000 Syrians crossed back into Syria with 125,000 total crossings. Over 1,000 fatalities in Lebanon since the conflict began.",
+    "sources": [
+      "Time",
+      "Al Jazeera",
+      "Washington Post",
+      "UN DTM"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-casualties-day17",
+    "name": "US Casualties: 13 KIA, 200+ Wounded Across 7 Countries",
+    "lat": 26.2285,
+    "lon": 50.49,
+    "type": "retaliation",
+    "date": "2026-03-16T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "US forces — cumulative casualty update",
+    "casualties": "13 KIA (7 enemy fire + 6 KC-135 crash), 200+ wounded",
+    "description": "US casualties reached 13 dead and over 200 wounded across 7 countries as confirmed by CENTCOM. Deaths include 7 killed by enemy fire and 6 airmen in the KC-135 crash. Pentagon warned of likely additional losses.",
+    "sources": [
+      "Washington Post",
+      "NPR",
+      "Time",
+      "NBC News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "larijani-soleimani-killed-mar17",
+    "name": "Israel Kills Ali Larijani and Basij Commander Soleimani",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "airstrike",
+    "date": "2026-03-17T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "Ali Larijani (SNSC Secretary), Gholamreza Soleimani (Basij Commander)",
+    "casualties": "Larijani + son Morteza + office head + guards; Soleimani killed",
+    "description": "Israeli airstrikes killed Ali Larijani, Secretary of Iran's Supreme National Security Council — the most senior official killed after Khamenei — and Basij paramilitary commander Gholamreza Soleimani. Larijani was a key JCPOA negotiator and former parliament speaker.",
+    "sources": [
+      "Al Jazeera",
+      "Washington Post",
+      "Time",
+      "NBC News",
+      "CBS News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-strikes-south-pars-mar18",
+    "name": "Israel Strikes South Pars Gas Field at Asaluyeh",
+    "lat": 27.4745,
+    "lon": 52.605,
+    "type": "airstrike",
+    "date": "2026-03-18T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "Israel Air Force"
+    ],
+    "target": "South Pars gas field — Asaluyeh processing hub",
+    "casualties": "Unknown",
+    "description": "Israeli drone strike hit Asaluyeh, the onshore processing hub for Iran's South Pars gas field — the world's largest natural gas reserve shared with Qatar. Four treatment plants damaged, ~100M cubic meters/day offline (14% of output). South Pars supplies 70% of Iran's domestic gas. Trump criticized Israel for the strike.",
+    "sources": [
+      "Bloomberg",
+      "CBS News",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-strikes-ras-laffan-qatar-mar18",
+    "name": "Iran Strikes Qatar's Ras Laffan LNG — World's Largest",
+    "lat": 25.8925,
+    "lon": 51.535,
+    "type": "retaliation",
+    "date": "2026-03-18T00:00:00Z",
+    "operation": "Iranian Retaliation — Energy Escalation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Ras Laffan Industrial City — world's largest LNG facility",
+    "casualties": "Extensive damage reported",
+    "description": "Iran struck Qatar's Ras Laffan gas-to-liquid facility in retaliation for the South Pars attack, causing 'extensive damage.' Ras Laffan produces ~20% of global LNG supply. Qatar forced to halt all gas production, disrupting global supplies and fertilizer production.",
+    "sources": [
+      "Al Jazeera",
+      "CNBC",
+      "NPR",
+      "QatarEnergy"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-strikes-gulf-energy-mar19",
+    "name": "Iran Strikes Energy Facilities Across UAE and Saudi Arabia",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "type": "retaliation",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Iranian Retaliation — Energy Escalation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "UAE Al Hosn gasfield, Saudi Samref/Jubail refineries, Qatar Mesaieed",
+    "casualties": "Unknown",
+    "description": "Iran launched strikes at five named energy targets across the Gulf: Qatar's Mesaieed Petrochemical, Saudi Samref Refinery and Jubail Petrochemical, UAE's Al Hosn gasfield. Saudi intercepted 4 ballistic missiles toward Riyadh. UAE intercepted 13 missiles and 27 drones.",
+    "sources": [
+      "Al Jazeera",
+      "Irish Times",
+      "CNBC",
+      "The Conversation"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-19-waves-israel-mar19",
+    "name": "Iran Launches 19 Attack Waves at Israel — Record Day",
+    "lat": 32.0853,
+    "lon": 34.7818,
+    "type": "missile",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Israel — multiple targets",
+    "casualties": "Unknown",
+    "description": "Iran launched 19 ballistic missile attack waves at Israel in a single day — an exceptional number far exceeding the daily average. This was one of the most intense days of Iranian attacks on Israel during the entire conflict.",
+    "sources": [
+      "Alma Research Center",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-crude-119-mar19",
+    "name": "Brent Crude Touches $119 — Analysts Warn of $200",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "Global Markets"
+    ],
+    "target": "Global oil and LNG markets",
+    "casualties": "N/A",
+    "description": "Brent crude briefly touched $119/barrel after Iran struck Qatar's Ras Laffan. Analysts raised the prospect of $200/barrel. Oil surged ~80% since the conflict began. Gulf states cut total oil production by at least 10M barrels/day due to the Hormuz closure.",
+    "sources": [
+      "CNBC",
+      "Euronews",
+      "Al Jazeera",
+      "Bloomberg"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "qatar-halts-gas-production-mar19",
+    "name": "Qatar Forced to Halt All Gas Production",
+    "lat": 25.8925,
+    "lon": 51.535,
+    "type": "economic",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "Qatar",
+      "Iran"
+    ],
+    "target": "Qatar LNG production — 20% of global supply",
+    "casualties": "N/A",
+    "description": "Qatar, one of the world's biggest LNG producers, halted all gas production after Iranian attacks on Ras Laffan. This disrupted 20% of global LNG supply. Qatar PM: 'This war must be stopped immediately.'",
+    "sources": [
+      "Euronews",
+      "NPR",
+      "CNBC"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "uk-allies-urge-iran-mar19",
+    "name": "UK + 5 Allies Demand Iran Stop Attacks, End Hormuz Blockade",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "political",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "UK",
+      "Japan",
+      "Germany",
+      "France",
+      "Italy",
+      "Netherlands"
+    ],
+    "target": "Iran — diplomatic pressure",
+    "casualties": "N/A",
+    "description": "UK PM Starmer joined Japan, Germany, France, Italy, and the Netherlands in calling on Iran to stop attacks on energy sites and civilian infrastructure and end the Hormuz gridlock. Five Western nations condemned Hezbollah's decision to join hostilities.",
+    "sources": [
+      "Bloomberg",
+      "Euronews"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-pmf-mar19",
+    "name": "US Strikes PMF Across Baghdad, Nineveh, Anbar",
+    "lat": 33.3152,
+    "lon": 44.3661,
+    "type": "airstrike",
+    "date": "2026-03-19T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "PMF militia bases — Baghdad, Salah al Din, Nineveh, Anbar",
+    "casualties": "At least 2 killed",
+    "description": "US airstrikes targeted Iran-backed militia bases across four Iraqi governorates. PMF condemned targeting of HQs in Anbar and near Mosul. Iraqi PM condemned the attacks. A base at Tuz Khurmatu in central Iraq was also struck.",
+    "sources": [
+      "The National",
+      "FDD Long War Journal",
+      "SyriacPress"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "nowruz-130-targets-mar20",
+    "name": "IDF Strikes 130+ Targets Across Iran on Nowruz",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "airstrike",
+    "date": "2026-03-20T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "Israel Air Force",
+      "US Military"
+    ],
+    "target": "Tehran, Parchin, Kerman, Arak, Bandar Lengeh, Yazd, Ahvaz, Karaj",
+    "casualties": "Unknown",
+    "description": "Israel struck 130+ regime infrastructures on Nowruz (Persian New Year) — missile launchers, UAV sites, air defense systems across 8+ cities. CENTCOM struck a missile production facility in Karaj. US has hit 7,000+ total targets since Feb 28.",
+    "sources": [
+      "NPR",
+      "Alma Research Center",
+      "CNN",
+      "CENTCOM"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "kuwait-mina-ahmadi-mar20",
+    "name": "Iranian Drones Hit Kuwait Mina Al-Ahmadi Refinery",
+    "lat": 29.0572,
+    "lon": 48.0972,
+    "type": "retaliation",
+    "date": "2026-03-20T00:00:00Z",
+    "operation": "Iranian Retaliation — Energy Escalation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Mina Al-Ahmadi oil refinery, Kuwait",
+    "casualties": "Unknown — fires reported",
+    "description": "Iranian drones struck Kuwait's Mina Al-Ahmadi oil refinery overnight, sparking fires. Saudi Arabia intercepted a missile over the northern Al Jouf region during the same period.",
+    "sources": [
+      "NPR",
+      "CNN",
+      "Al Jazeera"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-death-toll-1444-mar20",
+    "name": "Iran Death Toll Exceeds 1,444 — 204 Children Killed",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "type": "political",
+    "date": "2026-03-20T00:00:00Z",
+    "operation": "Humanitarian",
+    "parties": [
+      "Iran"
+    ],
+    "target": "Iranian civilian population",
+    "casualties": "1,444+ killed (204 children); Hengaw: 5,300+ dead (511 civilians)",
+    "description": "Iranian Red Crescent reported 204 children killed as overall death toll exceeded 1,444. Independent Hengaw documented 5,300+ dead including 511 civilians in first 18 days. Over 42,000 civilian sites damaged including homes, schools, hospitals.",
+    "sources": [
+      "Al Jazeera",
+      "NPR",
+      "Hengaw",
+      "Gulf News"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "trump-nato-cowards-hormuz-mar20",
+    "name": "Trump Calls NATO Allies 'Cowards' Over Hormuz",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-03-20T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "NATO"
+    ],
+    "target": "NATO alliance — pressure for Hormuz coalition",
+    "casualties": "N/A",
+    "description": "President Trump criticized NATO allies for lacking 'enthusiasm' to help with the Hormuz crisis, calling them 'cowards.' He said 'many countries' would send warships. Netanyahu claimed Israel was helping to open the Strait of Hormuz. Pentagon requested $200B additional war funding.",
+    "sources": [
+      "Al Jazeera",
+      "CNN",
+      "NBC News",
+      "NPR"
+    ],
+    "theater": "iran"
+  }
+]

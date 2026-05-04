@@ -63,21 +63,31 @@ function collectVessels(apiKey) {
   return new Promise((resolve, reject) => {
     const vessels = new Map();
     let ws;
+    let sawOpen = false;
+    let sawAnyMessage = false;
+    let settled = false;
+
+    const finish = (fn, arg) => {
+      if (settled) return;
+      settled = true;
+      fn(arg);
+    };
 
     const timeout = setTimeout(() => {
-      if (ws) ws.close();
-      resolve(Array.from(vessels.values()));
+      if (ws) try { ws.close(); } catch { /* ignore */ }
+      finish(resolve, Array.from(vessels.values()));
     }, COLLECT_MS);
 
     try {
       ws = new WebSocket(WS_URL);
     } catch (err) {
       clearTimeout(timeout);
-      reject(new Error('WebSocket creation failed: ' + err.message));
+      finish(reject, new Error('WebSocket creation failed: ' + err.message));
       return;
     }
 
     ws.on('open', () => {
+      sawOpen = true;
       ws.send(JSON.stringify({
         APIKey: apiKey,
         BoundingBoxes: [[[-90, -180], [90, 180]]],
@@ -86,8 +96,16 @@ function collectVessels(apiKey) {
     });
 
     ws.on('message', (data) => {
+      sawAnyMessage = true;
       try {
         const msg = JSON.parse(data);
+        // aisstream returns {error: "..."} on auth failure or invalid request
+        if (msg.error) {
+          clearTimeout(timeout);
+          try { ws.close(); } catch { /* ignore */ }
+          finish(reject, new Error('aisstream rejected request: ' + msg.error));
+          return;
+        }
         if (!msg.MetaData || !msg.Message || !msg.Message.PositionReport) return;
 
         const meta = msg.MetaData;
@@ -115,13 +133,24 @@ function collectVessels(apiKey) {
 
     ws.on('error', (err) => {
       clearTimeout(timeout);
-      reject(new Error('WebSocket error: ' + err.message));
+      finish(reject, new Error('WebSocket error: ' + err.message));
     });
 
     ws.on('close', (code) => {
-      // If closed before timeout, resolve with what we have
       clearTimeout(timeout);
-      resolve(Array.from(vessels.values()));
+      // Failure modes that should surface as upstream errors, not "0 vessels":
+      // - never connected
+      // - connected but the server hung up before sending anything (typical
+      //   aisstream behavior for invalid API keys)
+      if (!sawOpen) {
+        finish(reject, new Error('WebSocket closed before open (code ' + code + ')'));
+        return;
+      }
+      if (!sawAnyMessage) {
+        finish(reject, new Error('aisstream closed with no data (code ' + code + ') — check AISSTREAM_API_KEY'));
+        return;
+      }
+      finish(resolve, Array.from(vessels.values()));
     });
   });
 }

@@ -9,7 +9,8 @@
     "branch": "army",
     "type": "army_post",
     "status": "active",
-    "notes": "Home of XVIII Airborne Corps, 82nd Airborne Division. Formerly Fort Bragg."
+    "notes": "Home of XVIII Airborne Corps, 82nd Airborne Division. Formerly Fort Bragg.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fort_Bragg_1st_Brigade_barracks.jpg"
   },
   {
     "id": "fort_cavazos",
@@ -357,7 +358,8 @@
     "branch": "navy",
     "type": "naval_base",
     "status": "active",
-    "notes": "World's largest naval station. Home to Atlantic Fleet."
+    "notes": "World's largest naval station. Home to Atlantic Fleet.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/US_Navy_110707-N-XZ912-104_An_aerial_view_of_Norfolk_Naval_Station%2C_the_largest_naval_base_in_the_world.jpg/1280px-US_Navy_110707-N-XZ912-104_An_aerial_view_of_Norfolk_Naval_Station%2C_the_largest_naval_base_in_the_world.jpg"
   },
   {
     "id": "nb_san_diego",
@@ -405,7 +407,8 @@
     "branch": "joint",
     "type": "joint_base",
     "status": "active",
-    "notes": "USINDOPACOM HQ. Combined naval and air operations."
+    "notes": "USINDOPACOM HQ. Combined naval and air operations.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/US_Navy_040630-N-2911P-004_Ships_from_seven_participating_nations_sit_pier_side_at_Pearl_Harbor%2C_Hawaii%2C_awaiting_the_start_of_exercise_Rim_of_the_Pacific_%28RIMPAC%29_2004.jpg"
   },
   {
     "id": "ns_great_lakes",
@@ -513,7 +516,8 @@
     "branch": "navy",
     "type": "research_facility",
     "status": "active",
-    "notes": "Naval Air Systems Command. Aircraft testing and development."
+    "notes": "Naval Air Systems Command. Aircraft testing and development.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/P_8_and_P_3_over_Pax_River.jpg"
   },
   {
     "id": "naws_china_lake",
@@ -585,7 +589,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "Air Force Test Center. Flight test capital of the world."
+    "notes": "Air Force Test Center. Flight test capital of the world.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/F-35_at_Edwards.jpg"
   },
   {
     "id": "nellis_afb",
@@ -609,7 +614,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "Air Force Materiel Command. Largest AF installation by area."
+    "notes": "Air Force Materiel Command. Largest AF installation by area.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/First_F-35_to_arrive_at_Eglin_AFB_gets_the_order_to_taxi.jpg"
   },
   {
     "id": "wright_patterson_afb",
@@ -621,7 +627,8 @@
     "branch": "air_force",
     "type": "research_facility",
     "status": "active",
-    "notes": "Air Force Materiel Command HQ. NASIC. Foreign technology evaluation."
+    "notes": "Air Force Materiel Command HQ. NASIC. Foreign technology evaluation.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Wright-Patterson_Air_Force_Base_from_70%C2%BA.jpg/1280px-Wright-Patterson_Air_Force_Base_from_70%C2%BA.jpg"
   },
   {
     "id": "offutt_afb",
@@ -669,7 +676,8 @@
     "branch": "air_force",
     "type": "nuclear_facility",
     "status": "active",
-    "notes": "B-52H bombers and Minuteman III ICBMs. Dual nuclear mission."
+    "notes": "B-52H bombers and Minuteman III ICBMs. Dual nuclear mission.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/A_U.S._Air_Force_B-52H_Stratofortress_aircraft_sits_on_the_flight_line_as_another_B-52H_takes_off_during_a_training_exercise_at_Minot_Air_Force_Base%2C_N.D.%2C_May_21%2C_2013_130521-F-RB551-008.jpg/1280px-thumbnail.jpg"
   },
   {
     "id": "whiteman_afb",
@@ -681,7 +689,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "Home of B-2 Spirit stealth bomber fleet."
+    "notes": "Home of B-2 Spirit stealth bomber fleet.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Whiteman_AFB_MO_-_9_Mar_1996.jpg"
   },
   {
     "id": "barksdale_afb",
@@ -969,7 +978,8 @@
     "branch": "marines",
     "type": "marine_base",
     "status": "active",
-    "notes": "I Marine Expeditionary Force. Largest West Coast expeditionary base."
+    "notes": "I Marine Expeditionary Force. Largest West Coast expeditionary base.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/1st_LAR_Highlander_Games_Warrior_Night_Burns_Late_into_the_Night_140605-M-ZH987-033.jpg"
   },
   {
     "id": "camp_lejeune",
@@ -993,7 +1003,8 @@
     "branch": "marines",
     "type": "training_facility",
     "status": "active",
-    "notes": "Crossroads of the Marine Corps. OCS, TBS, FBI Academy co-located."
+    "notes": "Crossroads of the Marine Corps. OCS, TBS, FBI Academy co-located.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Capital_Marine_Detachment_Marine_Corps_League%2C_presents_the_32nd_annual_United_States_Marine_Corps_Enlisted_Awards_Parade_and_Presentation_at_Lejeune_Hall%2C_Marine_Corps_Base_Quantico%2C_Va.%2C_Sept_140924-M-RO295-554.jpg/1280px-thumbnail.jpg"
   },
   {
     "id": "mcas_miramar",
@@ -1173,7 +1184,8 @@
     "branch": "space_force",
     "type": "space_base",
     "status": "active",
-    "notes": "Space Launch Delta 30. West Coast space launch."
+    "notes": "Space Launch Delta 30. West Coast space launch.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Delta_IV_launch_2013-08-28.jpg"
   },
   {
     "id": "peterson_sfb",
@@ -1233,7 +1245,8 @@
     "branch": "space_force",
     "type": "space_base",
     "status": "active",
-    "notes": "East Coast space launch. SLC-40, SLC-41."
+    "notes": "East Coast space launch. SLC-40, SLC-41.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cape_canaveral_crop2.jpg"
   },
   {
     "id": "cheyenne_mountain",
@@ -1245,7 +1258,8 @@
     "branch": "space_force",
     "type": "missile_defense",
     "status": "active",
-    "notes": "NORAD and USNORTHCOM alternate command center. Hardened bunker."
+    "notes": "NORAD and USNORTHCOM alternate command center. Hardened bunker.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg/1280px-Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg"
   },
   {
     "id": "cavalier_sfs",
@@ -1377,7 +1391,8 @@
     "branch": "joint",
     "type": "joint_base",
     "status": "active",
-    "notes": "US Department of Defense HQ. Largest office building in the world."
+    "notes": "US Department of Defense HQ. Largest office building in the world.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg"
   },
   {
     "id": "cg_academy",
@@ -1401,7 +1416,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "USAFE-AFAFRICA HQ. NATO Allied Air Command."
+    "notes": "USAFE-AFAFRICA HQ. NATO Allied Air Command.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Europe_District_supported%2C_managed_construction_projects_around_U.S._air_base_%283985995069%29.jpg/1280px-Europe_District_supported%2C_managed_construction_projects_around_U.S._air_base_%283985995069%29.jpg"
   },
   {
     "id": "spangdahlem_ab",
@@ -1461,7 +1477,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "Largest USAF base in the Pacific. 18th Wing."
+    "notes": "Largest USAF base in the Pacific. 18th Wing.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/150821-F-ZC102-051.jpg/1280px-150821-F-ZC102-051.jpg"
   },
   {
     "id": "yokota_ab",
@@ -1473,7 +1490,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "USFJ and 5th Air Force HQ. Western Tokyo."
+    "notes": "USFJ and 5th Air Force HQ. Western Tokyo.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/U.S._Air_Force_C-130_Hercules_aircraft_with_the_36th_Airlift_Squadron_are_parked_on_the_flightline_during_a_readiness_week_exercise_at_Yokota_Air_Base%2C_Japan%2C_Oct._7%2C_2013_131007-F-PM645-014.jpg/1280px-thumbnail.jpg"
   },
   {
     "id": "misawa_ab",
@@ -1485,7 +1503,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "35th Fighter Wing. F-16s. NSA SIGINT facility co-located."
+    "notes": "35th Fighter Wing. F-16s. NSA SIGINT facility co-located.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Short-notice%2C_A_new_way_to_exercise_141204-F-QI259-167.jpg/1280px-Short-notice%2C_A_new_way_to_exercise_141204-F-QI259-167.jpg"
   },
   {
     "id": "osan_ab",
@@ -1521,7 +1540,8 @@
     "branch": "army",
     "type": "army_post",
     "status": "active",
-    "notes": "USFK HQ. Largest US overseas military base."
+    "notes": "USFK HQ. Largest US overseas military base.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Aerial_Tour_-_U.S._Army_Garrison_Humphreys%2C_South_Korea_-_10_March_2016_%2825676470601%29.jpg/1280px-Aerial_Tour_-_U.S._Army_Garrison_Humphreys%2C_South_Korea_-_10_March_2016_%2825676470601%29.jpg"
   },
   {
     "id": "andersen_afb",
@@ -1533,7 +1553,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "Bomber forward presence in Pacific. B-52 and B-2 rotations."
+    "notes": "Bomber forward presence in Pacific. B-52 and B-2 rotations.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dyess_B-1s_deploy_to_Andersen%2C_take_over_Continuous_Bomber_Presence_operations_170206-F-LP948-046.jpg"
   },
   {
     "id": "nb_guam",
@@ -1557,7 +1578,8 @@
     "branch": "joint",
     "type": "joint_base",
     "status": "restricted",
-    "notes": "Strategic Indian Ocean atoll. Bomber and submarine support."
+    "notes": "Strategic Indian Ocean atoll. Bomber and submarine support.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Diegogarcia.jpg"
   },
   {
     "id": "al_udeid_ab",
@@ -1569,7 +1591,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "USCENTCOM forward HQ. Combined Air Operations Center."
+    "notes": "USCENTCOM forward HQ. Combined Air Operations Center.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flight_Line_Fest_2016_160110-F-YM354-030.jpg/1280px-Flight_Line_Fest_2016_160110-F-YM354-030.jpg"
   },
   {
     "id": "al_dhafra_ab",
@@ -1593,7 +1616,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "39th Air Base Wing. Nuclear weapons storage (B61)."
+    "notes": "39th Air Base Wing. Nuclear weapons storage (B61).",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Turkish_KC-135s_integrate_with_Bomber_Task_Force_for_first_time.jpg/1280px-Turkish_KC-135s_integrate_with_Bomber_Task_Force_for_first_time.jpg"
   },
   {
     "id": "aviano_ab",
@@ -1617,7 +1641,8 @@
     "branch": "navy",
     "type": "air_base",
     "status": "active",
-    "notes": "Hub of the Med. P-8 and MQ-4C operations."
+    "notes": "Hub of the Med. P-8 and MQ-4C operations.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/US_Navy_030325-N-9693M-001_Sicily%27s_volcano%2C_Mt._Etna%2C_is_the_backdrop_for_a_U.S._Air_Force_C-5_and_the_air_terminal_of_Naval_Air_Station_%28NAS%29_Sigonella.jpg/1280px-US_Navy_030325-N-9693M-001_Sicily%27s_volcano%2C_Mt._Etna%2C_is_the_backdrop_for_a_U.S._Air_Force_C-5_and_the_air_terminal_of_Naval_Air_Station_%28NAS%29_Sigonella.jpg"
   },
   {
     "id": "ns_rota",
@@ -1629,7 +1654,8 @@
     "branch": "navy",
     "type": "naval_base",
     "status": "active",
-    "notes": "Aegis Ashore BMD. Forward-deployed destroyers."
+    "notes": "Aegis Ashore BMD. Forward-deployed destroyers.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Aerial_of_Naval_Station_Rota_%287299650%29.jpg"
   },
   {
     "id": "nsa_bahrain",
@@ -1653,7 +1679,8 @@
     "branch": "joint",
     "type": "forward_operating_base",
     "status": "active",
-    "notes": "Only permanent US base in Africa. Counter-terrorism hub."
+    "notes": "Only permanent US base in Africa. Counter-terrorism hub.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/22nd_MEU_Harrier_pilots_train_with_French_Mirage_pilots_140330-M-HZ646-232.jpg"
   },
   {
     "id": "thule_ab",
@@ -1665,7 +1692,8 @@
     "branch": "space_force",
     "type": "missile_defense",
     "status": "active",
-    "notes": "Northernmost US base. BMEWS missile warning radar. Formerly Thule AB."
+    "notes": "Northernmost US base. BMEWS missile warning radar. Formerly Thule AB.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Aerial_Picture_Of_Thule_Air_Base.jpg"
   },
   {
     "id": "lajes_field",
@@ -1725,7 +1753,8 @@
     "branch": "air_force",
     "type": "air_base",
     "status": "active",
-    "notes": "48th Fighter Wing. F-15E and F-35A. Only US F-35 base in Europe."
+    "notes": "48th Fighter Wing. F-15E and F-35A. Only US F-35 base in Europe.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/R.A.F._Lakenheath_and_Thetford_Forest%2C_aerial_2017_-_geograph.org.uk_-_5536793.jpg/1280px-R.A.F._Lakenheath_and_Thetford_Forest%2C_aerial_2017_-_geograph.org.uk_-_5536793.jpg"
   },
   {
     "id": "raf_mildenhall",
@@ -1797,7 +1826,8 @@
     "branch": "navy",
     "type": "naval_base",
     "status": "active",
-    "notes": "US 7th Fleet HQ. Only forward-deployed carrier (CVN)."
+    "notes": "US 7th Fleet HQ. Only forward-deployed carrier (CVN).",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Panoramic_view_of_JMSDF_Yokosuka_Naval_Base.jpg"
   },
   {
     "id": "sasebo_nb",
@@ -2053,7 +2083,7 @@
   },
   {
     "id": "buchel_ab",
-    "name": "Büchel Air Base",
+    "name": "B\u00fcchel Air Base",
     "lat": 50.1738,
     "lon": 7.0633,
     "country": "DE",
@@ -2449,7 +2479,7 @@
   },
   {
     "id": "bodo_main_as",
-    "name": "Bodø Main Air Station",
+    "name": "Bod\u00f8 Main Air Station",
     "lat": 67.2692,
     "lon": 14.3653,
     "country": "NO",
@@ -2473,7 +2503,7 @@
   },
   {
     "id": "orland_as",
-    "name": "Ørland Air Station",
+    "name": "\u00d8rland Air Station",
     "lat": 63.6989,
     "lon": 9.6044,
     "country": "NO",
@@ -2545,7 +2575,7 @@
   },
   {
     "id": "lask_ab",
-    "name": "32nd Tactical Air Base Łask",
+    "name": "32nd Tactical Air Base \u0141ask",
     "lat": 51.5511,
     "lon": 19.1792,
     "country": "PL",
@@ -2569,7 +2599,7 @@
   },
   {
     "id": "mihail_kogalniceanu",
-    "name": "Mihail Kogălniceanu Air Base",
+    "name": "Mihail Kog\u0103lniceanu Air Base",
     "lat": 44.3628,
     "lon": 28.435,
     "country": "RO",
@@ -2617,7 +2647,7 @@
   },
   {
     "id": "amari_ab",
-    "name": "Ämari Air Base",
+    "name": "\u00c4mari Air Base",
     "lat": 59.2603,
     "lon": 24.2086,
     "country": "EE",
@@ -2629,7 +2659,7 @@
   },
   {
     "id": "siauliai_ab",
-    "name": "Šiauliai Air Base",
+    "name": "\u0160iauliai Air Base",
     "lat": 55.8939,
     "lon": 23.395,
     "country": "LT",
@@ -3445,7 +3475,7 @@
   },
   {
     "id": "alcantara",
-    "name": "Alcântara Launch Center",
+    "name": "Alc\u00e2ntara Launch Center",
     "lat": -2.3731,
     "lon": -44.3964,
     "country": "BR",
@@ -3973,7 +4003,7 @@
   },
   {
     "id": "moron_ab",
-    "name": "Morón Air Base",
+    "name": "Mor\u00f3n Air Base",
     "lat": 37.175,
     "lon": -5.615,
     "country": "ES",
@@ -4045,7 +4075,7 @@
   },
   {
     "id": "steadfast_jazz",
-    "name": "Šiauliai NATO Force Integration",
+    "name": "\u0160iauliai NATO Force Integration",
     "lat": 55.89,
     "lon": 23.3983,
     "country": "LT",
@@ -4069,7 +4099,7 @@
   },
   {
     "id": "adazi_latvia",
-    "name": "Ādaži Military Base",
+    "name": "\u0100da\u017ei Military Base",
     "lat": 57.0764,
     "lon": 24.3156,
     "country": "LV",
@@ -5221,7 +5251,7 @@
   },
   {
     "id": "sao_jose_campos",
-    "name": "São José dos Campos CTA",
+    "name": "S\u00e3o Jos\u00e9 dos Campos CTA",
     "lat": -23.2281,
     "lon": -45.87,
     "country": "BR",
@@ -5329,7 +5359,7 @@
   },
   {
     "id": "torrejon_ab",
-    "name": "Torrejón Air Base",
+    "name": "Torrej\u00f3n Air Base",
     "lat": 40.4817,
     "lon": -3.4458,
     "country": "ES",

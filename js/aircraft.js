@@ -15,6 +15,7 @@ const Aircraft = (() => {
   let trailPositions = [];
   let consecutiveFailures = 0;
   let refreshTimer = null;
+  let fetchInFlight = false;
 
   // Cached Cesium objects
   const MIL_COLOR = Cesium.Color.fromCssColorString('#fb923c').withAlpha(0.85);
@@ -27,6 +28,7 @@ const Aircraft = (() => {
 
   const MIL_URL = '/.netlify/functions/proxy?url=' + encodeURIComponent('https://api.adsb.lol/v2/mil');
   const REFRESH_MS = 15000;
+  const FETCH_TIMEOUT_MS = 12000;
   const MAX_FAILURES = 5;
 
   async function init(viewer) {
@@ -49,9 +51,11 @@ const Aircraft = (() => {
   }
 
   async function fetchAircraft(viewer) {
+    if (fetchInFlight) return;
+    fetchInFlight = true;
     try {
       const data = await fetchWithProxy(MIL_URL);
-      const ac = (data.ac || []).filter(a => a.hex && a.lat && a.lon);
+      const ac = (data.ac || []).filter(a => a.hex && a.lat != null && a.lon != null);
 
       aircraftData = ac.map(a => ({
         hex: a.hex,
@@ -77,13 +81,25 @@ const Aircraft = (() => {
     } catch (err) {
       consecutiveFailures++;
       console.warn(`[Aircraft] Fetch failed (${consecutiveFailures}/${MAX_FAILURES}):`, err.message);
+      updateStats();
+    } finally {
+      fetchInFlight = false;
     }
   }
 
   async function fetchWithProxy(url) {
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    return await resp.json();
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    try {
+      const resp = await fetch(url, { signal: controller.signal });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      return await resp.json();
+    } catch (err) {
+      if (err.name === 'AbortError') throw new Error('Fetch timeout');
+      throw err;
+    } finally {
+      clearTimeout(timeoutId);
+    }
   }
 
   // Delta reconciliation — update in place, add new, remove departed
@@ -228,7 +244,20 @@ const Aircraft = (() => {
 
   function updateStats() {
     const el = document.getElementById('stat-aircraft');
-    if (el) el.textContent = `${aircraftData.length} military aircraft`;
+    if (!el) return;
+    if (consecutiveFailures >= MAX_FAILURES) {
+      el.textContent = `feed offline — ${aircraftData.length} cached`;
+      el.title = 'Aircraft data feed is unreachable. Auto-refresh disabled after repeated failures.';
+      el.dataset.degraded = 'disabled';
+    } else if (consecutiveFailures > 0) {
+      el.textContent = `${aircraftData.length} military aircraft (stale)`;
+      el.title = `Last ${consecutiveFailures} refresh${consecutiveFailures === 1 ? '' : 'es'} failed — showing last known positions.`;
+      el.dataset.degraded = 'stale';
+    } else {
+      el.textContent = `${aircraftData.length} military aircraft`;
+      el.removeAttribute('title');
+      delete el.dataset.degraded;
+    }
   }
 
   return {

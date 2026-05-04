@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WorldView Photo Approval</title>
+<style>
+  :root {
+    --bg: #0a0e14;
+    --panel: #131820;
+    --border: #1f2630;
+    --text: #e6edf3;
+    --text-dim: #8b96a3;
+    --accent: #38bdf8;
+    --good: #22c55e;
+    --bad: #ef4444;
+    --warn: #f59e0b;
+    --font: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 13px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+  }
+  .stats {
+    display: flex;
+    gap: 18px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .stat-good { color: var(--good); }
+  .stat-bad  { color: var(--bad); }
+  .stat-pending { color: var(--text-dim); }
+
+  main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    overflow: hidden;
+  }
+  aside {
+    border-right: 1px solid var(--border);
+    background: var(--panel);
+    overflow-y: auto;
+    padding: 12px 0;
+  }
+  .entity-row {
+    padding: 8px 16px;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .entity-row:hover { background: rgba(255,255,255,0.03); }
+  .entity-row.active {
+    background: rgba(56,189,248,0.08);
+    border-left-color: var(--accent);
+  }
+  .entity-row .er-name { color: var(--text); }
+  .entity-row .er-type { color: var(--text-dim); font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 2px; }
+  .entity-row.approved { border-left-color: var(--good); }
+  .entity-row.approved .er-name::before { content: "✓ "; color: var(--good); }
+  .entity-row.rejected { border-left-color: var(--bad); }
+  .entity-row.rejected .er-name::before { content: "✗ "; color: var(--bad); }
+  .entity-row.skipped { border-left-color: var(--warn); opacity: 0.6; }
+  .entity-row.skipped .er-name::before { content: "↷ "; color: var(--warn); }
+
+  section.viewer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .meta {
+    padding: 18px 24px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .meta .name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .meta .type {
+    color: var(--accent);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+  .meta .context {
+    color: var(--text-dim);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .image-area {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-area img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  }
+  .image-empty {
+    color: var(--text-dim);
+    font-size: 13px;
+    text-align: center;
+  }
+  .candidate-pill {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(0,0,0,0.7);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+  .credit {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 11px;
+    padding: 6px 16px;
+  }
+  .credit a { color: var(--accent); text-decoration: none; }
+  .credit a:hover { text-decoration: underline; }
+
+  footer {
+    background: var(--panel);
+    border-top: 1px solid var(--border);
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  button {
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    font-family: var(--font);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.1s;
+  }
+  button:hover { border-color: var(--text-dim); }
+  button.primary { background: var(--good); border-color: var(--good); color: #000; font-weight: 600; }
+  button.primary:hover { filter: brightness(1.1); }
+  button.danger { background: var(--bad); border-color: var(--bad); color: #fff; font-weight: 600; }
+  button.danger:hover { filter: brightness(1.1); }
+  button.warn { background: transparent; border-color: var(--warn); color: var(--warn); }
+  button.warn:hover { background: var(--warn); color: #000; }
+  button.ghost { background: transparent; }
+  .kbd {
+    display: inline-block;
+    background: var(--bg);
+    padding: 1px 6px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 4px;
+    color: var(--text-dim);
+  }
+
+  .hint {
+    color: var(--text-dim);
+    font-size: 11px;
+  }
+
+  #file-loader {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 16px;
+    padding: 40px;
+    text-align: center;
+  }
+  #file-loader.show { display: flex; }
+  #file-loader h2 { color: var(--text); margin: 0; }
+  #file-loader p { color: var(--text-dim); max-width: 420px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title">WorldView · Photo Approval</div>
+  <div class="stats">
+    <span>Total <span id="stat-total">0</span></span>
+    <span class="stat-good">✓ <span id="stat-approved">0</span></span>
+    <span class="stat-bad">✗ <span id="stat-rejected">0</span></span>
+    <span class="stat-pending">↷ <span id="stat-skipped">0</span></span>
+    <span>· <span id="stat-progress">0%</span></span>
+  </div>
+</header>
+
+<main id="main">
+  <aside id="entity-list"></aside>
+  <section class="viewer">
+    <div class="meta" id="meta">
+      <div class="name" id="m-name">—</div>
+      <div class="type" id="m-type">—</div>
+      <div class="context" id="m-context">—</div>
+    </div>
+    <div class="image-area" id="image-area">
+      <div class="candidate-pill" id="candidate-pill">—</div>
+      <img id="m-img" alt="" style="display:none">
+      <div class="image-empty" id="m-empty">No candidates loaded. Drop a candidates.json file or run the loader.</div>
+    </div>
+    <div class="credit" id="m-credit"></div>
+  </section>
+</main>
+
+<div id="file-loader">
+  <h2>Load candidates.json</h2>
+  <p>This tool needs a <code>candidates.json</code> file. Either fetch from the same directory, or pick a file from disk.</p>
+  <input type="file" id="file-input" accept=".json">
+  <button onclick="document.getElementById('file-input').click()">Choose file</button>
+</div>
+
+<footer>
+  <div class="controls">
+    <button class="ghost" id="btn-prev">← Prev <span class="kbd">,</span></button>
+    <button class="primary" id="btn-approve">✓ Approve <span class="kbd">Y</span></button>
+    <button class="danger"  id="btn-reject">✗ Reject + Next Candidate <span class="kbd">N</span></button>
+    <button class="warn"    id="btn-skip">↷ Skip Entity <span class="kbd">S</span></button>
+    <button class="ghost" id="btn-next">Next → <span class="kbd">.</span></button>
+  </div>
+  <div class="controls">
+    <span class="hint">cycle candidates: <span class="kbd">←</span> <span class="kbd">→</span></span>
+    <button id="btn-regrade" class="ghost">Re-grade rejected</button>
+    <button id="btn-export">Export approvals.json</button>
+    <button id="btn-reset" class="ghost">Reset</button>
+  </div>
+</footer>
+
+<script>
+const STORAGE_KEY = 'worldview-photo-approval-v1';
+
+const state = {
+  entities: [],         // [{id,type,name,context,candidates}]
+  currentIdx: 0,        // index into entities
+  candidateIdx: {},     // entityId → current candidate index
+  decisions: {},        // entityId → {decision: 'approved'|'rejected'|'skipped', url?, credit?}
+};
+
+function save() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({
+    candidateIdx: state.candidateIdx,
+    decisions: state.decisions,
+  }));
+}
+
+function load() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    state.candidateIdx = data.candidateIdx || {};
+    state.decisions = data.decisions || {};
+  } catch {}
+}
+
+async function init() {
+  load();
+  // Try to fetch candidates.json from the same directory
+  try {
+    const resp = await fetch('candidates.json', { cache: 'no-store' });
+    if (resp.ok) {
+      const data = await resp.json();
+      hydrate(data);
+      return;
+    }
+  } catch {}
+  // Fallback: show file picker
+  document.getElementById('file-loader').classList.add('show');
+  document.getElementById('main').style.display = 'none';
+  document.getElementById('file-input').addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const text = await file.text();
+    hydrate(JSON.parse(text));
+    document.getElementById('file-loader').classList.remove('show');
+    document.getElementById('main').style.display = '';
+  });
+}
+
+function hydrate(data) {
+  state.entities = (data.entities || []).filter(e => e.candidates && e.candidates.length > 0);
+  // Skip directly to first un-decided entity if any
+  for (let i = 0; i < state.entities.length; i++) {
+    if (!state.decisions[state.entities[i].id]) {
+      state.currentIdx = i;
+      break;
+    }
+  }
+  renderList();
+  renderCurrent();
+}
+
+function renderList() {
+  const ul = document.getElementById('entity-list');
+  ul.innerHTML = '';
+  state.entities.forEach((e, i) => {
+    const div = document.createElement('div');
+    div.className = 'entity-row';
+    if (i === state.currentIdx) div.classList.add('active');
+    const dec = state.decisions[e.id];
+    if (dec) div.classList.add(dec.decision);
+    div.innerHTML = `<div class="er-name">${escapeHtml(e.name)}</div><div class="er-type">${escapeHtml(e.type)}</div>`;
+    div.addEventListener('click', () => {
+      state.currentIdx = i;
+      renderList();
+      renderCurrent();
+    });
+    ul.appendChild(div);
+    if (i === state.currentIdx) {
+      // Scroll into view
+      setTimeout(() => div.scrollIntoView({ block: 'nearest' }), 0);
+    }
+  });
+  updateStats();
+}
+
+function renderCurrent() {
+  const e = state.entities[state.currentIdx];
+  if (!e) {
+    document.getElementById('m-name').textContent = 'Done — all entities decided';
+    document.getElementById('m-type').textContent = '';
+    document.getElementById('m-context').textContent = 'Use the Export button to download approvals.json.';
+    document.getElementById('m-img').style.display = 'none';
+    document.getElementById('m-empty').style.display = '';
+    document.getElementById('m-empty').textContent = '— no current entity —';
+    document.getElementById('candidate-pill').textContent = '';
+    document.getElementById('m-credit').textContent = '';
+    return;
+  }
+  document.getElementById('m-name').textContent = e.name;
+  document.getElementById('m-type').textContent = e.type.replace(/_/g, ' ');
+  document.getElementById('m-context').textContent = e.context || '';
+  const cands = e.candidates;
+  let cIdx = state.candidateIdx[e.id] || 0;
+  if (cIdx >= cands.length) cIdx = 0;
+  state.candidateIdx[e.id] = cIdx;
+  const c = cands[cIdx];
+  const img = document.getElementById('m-img');
+  const empty = document.getElementById('m-empty');
+  if (c && c.url) {
+    img.src = c.url;
+    img.style.display = '';
+    empty.style.display = 'none';
+  } else {
+    img.style.display = 'none';
+    empty.style.display = '';
+    empty.textContent = 'No candidates available for this entity.';
+  }
+  document.getElementById('candidate-pill').textContent = `Candidate ${cIdx + 1} of ${cands.length}`;
+  const credit = c?.credit ? `${c.credit}` : '';
+  const sourcePage = c?.source_page ? ` · <a href="${escapeAttr(c.source_page)}" target="_blank" rel="noopener">source</a>` : '';
+  document.getElementById('m-credit').innerHTML = credit + sourcePage;
+}
+
+function updateStats() {
+  const total = state.entities.length;
+  let approved = 0, rejected = 0, skipped = 0;
+  for (const id in state.decisions) {
+    const d = state.decisions[id].decision;
+    if (d === 'approved') approved++;
+    else if (d === 'rejected') rejected++;
+    else if (d === 'skipped') skipped++;
+  }
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-approved').textContent = approved;
+  document.getElementById('stat-rejected').textContent = rejected;
+  document.getElementById('stat-skipped').textContent = skipped;
+  const decided = approved + rejected + skipped;
+  const pct = total ? Math.round((decided / total) * 100) : 0;
+  document.getElementById('stat-progress').textContent = pct + '%';
+}
+
+function approveCurrent() {
+  const e = state.entities[state.currentIdx];
+  if (!e) return;
+  const cIdx = state.candidateIdx[e.id] || 0;
+  const c = e.candidates[cIdx];
+  if (!c) return;
+  state.decisions[e.id] = {
+    decision: 'approved',
+    photo_url: c.url,
+    credit: c.credit || null,
+    source_page: c.source_page || null,
+  };
+  save();
+  advance();
+}
+
+function rejectCandidate() {
+  const e = state.entities[state.currentIdx];
+  if (!e) return;
+  const cIdx = state.candidateIdx[e.id] || 0;
+  if (cIdx < e.candidates.length - 1) {
+    state.candidateIdx[e.id] = cIdx + 1;
+    save();
+    renderCurrent();
+  } else {
+    // No more candidates → mark rejected, advance
+    state.decisions[e.id] = { decision: 'rejected' };
+    save();
+    advance();
+  }
+}
+
+function skipCurrent() {
+  const e = state.entities[state.currentIdx];
+  if (!e) return;
+  state.decisions[e.id] = { decision: 'skipped' };
+  save();
+  advance();
+}
+
+function advance() {
+  if (state.currentIdx < state.entities.length - 1) {
+    state.currentIdx++;
+  }
+  renderList();
+  renderCurrent();
+}
+
+function goPrev() {
+  if (state.currentIdx > 0) {
+    state.currentIdx--;
+    renderList();
+    renderCurrent();
+  }
+}
+
+function goNext() {
+  if (state.currentIdx < state.entities.length - 1) {
+    state.currentIdx++;
+    renderList();
+    renderCurrent();
+  }
+}
+
+function cycleCandidate(dir) {
+  const e = state.entities[state.currentIdx];
+  if (!e) return;
+  const n = e.candidates.length;
+  let cIdx = state.candidateIdx[e.id] || 0;
+  cIdx = (cIdx + dir + n) % n;
+  state.candidateIdx[e.id] = cIdx;
+  save();
+  renderCurrent();
+}
+
+function exportApprovals() {
+  const out = {
+    version: 1,
+    generated_at: new Date().toISOString(),
+    approvals: state.decisions,
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'approvals.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function regradeRejected() {
+  const rejectedIds = Object.keys(state.decisions).filter(
+    id => state.decisions[id].decision === 'rejected'
+  );
+  if (rejectedIds.length === 0) {
+    alert('No rejected entities to re-grade.');
+    return;
+  }
+  rejectedIds.forEach(id => {
+    delete state.decisions[id];
+    delete state.candidateIdx[id];
+  });
+  // Jump to first cleared entity in the list
+  const firstIdx = state.entities.findIndex(e => rejectedIds.includes(e.id));
+  if (firstIdx >= 0) state.currentIdx = firstIdx;
+  save();
+  renderList();
+  renderCurrent();
+}
+
+function resetAll() {
+  if (!confirm('Reset all decisions? This clears localStorage for this tool.')) return;
+  state.decisions = {};
+  state.candidateIdx = {};
+  state.currentIdx = 0;
+  save();
+  renderList();
+  renderCurrent();
+}
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = String(s ?? '');
+  return d.innerHTML;
+}
+function escapeAttr(s) {
+  return String(s ?? '').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
+
+document.getElementById('btn-approve').addEventListener('click', approveCurrent);
+document.getElementById('btn-reject').addEventListener('click', rejectCandidate);
+document.getElementById('btn-skip').addEventListener('click', skipCurrent);
+document.getElementById('btn-prev').addEventListener('click', goPrev);
+document.getElementById('btn-next').addEventListener('click', goNext);
+document.getElementById('btn-regrade').addEventListener('click', regradeRejected);
+document.getElementById('btn-export').addEventListener('click', exportApprovals);
+document.getElementById('btn-reset').addEventListener('click', resetAll);
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  switch (e.key.toLowerCase()) {
+    case 'y': approveCurrent(); break;
+    case 'n': rejectCandidate(); break;
+    case 's': skipCurrent(); break;
+    case ',': goPrev(); break;
+    case '.': goNext(); break;
+    case 'arrowleft':  cycleCandidate(-1); e.preventDefault(); break;
+    case 'arrowright': cycleCandidate(+1); e.preventDefault(); break;
+  }
+});
+
+init();
+</script>
+
+</body>
+</html>

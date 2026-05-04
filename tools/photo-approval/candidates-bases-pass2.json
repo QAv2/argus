@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "pass": 2,
+  "generated_at": "2026-05-04T21:49:05Z",
+  "entities": [
+    {
+      "id": "archuleta-mesa",
+      "type": "alleged_dumb",
+      "name": "Archuleta Mesa",
+      "context": "Adjacent to Dulce. Bennewitz claimed signal intercepts; AFOSI involvement (Doty) — disinformation op complicates assessment.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dulce_Lake,_Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        }
+      ],
+      "notes": "No real-world photo of the alleged base; Archuleta County category empty. Candidates show the surrounding Jicarilla Apache Nation landscape and Dulce Lake — area context, no fabrication."
+    },
+    {
+      "id": "dulce",
+      "type": "alleged_dumb",
+      "name": "Dulce Base",
+      "context": "Schneider claimed to have helped build alleged 7-level joint human/non-human facility; died under suspicious circumstances Dec 1996.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dulce_Lake,_Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/D%26RGW_Boxcars_At_Dulce%2C_New_Mexico.jpg/1280px-D%26RGW_Boxcars_At_Dulce%2C_New_Mexico.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:D%26RGW_Boxcars_At_Dulce,_New_Mexico.jpg"
+        }
+      ],
+      "notes": "Dulce Base Wikipedia article body has no photographs. Candidates from Category:Dulce,_New_Mexico — area views of the town/reservation, distinct from the round-1 'Welcome to Dulce' sign."
+    },
+    {
+      "id": "cheyenne-mountain",
+      "type": "confirmed_facility",
+      "name": "Cheyenne Mountain Complex",
+      "context": "NORAD/USNORTHCOM. Built 1961-66. 15 spring-mounted buildings inside mountain. 25-ton blast doors. Reactivated 2015.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cheyenne_Mountain_Complex_entrance.jpg/1280px-Cheyenne_Mountain_Complex_entrance.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cheyenne_Mountain_Complex_entrance.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/NORADBlast-Doors.jpg/1280px-NORADBlast-Doors.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:NORADBlast-Doors.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1961_Cheyenne_Mtn%2C_Interior_const%2C_early_tunneling.jpg/1280px-1961_Cheyenne_Mtn%2C_Interior_const%2C_early_tunneling.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:1961_Cheyenne_Mtn,_Interior_const,_early_tunneling.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camp-david",
+      "type": "confirmed_facility",
+      "name": "Camp David (Naval Support Facility Thurmont)",
+      "context": "Presidential retreat since FDR. Underground bunker facilities. Part of COG network with Mt. Weather and Raven Rock.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Camp_David.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Camp_David.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Camp-David-Laurel-Lodge2.png",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Camp-David-Laurel-Lodge2.png"
+        }
+      ],
+      "notes": "Camp David is heavily restricted airspace (P-40 prohibited zone) — no aerial/exterior photos exist on Commons. Best available are exterior shots of the lodge buildings, distinct from round-1 Laurel Cabin interior."
+    },
+    {
+      "id": "manzano",
+      "type": "confirmed_facility",
+      "name": "Manzano Mountain Nuclear Weapons Storage",
+      "context": "Nuclear weapons storage since 1950. Tunnels bored into Manzano Mountain. Adjacent to Kirtland AFB/Sandia. Underground infrastructure remains.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg/1280px-KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:KirtlandAirForceBase-TakeoffABQ-May2017_(36776704165).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg/1280px-SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:SandiaMountainsAerial-NearABQ_(35942035514).jpg"
+        }
+      ],
+      "notes": "Category:Manzano_Base on Commons is empty — facility is not directly photographed. Candidates are aerials of Kirtland AFB (Manzano sits inside the Kirtland reservation) and the adjacent Sandia/Manzano mountain ridge."
+    },
+    {
+      "id": "nellis",
+      "type": "confirmed_facility",
+      "name": "Nellis AFB / Nevada Test & Training Range",
+      "context": "Encompasses Nevada National Security Site (formerly NTS). 928 nuclear tests created extensive underground infrastructure. Yucca Mountain adjacent.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg/1280px-104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/US_Air_Force_Thunderbirds.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:US_Air_Force_Thunderbirds.jpg"
+        }
+      ],
+      "notes": "From Category:Nevada_Test_and_Training_Range — Mud Lake landing puts the desert range itself in frame, more evocative than round-1's hangar shot."
+    },
+    {
+      "id": "sandia",
+      "type": "confirmed_facility",
+      "name": "Sandia National Laboratories",
+      "context": "Nuclear weapons engineering center. Manzano Base adjacent — confirmed underground nuclear weapons storage since 1950s.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Solar_panel_testing%2C_Sandia_National_Laboratories.jpg/1280px-Solar_panel_testing%2C_Sandia_National_Laboratories.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Solar_panel_testing,_Sandia_National_Laboratories.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg/1280px-KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:KirtlandAirForceBase-TakeoffABQ-May2017_(36776704165).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sandia_Mountains_April_2022.jpg/1280px-Sandia_Mountains_April_2022.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Sandia_Mountains_April_2022.jpg"
+        }
+      ],
+      "notes": "Sandia Labs Wikipedia article body is image-poor. Solar tower/heliostat field is the most recognizable Sandia facility imagery. Aerials show the Kirtland co-location and Sandia ridge."
+    },
+    {
+      "id": "white-sands",
+      "type": "confirmed_facility",
+      "name": "White Sands Missile Range",
+      "context": "Largest US military installation (3,200 sq mi). First nuclear detonation (Trinity). Underground testing facilities. Adjacent Holloman AFB.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/White_Sands_Mountain_Ranges.jpg/1280px-White_Sands_Mountain_Ranges.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:White_Sands_Mountain_Ranges.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/STS-3_landing.jpg/1280px-STS-3_landing.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:STS-3_landing.jpg"
+        }
+      ],
+      "notes": "Round 1 used the Trinity fireball plus a USGS map. Pass 2 candidates show the actual range terrain and the STS-3 Space Shuttle landing at Northrup Strip (only Shuttle landing at White Sands, 1982)."
+    },
+    {
+      "id": "edwards",
+      "type": "confirmed_facility",
+      "name": "Edwards Air Force Base",
+      "context": "Air Force Flight Test Center. Extensive underground facilities reported by former contractors. Connected to classified aerospace programs.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg/1280px-Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Edwards_Air_Force_Base_Main_Base_Area_(2010-06-29).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg/1280px-Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rogers_Dry_Lake.jpg/1280px-Rogers_Dry_Lake.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rogers_Dry_Lake.jpg"
+        }
+      ],
+      "notes": "Round 1 was an F-35 cockpit-level shot. Pass 2 shows the actual base — overhead Main Base Area aerial, Rogers Dry Lake runway, and the dry lake bed itself (the test-flight signature feature)."
+    }
+  ]
+}

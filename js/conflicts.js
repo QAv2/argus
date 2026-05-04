@@ -1,4 +1,4 @@
-// conflicts.js — F9 conflict events layer (Middle East theater 2025-2026)
+// conflicts.js — F9 conflict events layer (8 global theaters)
 
 const Conflicts = (() => {
   let entities = [];
@@ -19,13 +19,33 @@ const Conflicts = (() => {
     economic: '#14b8a6',
   };
 
+  const THEATERS = [
+    { id: 'iran', name: 'Iran / Persian Gulf', color: '#ef4444' },
+    { id: 'ukraine-russia', name: 'Ukraine-Russia', color: '#fbbf24' },
+    { id: 'indo-pacific', name: 'Indo-Pacific', color: '#3b82f6' },
+    { id: 'sudan', name: 'Sudan', color: '#f97316' },
+    { id: 'sahel', name: 'Sahel', color: '#a855f7' },
+    { id: 'myanmar', name: 'Myanmar', color: '#22c55e' },
+    { id: 'korea', name: 'Korean Peninsula', color: '#06b6d4' },
+    { id: 'arctic', name: 'Arctic', color: '#38bdf8' },
+  ];
+
+  const activeTheaters = new Set(THEATERS.map(t => t.id));
+
   async function init(viewer) {
     try {
-      const resp = await fetch('data/conflict-events.json');
-      eventData = await resp.json();
+      const results = await Promise.all(
+        THEATERS.map(t =>
+          fetch(`data/theaters/${t.id}.json`)
+            .then(r => r.ok ? r.json() : [])
+            .catch(() => [])
+        )
+      );
+      eventData = results.flat();
       renderEvents(viewer);
       updateStats();
       Globe.requestRender();
+      console.log(`[Conflicts] ${eventData.length} events across ${THEATERS.length} theaters`);
     } catch (err) {
       console.warn('[Conflicts] Failed to load:', err.message);
     }
@@ -68,6 +88,7 @@ const Conflicts = (() => {
           lat: evt.lat,
           lon: evt.lon,
           eventType: evt.type,
+          theater: evt.theater,
           date: evt.date,
           operation: evt.operation,
           parties: (evt.parties || []).join(', '),
@@ -76,8 +97,9 @@ const Conflicts = (() => {
           description: evt.description,
           eventSources: (evt.sources || []).join('; '),
           eventColor: color,
+          photoUrl: evt.photo_url,
         },
-        show: visible,
+        show: visible && activeTheaters.has(evt.theater),
       });
 
       entities.push(entity);
@@ -97,39 +119,30 @@ const Conflicts = (() => {
     switch (type) {
       case 'airstrike':
       case 'nuclear':
-        // Explosion burst (8-pointed star)
         drawBurst(ctx, cx, cy, 10, 5, 8, color);
         break;
       case 'missile':
-        // Explosion burst (6-pointed)
         drawBurst(ctx, cx, cy, 10, 5, 6, color);
         break;
       case 'retaliation':
-        // Crosshair / target
         drawCrosshair(ctx, cx, cy, 9, color);
         break;
       case 'naval':
-        // Anchor shape
         drawAnchor(ctx, cx, cy, 9, color);
         break;
       case 'blockade':
-        // X / block symbol
         drawBlockade(ctx, cx, cy, 9, color);
         break;
       case 'cyber':
-        // Lightning bolt
         drawLightning(ctx, cx, cy, 10, color);
         break;
       case 'ground':
-        // Tank / chevron arrow
         drawChevron(ctx, cx, cy, 9, color);
         break;
       case 'political':
-        // Gavel / circle with star
         drawPolitical(ctx, cx, cy, 9, color);
         break;
       case 'economic':
-        // Dollar / chart symbol
         drawEconomic(ctx, cx, cy, 9, color);
         break;
       default:
@@ -156,7 +169,6 @@ const Conflicts = (() => {
     ctx.strokeStyle = color;
     ctx.lineWidth = 1.5;
     ctx.stroke();
-    // Center dot
     ctx.beginPath();
     ctx.arc(cx, cy, 2.5, 0, Math.PI * 2);
     ctx.fillStyle = color;
@@ -166,24 +178,20 @@ const Conflicts = (() => {
   function drawCrosshair(ctx, cx, cy, r, color) {
     ctx.strokeStyle = color;
     ctx.lineWidth = 1.5;
-    // Outer ring
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, Math.PI * 2);
     ctx.stroke();
-    // Inner ring
     ctx.beginPath();
     ctx.arc(cx, cy, r * 0.5, 0, Math.PI * 2);
     ctx.fillStyle = color + '44';
     ctx.fill();
     ctx.stroke();
-    // Cross lines
     ctx.beginPath();
     ctx.moveTo(cx, cy - r - 2); ctx.lineTo(cx, cy - r * 0.5);
     ctx.moveTo(cx, cy + r * 0.5); ctx.lineTo(cx, cy + r + 2);
     ctx.moveTo(cx - r - 2, cy); ctx.lineTo(cx - r * 0.5, cy);
     ctx.moveTo(cx + r * 0.5, cy); ctx.lineTo(cx + r + 2, cy);
     ctx.stroke();
-    // Center dot
     ctx.beginPath();
     ctx.arc(cx, cy, 1.5, 0, Math.PI * 2);
     ctx.fillStyle = color;
@@ -194,21 +202,17 @@ const Conflicts = (() => {
     ctx.strokeStyle = color;
     ctx.lineWidth = 1.5;
     ctx.fillStyle = color + '44';
-    // Ring at top
     ctx.beginPath();
     ctx.arc(cx, cy - r * 0.4, r * 0.25, 0, Math.PI * 2);
     ctx.stroke();
-    // Vertical shaft
     ctx.beginPath();
     ctx.moveTo(cx, cy - r * 0.15);
     ctx.lineTo(cx, cy + r * 0.7);
     ctx.stroke();
-    // Horizontal bar
     ctx.beginPath();
     ctx.moveTo(cx - r * 0.5, cy - r * 0.15);
     ctx.lineTo(cx + r * 0.5, cy - r * 0.15);
     ctx.stroke();
-    // Curved flukes
     ctx.beginPath();
     ctx.arc(cx, cy + r * 0.7, r * 0.5, Math.PI, 0);
     ctx.stroke();
@@ -218,12 +222,10 @@ const Conflicts = (() => {
     ctx.strokeStyle = color;
     ctx.lineWidth = 2;
     ctx.fillStyle = color + '33';
-    // Circle
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, Math.PI * 2);
     ctx.fill();
     ctx.stroke();
-    // Diagonal line (prohibition)
     ctx.beginPath();
     ctx.moveTo(cx - r * 0.7, cy + r * 0.7);
     ctx.lineTo(cx + r * 0.7, cy - r * 0.7);
@@ -250,7 +252,6 @@ const Conflicts = (() => {
     ctx.fillStyle = color + '55';
     ctx.strokeStyle = color;
     ctx.lineWidth = 2;
-    // Upward-pointing chevron (ground advance)
     ctx.beginPath();
     ctx.moveTo(cx, cy - r);
     ctx.lineTo(cx + r, cy + r * 0.3);
@@ -268,12 +269,10 @@ const Conflicts = (() => {
     ctx.strokeStyle = color;
     ctx.lineWidth = 1.5;
     ctx.fillStyle = color + '44';
-    // Circle with inner star
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, Math.PI * 2);
     ctx.fill();
     ctx.stroke();
-    // 5-pointed star
     ctx.fillStyle = color;
     ctx.beginPath();
     for (let i = 0; i < 10; i++) {
@@ -291,7 +290,6 @@ const Conflicts = (() => {
     ctx.strokeStyle = color;
     ctx.lineWidth = 1.5;
     ctx.fillStyle = color + '44';
-    // Diamond shape
     ctx.beginPath();
     ctx.moveTo(cx, cy - r);
     ctx.lineTo(cx + r, cy);
@@ -300,7 +298,6 @@ const Conflicts = (() => {
     ctx.closePath();
     ctx.fill();
     ctx.stroke();
-    // Up-arrow inside (price spike)
     ctx.strokeStyle = color;
     ctx.lineWidth = 2;
     ctx.beginPath();
@@ -318,16 +315,22 @@ const Conflicts = (() => {
 
   function setVisible(v) {
     visible = v;
-    entities.forEach(e => { e.show = v; });
+    entities.forEach((e, i) => {
+      const evt = eventData[i];
+      e.show = v && activeTheaters.has(evt.theater);
+    });
     Globe.requestRender();
   }
 
   function isVisible() { return visible; }
-  function getCount() { return eventData.length; }
+
+  function getCount() {
+    return eventData.filter(e => activeTheaters.has(e.theater)).length;
+  }
 
   function updateStats() {
     const el = document.getElementById('stat-conflicts');
-    if (el) el.textContent = `${eventData.length} events`;
+    if (el) el.textContent = `${getCount()} events`;
   }
 
   function setLabelsVisible(show) {
@@ -338,21 +341,73 @@ const Conflicts = (() => {
 
   function setTime(epoch) {
     if (!epoch) {
-      // LIVE — show all events
-      entities.forEach(e => { e.show = visible; });
+      entities.forEach((e, i) => {
+        const evt = eventData[i];
+        e.show = visible && activeTheaters.has(evt.theater);
+      });
     } else {
       entities.forEach((e, i) => {
         const evt = eventData[i];
         if (!evt || !evt.date) {
-          e.show = visible;
+          e.show = visible && activeTheaters.has(evt.theater);
           return;
         }
         const evtTime = new Date(evt.date).getTime();
-        e.show = visible && evtTime <= epoch;
+        e.show = visible && activeTheaters.has(evt.theater) && evtTime <= epoch;
       });
     }
     Globe.requestRender();
   }
 
-  return { init, setVisible, isVisible, getCount, getEventById, setLabelsVisible, setTime };
+  function applyTheaterFilter() {
+    entities.forEach((e, i) => {
+      const evt = eventData[i];
+      e.show = visible && activeTheaters.has(evt.theater);
+    });
+    updateStats();
+    Globe.requestRender();
+  }
+
+  function getTheaters() { return THEATERS; }
+  function isTheaterActive(id) { return activeTheaters.has(id); }
+
+  function toggleTheater(id) {
+    if (activeTheaters.has(id)) {
+      activeTheaters.delete(id);
+    } else {
+      activeTheaters.add(id);
+    }
+    applyTheaterFilter();
+  }
+
+  function setAllTheaters(active) {
+    if (active) {
+      THEATERS.forEach(t => activeTheaters.add(t.id));
+    } else {
+      activeTheaters.clear();
+    }
+    applyTheaterFilter();
+  }
+
+  function getTheaterMask() {
+    return THEATERS.map(t => activeTheaters.has(t.id) ? '1' : '0').join('');
+  }
+
+  function applyTheaterMask(mask) {
+    if (!mask || mask.length !== THEATERS.length) return;
+    THEATERS.forEach((t, i) => {
+      if (mask[i] === '1') {
+        activeTheaters.add(t.id);
+      } else {
+        activeTheaters.delete(t.id);
+      }
+    });
+    applyTheaterFilter();
+  }
+
+  return {
+    init, setVisible, isVisible, getCount, getEventById, setLabelsVisible, setTime,
+    getTheaters, isTheaterActive, toggleTheater, setAllTheaters,
+    getTheaterMask, applyTheaterMask,
+  };
 })();

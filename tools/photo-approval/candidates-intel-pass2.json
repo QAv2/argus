@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "pass": 2,
+  "generated_at": "2026-05-04T21:49:00Z",
+  "entities": [
+    {
+      "id": "pentagon",
+      "type": "intel",
+      "name": "The Pentagon",
+      "context": "US Department of Defense headquarters. Houses OUSD(I&S), DIA, and UAP disclosure oversight functions.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/An_aerial_view_of_the_Pentagon%2C_Washington%2C_D.C.%2C_May_15%2C_2023.jpg/1280px-An_aerial_view_of_the_Pentagon%2C_Washington%2C_D.C.%2C_May_15%2C_2023.jpg",
+          "credit": "Wikimedia Commons (US DoD, 2023)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_Pentagon,_Washington,_D.C.,_May_15,_2023.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Aerial_photograph_of_the_Pentagon.jpg/1280px-Aerial_photograph_of_the_Pentagon.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Pentagon.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter%2C_July_8%2C_2011_110708-M-KS211-116.jpg/1280px-An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter%2C_July_8%2C_2011_110708-M-KS211-116.jpg",
+          "credit": "Wikimedia Commons (USMC, 2011)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter,_July_8,_2011_110708-M-KS211-116.jpg"
+        }
+      ],
+      "notes": "Round 1 used a cropped variant. These are full oblique aerials from the Aerial_photographs_of_the_Pentagon Commons category. The 2023 DoD shot (7056x4704 source) is the cleanest classic five-sided view."
+    },
+    {
+      "id": "langley",
+      "type": "intel",
+      "name": "CIA Headquarters",
+      "context": "Central Intelligence Agency, Langley VA. ORD (Office of Research & Development) linked to consciousness research programs.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg/1280px-CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg",
+          "credit": "Wikimedia Commons (NARA 546702)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cia-lobby-seal.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cia-lobby-seal.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/George_Bush_Center_for_Intelligence_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+          "credit": "Wikimedia Commons (CIA / Flickr)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:George_Bush_Center_for_Intelligence_-_Flickr_-_The_Central_Intelligence_Agency.jpg"
+        }
+      ],
+      "notes": "Round 1 used a cropped aerial (LOC 14760v). NARA 546702 is the iconic ground-level facade (3000x2020). Cia-lobby-seal.jpg is the floor-seal shot people most associate with CIA HQ (small at 533x428 but instantly recognizable). George Bush Center for Intelligence is the official entrance signage."
+    },
+    {
+      "id": "wright-pat-fti",
+      "type": "intel",
+      "name": "Wright-Patterson FTD",
+      "context": "Foreign Technology Division (now NASIC). Historical center for recovered material analysis per Goldwater, Corso.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/National_Air_and_Space_Intelligence_Center.png",
+          "credit": "Wikimedia Commons (USAF / NASIC)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:National_Air_and_Space_Intelligence_Center.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NASIC_FME_2017_171020-F-FU926-071.jpg/1280px-NASIC_FME_2017_171020-F-FU926-071.jpg",
+          "credit": "Wikimedia Commons (USAF, 2017)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:NASIC_FME_2017_171020-F-FU926-071.jpg"
+        }
+      ],
+      "notes": "Round 1 returned a C-17 ramp shot and the NASIC seal — neither shows the building. Pulled from Category:National_Air_and_Space_Intelligence_Center. The first candidate is the actual NASIC building shot (1000x961). The second is a 2017 USAF interior/event shot at NASIC."
+    },
+    {
+      "id": "skinwalker",
+      "type": "intel",
+      "name": "Skinwalker Ranch",
+      "context": "Uintah Basin, UT. NIDS then BAASS/AAWSAP research site. Anomalous phenomena documented by Kelleher/Knapp.",
+      "candidates": [],
+      "notes": "Searched Commons + the Skinwalker_Ranch en.wikipedia article body + Uintah Basin parent. The only credible Commons photo of the actual ranch is File:Skinwalker_Ranch_(10393732103).jpg, which is what round 1 already used. The alternative File:Skin_Walker_Ranch.png exists at 1600x900 but is flagged 'Template Unknown (author)' / 'PD-US missing SDC copyright status' (credit Pix4D, artist unknown) — almost certainly a re-uploaded drone/screenshot with shaky provenance; do not use. File:Skinwalker.jpg is folklore-creature artwork, not the ranch. No better real photo exists on Commons. Recommend either keeping the round-1 image, swapping to a generic Uintah Basin landscape (e.g. File:Sunbloom_over_the_Uintah_Basin_(53075860123).jpg), or using a stylized location marker without a photo."
+    }
+  ]
+}

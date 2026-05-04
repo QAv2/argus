@@ -233,12 +233,6 @@ const Timeline = (() => {
     if (typeof Playback !== 'undefined' && Playback.setTime) {
       Playback.setTime(epoch || Date.now());
     }
-    if (typeof Jamming !== 'undefined' && Jamming.setTime) {
-      Jamming.setTime(epoch || Date.now());
-    }
-    if (typeof Airspace !== 'undefined' && Airspace.setTime) {
-      Airspace.setTime(epoch || Date.now());
-    }
     if (typeof SatCorrelation !== 'undefined' && SatCorrelation.setTime) {
       SatCorrelation.setTime(epoch || Date.now());
     }

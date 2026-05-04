@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-04T00:00:00Z",
+  "entities": [
+    {
+      "id": "dulce",
+      "type": "underground_base",
+      "name": "Dulce Base",
+      "context": "Schneider claimed to have helped build. Alleged joint human/non-human facility. 7 subterranean levels.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dulce_Welcome_%289358459820%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Dulce_Base"
+        }
+      ]
+    },
+    {
+      "id": "area51",
+      "type": "underground_base",
+      "name": "Area 51 / Groom Lake",
+      "context": "Existence officially acknowledged 2013. CIA declassified history confirms U-2/OXCART/F-117 testing.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sentinel-Homey.png/1024px-Sentinel-Homey.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Area_51"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sentinel-Homey.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Area_51"
+        }
+      ]
+    },
+    {
+      "id": "los-alamos",
+      "type": "underground_base",
+      "name": "Los Alamos National Laboratory",
+      "context": "Manhattan Project origin. Extensive underground testing and storage facilities. Active nuclear weapons research.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Los_Alamos_aerial_view.jpeg/1024px-Los_Alamos_aerial_view.jpeg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Los_Alamos_aerial_view.jpeg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "sandia",
+      "type": "underground_base",
+      "name": "Sandia National Laboratories",
+      "context": "Nuclear weapons engineering center. Manzano Base adjacent — confirmed underground nuclear weapons storage since 1950s.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Peacekeeper%2C_Minuteman_I_and_Minuteman_III_ICBMs.jpg/1024px-Peacekeeper%2C_Minuteman_I_and_Minuteman_III_ICBMs.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Sandia_National_Laboratories"
+        }
+      ]
+    },
+    {
+      "id": "denver-airport",
+      "type": "underground_base",
+      "name": "Denver International Airport",
+      "context": "Opened 1995, $2B over budget. Confirmed underground baggage system. Murals depicting apocalyptic scenes.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/DenverAirport2023.jpg/1024px-DenverAirport2023.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Denver_International_Airport"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/DenverAirport2023.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Denver_International_Airport"
+        }
+      ]
+    },
+    {
+      "id": "mt-weather",
+      "type": "underground_base",
+      "name": "Mount Weather Emergency Operations Center",
+      "context": "FEMA continuity of government facility. Underground city with own power, water, transit system. Used on 9/11.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/MountWeatherFEMA.jpg/1024px-MountWeatherFEMA.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Mount_Weather_Emergency_Operations_Center"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MountWeatherFEMA.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Mount_Weather_Emergency_Operations_Center"
+        }
+      ]
+    },
+    {
+      "id": "raven-rock",
+      "type": "underground_base",
+      "name": "Raven Rock Mountain Complex (Site R)",
+      "context": "Alternate Pentagon. Built 1950-53. Underground city inside granite mountain. Cheney operated from here on 9/11.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/View_from_Raven_Rock_-_Flickr_-_pellaea.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Raven_Rock_Mountain_Complex"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Raven-rock-site-r-logo.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Raven_Rock_Mountain_Complex"
+        }
+      ]
+    },
+    {
+      "id": "cheyenne-mountain",
+      "type": "underground_base",
+      "name": "Cheyenne Mountain Complex",
+      "context": "NORAD/USNORTHCOM. Built 1961-66. 15 buildings on springs inside mountain. Blast doors 25 tons each.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg/1024px-Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Cheyenne_Mountain_Complex"
+        }
+      ]
+    },
+    {
+      "id": "pine-gap",
+      "type": "underground_base",
+      "name": "Pine Gap (Joint Defence Facility)",
+      "context": "Joint US/Australian intelligence facility. Largest ECHELON station in Southern Hemisphere. Satellite ground control.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pine_Gap_by_Skyring.jpg/1024px-Pine_Gap_by_Skyring.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Pine_Gap"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pine_Gap_by_Skyring.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Pine_Gap"
+        }
+      ]
+    },
+    {
+      "id": "white-sands",
+      "type": "underground_base",
+      "name": "White Sands Missile Range",
+      "context": "Largest military installation in US (3,200 sq mi). First nuclear detonation (Trinity). Adjacent to Holloman AFB.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tularosa-Basin-NM-USGS-map_opaque.gif/1024px-Tularosa-Basin-NM-USGS-map_opaque.gif",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/White_Sands_Missile_Range"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Trinity_shot_color.jpg/1024px-Trinity_shot_color.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+        }
+      ]
+    },
+    {
+      "id": "edwards",
+      "type": "underground_base",
+      "name": "Edwards Air Force Base",
+      "context": "Air Force Flight Test Center. Extensive underground facilities reported by former contractors.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/F-35_at_Edwards.jpg/1024px-F-35_at_Edwards.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Edwards_Air_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/F-35_at_Edwards.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Edwards_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "vandenberg",
+      "type": "underground_base",
+      "name": "Vandenberg Space Force Base",
+      "context": "Space launch facility. Underground missile silos (decommissioned ICBMs). Active satellite launch operations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Delta_IV_launch_2013-08-28.jpg/1024px-Delta_IV_launch_2013-08-28.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Delta_IV_launch_2013-08-28.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "camp-david",
+      "type": "underground_base",
+      "name": "Camp David (Naval Support Facility Thurmont)",
+      "context": "Presidential retreat since FDR. Underground bunker facilities. Part of COG network with Mt. Weather and Raven Rock.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Laurel_Cabin%2C_Camp_David_2012.jpg/1024px-Laurel_Cabin%2C_Camp_David_2012.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Camp_David"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Laurel_Cabin%2C_Camp_David_2012.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Camp_David"
+        }
+      ]
+    },
+    {
+      "id": "manzano",
+      "type": "underground_base",
+      "name": "Manzano Mountain Nuclear Weapons Storage",
+      "context": "Nuclear weapons storage facility since 1950. Tunnels bored into Manzano Mountain. Adjacent to Kirtland AFB/Sandia Labs.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Looking_South_along_the_Manzano_Mountains_from_the_Gavilan_Trail_to_the_avian_lookout_on_3_October_2022.jpg/1024px-Looking_South_along_the_Manzano_Mountains_from_the_Gavilan_Trail_to_the_avian_lookout_on_3_October_2022.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Manzano_Mountains"
+        }
+      ]
+    },
+    {
+      "id": "wright-patterson",
+      "type": "underground_base",
+      "name": "Wright-Patterson AFB",
+      "context": "National Air and Space Intelligence Center. Foreign Technology Division. Hangar 18 lore. Goldwater confirmed denied access.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg/1024px-445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Wright-Patterson_Air_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Wright-Patterson_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "greenbrier",
+      "type": "underground_base",
+      "name": "The Greenbrier Bunker",
+      "context": "Congressional relocation facility built 1958. 112,000 sq ft beneath Greenbrier resort. Decommissioned after 1992 expose.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Greenbrier1.jpg/1024px-Greenbrier1.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Greenbrier"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Greenbrier1.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Greenbrier"
+        }
+      ]
+    },
+    {
+      "id": "nellis",
+      "type": "underground_base",
+      "name": "Nellis AFB / Nevada Test & Training Range",
+      "context": "Encompasses Nevada National Security Site. 928 nuclear tests created extensive underground infrastructure.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nellis_Air_Force_Base%2C_Las_Vegas%2C_Nevada_%2814017031619%29.jpg/1024px-Nellis_Air_Force_Base%2C_Las_Vegas%2C_Nevada_%2814017031619%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Nellis_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "dugway",
+      "type": "underground_base",
+      "name": "Dugway Proving Ground",
+      "context": "Chemical/biological defense testing. 800,000 acres in Utah desert. Multiple restricted underground facilities.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Dugway_Proving_Ground.jpg/1024px-Dugway_Proving_Ground.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Dugway_Proving_Ground"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dugway_Proving_Ground.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Dugway_Proving_Ground"
+        }
+      ]
+    },
+    {
+      "id": "norad-alt",
+      "type": "underground_base",
+      "name": "Peterson SFB (NORAD Alternate)",
+      "context": "NORAD and USNORTHCOM headquarters since 2006. Alternate command center after Cheyenne Mountain went to warm standby.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/PetersonAFB.jpg/1024px-PetersonAFB.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Peterson_Space_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/PetersonAFB.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Peterson_Space_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "archuleta-mesa",
+      "type": "underground_base",
+      "name": "Archuleta Mesa",
+      "context": "Adjacent to Dulce. Bennewitz claimed to intercept signals. AFOSI involvement (Doty). Possible disinformation operation.",
+      "candidates": []
+    }
+  ]
+}

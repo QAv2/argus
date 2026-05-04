@@ -22,9 +22,11 @@ const Vessels = (() => {
   let labelsVisible = true;
   let pollTimer = null;
   let pruneTimer = null;
+  let fetchInFlight = false;
 
   const POLL_URL = '/.netlify/functions/vessels';
   const POLL_INTERVAL = 30000;  // 30s between polls
+  const FETCH_TIMEOUT_MS = 25000;
   const STALE_MS = 10 * 60 * 1000; // 10 min
   const PRUNE_INTERVAL = 60000;
 
@@ -264,8 +266,12 @@ const Vessels = (() => {
   }
 
   async function fetchVessels() {
+    if (fetchInFlight) return;
+    fetchInFlight = true;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
     try {
-      const resp = await fetch(POLL_URL);
+      const resp = await fetch(POLL_URL, { signal: controller.signal });
       if (!resp.ok) {
         console.warn('[Vessels] Fetch failed:', resp.status);
         return;
@@ -312,7 +318,11 @@ const Vessels = (() => {
       Globe.requestRender();
       console.log('[Vessels] Polled:', batch.length, 'vessels, total tracked:', vesselData.size);
     } catch (err) {
-      console.warn('[Vessels] Poll error:', err.message);
+      const msg = err.name === 'AbortError' ? 'timeout' : err.message;
+      console.warn('[Vessels] Poll error:', msg);
+    } finally {
+      clearTimeout(timeoutId);
+      fetchInFlight = false;
     }
   }
 

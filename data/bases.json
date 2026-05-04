@@ -9,31 +9,44 @@
     "evidence_tier": "speculative",
     "type": "alleged_dumb",
     "notes": "Schneider claimed to have helped build. Alleged joint human/non-human facility. 7 subterranean levels. Schneider died under suspicious circumstances Dec 1996.",
-    "connections": ["los-alamos", "sandia"]
+    "connections": [
+      "los-alamos",
+      "sandia"
+    ]
   },
   {
     "id": "area51",
     "name": "Area 51 / Groom Lake",
-    "lat": 37.2350,
+    "lat": 37.235,
     "lon": -115.8111,
     "depth_estimate": "Unknown (9 underground facilities per Schneider)",
     "source": "Multiple (declassified 2013 via FOIA)",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Existence officially acknowledged 2013. CIA declassified history confirms U-2/OXCART/F-117 testing. Underground facilities widely reported by former personnel.",
-    "connections": ["nellis", "tonopah", "edwards"]
+    "connections": [
+      "nellis",
+      "tonopah",
+      "edwards"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sentinel-Homey.png"
   },
   {
     "id": "los-alamos",
     "name": "Los Alamos National Laboratory",
-    "lat": 35.8800,
+    "lat": 35.88,
     "lon": -106.3031,
     "depth_estimate": "Multiple underground facilities",
     "source": "DOE public records",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Manhattan Project origin. Extensive underground testing and storage facilities. Active nuclear weapons research.",
-    "connections": ["sandia", "dulce", "white-sands"]
+    "connections": [
+      "sandia",
+      "dulce",
+      "white-sands"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Los_Alamos_aerial_view.jpeg"
   },
   {
     "id": "sandia",
@@ -44,8 +57,13 @@
     "source": "DOE public records",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
-    "notes": "Nuclear weapons engineering center. Manzano Base adjacent — confirmed underground nuclear weapons storage since 1950s.",
-    "connections": ["manzano", "los-alamos", "kirtland"]
+    "notes": "Nuclear weapons engineering center. Manzano Base adjacent \u2014 confirmed underground nuclear weapons storage since 1950s.",
+    "connections": [
+      "manzano",
+      "los-alamos",
+      "kirtland"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg/1280px-KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg"
   },
   {
     "id": "denver-airport",
@@ -57,7 +75,10 @@
     "evidence_tier": "credible",
     "type": "alleged_dumb",
     "notes": "Opened 1995, $2B over budget. Confirmed underground baggage system. Murals depicting apocalyptic scenes. Multiple construction anomalies documented. Workers reported being rotated to prevent knowledge of full scope.",
-    "connections": ["cheyenne-mountain"]
+    "connections": [
+      "cheyenne-mountain"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/DenverAirport2023.jpg"
   },
   {
     "id": "mt-weather",
@@ -69,7 +90,12 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "FEMA continuity of government facility. Underground city with own power, water, transit system. Used on 9/11. Part of COG network.",
-    "connections": ["raven-rock", "camp-david", "greenbrier"]
+    "connections": [
+      "raven-rock",
+      "camp-david",
+      "greenbrier"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MountWeatherFEMA.jpg"
   },
   {
     "id": "raven-rock",
@@ -81,7 +107,12 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Alternate Pentagon. Built 1950-53. Underground city inside granite mountain. Cheney operated from here on 9/11. Expansion projects ongoing.",
-    "connections": ["mt-weather", "camp-david", "pentagon"]
+    "connections": [
+      "mt-weather",
+      "camp-david",
+      "pentagon"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Raven-rock-site-r-logo.png"
   },
   {
     "id": "cheyenne-mountain",
@@ -93,19 +124,25 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "NORAD/USNORTHCOM. Built 1961-66. 15 buildings on springs inside mountain. Blast doors 25 tons each. Placed on 'warm standby' 2006, reactivated 2015.",
-    "connections": ["denver-airport", "peterson", "schriever"]
+    "connections": [
+      "denver-airport",
+      "peterson",
+      "schriever"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cheyenne_Mountain_Complex_entrance.jpg/1280px-Cheyenne_Mountain_Complex_entrance.jpg"
   },
   {
     "id": "pine-gap",
     "name": "Pine Gap (Joint Defence Facility)",
-    "lat": -23.7990,
-    "lon": 133.7370,
+    "lat": -23.799,
+    "lon": 133.737,
     "depth_estimate": "Deep underground levels reported",
     "source": "Australian government records, investigative journalism",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Joint US/Australian intelligence facility. Largest ECHELON station in Southern Hemisphere. Satellite ground control. Underground levels acknowledged but details classified.",
-    "connections": []
+    "connections": [],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pine_Gap_by_Skyring.jpg"
   },
   {
     "id": "white-sands",
@@ -117,7 +154,12 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Largest military installation in US (3,200 sq mi). First nuclear detonation (Trinity). Underground testing facilities. Adjacent to Holloman AFB.",
-    "connections": ["los-alamos", "sandia", "holloman"]
+    "connections": [
+      "los-alamos",
+      "sandia",
+      "holloman"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/White_Sands_Mountain_Ranges.jpg/1280px-White_Sands_Mountain_Ranges.jpg"
   },
   {
     "id": "edwards",
@@ -129,31 +171,43 @@
     "evidence_tier": "credible",
     "type": "confirmed_facility",
     "notes": "Air Force Flight Test Center. Extensive underground facilities reported by former contractors. Connected to classified aerospace programs.",
-    "connections": ["area51", "plant42", "vandenberg"]
+    "connections": [
+      "area51",
+      "plant42",
+      "vandenberg"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg/1280px-Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg"
   },
   {
     "id": "vandenberg",
     "name": "Vandenberg Space Force Base",
-    "lat": 34.7420,
+    "lat": 34.742,
     "lon": -120.5724,
     "depth_estimate": "Underground launch facilities",
     "source": "USSF public records",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Space launch facility. Underground missile silos (decommissioned ICBMs). Active satellite launch operations. Space Force Western Range.",
-    "connections": ["edwards"]
+    "connections": [
+      "edwards"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Delta_IV_launch_2013-08-28.jpg"
   },
   {
     "id": "camp-david",
     "name": "Camp David (Naval Support Facility Thurmont)",
     "lat": 39.6481,
-    "lon": -77.4650,
+    "lon": -77.465,
     "depth_estimate": "Underground bunker confirmed",
     "source": "Public records, presidential history",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Presidential retreat since FDR. Underground bunker facilities. Part of COG network with Mt. Weather and Raven Rock.",
-    "connections": ["raven-rock", "mt-weather"]
+    "connections": [
+      "raven-rock",
+      "mt-weather"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Camp-David-Laurel-Lodge2.png"
   },
   {
     "id": "manzano",
@@ -165,7 +219,11 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Nuclear weapons storage facility since 1950. Tunnels bored into Manzano Mountain. Adjacent to Kirtland AFB/Sandia Labs. Partially decommissioned but underground infrastructure remains.",
-    "connections": ["sandia", "kirtland"]
+    "connections": [
+      "sandia",
+      "kirtland"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg/1280px-SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg"
   },
   {
     "id": "wright-patterson",
@@ -177,7 +235,8 @@
     "evidence_tier": "credible",
     "type": "confirmed_facility",
     "notes": "National Air and Space Intelligence Center. Foreign Technology Division. Long-standing reports of retrieved material storage (Hangar 18 lore). Sen. Barry Goldwater confirmed denied access to classified section.",
-    "connections": []
+    "connections": [],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg"
   },
   {
     "id": "greenbrier",
@@ -189,31 +248,38 @@
     "evidence_tier": "documented",
     "type": "decommissioned",
     "notes": "Congressional relocation facility built 1958. 112,000 sq ft beneath Greenbrier resort. Maintained in secret for 30 years. Decommissioned after 1992 Washington Post exposure. Now public tours.",
-    "connections": ["mt-weather", "raven-rock"]
+    "connections": [
+      "mt-weather",
+      "raven-rock"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Greenbrier1.jpg"
   },
   {
     "id": "nellis",
     "name": "Nellis AFB / Nevada Test & Training Range",
-    "lat": 36.2360,
-    "lon": -115.0340,
+    "lat": 36.236,
+    "lon": -115.034,
     "depth_estimate": "Extensive underground from nuclear testing",
     "source": "DOE/DoD records",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Encompasses Nevada National Security Site (formerly NTS). 928 nuclear tests created extensive underground infrastructure. Yucca Mountain adjacent.",
-    "connections": ["area51"]
+    "connections": [
+      "area51"
+    ]
   },
   {
     "id": "dugway",
     "name": "Dugway Proving Ground",
     "lat": 40.1789,
-    "lon": -112.8810,
+    "lon": -112.881,
     "depth_estimate": "Underground testing facilities",
     "source": "US Army public records",
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "Chemical/biological defense testing. 800,000 acres in Utah desert. Life Sciences Division. Multiple restricted underground facilities.",
-    "connections": []
+    "connections": [],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dugway_Proving_Ground.jpg"
   },
   {
     "id": "norad-alt",
@@ -225,7 +291,10 @@
     "evidence_tier": "documented",
     "type": "confirmed_facility",
     "notes": "NORAD and USNORTHCOM headquarters since 2006. Alternate command center after Cheyenne Mountain went to warm standby.",
-    "connections": ["cheyenne-mountain"]
+    "connections": [
+      "cheyenne-mountain"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/PetersonAFB.jpg"
   },
   {
     "id": "archuleta-mesa",
@@ -237,6 +306,9 @@
     "evidence_tier": "speculative",
     "type": "alleged_dumb",
     "notes": "Adjacent to Dulce. Bennewitz (electronics specialist near Kirtland) claimed to intercept signals. AFOSI involvement (Richard Doty). Possible disinformation operation complicates assessment.",
-    "connections": ["dulce"]
+    "connections": [
+      "dulce"
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg"
   }
 ]

@@ -31,6 +31,8 @@ const Dossier = (() => {
         ${base.type.replace(/_/g, ' ')}
       </div>
 
+      ${renderPhoto(base.photo_url, base.name)}
+
       <div class="dossier-field">
         <div class="dossier-field-label">Evidence Tier</div>
         <div class="dossier-field-value">
@@ -137,6 +139,8 @@ const Dossier = (() => {
         ${branchLabel}
       </div>
 
+      ${renderPhoto(base.photo_url, base.name)}
+
       <div class="dossier-field">
         <div class="dossier-field-label">Installation Type</div>
         <div class="dossier-field-value">${esc(typeLabel)}</div>
@@ -206,6 +210,8 @@ const Dossier = (() => {
         ${ent.type}
       </div>
 
+      ${renderPhoto(ent.photo_url, ent.name)}
+
       <div class="dossier-field">
         <div class="dossier-field-label">Evidence Tier</div>
         <div class="dossier-field-value">
@@ -243,6 +249,8 @@ const Dossier = (() => {
         ${ent.type}
       </div>
 
+      ${renderPhoto(ent.photo_url, ent.name)}
+
       <div class="dossier-field">
         <div class="dossier-field-label">Evidence Tier</div>
         <div class="dossier-field-value">
@@ -275,9 +283,13 @@ const Dossier = (() => {
           <div class="signal-feed">
             ${shown.map(s => {
               const time = s.collected_at ? new Date(s.collected_at).toISOString().replace('T', ' ').slice(0, 16) : '';
+              const safe = safeHref(s.url);
+              const headline = safe
+                ? `<a class="signal-headline" href="${esc(safe)}" target="_blank" rel="noopener">${esc(s.headline)}</a>`
+                : `<span class="signal-headline">${esc(s.headline)}</span>`;
               return `<div class="signal-item">
                 <span class="signal-feed-badge">${esc(s.source_feed)}</span>
-                <a class="signal-headline" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.headline)}</a>
+                ${headline}
                 <span class="signal-time">${time}</span>
               </div>`;
             }).join('')}
@@ -333,11 +345,14 @@ const Dossier = (() => {
         <div class="dossier-field-value">${date.toISOString().replace('T', ' ').slice(0, 19)}</div>
       </div>
 
-      ${url ? `
+      ${(() => {
+        const safe = safeHref(url);
+        return safe ? `
       <div class="dossier-field">
         <div class="dossier-field-label">USGS Detail</div>
-        <div class="dossier-field-value"><a href="${esc(String(url))}" target="_blank" style="color:var(--accent)">${esc(String(url))}</a></div>
-      </div>` : ''}
+        <div class="dossier-field-value"><a href="${esc(safe)}" target="_blank" rel="noopener" style="color:var(--accent)">${esc(String(url))}</a></div>
+      </div>` : '';
+      })()}
     `;
 
     bodyEl.innerHTML = html;
@@ -467,6 +482,7 @@ const Dossier = (() => {
     const id = props.id?.getValue ? props.id.getValue() : props.id;
     const name = props.name?.getValue ? props.name.getValue() : props.name;
     const eventType = props.eventType?.getValue ? props.eventType.getValue() : props.eventType;
+    const theater = props.theater?.getValue ? props.theater.getValue() : props.theater;
     const date = props.date?.getValue ? props.date.getValue() : props.date;
     const operation = props.operation?.getValue ? props.operation.getValue() : props.operation;
     const parties = props.parties?.getValue ? props.parties.getValue() : props.parties;
@@ -477,6 +493,7 @@ const Dossier = (() => {
     const eventColor = props.eventColor?.getValue ? props.eventColor.getValue() : props.eventColor;
     const lat = props.lat?.getValue ? props.lat.getValue() : props.lat;
     const lon = props.lon?.getValue ? props.lon.getValue() : props.lon;
+    const photoUrl = props.photoUrl?.getValue ? props.photoUrl.getValue() : props.photoUrl;
 
     titleEl.textContent = name || 'Conflict Event';
 
@@ -488,6 +505,10 @@ const Dossier = (() => {
       <div class="dossier-type-tag" style="background:${color}22;color:${color}">
         ${esc(typeLabel)}
       </div>
+
+      ${renderPhoto(photoUrl, name)}
+
+      ${theater ? `<div class="dossier-field"><div class="dossier-field-label">Theater</div><div class="dossier-field-value" style="text-transform:capitalize">${esc(String(theater).replace(/-/g, ' '))}</div></div>` : ''}
 
       <div class="dossier-field">
         <div class="dossier-field-label">Date</div>
@@ -539,9 +560,12 @@ const Dossier = (() => {
         const notes = props.notes?.getValue ? props.notes.getValue() : props.notes;
         const lat = props.lat?.getValue ? props.lat.getValue() : props.lat;
         const lon = props.lon?.getValue ? props.lon.getValue() : props.lon;
+        const photoUrl = props.photoUrl?.getValue ? props.photoUrl.getValue() : props.photoUrl;
+        const webcamUrl = props.webcamUrl?.getValue ? props.webcamUrl.getValue() : props.webcamUrl;
 
         html = `
           <div class="dossier-type-tag" style="background:${antColor}22;color:${antColor}">research station</div>
+          ${photoUrl ? `<div class="dossier-photo"><img src="${esc(photoUrl)}" alt="${esc(String(name || ''))}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : ''}
           <div class="dossier-field"><div class="dossier-field-label">Country</div><div class="dossier-field-value">${esc(String(country || ''))}</div></div>
           ${year ? `<div class="dossier-field"><div class="dossier-field-label">Established</div><div class="dossier-field-value">${year}</div></div>` : ''}
           <div class="dossier-field"><div class="dossier-field-label">Seasonality</div><div class="dossier-field-value">${esc(String(seasonality || ''))}</div></div>
@@ -550,6 +574,7 @@ const Dossier = (() => {
           ${pop ? `<div class="dossier-field"><div class="dossier-field-label">Peak Population</div><div class="dossier-field-value">${pop}</div></div>` : ''}
           ${elev != null ? `<div class="dossier-field"><div class="dossier-field-label">Elevation</div><div class="dossier-field-value">${elev}m</div></div>` : ''}
           <div class="dossier-field"><div class="dossier-field-label">Coordinates</div><div class="dossier-field-value">${Number(lat).toFixed(4)}, ${Number(lon).toFixed(4)}</div></div>
+          ${webcamUrl ? `<div class="dossier-field"><div class="dossier-field-label">Webcam</div><div class="dossier-field-value"><a href="${esc(webcamUrl)}" target="_blank" rel="noopener" style="color:${antColor}">View live</a></div></div>` : ''}
           ${notes ? `<div class="dossier-field"><div class="dossier-field-label">Notes</div><div class="dossier-field-value">${esc(String(notes))}</div></div>` : ''}
         `;
         break;
@@ -723,6 +748,26 @@ const Dossier = (() => {
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  // Returns a .dossier-photo block when photoUrl resolves to an http(s) URL,
+  // otherwise an empty string. Used by every show* function so any dataset
+  // can opt in by adding `photo_url` to its source JSON.
+  function renderPhoto(photoUrl, name) {
+    const safe = safeHref(photoUrl);
+    if (!safe) return '';
+    return `<div class="dossier-photo"><img src="${esc(safe)}" alt="${esc(String(name || ''))}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`;
+  }
+
+  // Returns the URL only if it parses and uses http/https. Blocks javascript:,
+  // data:, and malformed URLs from reaching an href attribute.
+  function safeHref(url) {
+    if (!url) return null;
+    try {
+      const u = new URL(url);
+      if (u.protocol === 'http:' || u.protocol === 'https:') return url;
+    } catch { /* not a valid URL */ }
+    return null;
   }
 
   return { init, showBase, showMilitary, showIntel, showEarthquake, showAircraft, showSatellite, showVessel, showConflict, showAntarctica, close, isOpen };

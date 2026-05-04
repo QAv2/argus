@@ -37,8 +37,6 @@ const App = (() => {
         Traffic.init(viewer),
         Conflicts.init(viewer),
         Playback.init(viewer),
-        Jamming.init(viewer),
-        Airspace.init(viewer),
         Antarctica.init(viewer),
         SatCorrelation.init(viewer),
       ]);
@@ -48,7 +46,7 @@ const App = (() => {
       // Log any failures
       const layerNames = [
         'Bases', 'Intel', 'Earthquakes', 'Satellites', 'Aircraft', 'Military',
-        'Vessels', 'Traffic', 'Conflicts', 'Playback', 'Jamming', 'Airspace', 'Antarctica', 'SatCorrelation',
+        'Vessels', 'Traffic', 'Conflicts', 'Playback', 'Antarctica', 'SatCorrelation',
       ];
       results.forEach((r, i) => {
         if (r.status === 'rejected') {

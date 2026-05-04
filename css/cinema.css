@@ -1,0 +1,61 @@
+/* cinema.css — WorldView cinema mode overrides
+ * Only loaded when ?cinema=1. Hides all UI chrome, pins canvas to 1920x1080.
+ * Normal users never fetch this file.
+ */
+
+/* ---- Chrome hiding (spec §Chrome Hide List) ---- */
+body.cinema-mode #loading-screen,
+body.cinema-mode #top-bar,
+body.cinema-mode #toggle-panel-btn,
+body.cinema-mode #side-panel,
+body.cinema-mode #dossier-panel,
+body.cinema-mode #coords,
+body.cinema-mode #mode-indicator,
+body.cinema-mode #timeline-bar,
+body.cinema-mode #stats-bar,
+body.cinema-mode #landing-overlay,
+body.cinema-mode #help-overlay,
+body.cinema-mode #crosshair {
+  display: none !important;
+}
+
+/* Hide CRT rollbar animation (wall-clock driven, not deterministic)
+   but keep shader overlay itself for mode cues (nvg/flir/crt filters) */
+body.cinema-mode #shader-overlay .fx-rollbar {
+  display: none !important;
+}
+body.cinema-mode #shader-overlay {
+  pointer-events: none;
+}
+
+/* Hide Cesium credit display */
+body.cinema-mode .cesium-credit-textContainer,
+body.cinema-mode .cesium-credit-logoContainer,
+body.cinema-mode .cesium-viewer-bottom {
+  display: none !important;
+}
+
+/* ---- Canvas fixed to composition resolution ---- */
+body.cinema-mode {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0a0a0f;
+}
+
+body.cinema-mode #cesiumContainer {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 1920px !important;
+  height: 1080px !important;
+  z-index: 0;
+}
+
+body.cinema-mode .cesium-viewer,
+body.cinema-mode .cesium-viewer-cesiumWidgetContainer,
+body.cinema-mode .cesium-widget,
+body.cinema-mode .cesium-widget canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

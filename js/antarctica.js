@@ -461,6 +461,8 @@ const Antarctica = (() => {
           peakPop: stn.peak_pop,
           elevation: stn.elevation_m,
           notes: stn.notes,
+          photoUrl: stn.photo_url,
+          webcamUrl: stn.webcam_url,
         },
       });
       entities.push(entity);

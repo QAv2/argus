@@ -1,0 +1,1105 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-04T21:50:51.646598+00:00",
+  "entities": [
+    {
+      "id": "dulce",
+      "type": "alleged_dumb",
+      "name": "Dulce Base",
+      "context": "Schneider claimed to have helped build alleged 7-level joint human/non-human facility; died under suspicious circumstances Dec 1996.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dulce_Lake,_Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/D%26RGW_Boxcars_At_Dulce%2C_New_Mexico.jpg/1280px-D%26RGW_Boxcars_At_Dulce%2C_New_Mexico.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:D%26RGW_Boxcars_At_Dulce,_New_Mexico.jpg"
+        }
+      ],
+      "notes": "Dulce Base Wikipedia article body has no photographs. Candidates from Category:Dulce,_New_Mexico \u2014 area views of the town/reservation, distinct from the round-1 'Welcome to Dulce' sign."
+    },
+    {
+      "id": "area51",
+      "type": "underground_base",
+      "name": "Area 51 / Groom Lake",
+      "context": "Existence officially acknowledged 2013. CIA declassified history confirms U-2/OXCART/F-117 testing.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sentinel-Homey.png/1024px-Sentinel-Homey.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Area_51"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sentinel-Homey.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Area_51"
+        }
+      ]
+    },
+    {
+      "id": "los-alamos",
+      "type": "underground_base",
+      "name": "Los Alamos National Laboratory",
+      "context": "Manhattan Project origin. Extensive underground testing and storage facilities. Active nuclear weapons research.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Los_Alamos_aerial_view.jpeg/1024px-Los_Alamos_aerial_view.jpeg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Los_Alamos_aerial_view.jpeg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "sandia",
+      "type": "confirmed_facility",
+      "name": "Sandia National Laboratories",
+      "context": "Nuclear weapons engineering center. Manzano Base adjacent \u2014 confirmed underground nuclear weapons storage since 1950s.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Solar_panel_testing%2C_Sandia_National_Laboratories.jpg/1280px-Solar_panel_testing%2C_Sandia_National_Laboratories.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Solar_panel_testing,_Sandia_National_Laboratories.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg/1280px-KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:KirtlandAirForceBase-TakeoffABQ-May2017_(36776704165).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sandia_Mountains_April_2022.jpg/1280px-Sandia_Mountains_April_2022.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Sandia_Mountains_April_2022.jpg"
+        }
+      ],
+      "notes": "Sandia Labs Wikipedia article body is image-poor. Solar tower/heliostat field is the most recognizable Sandia facility imagery. Aerials show the Kirtland co-location and Sandia ridge."
+    },
+    {
+      "id": "denver-airport",
+      "type": "underground_base",
+      "name": "Denver International Airport",
+      "context": "Opened 1995, $2B over budget. Confirmed underground baggage system. Murals depicting apocalyptic scenes.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/DenverAirport2023.jpg/1024px-DenverAirport2023.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Denver_International_Airport"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/DenverAirport2023.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Denver_International_Airport"
+        }
+      ]
+    },
+    {
+      "id": "mt-weather",
+      "type": "underground_base",
+      "name": "Mount Weather Emergency Operations Center",
+      "context": "FEMA continuity of government facility. Underground city with own power, water, transit system. Used on 9/11.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/MountWeatherFEMA.jpg/1024px-MountWeatherFEMA.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Mount_Weather_Emergency_Operations_Center"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MountWeatherFEMA.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Mount_Weather_Emergency_Operations_Center"
+        }
+      ]
+    },
+    {
+      "id": "raven-rock",
+      "type": "underground_base",
+      "name": "Raven Rock Mountain Complex (Site R)",
+      "context": "Alternate Pentagon. Built 1950-53. Underground city inside granite mountain. Cheney operated from here on 9/11.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/View_from_Raven_Rock_-_Flickr_-_pellaea.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Raven_Rock_Mountain_Complex"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Raven-rock-site-r-logo.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Raven_Rock_Mountain_Complex"
+        }
+      ]
+    },
+    {
+      "id": "cheyenne-mountain",
+      "type": "confirmed_facility",
+      "name": "Cheyenne Mountain Complex",
+      "context": "NORAD/USNORTHCOM. Built 1961-66. 15 spring-mounted buildings inside mountain. 25-ton blast doors. Reactivated 2015.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cheyenne_Mountain_Complex_entrance.jpg/1280px-Cheyenne_Mountain_Complex_entrance.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cheyenne_Mountain_Complex_entrance.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/NORADBlast-Doors.jpg/1280px-NORADBlast-Doors.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:NORADBlast-Doors.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1961_Cheyenne_Mtn%2C_Interior_const%2C_early_tunneling.jpg/1280px-1961_Cheyenne_Mtn%2C_Interior_const%2C_early_tunneling.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:1961_Cheyenne_Mtn,_Interior_const,_early_tunneling.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pine-gap",
+      "type": "underground_base",
+      "name": "Pine Gap (Joint Defence Facility)",
+      "context": "Joint US/Australian intelligence facility. Largest ECHELON station in Southern Hemisphere. Satellite ground control.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pine_Gap_by_Skyring.jpg/1024px-Pine_Gap_by_Skyring.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Pine_Gap"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pine_Gap_by_Skyring.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Pine_Gap"
+        }
+      ]
+    },
+    {
+      "id": "white-sands",
+      "type": "confirmed_facility",
+      "name": "White Sands Missile Range",
+      "context": "Largest US military installation (3,200 sq mi). First nuclear detonation (Trinity). Underground testing facilities. Adjacent Holloman AFB.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/White_Sands_Mountain_Ranges.jpg/1280px-White_Sands_Mountain_Ranges.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:White_Sands_Mountain_Ranges.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/STS-3_landing.jpg/1280px-STS-3_landing.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:STS-3_landing.jpg"
+        }
+      ],
+      "notes": "Round 1 used the Trinity fireball plus a USGS map. Pass 2 candidates show the actual range terrain and the STS-3 Space Shuttle landing at Northrup Strip (only Shuttle landing at White Sands, 1982)."
+    },
+    {
+      "id": "edwards",
+      "type": "confirmed_facility",
+      "name": "Edwards Air Force Base",
+      "context": "Air Force Flight Test Center. Extensive underground facilities reported by former contractors. Connected to classified aerospace programs.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg/1280px-Edwards_Air_Force_Base_Main_Base_Area_%282010-06-29%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Edwards_Air_Force_Base_Main_Base_Area_(2010-06-29).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg/1280px-Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Edwards_AFB_Runway_5_on_Rogers_Dry_Lake.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rogers_Dry_Lake.jpg/1280px-Rogers_Dry_Lake.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rogers_Dry_Lake.jpg"
+        }
+      ],
+      "notes": "Round 1 was an F-35 cockpit-level shot. Pass 2 shows the actual base \u2014 overhead Main Base Area aerial, Rogers Dry Lake runway, and the dry lake bed itself (the test-flight signature feature)."
+    },
+    {
+      "id": "vandenberg",
+      "type": "underground_base",
+      "name": "Vandenberg Space Force Base",
+      "context": "Space launch facility. Underground missile silos (decommissioned ICBMs). Active satellite launch operations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Delta_IV_launch_2013-08-28.jpg/1024px-Delta_IV_launch_2013-08-28.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Delta_IV_launch_2013-08-28.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "camp-david",
+      "type": "confirmed_facility",
+      "name": "Camp David (Naval Support Facility Thurmont)",
+      "context": "Presidential retreat since FDR. Underground bunker facilities. Part of COG network with Mt. Weather and Raven Rock.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Camp_David.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Camp_David.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Camp-David-Laurel-Lodge2.png",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Camp-David-Laurel-Lodge2.png"
+        }
+      ],
+      "notes": "Camp David is heavily restricted airspace (P-40 prohibited zone) \u2014 no aerial/exterior photos exist on Commons. Best available are exterior shots of the lodge buildings, distinct from round-1 Laurel Cabin interior."
+    },
+    {
+      "id": "manzano",
+      "type": "confirmed_facility",
+      "name": "Manzano Mountain Nuclear Weapons Storage",
+      "context": "Nuclear weapons storage since 1950. Tunnels bored into Manzano Mountain. Adjacent to Kirtland AFB/Sandia. Underground infrastructure remains.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg/1280px-KirtlandAirForceBase-TakeoffABQ-May2017_%2836776704165%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:KirtlandAirForceBase-TakeoffABQ-May2017_(36776704165).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg/1280px-SandiaMountainsAerial-NearABQ_%2835942035514%29.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:SandiaMountainsAerial-NearABQ_(35942035514).jpg"
+        }
+      ],
+      "notes": "Category:Manzano_Base on Commons is empty \u2014 facility is not directly photographed. Candidates are aerials of Kirtland AFB (Manzano sits inside the Kirtland reservation) and the adjacent Sandia/Manzano mountain ridge."
+    },
+    {
+      "id": "wright-patterson",
+      "type": "underground_base",
+      "name": "Wright-Patterson AFB",
+      "context": "National Air and Space Intelligence Center. Foreign Technology Division. Hangar 18 lore. Goldwater confirmed denied access.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg/1024px-445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Wright-Patterson_Air_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/445th_Airlift_Wing_-_Boeing_C-17A_Lot_IX_Globemaster_III_97-0044.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Wright-Patterson_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "greenbrier",
+      "type": "underground_base",
+      "name": "The Greenbrier Bunker",
+      "context": "Congressional relocation facility built 1958. 112,000 sq ft beneath Greenbrier resort. Decommissioned after 1992 expose.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Greenbrier1.jpg/1024px-Greenbrier1.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Greenbrier"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Greenbrier1.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Greenbrier"
+        }
+      ]
+    },
+    {
+      "id": "nellis",
+      "type": "confirmed_facility",
+      "name": "Nellis AFB / Nevada Test & Training Range",
+      "context": "Encompasses Nevada National Security Site (formerly NTS). 928 nuclear tests created extensive underground infrastructure. Yucca Mountain adjacent.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg/1280px-104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:104th_Fighter_Squadron_A-10C_landing_at_Mud_Lake_at_the_Nevada_Test_and_Training_Range.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/US_Air_Force_Thunderbirds.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:US_Air_Force_Thunderbirds.jpg"
+        }
+      ],
+      "notes": "From Category:Nevada_Test_and_Training_Range \u2014 Mud Lake landing puts the desert range itself in frame, more evocative than round-1's hangar shot."
+    },
+    {
+      "id": "dugway",
+      "type": "underground_base",
+      "name": "Dugway Proving Ground",
+      "context": "Chemical/biological defense testing. 800,000 acres in Utah desert. Multiple restricted underground facilities.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Dugway_Proving_Ground.jpg/1024px-Dugway_Proving_Ground.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Dugway_Proving_Ground"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dugway_Proving_Ground.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Dugway_Proving_Ground"
+        }
+      ]
+    },
+    {
+      "id": "norad-alt",
+      "type": "underground_base",
+      "name": "Peterson SFB (NORAD Alternate)",
+      "context": "NORAD and USNORTHCOM headquarters since 2006. Alternate command center after Cheyenne Mountain went to warm standby.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/PetersonAFB.jpg/1024px-PetersonAFB.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Peterson_Space_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/PetersonAFB.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Peterson_Space_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "archuleta-mesa",
+      "type": "alleged_dumb",
+      "name": "Archuleta Mesa",
+      "context": "Adjacent to Dulce. Bennewitz claimed signal intercepts; AFOSI involvement (Doty) \u2014 disinformation op complicates assessment.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg/1280px-Dulce_Lake%2C_Jacarilla_Apache_Nation%2C_New_Mexico%2C_USA.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dulce_Lake,_Jacarilla_Apache_Nation,_New_Mexico,_USA.jpg"
+        }
+      ],
+      "notes": "No real-world photo of the alleged base; Archuleta County category empty. Candidates show the surrounding Jicarilla Apache Nation landscape and Dulce Lake \u2014 area context, no fabrication."
+    },
+    {
+      "id": "the_pentagon",
+      "type": "military_base",
+      "name": "The Pentagon",
+      "context": "DoD (US) \u2014 US Department of Defense HQ. Largest office building in the world.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Pentagon"
+        }
+      ]
+    },
+    {
+      "id": "fort_liberty",
+      "type": "military_base",
+      "name": "Fort Liberty",
+      "context": "US Army (US) \u2014 Home of XVIII Airborne Corps, 82nd Airborne Division. Formerly Fort Bragg.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fort_Bragg_1st_Brigade_barracks.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Fort_Bragg"
+        }
+      ]
+    },
+    {
+      "id": "ns_norfolk",
+      "type": "military_base",
+      "name": "Naval Station Norfolk",
+      "context": "USN (US) \u2014 World's largest naval station. Home to Atlantic Fleet.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/US_Navy_110707-N-XZ912-104_An_aerial_view_of_Norfolk_Naval_Station%2C_the_largest_naval_base_in_the_world.jpg/1280px-US_Navy_110707-N-XZ912-104_An_aerial_view_of_Norfolk_Naval_Station%2C_the_largest_naval_base_in_the_world.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:US_Navy_110707-N-XZ912-104_An_aerial_view_of_Norfolk_Naval_Station,_the_largest_naval_base_in_the_world.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/9_Flattops_at_Norfolk_naval_base%2C_December_20%2C_2012.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Naval_Station_Norfolk"
+        }
+      ]
+    },
+    {
+      "id": "jb_pearl_harbor_hickam",
+      "type": "military_base",
+      "name": "Joint Base Pearl Harbor-Hickam",
+      "context": "USN / USAF (US) \u2014 USINDOPACOM HQ. Combined naval and air operations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/US_Navy_040630-N-2911P-004_Ships_from_seven_participating_nations_sit_pier_side_at_Pearl_Harbor%2C_Hawaii%2C_awaiting_the_start_of_exercise_Rim_of_the_Pacific_%28RIMPAC%29_2004.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Joint_Base_Pearl_Harbor%E2%80%93Hickam"
+        }
+      ]
+    },
+    {
+      "id": "cheyenne_mountain",
+      "type": "military_base",
+      "name": "Cheyenne Mountain SFS",
+      "context": "USSF / NORAD (US) \u2014 NORAD and USNORTHCOM alternate command center. Hardened bunker.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg/1280px-Cheyenne_Mountain_Space_Force_Station_Base_Upgrade_Photos_%288248119%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Cheyenne_Mountain_Complex"
+        }
+      ]
+    },
+    {
+      "id": "wright_patterson_afb",
+      "type": "military_base",
+      "name": "Wright-Patterson AFB",
+      "context": "USAF (US) \u2014 Air Force Materiel Command HQ. NASIC. Foreign technology evaluation.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Wright-Patterson_Air_Force_Base_from_70%C2%BA.jpg/1280px-Wright-Patterson_Air_Force_Base_from_70%C2%BA.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Wright-Patterson_Air_Force_Base_from_70%C2%BA.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wright-Patterson_Air_Force_Base_-_10_Oct_2000.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Wright-Patterson_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "edwards_afb",
+      "type": "military_base",
+      "name": "Edwards Air Force Base",
+      "context": "USAF (US) \u2014 Air Force Test Center. Flight test capital of the world.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/F-35_at_Edwards.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Edwards_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "eglin_afb",
+      "type": "military_base",
+      "name": "Eglin Air Force Base",
+      "context": "USAF (US) \u2014 Air Force Materiel Command. Largest AF installation by area.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/First_F-35_to_arrive_at_Eglin_AFB_gets_the_order_to_taxi.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Eglin_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "vandenberg_sfb",
+      "type": "military_base",
+      "name": "Vandenberg Space Force Base",
+      "context": "USSF (US) \u2014 Space Launch Delta 30. West Coast space launch.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Delta_IV_launch_2013-08-28.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "cape_canaveral_sfs",
+      "type": "military_base",
+      "name": "Cape Canaveral Space Force Station",
+      "context": "USSF (US) \u2014 East Coast space launch. SLC-40, SLC-41.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cape_canaveral_crop2.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Force_Station"
+        }
+      ]
+    },
+    {
+      "id": "minot_afb",
+      "type": "military_base",
+      "name": "Minot Air Force Base",
+      "context": "USAF (US) \u2014 B-52H bombers and Minuteman III ICBMs. Dual nuclear mission.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/A_U.S._Air_Force_B-52H_Stratofortress_aircraft_sits_on_the_flight_line_as_another_B-52H_takes_off_during_a_training_exercise_at_Minot_Air_Force_Base%2C_N.D.%2C_May_21%2C_2013_130521-F-RB551-008.jpg/1280px-thumbnail.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Minot_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "whiteman_afb",
+      "type": "military_base",
+      "name": "Whiteman Air Force Base",
+      "context": "USAF (US) \u2014 Home of B-2 Spirit stealth bomber fleet.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/OverWhiteman.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Whiteman_Air_Force_Base"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Whiteman_AFB_MO_-_9_Mar_1996.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Whiteman_AFB_MO_-_9_Mar_1996.jpg"
+        }
+      ]
+    },
+    {
+      "id": "nas_patuxent_river",
+      "type": "military_base",
+      "name": "NAS Patuxent River",
+      "context": "USN (US) \u2014 Naval Air Systems Command. Aircraft testing and development.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/P_8_and_P_3_over_Pax_River.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Naval_Air_Station_Patuxent_River"
+        }
+      ]
+    },
+    {
+      "id": "mcb_quantico",
+      "type": "military_base",
+      "name": "MCB Quantico",
+      "context": "USMC (US) \u2014 Crossroads of the Marine Corps. OCS, TBS, FBI Academy co-located.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Capital_Marine_Detachment_Marine_Corps_League%2C_presents_the_32nd_annual_United_States_Marine_Corps_Enlisted_Awards_Parade_and_Presentation_at_Lejeune_Hall%2C_Marine_Corps_Base_Quantico%2C_Va.%2C_Sept_140924-M-RO295-554.jpg/1280px-thumbnail.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Marine_Corps_Base_Quantico"
+        }
+      ]
+    },
+    {
+      "id": "camp_pendleton",
+      "type": "military_base",
+      "name": "Camp Pendleton",
+      "context": "USMC (US) \u2014 I Marine Expeditionary Force. Largest West Coast expeditionary base.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/1st_LAR_Highlander_Games_Warrior_Night_Burns_Late_into_the_Night_140605-M-ZH987-033.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Marine_Corps_Base_Camp_Pendleton"
+        }
+      ]
+    },
+    {
+      "id": "ramstein_ab",
+      "type": "military_base",
+      "name": "Ramstein Air Base",
+      "context": "USAF / NATO (DE) \u2014 USAFE-AFAFRICA HQ. NATO Allied Air Command.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Europe_District_supported%2C_managed_construction_projects_around_U.S._air_base_%283985995069%29.jpg/1280px-Europe_District_supported%2C_managed_construction_projects_around_U.S._air_base_%283985995069%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Ramstein_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "kadena_ab",
+      "type": "military_base",
+      "name": "Kadena Air Base",
+      "context": "USAF (JP) \u2014 Largest USAF base in the Pacific. 18th Wing.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/150821-F-ZC102-051.jpg/1280px-150821-F-ZC102-051.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Kadena_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "yokota_ab",
+      "type": "military_base",
+      "name": "Yokota Air Base",
+      "context": "USAF (JP) \u2014 USFJ and 5th Air Force HQ. Western Tokyo.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/U.S._Air_Force_C-130_Hercules_aircraft_with_the_36th_Airlift_Squadron_are_parked_on_the_flightline_during_a_readiness_week_exercise_at_Yokota_Air_Base%2C_Japan%2C_Oct._7%2C_2013_131007-F-PM645-014.jpg/1280px-thumbnail.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Yokota_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "misawa_ab",
+      "type": "military_base",
+      "name": "Misawa Air Base",
+      "context": "USAF (JP) \u2014 35th Fighter Wing. F-16s. NSA SIGINT facility co-located.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Short-notice%2C_A_new_way_to_exercise_141204-F-QI259-167.jpg/1280px-Short-notice%2C_A_new_way_to_exercise_141204-F-QI259-167.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Misawa_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "yokosuka_nb",
+      "type": "military_base",
+      "name": "Fleet Activities Yokosuka",
+      "context": "USN (JP) \u2014 US 7th Fleet HQ. Only forward-deployed carrier (CVN).",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Panoramic_view_of_JMSDF_Yokosuka_Naval_Base.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_JMSDF_Yokosuka_Naval_Base.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Yokosuka_Naval_Base_JMSDF.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Yokosuka_Naval_Base_JMSDF.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camp_humphreys",
+      "type": "military_base",
+      "name": "Camp Humphreys",
+      "context": "US Army (KR) \u2014 USFK HQ. Largest US overseas military base.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Aerial_Tour_2_Camp_Humphreys%2C_Sept._13%2C_2017_%2837293016265%29.jpg/1280px-Aerial_Tour_2_Camp_Humphreys%2C_Sept._13%2C_2017_%2837293016265%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_Tour_2_Camp_Humphreys,_Sept._13,_2017_(37293016265).jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Aerial_Tour_-_U.S._Army_Garrison_Humphreys%2C_South_Korea_-_10_March_2016_%2825676470601%29.jpg/1280px-Aerial_Tour_-_U.S._Army_Garrison_Humphreys%2C_South_Korea_-_10_March_2016_%2825676470601%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_Tour_-_U.S._Army_Garrison_Humphreys,_South_Korea_-_10_March_2016_(25676470601).jpg"
+        }
+      ]
+    },
+    {
+      "id": "andersen_afb",
+      "type": "military_base",
+      "name": "Andersen Air Force Base",
+      "context": "USAF (GU) \u2014 Bomber forward presence in Pacific. B-52 and B-2 rotations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dyess_B-1s_deploy_to_Andersen%2C_take_over_Continuous_Bomber_Presence_operations_170206-F-LP948-046.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Andersen_Air_Force_Base"
+        }
+      ]
+    },
+    {
+      "id": "diego_garcia",
+      "type": "military_base",
+      "name": "Diego Garcia",
+      "context": "USN / USAF (IO) \u2014 Strategic Indian Ocean atoll. Bomber and submarine support.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Diegogarcia.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Diego_Garcia"
+        }
+      ]
+    },
+    {
+      "id": "al_udeid_ab",
+      "type": "military_base",
+      "name": "Al Udeid Air Base",
+      "context": "USAF (QA) \u2014 USCENTCOM forward HQ. Combined Air Operations Center.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flight_Line_Fest_2016_160110-F-YM354-030.jpg/1280px-Flight_Line_Fest_2016_160110-F-YM354-030.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Al_Udeid_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "incirlik_ab",
+      "type": "military_base",
+      "name": "Incirlik Air Base",
+      "context": "USAF / Turkish AF (TR) \u2014 39th Air Base Wing. Nuclear weapons storage (B61).",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Turkish_KC-135s_integrate_with_Bomber_Task_Force_for_first_time.jpg/1280px-Turkish_KC-135s_integrate_with_Bomber_Task_Force_for_first_time.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Incirlik_Air_Base"
+        }
+      ]
+    },
+    {
+      "id": "raf_lakenheath",
+      "type": "military_base",
+      "name": "RAF Lakenheath",
+      "context": "USAF (GB) \u2014 48th Fighter Wing. F-15E and F-35A. Only US F-35 base in Europe.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/R.A.F._Lakenheath_and_Thetford_Forest%2C_aerial_2017_-_geograph.org.uk_-_5536793.jpg/1280px-R.A.F._Lakenheath_and_Thetford_Forest%2C_aerial_2017_-_geograph.org.uk_-_5536793.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/RAF_Lakenheath"
+        }
+      ]
+    },
+    {
+      "id": "nas_sigonella",
+      "type": "military_base",
+      "name": "NAS Sigonella",
+      "context": "USN (IT) \u2014 Hub of the Med. P-8 and MQ-4C operations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/US_Navy_030325-N-9693M-001_Sicily%27s_volcano%2C_Mt._Etna%2C_is_the_backdrop_for_a_U.S._Air_Force_C-5_and_the_air_terminal_of_Naval_Air_Station_%28NAS%29_Sigonella.jpg/1280px-US_Navy_030325-N-9693M-001_Sicily%27s_volcano%2C_Mt._Etna%2C_is_the_backdrop_for_a_U.S._Air_Force_C-5_and_the_air_terminal_of_Naval_Air_Station_%28NAS%29_Sigonella.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Naval_Air_Station_Sigonella"
+        }
+      ]
+    },
+    {
+      "id": "ns_rota",
+      "type": "military_base",
+      "name": "Naval Station Rota",
+      "context": "USN (ES) \u2014 Aegis Ashore BMD. Forward-deployed destroyers.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Aerial_of_Naval_Station_Rota_%287299650%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Naval_Station_Rota"
+        }
+      ]
+    },
+    {
+      "id": "camp_lemonnier",
+      "type": "military_base",
+      "name": "Camp Lemonnier",
+      "context": "USN / CJTF-HOA (DJ) \u2014 Only permanent US base in Africa. Counter-terrorism hub.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/22nd_MEU_Harrier_pilots_train_with_French_Mirage_pilots_140330-M-HZ646-232.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Camp_Lemonnier"
+        }
+      ]
+    },
+    {
+      "id": "thule_ab",
+      "type": "military_base",
+      "name": "Pituffik Space Base",
+      "context": "USSF (GL) \u2014 Northernmost US base. BMEWS missile warning radar. Formerly Thule AB.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Aerial_Picture_Of_Thule_Air_Base.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Pituffik_Space_Base"
+        }
+      ]
+    },
+    {
+      "id": "pentagon",
+      "type": "intel",
+      "name": "The Pentagon",
+      "context": "US Department of Defense headquarters. Houses OUSD(I&S), DIA, and UAP disclosure oversight functions.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/An_aerial_view_of_the_Pentagon%2C_Washington%2C_D.C.%2C_May_15%2C_2023.jpg/1280px-An_aerial_view_of_the_Pentagon%2C_Washington%2C_D.C.%2C_May_15%2C_2023.jpg",
+          "credit": "Wikimedia Commons (US DoD, 2023)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_Pentagon,_Washington,_D.C.,_May_15,_2023.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Aerial_photograph_of_the_Pentagon.jpg/1280px-Aerial_photograph_of_the_Pentagon.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Pentagon.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter%2C_July_8%2C_2011_110708-M-KS211-116.jpg/1280px-An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter%2C_July_8%2C_2011_110708-M-KS211-116.jpg",
+          "credit": "Wikimedia Commons (USMC, 2011)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_Pentagon_as_seen_from_a_Marine_Corps_CH-46_Sea_Knight_helicopter,_July_8,_2011_110708-M-KS211-116.jpg"
+        }
+      ],
+      "notes": "Round 1 used a cropped variant. These are full oblique aerials from the Aerial_photographs_of_the_Pentagon Commons category. The 2023 DoD shot (7056x4704 source) is the cleanest classic five-sided view."
+    },
+    {
+      "id": "langley",
+      "type": "intel",
+      "name": "CIA Headquarters",
+      "context": "Central Intelligence Agency, Langley VA. ORD (Office of Research & Development) linked to consciousness research programs.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg/1280px-CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg",
+          "credit": "Wikimedia Commons (NARA 546702)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:CENTRAL_INTELLIGENCE_AGENCY_COMPLEX_IN_VIRGINIA_-_NARA_-_546702.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cia-lobby-seal.jpg",
+          "credit": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cia-lobby-seal.jpg"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/George_Bush_Center_for_Intelligence_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+          "credit": "Wikimedia Commons (CIA / Flickr)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:George_Bush_Center_for_Intelligence_-_Flickr_-_The_Central_Intelligence_Agency.jpg"
+        }
+      ],
+      "notes": "Round 1 used a cropped aerial (LOC 14760v). NARA 546702 is the iconic ground-level facade (3000x2020). Cia-lobby-seal.jpg is the floor-seal shot people most associate with CIA HQ (small at 533x428 but instantly recognizable). George Bush Center for Intelligence is the official entrance signage."
+    },
+    {
+      "id": "nsa-ft-meade",
+      "type": "intel",
+      "name": "NSA Fort Meade",
+      "context": "National Security Agency headquarters. SIGINT collection, connected to Five Eyes/ECHELON network.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/National_Security_Agency_headquarters%2C_Fort_Meade%2C_Maryland.jpg/1280px-National_Security_Agency_headquarters%2C_Fort_Meade%2C_Maryland.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/National_Security_Agency"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Seal_of_the_U.S._National_Security_Agency.svg/512px-Seal_of_the_U.S._National_Security_Agency.svg.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/National_Security_Agency"
+        }
+      ]
+    },
+    {
+      "id": "dia-bolling",
+      "type": "intel",
+      "name": "DIA / Bolling AFB",
+      "context": "Defense Intelligence Agency. Ran AAWSAP/AATIP ($22M, 2007-2012). 38 Defense Intelligence Reference Documents (DIRDs).",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bird%27s_eye_view_of_the_Defense_Intelligence_Agency_%28DIA%29_Headquarters_from_Potomac%2C_Washington_DC.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Defense_Intelligence_Agency"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Seal_of_the_U.S._Defense_Intelligence_Agency.svg/512px-Seal_of_the_U.S._Defense_Intelligence_Agency.svg.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Defense_Intelligence_Agency"
+        }
+      ]
+    },
+    {
+      "id": "battelle",
+      "type": "intel",
+      "name": "Battelle Memorial Institute",
+      "context": "Manages 7 national labs. Named in Grusch testimony and Wilson-Davis memo as materials custodian.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/BattelleEntrance.JPG",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Battelle_Memorial_Institute"
+        }
+      ]
+    },
+    {
+      "id": "lockheed-skunkworks",
+      "type": "intel",
+      "name": "Lockheed Skunk Works",
+      "context": "Lockheed Martin Advanced Development Programs (Palmdale). Named in multiple retrieval program allegations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/F117-palmdale-040625-01.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Skunk_Works"
+        }
+      ]
+    },
+    {
+      "id": "wright-pat-fti",
+      "type": "intel",
+      "name": "Wright-Patterson FTD",
+      "context": "Foreign Technology Division (now NASIC). Historical center for recovered material analysis per Goldwater, Corso.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/National_Air_and_Space_Intelligence_Center.png",
+          "credit": "Wikimedia Commons (USAF / NASIC)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:National_Air_and_Space_Intelligence_Center.png"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NASIC_FME_2017_171020-F-FU926-071.jpg/1280px-NASIC_FME_2017_171020-F-FU926-071.jpg",
+          "credit": "Wikimedia Commons (USAF, 2017)",
+          "source_page": "https://commons.wikimedia.org/wiki/File:NASIC_FME_2017_171020-F-FU926-071.jpg"
+        }
+      ],
+      "notes": "Round 1 returned a C-17 ramp shot and the NASIC seal \u2014 neither shows the building. Pulled from Category:National_Air_and_Space_Intelligence_Center. The first candidate is the actual NASIC building shot (1000x961). The second is a 2017 USAF interior/event shot at NASIC."
+    },
+    {
+      "id": "livermore",
+      "type": "intel",
+      "name": "Lawrence Livermore NL",
+      "context": "LLNL. Nuclear weapons lab. Connected to Z Division (intelligence). AAWSAP subcontractor.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/IMAG3049-livermore-lab_cropped.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Lawrence_Livermore_National_Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "los-alamos-intel",
+      "type": "intel",
+      "name": "Los Alamos NL",
+      "context": "LANL. Manhattan Project origin. Active nuclear weapons + exotic materials research.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Los_Alamos_aerial_view.jpeg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "bigelow-lv",
+      "type": "intel",
+      "name": "Bigelow Aerospace",
+      "context": "Robert Bigelow's aerospace company, Las Vegas. Received AAWSAP contract. BAASS subcontractor for UAP investigation.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/20180706_Bigelow_Airlock_Johnson_Space_Center.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Bigelow_Aerospace"
+        }
+      ]
+    },
+    {
+      "id": "skinwalker",
+      "type": "intel",
+      "name": "Skinwalker Ranch",
+      "context": "Uintah Basin, UT. NIDS then BAASS/AAWSAP research site. Anomalous phenomena documented by Kelleher/Knapp.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Skinwalker_Ranch_%2810393732103%29.jpg/1024px-Skinwalker_Ranch_%2810393732103%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Skinwalker_Ranch"
+        }
+      ]
+    },
+    {
+      "id": "wilson-davis-loc",
+      "type": "intel",
+      "name": "EG&G / Nevada Test Site",
+      "context": "EG&G Special Projects. Wilson-Davis memo implicates test site contractor in reverse engineering program.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nevada_National_Security_Site_%28January_2026%29.svg/960px-Nevada_National_Security_Site_%28January_2026%29.svg.png",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Nevada_Test_Site"
+        }
+      ]
+    },
+    {
+      "id": "capitol-hill",
+      "type": "intel",
+      "name": "US Capitol",
+      "context": "Congressional oversight. AARO, Grusch testimony (July 2023), UAPDA legislation, Schumer-Rounds amendment.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1280px-Capitol_Building_Full_View.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/United_States_Capitol"
+        }
+      ]
+    },
+    {
+      "id": "raytheon-tucson",
+      "type": "intel",
+      "name": "Raytheon Missiles & Defense",
+      "context": "Raytheon (now RTX) missile systems, Tucson AZ. Named in UAP contractor allegations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Raytheon_headquarters.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Raytheon"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Deborah_Mullen_speaks_to_employees_of_Raytheon_Missile_Systems_in_Tucson%2C_Arizona%2C_2010.jpg/1280px-Deborah_Mullen_speaks_to_employees_of_Raytheon_Missile_Systems_in_Tucson%2C_Arizona%2C_2010.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Deborah_Mullen_speaks_to_employees_of_Raytheon_Missile_Systems_in_Tucson,_Arizona,_2010.jpg"
+        }
+      ]
+    },
+    {
+      "id": "northrop-palmdale",
+      "type": "intel",
+      "name": "Northrop Grumman",
+      "context": "Northrop Grumman Palmdale facility. B-2/B-21 programs. Named in legacy program allegations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Northrup_Grumman_Mission_Systems_headquarters_in_Linthicum.jpg/1280px-Northrup_Grumman_Mission_Systems_headquarters_in_Linthicum.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Northrop_Grumman"
+        }
+      ]
+    },
+    {
+      "id": "boeing-phantom",
+      "type": "intel",
+      "name": "Boeing Phantom Works",
+      "context": "Boeing classified programs division. St. Louis + satellite locations. Named by Grusch in contractor allegations.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Boeing_Virginia_Headquarters_%28cropped_and_brighter%29.jpg/1280px-Boeing_Virginia_Headquarters_%28cropped_and_brighter%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Boeing"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Phantom_Works_logo.jpg",
+          "credit": "Wikipedia / Wikimedia",
+          "source_page": "https://en.wikipedia.org/wiki/Phantom_Works"
+        }
+      ]
+    },
+    {
+      "id": "sci-apps",
+      "type": "intel",
+      "name": "SAIC/Leidos",
+      "context": "Science Applications International. Former employers of multiple UAP researchers. Government IT contractor.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Leidos_Headquarters_in_Reston_-_2013.JPG/1280px-Leidos_Headquarters_in_Reston_-_2013.JPG",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/Leidos"
+        }
+      ]
+    },
+    {
+      "id": "stanford-sri",
+      "type": "intel",
+      "name": "Stanford / SRI International",
+      "context": "SRI International (formerly Stanford Research Institute). Ran Stargate remote viewing program for CIA/DIA.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/SRI_International_HQ.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/SRI_International"
+        }
+      ]
+    },
+    {
+      "id": "aaro-hq",
+      "type": "intel",
+      "name": "AARO (Pentagon)",
+      "context": "All-domain Anomaly Resolution Office. Established 2022. Kirkpatrick then Phillips. Congressional reporting mandate.",
+      "candidates": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg/1024px-The_Pentagon%2C_Headquarters_of_the_US_Department_of_Defense_%28cropped2%29.jpg",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/The_Pentagon"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/All-domain_Anomaly_Resolution_Office_Logo.webp",
+          "credit": "Wikipedia / Wikimedia Commons",
+          "source_page": "https://en.wikipedia.org/wiki/All-domain_Anomaly_Resolution_Office"
+        }
+      ]
+    }
+  ],
+  "pass": 2
+}

@@ -16,8 +16,6 @@ const Controls = (() => {
     Traffic.setLabelsVisible(labelsVisible);
     Conflicts.setLabelsVisible(labelsVisible);
     if (typeof Playback !== 'undefined') Playback.setLabelsVisible(labelsVisible);
-    if (typeof Jamming !== 'undefined') Jamming.setLabelsVisible(labelsVisible);
-    if (typeof Airspace !== 'undefined') Airspace.setLabelsVisible(labelsVisible);
     if (typeof Antarctica !== 'undefined') Antarctica.setLabelsVisible(labelsVisible);
     if (typeof SatCorrelation !== 'undefined') SatCorrelation.setLabelsVisible(labelsVisible);
     const labelsEl = document.getElementById('labels-toggle');
@@ -45,8 +43,6 @@ const Controls = (() => {
     { id: 'traffic', name: 'Traffic Flow', color: 'var(--traffic-color)', key: 'F8', module: () => Traffic },
     { id: 'conflicts', name: 'Conflict Events', color: 'var(--conflict-color)', key: 'F9', module: () => Conflicts },
     { id: 'playback', name: 'Replay Data', color: 'var(--playback-color)', key: 'F10', module: () => Playback },
-    { id: 'jamming', name: 'GPS Jamming', color: 'var(--jamming-color)', key: 'F11', module: () => Jamming },
-    { id: 'airspace', name: 'Airspace / TFR', color: 'var(--airspace-color)', key: 'F12', module: () => Airspace },
     { id: 'antarctica', name: 'Antarctica', color: 'var(--antarctica-color)', key: 'A', module: () => Antarctica },
   ];
 
@@ -69,6 +65,7 @@ const Controls = (() => {
     buildBaseLayerSwitcher();
     buildModeButtons();
     buildLayerToggles();
+    buildTheaterFilters();
     buildPresetButtons();
     buildReplayPanel();
     setupKeyboard();
@@ -155,6 +152,69 @@ const Controls = (() => {
     if (typeof HashState !== 'undefined') HashState.update();
   }
 
+  function ensureLayerVisible(layerId) {
+    const layer = LAYERS.find(l => l.id === layerId);
+    if (!layer) return;
+    const mod = layer.module();
+    if (!mod.isVisible()) toggleLayer(layerId);
+  }
+
+  function activatePreset(preset) {
+    Globe.flyTo(preset.lon, preset.lat, preset.altitude);
+    if (preset.layer) ensureLayerVisible(preset.layer);
+  }
+
+  function buildTheaterFilters() {
+    const container = document.getElementById('theater-toggles');
+    if (!container) return;
+
+    const theaters = Conflicts.getTheaters();
+    theaters.forEach(theater => {
+      const div = document.createElement('div');
+      div.className = 'layer-toggle';
+      div.id = `theater-${theater.id}`;
+      div.setAttribute('role', 'checkbox');
+      div.setAttribute('aria-checked', 'true');
+      div.tabIndex = 0;
+      div.innerHTML = `
+        <div class="dot" style="background:${theater.color}"></div>
+        <span class="layer-label">${theater.name}</span>
+      `;
+      div.addEventListener('click', () => {
+        Conflicts.toggleTheater(theater.id);
+        const active = Conflicts.isTheaterActive(theater.id);
+        div.classList.toggle('off', !active);
+        div.setAttribute('aria-checked', String(active));
+        if (typeof HashState !== 'undefined') HashState.update();
+      });
+      div.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          div.click();
+        }
+      });
+      container.appendChild(div);
+    });
+
+    document.getElementById('theaters-all')?.addEventListener('click', () => {
+      Conflicts.setAllTheaters(true);
+      container.querySelectorAll('.layer-toggle').forEach(el => {
+        el.classList.remove('off');
+        el.setAttribute('aria-checked', 'true');
+      });
+      if (typeof HashState !== 'undefined') HashState.update();
+    });
+
+    document.getElementById('theaters-none')?.addEventListener('click', () => {
+      Conflicts.setAllTheaters(false);
+      container.querySelectorAll('.layer-toggle').forEach(el => {
+        el.classList.add('off');
+        el.setAttribute('aria-checked', 'false');
+      });
+      if (typeof HashState !== 'undefined') HashState.update();
+    });
+  }
+
   function buildPresetButtons() {
     const container = document.getElementById('preset-buttons');
     presets.forEach(preset => {
@@ -165,7 +225,7 @@ const Controls = (() => {
         <span>${preset.name}</span>
       `;
       btn.addEventListener('click', () => {
-        Globe.flyTo(preset.lon, preset.lat, preset.altitude);
+        activatePreset(preset);
       });
       container.appendChild(btn);
     });
@@ -213,9 +273,6 @@ const Controls = (() => {
     if (!manifest) return;
 
     // Load associated data for other layers
-    if (typeof Airspace !== 'undefined' && manifest.tfr_file) {
-      Airspace.loadReplayTFR(slug);
-    }
     if (typeof SatCorrelation !== 'undefined') {
       SatCorrelation.loadCorrelations(manifest);
     }
@@ -296,10 +353,10 @@ const Controls = (() => {
       // Camera presets
       const preset = presets.find(p => p.key.toLowerCase() === key.toLowerCase());
       if (preset && !e.ctrlKey && !e.metaKey && !e.altKey) {
-        Globe.flyTo(preset.lon, preset.lat, preset.altitude);
+        activatePreset(preset);
       }
 
-      // Layer toggles (F1-F12)
+      // Layer toggles (F1-F10)
       if (key.startsWith('F') && !e.ctrlKey) {
         const fNum = parseInt(key.slice(1));
         if (fNum >= 1 && fNum <= LAYERS.length) {
@@ -351,7 +408,15 @@ const Controls = (() => {
     const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
 
     handler.setInputAction((click) => {
-      const picked = viewer.scene.pick(click.position);
+      // Drill-pick a 24×24 region for forgiving click targets. Falls back to
+      // exact pick if drillPick is unavailable in this Cesium version.
+      let picked = null;
+      if (typeof viewer.scene.drillPick === 'function') {
+        const drilled = viewer.scene.drillPick(click.position, 5, 24, 24);
+        // Find first hit with a usable id (skip globe/imagery hits)
+        picked = drilled.find(p => Cesium.defined(p) && p.id) || null;
+      }
+      if (!picked) picked = viewer.scene.pick(click.position);
       if (!Cesium.defined(picked) || !picked.id) return;
 
       // Handle both Entity picks (properties bag) and Primitive picks (plain object id)
@@ -474,8 +539,6 @@ const Controls = (() => {
       traffic: Traffic.getCount(),
       conflicts: Conflicts.getCount(),
       playback: typeof Playback !== 'undefined' ? Playback.getCount() : 0,
-      jamming: typeof Jamming !== 'undefined' ? Jamming.getCount() : 0,
-      airspace: typeof Airspace !== 'undefined' ? Airspace.getCount() : 0,
       antarctica: typeof Antarctica !== 'undefined' ? Antarctica.getCount() : 0,
     };
 

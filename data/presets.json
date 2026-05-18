@@ -72,6 +72,42 @@
     "description": "Los Alamos, Sandia, White Sands, Dulce cluster"
   },
   {
+    "id": "mogul_area",
+    "name": "Mogul Area (Alamogordo + Foster Ranch)",
+    "lat": 33.34,
+    "lon": -105.70,
+    "altitude": 150000,
+    "key": "T",
+    "description": "Alamogordo AAF launch site + Foster Ranch debris field — 1947 Project Mogul Flight 4 geometry"
+  },
+  {
+    "id": "wright-pat",
+    "name": "Wright-Patterson AFB",
+    "lat": 39.78,
+    "lon": -84.05,
+    "altitude": 50000,
+    "key": "J",
+    "description": "Wright-Patterson AFB, Dayton OH — Project Sign HQ (1948), T-2 Aeronautical Intelligence Branch, Hangar 18 lore origin"
+  },
+  {
+    "id": "pentagon",
+    "name": "The Pentagon",
+    "lat": 38.871,
+    "lon": -77.056,
+    "altitude": 15000,
+    "key": "A",
+    "description": "Pentagon, Arlington VA — Robertson Panel convened here Jan 14–17, 1953"
+  },
+  {
+    "id": "northwestern",
+    "name": "Northwestern University",
+    "lat": 42.057,
+    "lon": -87.675,
+    "altitude": 30000,
+    "key": "L",
+    "description": "Northwestern University, Evanston IL — Hynek's astronomy dept; The UFO Experience published 1972; CUFOS founded 1973"
+  },
+  {
     "id": "iran-theater",
     "name": "Iran Theater",
     "lat": 32.5,

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""WorldView Sentinel — anomaly-triggered capture daemon.
+"""ARGUS Sentinel — anomaly-triggered capture daemon.
 
 Monitors global signal sources, detects anomalies via rolling Z-scores,
 and auto-triggers capture.py when significant events are happening.
@@ -240,7 +240,7 @@ async def run(dry_run=False):
     log(f"signals: {', '.join(SIGNALS.keys())}")
     log(f"thresholds: critical={Z_CRITICAL} elevated={Z_ELEVATED} cooldown={Z_COOLDOWN}")
 
-    headers = {"User-Agent": "WorldViewSentinel/1.0", "Accept": "application/json"}
+    headers = {"User-Agent": "ARGUSSentinel/1.0", "Accept": "application/json"}
     async with aiohttp.ClientSession(
         timeout=aiohttp.ClientTimeout(total=20), headers=headers
     ) as session:
@@ -342,7 +342,7 @@ async def run(dry_run=False):
 # ── Entry Point ──────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="WorldView Sentinel — anomaly-triggered capture")
+    parser = argparse.ArgumentParser(description="ARGUS Sentinel — anomaly-triggered capture")
     parser.add_argument("--dry-run", action="store_true",
                         help="Monitor signals but don't spawn captures")
     args = parser.parse_args()

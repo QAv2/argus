@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""WorldView Capture Daemon — records ADS-B + AIS to SQLite.
+"""ARGUS Capture Daemon — records ADS-B + AIS to SQLite.
 
 Usage:
   python capture/capture.py --db data/captures/event.db --duration 120
@@ -234,7 +234,7 @@ async def main(db_path, duration):
         await db.commit()
 
         async with aiohttp.ClientSession(
-            headers={"User-Agent": "WorldView-Capture/1.0"}
+            headers={"User-Agent": "ARGUS-Capture/1.0"}
         ) as session:
             tasks = [
                 asyncio.create_task(poll_adsb(session, db)),
@@ -257,7 +257,7 @@ async def main(db_path, duration):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="WorldView Capture Daemon")
+    parser = argparse.ArgumentParser(description="ARGUS Capture Daemon")
     parser.add_argument("--db", required=True, help="SQLite database path")
     parser.add_argument("--duration", type=int, default=0, help="Duration in minutes (0 = until Ctrl+C)")
     args = parser.parse_args()

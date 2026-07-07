@@ -105,7 +105,7 @@ exports.handler = async (event) => {
 
   try {
     const resp = await fetch(targetUrl, {
-      headers: { 'User-Agent': 'WorldView-Intel-Globe/1.0' },
+      headers: { 'User-Agent': 'ARGUS-Intel-Globe/1.0' },
       signal: controller.signal,
     });
     clearTimeout(timeoutId);

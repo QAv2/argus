@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""WorldView Pre-processor — crunches capture SQLite → playback JSON frames.
+"""ARGUS Pre-processor — crunches capture SQLite → playback JSON frames.
 
 Usage:
   python capture/preprocess.py data/captures/event.db --slug iran-strike-2026-03-01
@@ -205,7 +205,7 @@ def main(db_path, slug, title):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="WorldView Pre-processor")
+    parser = argparse.ArgumentParser(description="ARGUS Pre-processor")
     parser.add_argument("db", help="SQLite database path")
     parser.add_argument("--slug", required=True, help="Event slug (URL-safe)")
     parser.add_argument("--title", default="", help="Human-readable title")

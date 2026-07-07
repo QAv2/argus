@@ -1,5 +1,5 @@
 {
-  "name": "worldview-intel-globe",
+  "name": "argus-intel-globe",
   "version": "1.0.0",
   "description": "Palantir-style geospatial intelligence dashboard",
   "private": true,

@@ -99,10 +99,10 @@ function interpolateRoute(waypoints, maxSegLen) {
 }
 
 function main() {
-  console.log('Generating curated road data for WorldView traffic layer...\n');
+  console.log('Generating curated road data for ARGUS traffic layer...\n');
 
   const segments = [];
-  for (const [name, waypoints] of Object.entries(ROUTES)) {
+  for (const waypoints of Object.values(ROUTES)) {
     if (waypoints.length < 2) continue;
     // Interpolate to smooth out long segments (max ~1° between points)
     const interpolated = interpolateRoute(waypoints, 1.0);

@@ -1,4 +1,4 @@
-/* cinema.css — WorldView cinema mode overrides
+/* cinema.css — ARGUS cinema mode overrides
  * Only loaded when ?cinema=1. Hides all UI chrome, pins canvas to 1920x1080.
  * Normal users never fetch this file.
  */

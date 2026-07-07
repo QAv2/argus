@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Deploy WorldView Sentinel to a fresh Ubuntu/Debian VM.
+# Deploy ARGUS Sentinel to a fresh Ubuntu/Debian VM.
 # Usage: ssh into the VM, clone the repo, then run this script.
-#   git clone <repo-url> /opt/worldview
-#   cd /opt/worldview
+#   git clone <repo-url> /opt/argus
+#   cd /opt/argus
 #   sudo bash capture/deploy.sh
 set -euo pipefail
 
-echo "=== WorldView Sentinel — deploy ==="
+echo "=== ARGUS Sentinel — deploy ==="
 
 # System deps
 apt-get update -qq
@@ -19,15 +19,15 @@ if ! id sentinel &>/dev/null; then
 fi
 
 # Venv + deps
-python3 -m venv /opt/worldview/venv
-/opt/worldview/venv/bin/pip install --quiet aiohttp aiosqlite
+python3 -m venv /opt/argus/venv
+/opt/argus/venv/bin/pip install --quiet aiohttp aiosqlite
 
 # Data dirs
-mkdir -p /opt/worldview/data/captures /opt/worldview/data/replays
-chown -R sentinel:sentinel /opt/worldview/data
+mkdir -p /opt/argus/data/captures /opt/argus/data/replays
+chown -R sentinel:sentinel /opt/argus/data
 
 # Systemd
-cp /opt/worldview/capture/sentinel.service /etc/systemd/system/sentinel.service
+cp /opt/argus/capture/sentinel.service /etc/systemd/system/sentinel.service
 systemctl daemon-reload
 systemctl enable sentinel
 systemctl start sentinel

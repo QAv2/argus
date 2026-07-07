@@ -1,5 +1,5 @@
 /*
- * cinema.js — Deterministic URL-driven rendering surface for WorldView globe.
+ * cinema.js — Deterministic URL-driven rendering surface for ARGUS globe.
  * See ../CINEMA_MODE.md for the spec.
  *
  * Activates only when `?cinema=1` is set in the query string. Normal users
@@ -665,7 +665,7 @@
       setTimeout(onHashChange, 100);
     }
 
-    console.log('[cinema] WorldView cinema mode ready');
+    console.log('[cinema] ARGUS cinema mode ready');
   }
 
   // Public API for testing / Remotion driver

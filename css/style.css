@@ -1,4 +1,4 @@
-/* WorldView Intel Globe — Dark Console Aesthetic */
+/* ARGUS Intel Globe — Dark Console Aesthetic */
 
 :root {
   --bg: #0a0a0f;
@@ -9,8 +9,8 @@
   --text-primary: rgba(255, 255, 255, 0.92);
   --text-secondary: rgba(255, 255, 255, 0.75);
   --text-tertiary: rgba(255, 255, 255, 0.55);
-  --accent: #4a9eff;
-  --accent-dim: rgba(74, 158, 255, 0.15);
+  --accent: #f5b942;
+  --accent-dim: rgba(245, 185, 66, 0.15);
 
   --tier-documented: #34d399;
   --tier-credible: #fbbf24;

@@ -1,11 +1,11 @@
-# WorldView — Cinema Mode Spec
+# ARGUS — Cinema Mode Spec
 
 Cinema Mode is the deterministic, URL-driven rendering surface for programmatic
 video capture of the 3D globe. Cue grammar and readiness protocol are identical
 to the Intel Console spec so a single Remotion driver can talk to both surfaces.
 
 See `~/intel-console/CINEMA_MODE.md` for the shared conventions. This document
-covers only the WorldView-specific commands and the Cesium-specific invariants.
+covers only the ARGUS-specific commands and the Cesium-specific invariants.
 
 ## Activation
 
@@ -71,7 +71,7 @@ Example — establishing shot over Iran theater:
 #cinema/preset/<preset_name>/duration:SEC/hold:MS
 ```
 
-Presets already defined in WorldView (bound to keyboard shortcuts) — cinema
+Presets already defined in ARGUS (bound to keyboard shortcuts) — cinema
 mode reuses the same lookup table so names stay in sync with the landing card:
 
 | Name           | Description            |
@@ -210,7 +210,7 @@ window.parent.postMessage({
 }, '*');
 ```
 
-### Readiness checklist (WorldView-specific additions)
+### Readiness checklist (ARGUS-specific additions)
 
 1. `viewer.camera.flyTo()` `complete` callback fired (if a flyTo was issued)
 2. `viewer.scene.globe.tilesLoaded === true` — all terrain tiles in view have
@@ -234,7 +234,7 @@ high-res mid-shot. This is the single biggest Cesium recording artifact.
 - **Tile provider pinned.** Base layers that fetch from live CDNs (satellite
   imagery, OSM, CartoDB) must resolve to the same tile revision across
   runs. If the CDN versions tiles, cache the response on first fetch.
-- **FXAA always on.** Default WorldView toggles FXAA; cinema mode forces on.
+- **FXAA always on.** Default ARGUS toggles FXAA; cinema mode forces on.
 - **Resolution fixed.** Canvas is locked to the Remotion composition
   resolution (1920×1080) regardless of viewport. `viewer.resolutionScale = 1`
   explicit.
@@ -272,7 +272,7 @@ Keep: `#cesiumContainer`.
 
 ## Open Questions
 
-- **ADS-B / AIS feeds.** Current WorldView fetches live feeds. Cinema mode
+- **ADS-B / AIS feeds.** Current ARGUS fetches live feeds. Cinema mode
   needs a snapshot. Simplest path: cinema init saves the first-fetch response
   to `localStorage` and replays it. Verify this is acceptable or if we need a
   committed snapshot file.

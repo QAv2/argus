@@ -198,12 +198,12 @@ const Dossier = (() => {
   function showCuratedIntel(ent) {
     const tierColor = getTierColor(ent.tier);
     const typeColors = {
-      facility: '#4a9eff',
+      facility: '#f5b942',
       organization: '#c084fc',
       location: '#fbbf24',
       person: '#f87171',
     };
-    const typeColor = typeColors[ent.type] || '#4a9eff';
+    const typeColor = typeColors[ent.type] || '#f5b942';
 
     let html = `
       <div class="dossier-type-tag" style="background:${typeColor}22;color:${typeColor}">
@@ -740,7 +740,7 @@ const Dossier = (() => {
       inference: '#fb923c',
       speculative: '#f87171',
     };
-    return colors[tier] || '#4a9eff';
+    return colors[tier] || '#f5b942';
   }
 
   function esc(str) {

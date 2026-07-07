@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge an approvals.json export back into the WorldView source data files.
+"""Merge an approvals.json export back into the ARGUS source data files.
 
 Usage:
     python apply_approvals.py path/to/approvals.json

@@ -41,7 +41,7 @@ const App = (() => {
         SatCorrelation.init(viewer),
       ]);
       const elapsed = ((performance.now() - t0) / 1000).toFixed(1);
-      console.log(`[WorldView] Data layers loaded in ${elapsed}s`);
+      console.log(`[ARGUS] Data layers loaded in ${elapsed}s`);
 
       // Log any failures
       const layerNames = [
@@ -50,7 +50,7 @@ const App = (() => {
       ];
       results.forEach((r, i) => {
         if (r.status === 'rejected') {
-          console.warn(`[WorldView] ${layerNames[i]} failed:`, r.reason);
+          console.warn(`[ARGUS] ${layerNames[i]} failed:`, r.reason);
         }
       });
 
@@ -85,10 +85,10 @@ const App = (() => {
         }, 500);
       }, 800);
 
-      console.log('[WorldView] All systems online');
+      console.log('[ARGUS] All systems online');
 
     } catch (err) {
-      console.error('[WorldView] Boot failed:', err);
+      console.error('[ARGUS] Boot failed:', err);
       loadingStatus.textContent = 'ERROR: ' + err.message;
       loadingStatus.style.color = '#f87171';
     }
@@ -188,7 +188,7 @@ const App = (() => {
   function setProgress(msg, pct) {
     loadingStatus.textContent = msg;
     loadingBar.style.width = pct + '%';
-    console.log(`[WorldView] ${msg}`);
+    console.log(`[ARGUS] ${msg}`);
   }
 
   // Boot on DOM ready

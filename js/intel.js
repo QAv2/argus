@@ -113,7 +113,7 @@ const Intel = (() => {
 
     // Curated: blue family
     const curatedColors = {
-      facility: '#4a9eff',
+      facility: '#f5b942',
       organization: '#c084fc',
       location: '#fbbf24',
       person: '#f87171',
@@ -122,7 +122,7 @@ const Intel = (() => {
     intelData.forEach(ent => {
       const isConsole = ent.source === 'intel-console';
       const colorMap = isConsole ? CONSOLE_COLORS : curatedColors;
-      const color = colorMap[ent.type] || '#4a9eff';
+      const color = colorMap[ent.type] || '#f5b942';
 
       // Console entities: 5px base + centrality scaling (max 12px)
       let pixelSize = 7;

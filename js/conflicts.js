@@ -1,4 +1,4 @@
-// conflicts.js — F9 conflict events layer (8 global theaters)
+// conflicts.js — F9 conflict events layer (11 global theaters)
 
 const Conflicts = (() => {
   let entities = [];
@@ -28,6 +28,10 @@ const Conflicts = (() => {
     { id: 'myanmar', name: 'Myanmar', color: '#22c55e' },
     { id: 'korea', name: 'Korean Peninsula', color: '#06b6d4' },
     { id: 'arctic', name: 'Arctic', color: '#38bdf8' },
+    // Added 2026-08-28 sweep — new theaters
+    { id: 'india-pakistan', name: 'India–Pakistan', color: '#ec4899' },
+    { id: 'drc-great-lakes', name: 'DRC / Great Lakes', color: '#84cc16' },
+    { id: 'israel-palestine', name: 'Israel–Palestine', color: '#6366f1' },
   ];
 
   const activeTheaters = new Set(THEATERS.map(t => t.id));

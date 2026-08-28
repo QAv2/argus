@@ -1,0 +1,672 @@
+[
+  {
+    "id": "indonesia-north-sulawesi-flash-floods",
+    "name": "North Sulawesi Flash Floods",
+    "lat": 1.45,
+    "lon": 124.85,
+    "type": "flood",
+    "date": "2026-01-05T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "North Sulawesi, Indonesia",
+    "scale": "Multiple rivers overtopping, widespread inundation",
+    "casualties": "16 dead",
+    "displaced": null,
+    "cause": "Heavy rainfall and flash flooding",
+    "description": "Flash flooding struck North Sulawesi province on 5 January, killing at least 16 people. The floods were triggered by intense rainfall that overwhelmed river channels across the region.",
+    "sources": [
+      "Wikipedia 2026 in Indonesia — https://en.wikipedia.org/wiki/2026_in_Indonesia"
+    ]
+  },
+  {
+    "id": "philippines-mayon-eruption-2026",
+    "name": "Mayon Volcano Eruption",
+    "lat": 13.257,
+    "lon": 123.685,
+    "type": "volcano",
+    "date": "2026-01-06T00:00:00Z",
+    "end_date": "2026-05-05T00:00:00Z",
+    "status": "concluded",
+    "region": "Albay, Philippines",
+    "scale": "Alert Level 3; pyroclastic flows on 2 May",
+    "casualties": "None reported",
+    "displaced": "Thousands evacuated from danger zone",
+    "cause": "Magmatic eruption",
+    "description": "Mayon volcano entered a new eruption phase on 6 January 2026, prompting Alert Level 3 and a state of calamity in Tabaco, Albay. Pyroclastic flows on 2 May forced expanded evacuation zones across three cities and five municipalities. Activity subsided by early May.",
+    "sources": [
+      "Wikipedia 2026 in the Philippines — https://en.wikipedia.org/wiki/2026_in_the_Philippines"
+    ]
+  },
+  {
+    "id": "australia-victoria-bushfires",
+    "name": "Victoria Bushfires",
+    "lat": -36.82,
+    "lon": 145.56,
+    "type": "wildfire",
+    "date": "2026-01-07T00:00:00Z",
+    "end_date": "2026-01-31T00:00:00Z",
+    "status": "concluded",
+    "region": "Victoria, Australia",
+    "scale": "400,000+ ha burned nationally; 140,000 ha in Longwood Fire alone",
+    "casualties": "5 dead",
+    "displaced": "Thousands evacuated across multiple regions",
+    "cause": "Extreme heat and drought conditions",
+    "description": "A series of severe bushfires burned across southeastern Australia in January 2026, with Victoria worst hit. The Longwood Fire alone consumed over 140,000 hectares. Nationally, five people died and nearly 400 homes were destroyed across Victoria, NSW, Tasmania, and Western Australia.",
+    "sources": [
+      "Wikipedia 2025-26 Australian bushfire season — https://en.wikipedia.org/wiki/2025%E2%80%9326_Australian_bushfire_season"
+    ]
+  },
+  {
+    "id": "philippines-cebu-landfill-collapse",
+    "name": "Cebu Landfill Collapse",
+    "lat": 10.37,
+    "lon": 123.91,
+    "type": "industrial",
+    "date": "2026-01-08T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Cebu City, Philippines",
+    "scale": "Landfill collapse burying employee building",
+    "casualties": "36 dead",
+    "displaced": null,
+    "cause": "Structural failure of Binaliw landfill",
+    "description": "The Binaliw landfill in Cebu City collapsed on 8 January 2026, burying an employee building and killing 36 people. A state of calamity was declared on 13 January as rescue operations continued.",
+    "sources": [
+      "Wikipedia 2026 in the Philippines — https://en.wikipedia.org/wiki/2026_in_the_Philippines"
+    ]
+  },
+  {
+    "id": "afghanistan-nationwide-snowstorms",
+    "name": "Afghanistan Snowstorms",
+    "lat": 34.5553,
+    "lon": 69.2075,
+    "type": "coldwave",
+    "date": "2026-01-22T00:00:00Z",
+    "end_date": "2026-01-25T00:00:00Z",
+    "status": "concluded",
+    "region": "Nationwide, Afghanistan",
+    "scale": "3-day nationwide blizzard",
+    "casualties": "61 dead",
+    "displaced": null,
+    "cause": "Severe winter storm system",
+    "description": "Three days of nationwide snowstorms killed at least 61 people across Afghanistan by 24 January 2026. The storms collapsed roofs, blocked roads, and cut off remote communities from relief supplies.",
+    "sources": [
+      "Wikipedia 2026 in Afghanistan — https://en.wikipedia.org/wiki/2026_in_Afghanistan"
+    ]
+  },
+  {
+    "id": "pakistan-chitral-avalanche",
+    "name": "Chitral Avalanche",
+    "lat": 35.85,
+    "lon": 71.78,
+    "type": "avalanche",
+    "date": "2026-01-23T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Chitral, Khyber Pakhtunkhwa, Pakistan",
+    "scale": "Single large avalanche in mountainous terrain",
+    "casualties": "9 dead",
+    "displaced": null,
+    "cause": "Heavy snowfall and unstable snowpack",
+    "description": "An avalanche struck Chitral District in Khyber Pakhtunkhwa province on 23 January 2026, killing nine people during a period of heavy winter snowfall across northern Pakistan.",
+    "sources": [
+      "Wikipedia 2026 in Pakistan — https://en.wikipedia.org/wiki/2026_in_Pakistan"
+    ]
+  },
+  {
+    "id": "indonesia-west-bandung-landslide",
+    "name": "West Bandung Landslide",
+    "lat": -6.7939,
+    "lon": 107.5361,
+    "type": "landslide",
+    "date": "2026-01-24T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "West Bandung, West Java, Indonesia",
+    "scale": "Debris field >2 km long, mud up to 8 m deep",
+    "casualties": "80 dead, 20 missing",
+    "displaced": "400+ residents displaced",
+    "cause": "Heavy rainfall; land-use changes on Mount Burangrang",
+    "description": "A massive landslide struck Pasirlangu village in Cisarua District at 02:30 local time on 24 January 2026, burying homes and a Marine Corps training exercise under mud up to 8 metres deep. Eighty people were confirmed dead and 20 remain missing. Among the victims were 23 Indonesian Marines. Some 2,100 rescue personnel worked the site until operations concluded on 14 February.",
+    "sources": [
+      "Wikipedia 2026 West Bandung landslide — https://en.wikipedia.org/wiki/2026_West_Bandung_landslide"
+    ]
+  },
+  {
+    "id": "brazil-minas-gerais-floods",
+    "name": "Minas Gerais Flash Floods",
+    "lat": -21.7642,
+    "lon": -43.3503,
+    "type": "flood",
+    "date": "2026-02-23T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Juiz de Fora and Uba, Minas Gerais, Brazil",
+    "scale": "Major flash flooding across two cities",
+    "casualties": "64 dead, 5 missing",
+    "displaced": null,
+    "cause": "Intense rainfall and flash flooding",
+    "description": "Flash flooding struck the cities of Juiz de Fora and Uba in Minas Gerais state on 23 February 2026, killing at least 64 people with five others reported missing. The floods were the deadliest natural disaster in Brazil so far in 2026.",
+    "sources": [
+      "Wikipedia 2026 in Brazil — https://en.wikipedia.org/wiki/2026_in_Brazil"
+    ]
+  },
+  {
+    "id": "kenya-march-floods",
+    "name": "Kenya Deadly Floods",
+    "lat": -1.2921,
+    "lon": 36.8219,
+    "type": "flood",
+    "date": "2026-03-07T00:00:00Z",
+    "end_date": "2026-03-28T00:00:00Z",
+    "status": "concluded",
+    "region": "Nairobi and multiple regions, Kenya",
+    "scale": "Nationwide flooding over 3 weeks",
+    "casualties": "108 dead",
+    "displaced": null,
+    "cause": "Prolonged heavy rains",
+    "description": "Heavy rains triggered flooding across Kenya from early to late March 2026, killing at least 108 people. Nairobi was worst hit with 23 fatalities in the initial wave on 7 March. The death toll continued to climb through the month as rains persisted nationwide.",
+    "sources": [
+      "Wikipedia 2026 in Kenya — https://en.wikipedia.org/wiki/2026_in_Kenya"
+    ]
+  },
+  {
+    "id": "cyclone-maila-png-solomon",
+    "name": "Cyclone Maila",
+    "lat": -6.5,
+    "lon": 155.5,
+    "type": "cyclone",
+    "date": "2026-04-01T00:00:00Z",
+    "end_date": "2026-04-12T00:00:00Z",
+    "status": "concluded",
+    "region": "Papua New Guinea and Solomon Islands",
+    "scale": "Cat 5 (AU) / Cat 4 (SS); 205 km/h sustained, 929 hPa",
+    "casualties": "25+ dead, 4 missing",
+    "displaced": "Thousands across PNG and Solomon Islands",
+    "cause": "Tropical cyclogenesis in the Coral Sea",
+    "description": "Cyclone Maila was the strongest tropical cyclone in Port Moresby's area of responsibility on record. It formed on 1 April and peaked at Category 5 with 205 km/h sustained winds before tracking across the Solomon Sea. At least 25 people died, primarily from landslides in East New Britain and Bougainville in Papua New Guinea.",
+    "sources": [
+      "Wikipedia Cyclone Maila — https://en.wikipedia.org/wiki/Cyclone_Maila"
+    ]
+  },
+  {
+    "id": "super-typhoon-sinlaku",
+    "name": "Super Typhoon Sinlaku",
+    "lat": 15.185,
+    "lon": 145.735,
+    "type": "cyclone",
+    "date": "2026-04-08T00:00:00Z",
+    "end_date": "2026-04-22T00:00:00Z",
+    "status": "concluded",
+    "region": "Northern Mariana Islands and Guam",
+    "scale": "Cat 5 equiv; 215 km/h (JMA), 295 km/h (JTWC), 890 hPa",
+    "casualties": "17 dead, 1 missing",
+    "displaced": "43,000 residents without power",
+    "cause": "Tropical cyclogenesis west of Chuuk",
+    "description": "Super Typhoon Sinlaku made landfall on Saipan on 14 April with sustained winds of 150 mph and over 20 inches of rainfall, collapsing the entire electrical grid on Saipan and Tinian. Total damages exceeded $1.55 billion, with the Northern Mariana Islands sustaining over $1 billion alone. Seventeen people died, including crew from an overturned cargo ship.",
+    "sources": [
+      "Wikipedia Typhoon Sinlaku (2026) — https://en.wikipedia.org/wiki/Typhoon_Sinlaku_(2026)"
+    ]
+  },
+  {
+    "id": "us-april-tornado-outbreak",
+    "name": "US April Tornado Outbreak",
+    "lat": 36.3955,
+    "lon": -97.8784,
+    "type": "tornado",
+    "date": "2026-04-23T00:00:00Z",
+    "end_date": "2026-04-28T00:00:00Z",
+    "status": "concluded",
+    "region": "Central US (Oklahoma, Kansas, Wisconsin)",
+    "scale": "108 tornadoes confirmed; peak EF4 at Enid, Oklahoma",
+    "casualties": "1 dead",
+    "displaced": "Hundreds from destroyed homes",
+    "cause": "Intense supercell thunderstorm outbreak",
+    "description": "A major tornado outbreak from 23 to 28 April 2026 produced 108 confirmed tornadoes across the central United States. An EF4 tornado struck near Enid, Oklahoma on 23 April, destroying or flattening 40 homes and forcing the closure of Vance Air Force Base.",
+    "sources": [
+      "Wikipedia Tornadoes of 2026 — https://en.wikipedia.org/wiki/Tornadoes_of_2026"
+    ]
+  },
+  {
+    "id": "china-hunan-fireworks-explosion",
+    "name": "Hunan Fireworks Factory Explosion",
+    "lat": 27.831,
+    "lon": 111.65,
+    "type": "industrial",
+    "date": "2026-05-04T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Hunan, China",
+    "scale": "Factory-scale explosion",
+    "casualties": "37 dead",
+    "displaced": null,
+    "cause": "Fireworks factory explosion",
+    "description": "A fireworks factory explosion in Hunan province on 4 May 2026 killed at least 37 people. The blast was part of a pattern of fireworks-related industrial accidents in China during the first half of 2026.",
+    "sources": [
+      "Wikipedia 2026 in China — https://en.wikipedia.org/wiki/2026_in_China"
+    ]
+  },
+  {
+    "id": "india-uttar-pradesh-rainstorms",
+    "name": "Uttar Pradesh Deadly Rainstorms",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "type": "flood",
+    "date": "2026-05-13T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Uttar Pradesh, India",
+    "scale": "Statewide severe rainstorms",
+    "casualties": "96 dead",
+    "displaced": null,
+    "cause": "Pre-monsoon severe thunderstorms and heavy rain",
+    "description": "Severe rainstorms swept across Uttar Pradesh on 13 May 2026, killing at least 96 people. Deaths resulted from building collapses, lightning strikes, and flash flooding triggered by the intense downpours.",
+    "sources": [
+      "Wikipedia 2026 in India — https://en.wikipedia.org/wiki/2026_in_India"
+    ]
+  },
+  {
+    "id": "china-shanxi-coal-mine-explosion",
+    "name": "Shanxi Coal Mine Explosion",
+    "lat": 37.87,
+    "lon": 112.55,
+    "type": "industrial",
+    "date": "2026-05-22T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Shanxi, China",
+    "scale": "Underground coal mine gas explosion",
+    "casualties": "82 dead",
+    "displaced": null,
+    "cause": "Coal mine gas explosion",
+    "description": "A gas explosion in a coal mine in Shanxi province on 22 May 2026 killed 82 miners, making it one of China's deadliest mining disasters in recent years. The blast occurred underground and trapped workers in the mine.",
+    "sources": [
+      "Wikipedia 2026 in China — https://en.wikipedia.org/wiki/2026_in_China"
+    ]
+  },
+  {
+    "id": "european-heat-waves-2026",
+    "name": "2026 European Heat Waves",
+    "lat": 37.5227,
+    "lon": 15.088,
+    "type": "heatwave",
+    "date": "2026-05-24T00:00:00Z",
+    "end_date": "2026-08-15T00:00:00Z",
+    "status": "concluded",
+    "region": "Europe-wide (worst: Germany, France, Spain, Italy)",
+    "scale": "46.5 C peak (Noto, Sicily); multiple national records broken",
+    "casualties": "36,210 dead (Germany 14,000; France 7,300; Spain 4,458)",
+    "displaced": null,
+    "cause": "Persistent blocking high-pressure systems",
+    "description": "Two successive heat waves struck Europe from late May through August 2026, killing an estimated 36,210 people. Germany was worst hit with 14,000 deaths, followed by France (7,300) and Spain (4,458). Noto, Sicily recorded 46.5 C on 22 July. Nuclear power plants shut down due to low river levels, roads melted, and widespread wildfires broke out. Total economic damage reached EUR 180 billion.",
+    "sources": [
+      "Wikipedia 2026 European heat waves — https://en.wikipedia.org/wiki/2026_European_heat_waves"
+    ]
+  },
+  {
+    "id": "canada-wildfire-season-2026",
+    "name": "Canada 2026 Wildfire Season",
+    "lat": 50.68,
+    "lon": -88.25,
+    "type": "wildfire",
+    "date": "2026-05-25T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Ontario, British Columbia, Saskatchewan, Canada",
+    "scale": "4,082,237 ha burned (10M+ acres); 4,654 fires",
+    "casualties": "5 dead (4 firefighters, 1 civilian)",
+    "displaced": "24,000+ evacuated",
+    "cause": "Lightning; extreme heat and drought",
+    "description": "Canada's 2026 wildfire season burned over 4 million hectares by mid-August across Ontario, British Columbia, and Saskatchewan. The Thunder Bay 36 fire in Ontario alone consumed 318,813 hectares, one of the province's largest fires on record. British Columbia declared a province-wide state of emergency after the Bald Range fire forced 12,000 evacuations near Summerland.",
+    "sources": [
+      "Wikipedia 2026 Canadian wildfires — https://en.wikipedia.org/wiki/2026_Canadian_wildfires"
+    ]
+  },
+  {
+    "id": "philippines-mindanao-earthquake",
+    "name": "Mindanao M7.8 Earthquake",
+    "lat": 5.9,
+    "lon": 125.2,
+    "type": "earthquake",
+    "date": "2026-06-07T23:37:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Sarangani, Mindanao, Philippines",
+    "scale": "M7.8; thrust faulting; tsunami run-up 2.5 m",
+    "casualties": "107 dead, 1,300+ injured, 7 missing",
+    "displaced": "138,500+ homes damaged or destroyed",
+    "cause": "Thrust faulting along the Cotabato Trench",
+    "description": "A magnitude 7.8 earthquake struck 25 km southwest of Kablalan, Sarangani at 07:37 local time on 8 June 2026, killing 107 people and injuring over 1,300. A tsunami with 2.5 m run-up reached Lebak, and warnings were issued for four countries. Coastal uplift of up to 2 metres was observed along 100 km of coastline. Economic losses reached $1.44 billion.",
+    "sources": [
+      "Wikipedia 2026 Mindanao earthquake — https://en.wikipedia.org/wiki/2026_Philippines_earthquake"
+    ]
+  },
+  {
+    "id": "ts-arthur-texas-gulf-floods",
+    "name": "TS Arthur Texas/Gulf Floods",
+    "lat": 29.2993,
+    "lon": -94.7977,
+    "type": "cyclone",
+    "date": "2026-06-17T00:00:00Z",
+    "end_date": "2026-06-18T00:00:00Z",
+    "status": "concluded",
+    "region": "Gulf Coast, Texas and Louisiana, USA",
+    "scale": "45 mph sustained; 1-in-1,000-year rainfall; 29.06 in state record (LA)",
+    "casualties": "4 dead",
+    "displaced": "Widespread evacuations across Gulf Coast",
+    "cause": "Tropical wave merging with remnant moisture",
+    "description": "Tropical Storm Arthur made landfall near Galveston, Texas on 17 June 2026 and, despite weak winds, produced catastrophic 1-in-1,000-year rainfall. Louisiana recorded a new state rainfall record of 29.06 inches at Cottonport. The storm spawned 14 confirmed tornadoes across Louisiana and Mississippi. Total damages exceeded $1 billion.",
+    "sources": [
+      "Wikipedia Tropical Storm Arthur (2026) — https://en.wikipedia.org/wiki/Tropical_Storm_Arthur_(2026)"
+    ]
+  },
+  {
+    "id": "venezuela-double-earthquake",
+    "name": "Venezuela M7.5 Double Earthquake",
+    "lat": 10.605,
+    "lon": -67.217,
+    "type": "earthquake",
+    "date": "2026-06-24T22:04:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "La Guaira, Caracas, and central Venezuela",
+    "scale": "M7.2 foreshock + M7.5 mainshock 30 s apart; depth 10 km",
+    "casualties": "6,509 dead, 226,696 injured, 18,100-50,000 missing",
+    "displaced": "Hundreds of thousands; 590,000 buildings damaged",
+    "cause": "Shallow strike-slip faulting",
+    "description": "Two powerful earthquakes struck Venezuela 30 seconds apart on 24 June 2026: a M7.2 foreshock near Yumare followed by the M7.5 mainshock off the coast of La Guaira. La Guaira saw 80% of buildings collapse. At least 6,509 people died, over 226,000 were injured, and 18,000-50,000 remain missing. Direct economic losses reached $37 billion, making it one of the deadliest earthquakes in the Western Hemisphere this century.",
+    "sources": [
+      "Wikipedia 2026 Venezuela earthquake — https://en.wikipedia.org/wiki/2026_Venezuela_earthquake"
+    ]
+  },
+  {
+    "id": "north-american-heat-wave-2026",
+    "name": "2026 North American Heat Wave",
+    "lat": 39.3643,
+    "lon": -74.4229,
+    "type": "heatwave",
+    "date": "2026-06-28T00:00:00Z",
+    "end_date": "2026-08-05T00:00:00Z",
+    "status": "concluded",
+    "region": "Eastern and Western North America",
+    "scale": "46 C (115 F) in Miles City, MT; 41 C in Atlantic City, NJ; hottest July in US history",
+    "casualties": "~70 dead",
+    "displaced": null,
+    "cause": "Persistent heat dome; multiple waves",
+    "description": "A series of heat domes produced the hottest July in American history, beginning on 28 June 2026. The eastern wave killed at least 44 people during 1-4 July, with Atlantic City reaching 41 C. A second western wave pushed Miles City, Montana to 46 C. Over 1.3 million power outages were reported across the continent.",
+    "sources": [
+      "Wikipedia 2026 North American heat wave — https://en.wikipedia.org/wiki/2026_North_American_heat_wave"
+    ]
+  },
+  {
+    "id": "greece-wildfires-2026",
+    "name": "Greece Wildfires",
+    "lat": 37.9838,
+    "lon": 23.7275,
+    "type": "wildfire",
+    "date": "2026-06-30T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Attica, Crete, Thessaloniki, Salamis, Greece",
+    "scale": "Dozens of fires nationwide; helicopter collision near Athens",
+    "casualties": "8+ dead (4 civilians, 3+ firefighters, 1 helicopter collision)",
+    "displaced": "Thousands evacuated across multiple regions",
+    "cause": "2026 European heat waves; extreme drought",
+    "description": "Multiple wildfires swept across Greece from late June through August 2026 during the broader European heat wave. At least 8 people died including two in a mid-air helicopter collision near Athens on 2 August. Thousands were evacuated from Crete, Thessaloniki, and the Attica region. Extensive agricultural and residential destruction was reported.",
+    "sources": [
+      "Wikipedia 2026 Greece wildfires — https://en.wikipedia.org/wiki/2026_Greece_wildfires"
+    ]
+  },
+  {
+    "id": "ts-maysak-china-vietnam-floods",
+    "name": "TS Maysak / Guangxi Floods",
+    "lat": 22.817,
+    "lon": 108.3665,
+    "type": "cyclone",
+    "date": "2026-07-01T00:00:00Z",
+    "end_date": "2026-07-08T00:00:00Z",
+    "status": "concluded",
+    "region": "Guangxi, China; Hainan; Vietnam",
+    "scale": "95 km/h sustained; dam breach in Nanning; EF3 tornado in Ezhou",
+    "casualties": "171 dead (159 in Guangxi), 10 missing, 331 injured",
+    "displaced": "1.65 million affected in Guangxi; 3,600 evacuated in Vietnam",
+    "cause": "Tropical storm triggering catastrophic inland flooding",
+    "description": "Tropical Storm Maysak made landfall in Hainan on 3 July and Vietnam on 4 July, but its deadliest impact was catastrophic inland flooding in Guangxi province that killed 159 people, including 26 who died in a dam breach near Nanning. The system also spawned an EF3 tornado in Ezhou-Huanggang that killed 12 and injured 331. Total damages exceeded $3.35 billion.",
+    "sources": [
+      "Wikipedia Tropical Storm Maysak (2026) — https://en.wikipedia.org/wiki/Tropical_Storm_Maysak_(2026)"
+    ]
+  },
+  {
+    "id": "china-gansu-tanchang-landslide",
+    "name": "Gansu Tanchang Landslide",
+    "lat": 33.65,
+    "lon": 104.45,
+    "type": "landslide",
+    "date": "2026-07-07T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Tanchang County, Gansu, China",
+    "scale": "Landslide burying forestry crew",
+    "casualties": "21 dead",
+    "displaced": null,
+    "cause": "Heavy rainfall in mountainous terrain",
+    "description": "A landslide in Tanchang County, Gansu province on 7 July 2026 killed 21 forestry workers. The slide was triggered by heavy rainfall in the mountainous terrain of western China.",
+    "sources": [
+      "Wikipedia 2026 in China — https://en.wikipedia.org/wiki/2026_in_China"
+    ]
+  },
+  {
+    "id": "china-quanzhou-factory-fire",
+    "name": "Quanzhou Factory Fire",
+    "lat": 24.8741,
+    "lon": 118.6757,
+    "type": "industrial",
+    "date": "2026-07-09T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Quanzhou, Fujian, China",
+    "scale": "Large shoe factory fire",
+    "casualties": "28 dead",
+    "displaced": null,
+    "cause": "Factory fire (cause under investigation)",
+    "description": "A fire at a shoe factory in Quanzhou, Fujian province on 9 July 2026 killed 28 workers. The blaze was one of several deadly industrial fires in China during the year.",
+    "sources": [
+      "Wikipedia 2026 in China — https://en.wikipedia.org/wiki/2026_in_China"
+    ]
+  },
+  {
+    "id": "bangladesh-monsoon-floods",
+    "name": "Bangladesh Monsoon Floods",
+    "lat": 23.685,
+    "lon": 90.3563,
+    "type": "flood",
+    "date": "2026-07-13T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Nationwide, Bangladesh",
+    "scale": "Nationwide flooding from prolonged monsoon rains",
+    "casualties": "51 dead",
+    "displaced": null,
+    "cause": "Heavy monsoon rains",
+    "description": "Days of heavy monsoon rainfall caused nationwide flooding across Bangladesh, killing at least 51 people by 13 July 2026. Multiple regions experienced river overflow and inundation of low-lying areas.",
+    "sources": [
+      "Wikipedia 2026 in Bangladesh — https://en.wikipedia.org/wiki/2026_in_Bangladesh"
+    ]
+  },
+  {
+    "id": "china-chongqing-pengshui-landslide",
+    "name": "Chongqing Pengshui Landslide",
+    "lat": 29.289,
+    "lon": 108.166,
+    "type": "landslide",
+    "date": "2026-07-17T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Pengshui County, Chongqing, China",
+    "scale": "Large landslide burying settlement",
+    "casualties": "61 dead and missing",
+    "displaced": null,
+    "cause": "Heavy rainfall triggering slope failure",
+    "description": "A major landslide in Pengshui County, Chongqing municipality on 17 July 2026 left 61 people dead or missing. The slide was triggered by torrential rain that destabilised slopes above the settlement.",
+    "sources": [
+      "Wikipedia 2026 in China — https://en.wikipedia.org/wiki/2026_in_China"
+    ]
+  },
+  {
+    "id": "india-assam-floods-2026",
+    "name": "2026 Assam Floods",
+    "lat": 26.984,
+    "lon": 94.6376,
+    "type": "flood",
+    "date": "2026-07-19T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Upper Assam (Sivasagar, Charaideo, Jorhat, Golaghat), India",
+    "scale": "4 rivers above danger level; 481 villages submerged; 10,748 ha cropland flooded",
+    "casualties": "100+ dead",
+    "displaced": "700,000+ displaced; 30,000 in relief camps",
+    "cause": "Cloudburst in Nagaland hills; deforestation and mining",
+    "description": "Catastrophic flooding struck upper Assam from 19 July onwards after a cloudburst in neighbouring Nagaland. The Dikhow, Disang, Janji, and Dhansiri rivers all crossed danger levels, submerging 481 villages and displacing over 700,000 people. More than 100 people died and 10,748 hectares of cropland were destroyed. The floods remained ongoing as of mid-August 2026.",
+    "sources": [
+      "Wikipedia 2026 Assam floods — https://en.wikipedia.org/wiki/2026_Assam_floods"
+    ]
+  },
+  {
+    "id": "india-sikkim-tunnel-collapse",
+    "name": "Sikkim Tunnel Collapse",
+    "lat": 27.3,
+    "lon": 88.6,
+    "type": "industrial",
+    "date": "2026-07-20T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Sikkim, India",
+    "scale": "Under-construction tunnel methane explosion and collapse",
+    "casualties": "25 dead",
+    "displaced": null,
+    "cause": "Methane gas explosion in under-construction tunnel",
+    "description": "A methane gas explosion caused the collapse of an under-construction tunnel in Sikkim on 20 July 2026, killing 25 workers and injuring 13 others. Rescue operations recovered the bodies over several days.",
+    "sources": [
+      "Wikipedia 2026 in India — https://en.wikipedia.org/wiki/2026_in_India"
+    ]
+  },
+  {
+    "id": "japan-kumamoto-earthquake-2026",
+    "name": "Kumamoto M6.8 Earthquake",
+    "lat": 32.6819,
+    "lon": 130.722,
+    "type": "earthquake",
+    "date": "2026-07-28T07:27:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Kumamoto, Kyushu, Japan",
+    "scale": "M6.8 (Mw) / M7.1 (JMA); depth 16 km; surface ruptures ~10 km",
+    "casualties": "38 dead, 368+ injured",
+    "displaced": "~10,000 displaced",
+    "cause": "Rupture along the Hinagu Fault",
+    "description": "A magnitude 6.8 earthquake struck 5 km east of Uto, Kumamoto Prefecture at 16:27 local time on 28 July 2026, killing 38 people and injuring over 368. Nine people died when a paper factory chimney collapsed, and the Aeon Mall Kumamoto partially collapsed followed by an LPG explosion. Kumamoto Castle sustained further damage. Total losses reached $738 million.",
+    "sources": [
+      "Wikipedia 2026 Kumamoto earthquake — https://en.wikipedia.org/wiki/2026_Kumamoto_earthquake"
+    ]
+  },
+  {
+    "id": "pakistan-broad-peak-avalanche",
+    "name": "Broad Peak Avalanche",
+    "lat": 35.812,
+    "lon": 76.565,
+    "type": "avalanche",
+    "date": "2026-07-30T00:00:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Broad Peak, Gilgit-Baltistan, Pakistan",
+    "scale": "High-altitude avalanche on 8,051 m peak",
+    "casualties": "4 dead, 6 missing",
+    "displaced": null,
+    "cause": "Avalanche on Broad Peak (8,051 m)",
+    "description": "An avalanche on Broad Peak in Gilgit-Baltistan on 30 July 2026 killed four climbers and left six others missing on the world's twelfth-highest mountain.",
+    "sources": [
+      "Wikipedia 2026 in Pakistan — https://en.wikipedia.org/wiki/2026_in_Pakistan"
+    ]
+  },
+  {
+    "id": "california-bug-fire",
+    "name": "California Bug Fire",
+    "lat": 39.8,
+    "lon": -120.0,
+    "type": "wildfire",
+    "date": "2026-08-08T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Lassen and Sierra Counties, California, USA",
+    "scale": "93,733 acres (37,930 ha); threatening Reno area",
+    "casualties": "None reported",
+    "displaced": "Evacuations near Cold Springs and Reno Stead Airport",
+    "cause": "Extreme heat; 18% of average snowpack",
+    "description": "The Bug Fire ignited on 8 August 2026 in Lassen and Sierra counties and grew to become California's largest fire of the year at 93,733 acres, crossing into Washoe County, Nevada near the Reno area. The fire prompted evacuations near Cold Springs and the Reno Stead Airport. The state's extreme heat and snowpack at just 18% of average fuelled an aggressive fire season.",
+    "sources": [
+      "Wikipedia 2026 California wildfires — https://en.wikipedia.org/wiki/2026_California_wildfires"
+    ]
+  },
+  {
+    "id": "colombia-choco-earthquake",
+    "name": "Colombia M7.4 Earthquake",
+    "lat": 4.8439,
+    "lon": -76.2419,
+    "type": "earthquake",
+    "date": "2026-08-10T12:34:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Choco, western Colombia",
+    "scale": "M7.4; depth 110 km; felt in Ecuador and Panama",
+    "casualties": "331 dead, 4,613 injured, 240 missing",
+    "displaced": "361,300+ affected; 31,540 homes destroyed",
+    "cause": "Strike-slip faulting within subducting Nazca plate",
+    "description": "A magnitude 7.4 earthquake struck 20 km from San Jose del Palmar in Choco Department at 07:34 local time on 10 August 2026. The tremor was felt across western and central Colombia and into Ecuador and Panama. At least 331 people died, over 4,600 were injured, and 31,540 homes were destroyed. The Colombian government declared a national emergency with estimated economic losses of $9.6 billion.",
+    "sources": [
+      "Wikipedia 2026 Colombia earthquake — https://en.wikipedia.org/wiki/2026_Colombia_earthquake"
+    ]
+  },
+  {
+    "id": "indonesia-flores-earthquake",
+    "name": "Flores M7.7 Earthquake",
+    "lat": -8.31,
+    "lon": 121.3519,
+    "type": "earthquake",
+    "date": "2026-08-14T21:58:00Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Flores, East Nusa Tenggara, Indonesia",
+    "scale": "M7.7; depth 10 km; tsunami 1.61 m at Reok",
+    "casualties": "111 dead, 1,678 injured",
+    "displaced": "185,000+ displaced",
+    "cause": "Shallow thrust faulting off Flores's northern coast",
+    "description": "A magnitude 7.7 earthquake struck 68 km north-northwest of Ende off Flores's coast at 05:58 local time on 15 August 2026. It killed 111 people, injured 1,678, and displaced over 185,000. A tsunami warning was issued within 2 minutes, and a 1.61 m wave reached Reok. Nearly 78,000 homes and 1,378 schools were damaged. It was Indonesia's deadliest earthquake since 2022.",
+    "sources": [
+      "Wikipedia 2026 Flores earthquake — https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"
+    ]
+  },
+  {
+    "id": "nepal-tibet-glacial-collapse",
+    "name": "Nepal-Tibet Glacial Collapse",
+    "lat": 28.27,
+    "lon": 85.39,
+    "type": "glacial",
+    "date": "2026-08-26T02:55:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Rasuwa District, Nepal / Gyirong, Tibet, China",
+    "scale": "Hundreds of millions of tonnes of rock and ice from ~5,200 m; flood wave 40-50 m high at ~70 km/h; seismic signal equivalent to M5.2",
+    "casualties": "359 dead, 1,300+ missing (including 476+ foreign tourists)",
+    "displaced": "Tens of thousands; 19 bridges, ~40 km road destroyed",
+    "cause": "Glacier tongue sheared off when underlying rock failed; accelerated by permafrost thaw and climate-driven glacial retreat",
+    "description": "On 26 August 2026 at 02:55 UTC, the lower tongue of a glacier near Langtang Lirung (7,227 m) sheared off at approximately 5,200 m elevation when the underlying rock failed, sending hundreds of millions of tonnes of ice and rock plunging 2,200 m into the Lhende Khola valley on the Tibet side of the border. The mass dammed the river; when the blockage breached, a wall of water estimated at 40-50 m high travelling at roughly 70 km/h tore through settlements in Nepal's Rasuwa district, destroying Timure and much of Syapru Besi, sweeping away 19 bridges, hydropower plants, and approximately 40 km of road. At least 359 people were killed and more than 1,300 remain missing, including over 476 foreign tourists. Scientists noted the seismic signal registered M5.2 on USGS instruments; a second landslide occurred three hours later, and researchers warned that permafrost thaw and accelerating glacial melt -- Nepal has lost a third of its ice volume in three decades -- make such collapses increasingly likely.",
+    "sources": [
+      "ABC News — https://abcnews.com/International/deadly-nepal-flood-caused-enormous-landslide-glacier-tumble/story?id=135984405",
+      "Al Jazeera — https://www.aljazeera.com/features/2026/8/27/nepal-tibet-floods-what-is-a-glacial-collapse-how-common-is-it",
+      "Al Jazeera (satellite images) — https://www.aljazeera.com/news/2026/8/27/satellite-images-show-destruction-from-nepal-tibet-floods",
+      "Scientific American — https://www.scientificamerican.com/article/why-glacial-collapse-likely-caused-the-nepal-disaster-and-why-climate-change-will-make-these-events-more-likely/",
+      "EarthSky — https://earthsky.org/earth/nepal-flash-flood-glacier-collapse-landslide-aug-26-2026/",
+      "CNN — https://www.cnn.com/2026/08/28/world/video/glacier-collapse-langtang-lirung-peak-nepal-china-flood-hnk-vrtc-digvid"
+    ]
+  }
+]

@@ -2248,5 +2248,469 @@
       "NPR"
     ],
     "theater": "iran"
+  },
+  {
+    "id": "trump-address-nation-apr1",
+    "name": "Trump Addresses Nation: Iran War 'Nearing Completion'",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-04-01T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US"
+    ],
+    "target": "US public — war update",
+    "casualties": "N/A",
+    "description": "President Trump addressed the nation claiming Iran is no longer a threat and the war is 'nearing completion.' He promised to hit Iran 'extremely hard' over the next two to three weeks. Iran continued launching missiles and drones daily despite the claims. Gas prices had surged over 30% since the war began.",
+    "sources": [
+      "NBC News — https://www.nbcnews.com/world/middle-east/live-blog/live-updates-iran-war-trump-address-nation-rcna266149",
+      "CNBC — https://www.cnbc.com/2026/04/01/trump-address-nation-iran-live-updates.html"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "karaj-b1-bridge-strike-apr2",
+    "name": "US Strikes Karaj B1 Bridge — 8 Killed, 95 Wounded",
+    "lat": 35.8325,
+    "lon": 50.9915,
+    "type": "airstrike",
+    "date": "2026-04-02T00:00:00Z",
+    "operation": "Epic Fury",
+    "parties": [
+      "US Military"
+    ],
+    "target": "Karaj B1 bridge — civilian infrastructure",
+    "casualties": "8 killed, 95+ wounded",
+    "description": "Two US missiles struck the unfinished B1 bridge in Karaj, described as the tallest overpass in the Middle East, causing partial collapse. The second strike hit after first responders arrived. Victims were civilians celebrating Sizdah Be-dar in the area below the bridge.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/economy/2026/4/6/in-maps-and-photos-five-iranian-civilian-bridges-at-risk-of-us-strikes",
+      "IranWire — https://iranwire.com/en/news/150737-middle-easts-largest-bridge-in-karaj-destroyed-by-airstrikes/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "pakistan-ceasefire-apr8",
+    "name": "US-Iran Two-Week Ceasefire — Pakistan Mediation",
+    "lat": 33.6844,
+    "lon": 73.0479,
+    "type": "political",
+    "date": "2026-04-08T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "Iran",
+      "Pakistan"
+    ],
+    "target": "Ceasefire agreement — all fronts",
+    "casualties": "N/A",
+    "description": "The US and Iran agreed to a two-week ceasefire brokered by Pakistan after roughly six weeks of combat. Pakistan PM Sharif said the ceasefire covered 'everywhere' including Lebanon, though Israel's Netanyahu said it would not extend to its operations against Hezbollah. Iran had rejected a 45-day framework, proposing its own 10-point plan instead.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next",
+      "Bloomberg — https://www.bloomberg.com/news/articles/2026-04-08/pakistan-s-mediation-of-us-iran-ceasefire-shows-central-role-in-global-politics"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-black-wednesday-lebanon-apr8",
+    "name": "Israel's 'Black Wednesday' Strikes Kill 357 in Lebanon",
+    "lat": 33.8547,
+    "lon": 35.8623,
+    "type": "airstrike",
+    "date": "2026-04-08T00:00:00Z",
+    "operation": "Israel-Lebanon War",
+    "parties": [
+      "Israel Air Force",
+      "Hezbollah"
+    ],
+    "target": "Southern Beirut, southern Lebanon, Beqaa Valley",
+    "casualties": "357 killed (30 children, 71 women), 1,223 wounded",
+    "description": "Hours after the US-Iran ceasefire announcement, Israel launched what it called its 'most powerful attacks' on Lebanon, hitting over 100 targets in ten minutes. Lebanon called it Black Wednesday. Targets spanned southern Beirut, southern Lebanon, and the Beqaa Valley. Israel claimed 250 Hezbollah militants killed; Lebanese authorities reported widespread civilian casualties.",
+    "sources": [
+      "L'Orient Today — https://today.lorientlejour.com/article/1503009/",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/4/30/civilians-or-hezbollah-who-did-israel-hit-on-lebanons-black-wednesday"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "islamabad-talks-collapse-apr12",
+    "name": "Islamabad Talks Collapse After 12-Hour Session",
+    "lat": 33.6844,
+    "lon": 73.0479,
+    "type": "political",
+    "date": "2026-04-12T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "Iran",
+      "Pakistan"
+    ],
+    "target": "US-Iran peace negotiations",
+    "casualties": "N/A",
+    "description": "Twelve hours of face-to-face US-Iran negotiations in Islamabad — the highest-level meeting since the 1979 revolution — ended without agreement. VP Vance led the US delegation. The two sides agreed on most ceasefire points but failed to bridge gaps on the Strait of Hormuz and Iran's nuclear program.",
+    "sources": [
+      "NPR — https://www.npr.org/2026/04/12/nx-s1-5782538/u-s-iran-peace-talks-islamabad-collapse",
+      "Time — https://time.com/article/2026/04/13/iran-US-peace-talks-islamabad-war-nuclear/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-naval-blockade-iran-apr13",
+    "name": "US Imposes Naval Blockade on Iran",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "naval",
+    "date": "2026-04-13T00:00:00Z",
+    "operation": "Project Freedom",
+    "parties": [
+      "US Navy",
+      "Iran"
+    ],
+    "target": "Iranian ports and coastline — all vessel traffic",
+    "casualties": "N/A",
+    "description": "Following the collapse of the Islamabad Talks, the US imposed a naval blockade on all Iranian ports and coastal areas. The blockade encompassed the entirety of Iran's coastline, applying to all vessel traffic regardless of flag. The US estimated the blockade was costing Iran $500 million per day. Iran said it viewed the blockade as a breach of the ceasefire.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/07/13/u-s-reinstates-naval-blockade-in-strait-of-hormuz",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-lebanon-ceasefire-apr16",
+    "name": "US-Brokered Israel-Lebanon 10-Day Truce",
+    "lat": 33.8938,
+    "lon": 35.5018,
+    "type": "political",
+    "date": "2026-04-16T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Israel",
+      "Lebanon",
+      "US"
+    ],
+    "target": "Israel-Lebanon ceasefire",
+    "casualties": "N/A",
+    "description": "A US-brokered 10-day truce was established between Israel and Lebanon. The agreement was extended by three weeks on April 23 and by another 45 days on May 15. However, the ceasefire remained fragile with ongoing violations by both sides.",
+    "sources": [
+      "Axios — https://www.axios.com/2026/06/03/israel-lebanon-ceasefire-hezbollah-us",
+      "NPR — https://www.npr.org/2026/06/04/g-s1-125942/israel-lebanon-ceasefire"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "trump-extends-ceasefire-apr21",
+    "name": "Trump Extends US-Iran Ceasefire Indefinitely",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-04-21T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "Iran"
+    ],
+    "target": "US-Iran ceasefire extension",
+    "casualties": "N/A",
+    "description": "President Trump extended the two-week ceasefire with Iran indefinitely. Both sides continued to violate the ceasefire terms through strikes, mine-laying, and proxy operations, but the overall intensity of combat dropped significantly from the first six weeks of the war.",
+    "sources": [
+      "ABC News — https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-crude-126-peak-apr30",
+    "name": "Brent Crude Hits Post-War Peak of $126/Barrel",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-04-30T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "Global Markets"
+    ],
+    "target": "Global oil markets",
+    "casualties": "N/A",
+    "description": "Brent crude reached a post-war peak above $126 per barrel as the US naval blockade choked Iranian exports and the Strait of Hormuz remained closed. The price reflected the cumulative impact of lost Iranian and Gulf-state oil production since the war began on February 28.",
+    "sources": [
+      "Seeking Alpha — https://seekingalpha.com/news/4569686",
+      "Al Jazeera — https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-iran-may7",
+    "name": "US Strikes Iranian Military Sites in Southern Iran",
+    "lat": 27.1832,
+    "lon": 56.2765,
+    "type": "airstrike",
+    "date": "2026-05-07T00:00:00Z",
+    "operation": "Project Freedom",
+    "parties": [
+      "US Military",
+      "IRGC"
+    ],
+    "target": "Iranian air defenses, coastal radars, anti-ship missiles, drone sites",
+    "casualties": "None reported",
+    "description": "The US conducted airstrikes on Iranian military sites in southern Iran and Tehran in response to Iranian targeting of US warships enforcing the naval blockade. Targets included air defense systems, coastal surveillance, SAM sites, anti-ship cruise missiles, and drone launch facilities.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/5/26/us-strikes-iran-again-what-we-know-and-is-the-ceasefire-over",
+      "The Aviationist — https://theaviationist.com/2026/05/26/u-s-launches-defensive-strikes-in-iran/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-bandar-abbas-may25",
+    "name": "US Strikes Mine-Laying Boats and SAM Site at Bandar Abbas",
+    "lat": 27.1832,
+    "lon": 56.2765,
+    "type": "naval",
+    "date": "2026-05-25T00:00:00Z",
+    "operation": "Project Freedom",
+    "parties": [
+      "US Military",
+      "IRGC Navy"
+    ],
+    "target": "IRGC mine-laying boats, Bandar Abbas SAM site",
+    "casualties": "None reported",
+    "description": "US forces struck two IRGC boats laying mines in the Strait of Hormuz and a surface-to-air missile site in Bandar Abbas that was targeting US aircraft. CENTCOM described the action as self-defense. The strikes underscored the fragility of the ceasefire.",
+    "sources": [
+      "The Aviationist — https://theaviationist.com/2026/05/26/u-s-launches-defensive-strikes-in-iran/",
+      "Fox News — https://www.foxnews.com/world/fires-rage-irans-bandar-abbas-naval-headquarters-strait-of-hormuz-traffic-stalled"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "israel-beirut-strike-jun7",
+    "name": "Israel Strikes Southern Beirut — Iran Retaliates",
+    "lat": 33.8547,
+    "lon": 35.5018,
+    "type": "airstrike",
+    "date": "2026-06-07T00:00:00Z",
+    "operation": "Israel-Lebanon War",
+    "parties": [
+      "Israel Air Force",
+      "IRGC Aerospace Force"
+    ],
+    "target": "Hezbollah command center, Dahieh, Beirut",
+    "casualties": "2+ killed, 11 wounded",
+    "description": "Israel struck Beirut's southern suburbs days after a US-backed ceasefire, killing at least two and wounding eleven. Iran launched waves of ballistic missiles at Israel in response — the first direct Iran-Israel exchange since the April ceasefire. The brief escalation raised fears of the ceasefire's total collapse.",
+    "sources": [
+      "NPR — https://www.npr.org/2026/06/07/nx-s1-5849220/israel-lebanon-beirut-airstrike-ceasefire",
+      "Axios — https://www.axios.com/2026/06/07/israel-strikes-lebanon-beirut-iran-response-trump"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "islamabad-mou-signed-jun17",
+    "name": "US-Iran Islamabad MOU Signed to End War",
+    "lat": 33.6844,
+    "lon": 73.0479,
+    "type": "political",
+    "date": "2026-06-17T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "Iran",
+      "Pakistan",
+      "Qatar",
+      "Saudi Arabia",
+      "Turkey",
+      "Egypt"
+    ],
+    "target": "Permanent end to hostilities, Hormuz transit, sanctions relief",
+    "casualties": "N/A",
+    "description": "President Trump and Iranian President Pezeshkian signed the Islamabad Memorandum of Understanding remotely — Trump at Versailles after the G7 summit, Pezeshkian in Tehran. The MOU called for cessation of military operations, restoration of commercial navigation through Hormuz, and sanctions relief on Iranian oil exports within a 60-day framework.",
+    "sources": [
+      "NPR — https://www.npr.org/2026/06/18/nx-s1-5863027/us-iran-trump-memorandum-of-understanding-full-text",
+      "Gibson Dunn — https://www.gibsondunn.com/us-iran-memorandum-of-understanding-prospective-sanctions-relief-commercial-opportunities-and-legal-risks/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-crude-69-low-jul2",
+    "name": "Brent Crude Falls to $69 — Pre-War Levels",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-07-02T00:00:00Z",
+    "operation": "Economic",
+    "parties": [
+      "Global Markets"
+    ],
+    "target": "Global oil markets",
+    "casualties": "N/A",
+    "description": "Following the June MOU signing, Brent crude fell to $69 per barrel — its lowest since the war began on February 28. Markets priced in the end of the conflict and the reopening of the Strait of Hormuz. The relief proved short-lived.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-attacks-tankers-hormuz-jul7",
+    "name": "Iran Attacks 3 Tankers in Hormuz — MOU Collapses",
+    "lat": 26.35,
+    "lon": 56.45,
+    "type": "naval",
+    "date": "2026-07-07T00:00:00Z",
+    "operation": "Hormuz Crisis",
+    "parties": [
+      "IRGC Navy",
+      "US Navy"
+    ],
+    "target": "Commercial shipping — Strait of Hormuz",
+    "casualties": "None reported",
+    "description": "Iran fired missiles at three commercial vessels transiting the Strait of Hormuz within 24 hours, causing fires and significant damage. The attacks unraveled the June MOU. Trump declared the truce over. The US launched strikes on 80+ Iranian targets the same night and reimposed oil sanctions effective immediately.",
+    "sources": [
+      "Axios — https://www.axios.com/2026/07/07/iran-resumes-hormuz-attacks-us-officials",
+      "CNN — https://www.cnn.com/2026/07/07/politics/iran-sanctions-trump-strait-hormuz-attack"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-80-targets-sanctions-jul7",
+    "name": "US Hits 80+ Iranian Targets, Reimposes Oil Sanctions",
+    "lat": 27.1832,
+    "lon": 56.2765,
+    "type": "airstrike",
+    "date": "2026-07-07T00:00:00Z",
+    "operation": "Project Freedom",
+    "parties": [
+      "US Military"
+    ],
+    "target": "Iranian air defenses, C2, coastal radars, 60+ IRGC small boats",
+    "casualties": "None reported",
+    "description": "CENTCOM struck 80+ targets across Iran including air defense systems, command-and-control networks, coastal radar sites, anti-ship missile capabilities, and over 60 IRGC small boats. Treasury reimposed sanctions on all new Iranian oil sales effective immediately, with a July 17 wind-down deadline for existing transactions.",
+    "sources": [
+      "CNN — https://www.cnn.com/2026/07/07/world/live-news/nato-summit-trump",
+      "Bloomberg — https://www.bloomberg.com/news/articles/2026-07-07/us-revokes-waiver-allowing-iran-oil-sales-after-tanker-attacks"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-attacks-five-gulf-states-jul12",
+    "name": "Iran Attacks 5 Gulf States, Shuts Hormuz Again",
+    "lat": 26.2285,
+    "lon": 50.49,
+    "type": "retaliation",
+    "date": "2026-07-12T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC Aerospace Force"
+    ],
+    "target": "Bahrain, Kuwait, Jordan, Qatar, Oman — US-allied military sites",
+    "casualties": "1 crew member missing (commercial vessel)",
+    "description": "Iran claimed strikes on five Gulf nations hosting US forces, calling them a response to renewed US bombings. Iran simultaneously shut the Strait of Hormuz and opened fire on commercial vessels, announcing the waterway closed until further notice. The US reimposed its naval blockade the following day.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know",
+      "CNN — https://www.cnn.com/2026/07/13/world/live-news/iran-war-trump"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-darkhovin-nuclear-jul19",
+    "name": "US Strikes Darkhovin Nuclear Plant Site",
+    "lat": 31.38,
+    "lon": 48.56,
+    "type": "nuclear",
+    "date": "2026-07-19T00:00:00Z",
+    "operation": "Project Freedom",
+    "parties": [
+      "US Military"
+    ],
+    "target": "Darkhovin nuclear power plant construction site",
+    "casualties": "None reported",
+    "description": "Iran's atomic energy agency said US strikes targeted the construction site of the planned Darkhovin nuclear power plant in southwestern Iran. Satellite imagery showed the strike hit mostly undeveloped terrain. The escalation moved the conflict closer to all-out war.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/liveblog/2026/7/19/iran-war-live-us-launches-new-strikes-trump-mourns-killed-soldiers",
+      "Fortune — https://fortune.com/2026/07/19/us-iran-all-out-war-missiles-jordan-israel-territory/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "houthi-blockade-saudi-jul20",
+    "name": "Houthis Declare Maritime Blockade of Saudi Arabia",
+    "lat": 13.5833,
+    "lon": 43.95,
+    "type": "blockade",
+    "date": "2026-07-20T00:00:00Z",
+    "operation": "Houthi 'Siege for a Siege'",
+    "parties": [
+      "Ansar Allah (Houthis)",
+      "Saudi Arabia"
+    ],
+    "target": "Saudi maritime traffic — Red Sea and Bab el-Mandeb",
+    "casualties": "N/A",
+    "description": "Yemen's Houthis declared a maritime blockade of Saudi Arabia under their 'siege for a siege' campaign. They subsequently attacked eight Saudi-linked vessels, including tankers NCC Ghazal, Encelia, and Layla. Saudi Arabia confirmed fire damage to the Encelia on July 23 and halted Red Sea exports on July 26 for ten days.",
+    "sources": [
+      "Foreign Policy — https://foreignpolicy.com/2026/07/20/houthi-blockade-saudi-iran-war-red-sea-gulf-aden-hormuz/",
+      "FDD Long War Journal — https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "irgc-strikes-us-gulf-bases-jul21",
+    "name": "IRGC Strikes US Bases in Kuwait, Bahrain, and Jordan",
+    "lat": 29.0572,
+    "lon": 47.6581,
+    "type": "retaliation",
+    "date": "2026-07-21T00:00:00Z",
+    "operation": "Iranian Retaliation",
+    "parties": [
+      "IRGC",
+      "Iranian Army"
+    ],
+    "target": "Ahmad al-Jaber Air Base (Kuwait), Sakhir airbase (Bahrain), US sites in Jordan",
+    "casualties": "None reported",
+    "description": "The IRGC and Iranian Army launched coordinated missile and drone strikes against US positions in Kuwait, Bahrain, and Jordan. Targets included early-warning radars, Patriot air defense systems, HIMARS launchers, and US helicopters and reconnaissance aircraft at Bahrain's Sakhir airbase.",
+    "sources": [
+      "IranWire — https://iranwire.com/en/news/155256-irgc-attacks-us-bases-in-bahrain-kuwait-and-jordan/",
+      "PressTV — https://www.presstv.ir/Detail/2026/07/20/772662/Iran-IRGC-US-positions-Bahrain-Kuwait"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "mou-deadline-expires-trump-oman-aug17",
+    "name": "MOU 60-Day Deadline Expires — Trump Threatens Oman",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-08-17T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "US",
+      "Iran",
+      "Oman"
+    ],
+    "target": "US-Iran peace framework",
+    "casualties": "N/A",
+    "description": "The 60-day window under the Islamabad MOU to reach a comprehensive peace deal expired with no agreement. Trump refused to extend, telling Iran to 'put up the white flag of surrender.' He threatened to bomb Oman if it 'gets in the way' of US efforts in the Strait of Hormuz. Trump claimed a direct backchannel to the IRGC, which Iran denied.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/17/trump-demands-iran-put-up-the-white-flag-of-surrender-as-mou-expires",
+      "CNBC — https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-oman-hormuz-corridor-aug25",
+    "name": "Iran-Oman Propose Temporary Hormuz Shipping Corridor",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "political",
+    "date": "2026-08-25T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Iran",
+      "Oman"
+    ],
+    "target": "Strait of Hormuz — commercial shipping",
+    "casualties": "N/A",
+    "description": "Iran and Oman outlined a phased framework for a temporary two-way shipping corridor through the Strait of Hormuz, approximately seven nautical miles wide. The inbound lane would pass through Iranian waters; outbound through both Iranian and Omani waters. The proposal included joint mine-clearing. Further talks were planned over 30 to 60 days.",
+    "sources": [
+      "Euronews — https://www.euronews.com/2026/08/26/iran-and-oman-discuss-temporary-corridor-in-strait-or-hormuz",
+      "CNBC — https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html"
+    ],
+    "theater": "iran"
   }
 ]

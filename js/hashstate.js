@@ -18,11 +18,13 @@ const HashState = (() => {
       cam.roll.toFixed(1),
     ].join(',');
 
-    // 11-bit layer mask: F1-F9 + Playback + Antarctica
+    // 12-bit layer mask: F1-F9 + Playback + Antarctica + Disasters (F11).
+    // Disasters is appended LAST so bit 10 stays Antarctica for existing 11-bit URLs.
     const modules = [
       Earthquakes, Satellites, Aircraft, Bases, Military, Intel, Vessels, Traffic, Conflicts,
       typeof Playback !== 'undefined' ? Playback : null,
       typeof Antarctica !== 'undefined' ? Antarctica : null,
+      typeof Disasters !== 'undefined' ? Disasters : null,
     ];
     const layers = modules.map(m => (m && m.isVisible()) ? '1' : '0').join('');
 
@@ -151,10 +153,11 @@ const HashState = (() => {
       Earthquakes, Satellites, Aircraft, Bases, Military, Intel, Vessels, Traffic, Conflicts,
       typeof Playback !== 'undefined' ? Playback : null,
       typeof Antarctica !== 'undefined' ? Antarctica : null,
+      typeof Disasters !== 'undefined' ? Disasters : null,
     ];
     const layerIds = [
       'earthquakes', 'satellites', 'aircraft', 'bases', 'military', 'intel', 'vessels', 'traffic', 'conflicts',
-      'playback', 'antarctica',
+      'playback', 'antarctica', 'disasters',
     ];
 
     // Apply as many bits as the hash provides (Math.min for old 8-bit URLs)

@@ -75,7 +75,7 @@
     "id": "mogul_area",
     "name": "Mogul Area (Alamogordo + Foster Ranch)",
     "lat": 33.34,
-    "lon": -105.70,
+    "lon": -105.7,
     "altitude": 150000,
     "key": "T",
     "description": "Alamogordo AAF launch site + Foster Ranch debris field — 1947 Project Mogul Flight 4 geometry"
@@ -195,6 +195,46 @@
     "altitude": 6000000,
     "key": "B",
     "description": "Arctic — Northern Sea Route, Svalbard, polar militarization",
+    "layer": "conflicts"
+  },
+  {
+    "id": "langtang-glacier-collapse",
+    "name": "Langtang Glacier Collapse",
+    "lat": 28.32,
+    "lon": 85.44,
+    "altitude": 70000,
+    "key": "Z",
+    "description": "Aug 26 2026 Langtang Lirung glacier collapse → Lhende dam-burst flood, Rasuwa (Nepal–Tibet border)",
+    "layer": "disasters"
+  },
+  {
+    "id": "india-pakistan-theater",
+    "name": "India–Pakistan Theater",
+    "lat": 31.5,
+    "lon": 72.5,
+    "altitude": 1800000,
+    "key": "4",
+    "description": "India–Pakistan — Kashmir, Op Sindoor, Indus Waters, nuclear-armed standoff",
+    "layer": "conflicts"
+  },
+  {
+    "id": "drc-great-lakes-theater",
+    "name": "DRC / Great Lakes Theater",
+    "lat": -1.5,
+    "lon": 28.0,
+    "altitude": 900000,
+    "key": "5",
+    "description": "DRC / Great Lakes — M23/Rwanda, Goma, Bukavu, Doha/Washington process",
+    "layer": "conflicts"
+  },
+  {
+    "id": "israel-palestine-theater",
+    "name": "Israel–Palestine Theater",
+    "lat": 31.45,
+    "lon": 34.7,
+    "altitude": 350000,
+    "key": "6",
+    "description": "Israel–Palestine — Gaza ceasefire, West Bank settler violence",
     "layer": "conflicts"
   }
 ]

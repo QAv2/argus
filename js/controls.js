@@ -15,6 +15,7 @@ const Controls = (() => {
     Vessels.setLabelsVisible(labelsVisible);
     Traffic.setLabelsVisible(labelsVisible);
     Conflicts.setLabelsVisible(labelsVisible);
+    if (typeof Disasters !== 'undefined') Disasters.setLabelsVisible(labelsVisible);
     if (typeof Playback !== 'undefined') Playback.setLabelsVisible(labelsVisible);
     if (typeof Antarctica !== 'undefined') Antarctica.setLabelsVisible(labelsVisible);
     if (typeof SatCorrelation !== 'undefined') SatCorrelation.setLabelsVisible(labelsVisible);
@@ -43,6 +44,7 @@ const Controls = (() => {
     { id: 'traffic', name: 'Traffic Flow', color: 'var(--traffic-color)', key: 'F8', module: () => Traffic },
     { id: 'conflicts', name: 'Conflict Events', color: 'var(--conflict-color)', key: 'F9', module: () => Conflicts },
     { id: 'playback', name: 'Replay Data', color: 'var(--playback-color)', key: 'F10', module: () => Playback },
+    { id: 'disasters', name: 'Disasters', color: 'var(--disaster-color)', key: 'F11', module: () => Disasters },
     { id: 'antarctica', name: 'Antarctica', color: 'var(--antarctica-color)', key: 'A', module: () => Antarctica },
   ];
 
@@ -356,12 +358,13 @@ const Controls = (() => {
         activatePreset(preset);
       }
 
-      // Layer toggles (F1-F10)
-      if (key.startsWith('F') && !e.ctrlKey) {
-        const fNum = parseInt(key.slice(1));
-        if (fNum >= 1 && fNum <= LAYERS.length) {
+      // Layer toggles (F1-F11) — matched on each layer's declared key, so
+      // letter-keyed layers (Antarctica = A) never shadow an F-key slot
+      if (/^F\d+$/.test(key) && !e.ctrlKey) {
+        const fLayer = LAYERS.find(l => l.key === key);
+        if (fLayer) {
           e.preventDefault();
-          toggleLayer(LAYERS[fNum - 1].id);
+          toggleLayer(fLayer.id);
         }
       }
 
@@ -465,6 +468,9 @@ const Controls = (() => {
         case 'conflict':
           Dossier.showConflict(props);
           break;
+        case 'disaster':
+          Dossier.showDisaster(props);
+          break;
         case 'antarctica':
           Dossier.showAntarctica(props);
           break;
@@ -539,6 +545,7 @@ const Controls = (() => {
       traffic: Traffic.getCount(),
       conflicts: Conflicts.getCount(),
       playback: typeof Playback !== 'undefined' ? Playback.getCount() : 0,
+      disasters: typeof Disasters !== 'undefined' ? Disasters.getCount() : 0,
       antarctica: typeof Antarctica !== 'undefined' ? Antarctica.getCount() : 0,
     };
 

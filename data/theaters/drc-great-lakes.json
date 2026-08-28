@@ -1,0 +1,298 @@
+[
+  {
+    "id": "m23-captures-goma",
+    "name": "M23/RDF Seize Goma, Capital of North Kivu",
+    "lat": -1.6785,
+    "lon": 29.2312,
+    "type": "ground",
+    "date": "2025-01-27T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23/Rwanda Defence Force",
+      "FARDC/MONUSCO"
+    ],
+    "target": "Goma, provincial capital of North Kivu (pop. ~2 million)",
+    "casualties": "Hundreds killed; 21 civilians executed in Kasika neighborhood",
+    "description": "M23 rebels backed by Rwandan forces seized Goma after cutting all road connections by January 23. The city of 2 million became sealed under rebel control, triggering the world's largest displacement crisis.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/features/2026/1/29/banks-shut-futures-uncertain-one-year-after-m23-rebels-seized-drcs-goma",
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_Goma_offensive"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-captures-bukavu",
+    "name": "M23 Captures Bukavu, South Kivu Capital",
+    "lat": -2.5083,
+    "lon": 28.8608,
+    "type": "ground",
+    "date": "2025-02-16T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23/Rwanda Defence Force",
+      "FARDC/Wazalendo"
+    ],
+    "target": "Bukavu, provincial capital of South Kivu, and Kavumu airport",
+    "casualties": "Multiple reported; exact figures unclear",
+    "description": "After capturing Goma, M23 pushed south and seized Bukavu, the capital of South Kivu, including the strategic Kavumu airport. M23 established parallel administration in both provincial capitals.",
+    "sources": [
+      "ACLED — https://acleddata.com/expert-comment/drc-rwanda-backed-m23-capture-kavumu-just-30-km-south-kivus-capital-bukavu-expert",
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_Bukavu_offensive"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "doha-framework-signed",
+    "name": "Doha Framework for Peace Agreement Signed",
+    "lat": 25.2854,
+    "lon": 51.531,
+    "type": "political",
+    "date": "2025-11-15T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "DRC Government",
+      "AFC/M23"
+    ],
+    "target": "Ceasefire and comprehensive peace framework",
+    "casualties": "N/A",
+    "description": "DRC government and AFC/M23 signed the Doha Framework establishing a ceasefire and terms for comprehensive peace negotiations mediated by Qatar.",
+    "sources": [
+      "African Union — https://au.int/en/pressreleases/20251115/auc-chairperson-welcomes-doha-framework-comprehensive-peace-agreement"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "washington-accords",
+    "name": "Washington Peace Accords: Trump Brokers DRC-Rwanda Deal",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2025-12-04T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "DRC (Tshisekedi)",
+      "Rwanda (Kagame)",
+      "United States (Trump)"
+    ],
+    "target": "US-brokered bilateral peace framework tying investment to security",
+    "casualties": "N/A",
+    "description": "President Trump brokered the Washington Accords between DRC and Rwanda, tying US investment to security stabilization and incentivizing alignment of national interests.",
+    "sources": [
+      "US State Department — https://www.state.gov/releases/office-of-the-spokesperson/2026/03/sanctioning-rwandan-violators-of-the-washington-accords-for-peace-and-prosperity/"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-uvira-withdrawal",
+    "name": "M23 Withdraws from Uvira; Post-Withdrawal Violence",
+    "lat": -3.3946,
+    "lon": 29.138,
+    "type": "ground",
+    "date": "2026-01-17T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23",
+      "FARDC",
+      "International Community"
+    ],
+    "target": "City of Uvira, strategic Lake Tanganyika port",
+    "casualties": "Post-withdrawal killings, looting, and sexual violence reported",
+    "description": "M23 completed withdrawal from Uvira, placing the city under international community responsibility. FARDC reestablished control January 18-19, but a security vacuum caused immediate violence against civilians including killings, looting, and sexual assault.",
+    "sources": [
+      "France 24 — https://www.france24.com/en/africa/20260120-congolese-army-retakes-strategic-city-of-uvira-after-m23-withdrawal",
+      "SOS Medias Burundi — https://www.sosmediasburundi.org/en/2026/01/21/drc-uvira-killings-looting-and-violence-increase-after-m23-withdrawal/"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "kisangani-drone-attacks",
+    "name": "Kamikaze Drone Attacks on Kisangani Airport",
+    "lat": 0.4817,
+    "lon": 25.338,
+    "type": "airstrike",
+    "date": "2026-01-31T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23/Rwanda Defence Force",
+      "FARDC"
+    ],
+    "target": "Bangboka International Airport, Kisangani (FARDC logistics hub)",
+    "casualties": "8 drones intercepted; no casualties reported",
+    "description": "M23/RDF launched kamikaze drone attacks on Kisangani's Bangboka International Airport, over 500km from M23-held territory. This marked a significant escalation in the conflict's technological dimension. Eight drones were intercepted.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Timeline_of_the_M23_campaign_(2026)"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "doha-monitoring-mechanism",
+    "name": "Doha Ceasefire Monitoring Mechanism Signed",
+    "lat": 25.2854,
+    "lon": 51.531,
+    "type": "political",
+    "date": "2026-02-02T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "DRC Government",
+      "AFC/M23",
+      "Qatar"
+    ],
+    "target": "Ceasefire verification and monitoring structures",
+    "casualties": "N/A",
+    "description": "DRC government and AFC-M23 signed the mandate establishing the Ceasefire Monitoring and Verification Mechanism under the Doha Framework, creating formal structures to observe and report ceasefire compliance.",
+    "sources": [
+      "UN News — https://news.un.org/en/story/2026/02/1166899"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "us-sanctions-rdf",
+    "name": "US Sanctions Entire Rwandan Defence Force",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "economic",
+    "date": "2026-03-02T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "United States",
+      "Rwanda Defence Force"
+    ],
+    "target": "RDF (entire army) plus 4 senior officials including army chief of staff",
+    "casualties": "N/A",
+    "description": "US Treasury OFAC sanctioned the entire Rwandan Defence Force and four senior military officials for supporting M23 in violation of the Washington Accords. US State Department added visa restrictions on senior Rwandan officials on March 6.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/3/3/us-sanctions-rwandan-army-and-top-officials-for-supporting-m23-in-drc",
+      "HRW — https://www.hrw.org/news/2026/03/03/us-sanctions-rwandan-army-commanders"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "goma-drone-unicef-killed",
+    "name": "Drone Strike on Goma Kills UNICEF Specialist",
+    "lat": -1.6785,
+    "lon": 29.2312,
+    "type": "airstrike",
+    "date": "2026-03-11T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23/Rwanda Defence Force",
+      "Civilians/UNICEF"
+    ],
+    "target": "Residential area in Goma's Himbi neighborhood",
+    "casualties": "3 killed including UNICEF specialist Karine Buisset",
+    "description": "Drone strikes hit Goma's Himbi quarter, killing three people including UNICEF specialist Karine Buisset. The strike on a residential area with an international aid worker drew widespread international condemnation.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Timeline_of_the_M23_campaign_(2026)"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "bijombo-drone-strike",
+    "name": "Turkish Drone Strike on FARDC Position near Bijombo",
+    "lat": -3.52,
+    "lon": 29.05,
+    "type": "airstrike",
+    "date": "2026-04-12T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Rwanda Defence Force/M23",
+      "FARDC"
+    ],
+    "target": "DRC coalition military position in Bijombo highlands",
+    "casualties": "Senior FARDC colonel and 5 soldiers killed in preceding ground attack",
+    "description": "Rwanda reportedly conducted an airstrike using a Turkish-made medium-altitude long-endurance drone on a DRC coalition position in the Bijombo highlands. The strike followed a ground attack by Twirwaneho fighters that killed a senior FARDC colonel and five soldiers.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Timeline_of_the_M23_campaign_(2026)",
+      "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review/april-6-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "montreux-prisoner-exchange",
+    "name": "Montreux Talks: Prisoner Exchange Memorandum",
+    "lat": 46.4312,
+    "lon": 6.9107,
+    "type": "political",
+    "date": "2026-04-13T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "DRC Government",
+      "M23",
+      "United States (Massad Boulos)"
+    ],
+    "target": "Transfer of 2,000-3,000 FARDC soldiers and EJVM expansion",
+    "casualties": "N/A",
+    "description": "Under the Doha process, DRC and M23 signed a memorandum in Montreux on transferring 2,000-3,000 captured FARDC soldiers and expanding the joint verification mechanism to include M23 representatives.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Timeline_of_the_M23_campaign_(2026)"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "us-sanctions-m23-gold",
+    "name": "US Sanctions M23 Intel Chief and Gold Smugglers",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "economic",
+    "date": "2026-06-02T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "United States",
+      "M23 leadership",
+      "Mineral smuggling networks"
+    ],
+    "target": "M23 intelligence chief John Imani Nzenze; Gasabo Gold Refinery and 3 mining companies (Jun 25)",
+    "casualties": "N/A",
+    "description": "US Treasury sanctioned M23's intelligence chief and an FDLR commander. On June 25, Treasury sanctioned the Gasabo Gold Refinery and three mining companies for smuggling minerals from DRC to Rwanda, targeting the conflict's economic engine.",
+    "sources": [
+      "US State Department — https://www.state.gov/releases/office-of-the-spokesperson/2026/06/joint-statement-on-the-sixth-joint-oversight-committee-for-the-peace-agreement-between-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda/"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-masisi-offensive",
+    "name": "M23 Offensive Captures Masisi Territory",
+    "lat": -1.4,
+    "lon": 28.8,
+    "type": "ground",
+    "date": "2026-08-20T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "M23/Rwanda Defence Force",
+      "FARDC/Wazalendo"
+    ],
+    "target": "Remeka (Aug 20) and Katoyi-center (Aug 25) in Masisi territory",
+    "casualties": "Not specifically reported; heavy displacement",
+    "description": "M23 launched a multi-axis offensive in August, capturing Remeka and Katoyi-center in Masisi territory. A drone strike also hit the Mwalu Hotel in Fizi targeting military officials. DRC coalition shot down an Antonov cargo aircraft near Gahwela on August 27.",
+    "sources": [
+      "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review",
+      "Africanews — https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "doha-peace-roadmap",
+    "name": "DRC-M23 Peace Roadmap Agreed in Geneva",
+    "lat": 46.2044,
+    "lon": 6.1432,
+    "type": "political",
+    "date": "2026-08-24T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "DRC Government",
+      "AFC/M23",
+      "Qatar",
+      "Togo",
+      "Switzerland",
+      "AU Commission"
+    ],
+    "target": "Structured roadmap for Doha Framework negotiations",
+    "casualties": "N/A",
+    "description": "After talks August 17-21, DRC and M23 agreed to a structured roadmap defining stages and timetable for negotiations under the Doha Framework. Ceasefire verification mechanisms were standardized and EJVM+ deployed its first reconnaissance mission to Minembwe.",
+    "sources": [
+      "Africanews — https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/",
+      "Voice of Emirates — https://www.voiceofemirates.com/en/news/2026/08/24/ceasefire-monitors-deploy-to-eastern-congo-under-qatar-mediated-peace-accord/"
+    ],
+    "theater": "drc-great-lakes"
+  }
+]

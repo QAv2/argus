@@ -43,7 +43,7 @@
   <main id="cesiumContainer"></main>
   <div class="sr-only">
     Interactive 3D globe showing geospatial intelligence data including vessel tracking, earthquake monitoring, conflict events, and satellite imagery.
-    Use keyboard shortcuts F1-F10 to toggle data layers. Click entities on the map for detailed information.
+    Use keyboard shortcuts F1-F11 to toggle data layers. Click entities on the map for detailed information.
   </div>
 
   <!-- Shader overlay for post-processing (CSS-driven, no canvas) -->
@@ -163,6 +163,7 @@
     <div class="stat-item"><div class="stat-dot" style="background:var(--vessel-color)"></div><span id="stat-vessels">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--traffic-color)"></div><span id="stat-traffic">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--conflict-color)"></div><span id="stat-conflicts">—</span></div>
+    <div class="stat-item"><div class="stat-dot" style="background:var(--disaster-color)"></div><span id="stat-disasters">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--playback-color)"></div><span id="stat-playback">—</span></div>
     <div class="stat-item"><div class="stat-dot" style="background:var(--antarctica-color)"></div><span id="stat-antarctica">—</span></div>
   </div>
@@ -173,7 +174,7 @@
       <div class="landing-header">
         <div class="landing-title">ARGUS</div>
         <div class="landing-subtitle">INTEL GLOBE</div>
-        <div class="landing-desc">Real-time geospatial intelligence dashboard. Monitor military movements, seismic activity, satellite positions, and naval operations across the globe.</div>
+        <div class="landing-desc">Real-time geospatial intelligence dashboard. Monitor military movements, conflict theaters, seismic activity, natural disasters, satellite positions, and naval operations across the globe.</div>
       </div>
 
       <div class="landing-columns">
@@ -189,6 +190,7 @@
           <div class="landing-layer"><span class="landing-dot" style="background:var(--traffic-color)"></span><span class="landing-key">F8</span> Traffic Flow</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--conflict-color)"></span><span class="landing-key">F9</span> Conflict Events</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--playback-color)"></span><span class="landing-key">F10</span> Replay Data</div>
+          <div class="landing-layer"><span class="landing-dot" style="background:var(--disaster-color)"></span><span class="landing-key">F11</span> Disasters</div>
           <div class="landing-layer"><span class="landing-dot" style="background:var(--antarctica-color)"></span><span class="landing-key">A</span> Antarctica</div>
 
           <div class="landing-section-title" style="margin-top:16px">Vessel Types</div>
@@ -235,7 +237,11 @@
           <div class="landing-row"><span class="landing-key">M</span><span class="landing-val">Myanmar</span></div>
           <div class="landing-row"><span class="landing-key">V</span><span class="landing-val">Korea</span></div>
           <div class="landing-row"><span class="landing-key">B</span><span class="landing-val">Arctic</span></div>
+          <div class="landing-row"><span class="landing-key">4</span><span class="landing-val">India–Pakistan</span></div>
+          <div class="landing-row"><span class="landing-key">5</span><span class="landing-val">DRC / Great Lakes</span></div>
+          <div class="landing-row"><span class="landing-key">6</span><span class="landing-val">Israel–Palestine</span></div>
           <div class="landing-row"><span class="landing-key">P</span><span class="landing-val">Antarctica</span></div>
+          <div class="landing-row"><span class="landing-key">Z</span><span class="landing-val">Langtang Glacier Collapse</span></div>
         </div>
       </div>
 
@@ -273,9 +279,14 @@
     <div class="help-row"><span class="help-desc">Myanmar</span><span class="help-key">M</span></div>
     <div class="help-row"><span class="help-desc">Korea</span><span class="help-key">V</span></div>
     <div class="help-row"><span class="help-desc">Arctic</span><span class="help-key">B</span></div>
+    <div class="help-row"><span class="help-desc">India–Pakistan</span><span class="help-key">4</span></div>
+    <div class="help-row"><span class="help-desc">DRC / Great Lakes</span><span class="help-key">5</span></div>
+    <div class="help-row"><span class="help-desc">Israel–Palestine</span><span class="help-key">6</span></div>
     <div class="help-row"><span class="help-desc">Antarctica</span><span class="help-key">P</span></div>
+    <div class="help-row"><span class="help-desc">Langtang Glacier Collapse</span><span class="help-key">Z</span></div>
     <hr style="border-color:var(--border);margin:8px 0">
     <div class="help-row"><span class="help-desc">Replay Data</span><span class="help-key">F10</span></div>
+    <div class="help-row"><span class="help-desc">Disasters</span><span class="help-key">F11</span></div>
     <div class="help-row"><span class="help-desc">Sat Correlations</span><span class="help-key">K</span></div>
     <div class="help-row"><span class="help-desc">Naval Vessels</span><span class="help-key">F7</span></div>
     <div class="help-row"><span class="help-desc">Traffic Flow</span><span class="help-key">F8</span></div>
@@ -310,6 +321,7 @@
   <script src="js/vessels.js"></script>
   <script src="js/traffic.js"></script>
   <script src="js/conflicts.js"></script>
+  <script src="js/disasters.js"></script>
   <script src="js/playback.js"></script>
   <script src="js/antarctica.js"></script>
   <script src="js/sat-correlation.js"></script>

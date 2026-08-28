@@ -634,7 +634,7 @@ const Antarctica = (() => {
             ships: op.ships,
             aircraft: op.aircraft,
             notes: loc.notes || '',
-            achievements: op.achievements ? op.achievements.join('; ') : '',
+            achievements: Array.isArray(op.achievements) ? op.achievements.join('; ') : (op.achievements || ''),
             earlyTermination: op.early_termination || '',
             earlyTerminationReason: op.early_termination_reason || '',
             byrdQuote: op.byrd_el_mercurio_quote || '',

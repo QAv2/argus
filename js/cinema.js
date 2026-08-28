@@ -168,6 +168,7 @@
     vessels:     function () { return typeof Vessels     !== 'undefined' ? Vessels     : null; },
     traffic:     function () { return typeof Traffic     !== 'undefined' ? Traffic     : null; },
     conflicts:   function () { return typeof Conflicts   !== 'undefined' ? Conflicts   : null; },
+    disasters:   function () { return typeof Disasters   !== 'undefined' ? Disasters   : null; },
     playback:    function () { return typeof Playback    !== 'undefined' ? Playback    : null; },
     antarctica:  function () { return typeof Antarctica  !== 'undefined' ? Antarctica  : null; },
   };

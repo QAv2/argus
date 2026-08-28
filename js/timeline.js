@@ -229,6 +229,9 @@ const Timeline = (() => {
     if (typeof Conflicts !== 'undefined' && Conflicts.setTime) {
       Conflicts.setTime(epoch);
     }
+    if (typeof Disasters !== 'undefined' && Disasters.setTime) {
+      Disasters.setTime(epoch);
+    }
     // New replay layers
     if (typeof Playback !== 'undefined' && Playback.setTime) {
       Playback.setTime(epoch || Date.now());

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "pahalgam-terrorist-attack",
+    "name": "Pahalgam Tourist Massacre",
+    "lat": 34.016,
+    "lon": 75.315,
+    "type": "ground",
+    "date": "2025-04-22T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Militant Group (suspected TRF/LeT)",
+      "Indian Security Forces"
+    ],
+    "target": "Hindu and Christian tourists in Baisaran Valley, Pahalgam",
+    "casualties": "26 killed, 20+ wounded",
+    "description": "Gunmen attacked a group of tourists in Baisaran Valley near Pahalgam, killing 26 (25 Hindu, 1 Christian). The attack triggered the most severe India-Pakistan crisis since 1971 and led directly to Operation Sindoor.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_Pahalgam_attack",
+      "Al Jazeera — https://www.aljazeera.com/news/2025/7/29/rebels-behind-kashmir-attack-that-led-to-pakistan-tensions-killed-india"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "india-diplomatic-retaliation",
+    "name": "India Suspends Indus Waters Treaty",
+    "lat": 28.614,
+    "lon": 77.209,
+    "type": "political",
+    "date": "2025-04-23T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "India",
+      "Pakistan"
+    ],
+    "target": "Bilateral relations and Indus Waters Treaty",
+    "casualties": "N/A",
+    "description": "India suspended the Indus Waters Treaty, closed the Attari-Wagah border crossing, expelled Pakistani diplomats, and reduced High Commission staff. These were the most severe diplomatic measures between the two countries in decades.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_crisis",
+      "Deccan Herald — https://www.deccanherald.com/india/pahalgam-terror-attack-india-informs-pakistan-of-its-decision-to-keep-indus-waters-treaty-in-abeyance-3509539"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "uri-dam-water-release",
+    "name": "Uri Dam Unannounced Water Release",
+    "lat": 34.371,
+    "lon": 73.472,
+    "type": "political",
+    "date": "2025-04-26T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "India",
+      "Pakistan"
+    ],
+    "target": "Muzaffarabad and downstream Pakistan-administered Kashmir communities",
+    "casualties": "None reported",
+    "description": "India released Uri Dam water without warning, causing flooding in Muzaffarabad in Pakistan-administered Kashmir. Pakistan viewed this as weaponization of water resources under the suspended Indus Waters Treaty.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_crisis"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "operation-sindoor-launch",
+    "name": "Operation Sindoor: India Strikes 9 Targets",
+    "lat": 31.802,
+    "lon": 74.256,
+    "type": "airstrike",
+    "date": "2025-05-07T00:00:00Z",
+    "operation": "Operation Sindoor",
+    "parties": [
+      "Indian Air Force",
+      "Pakistan Air Force"
+    ],
+    "target": "Muridke (Markaz-e-Taiba), Bahawalpur, Muzaffarabad, Kotli, Sialkot militant infrastructure",
+    "casualties": "India claims 100+ militants killed; Pakistan claims 31 civilians killed",
+    "description": "India launched Operation Sindoor, striking 9 targets across Pakistan-administered Kashmir and Pakistani Punjab. 72 IAF and 42 PAF aircraft engaged in the largest beyond-visual-range air combat on this border. Targets included LeT and JeM facilities.",
+    "sources": [
+      "MEA India — https://www.mea.gov.in/operation-sindoor",
+      "PIB India — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2127370",
+      "War on the Rocks — https://warontherocks.com/deep-learning-from-operation-sindoor-five-takeaways-from-a-four-day-war/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "pakistan-poonch-retaliation",
+    "name": "Pakistan Retaliatory Shelling on Poonch",
+    "lat": 33.773,
+    "lon": 74.093,
+    "type": "retaliation",
+    "date": "2025-05-07T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Pakistan Army",
+      "Indian civilians in Poonch"
+    ],
+    "target": "Poonch district, J&K — schools, temple, residential areas",
+    "casualties": "16 civilians killed, 43 wounded",
+    "description": "Pakistan responded to Operation Sindoor with the heaviest mortar and artillery shelling of Poonch since the 1971 war. 31 schools were destroyed and a Sikh temple was damaged. The bombardment targeted civilian areas.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "drone-missile-escalation",
+    "name": "Drone and Missile Escalation: S-400 and J-10 First Combat",
+    "lat": 31.434,
+    "lon": 75.759,
+    "type": "missile",
+    "date": "2025-05-08T00:00:00Z",
+    "operation": "Operation Sindoor",
+    "parties": [
+      "Indian Air Force",
+      "Pakistan Air Force"
+    ],
+    "target": "Air defense and strike assets on both sides",
+    "casualties": "Not tallied separately from overall conflict",
+    "description": "India deployed S-400 air defense systems in combat for the first time at Adampur air base. Pakistan fielded Chinese-supplied J-10CE fighters with PL-15 missiles. Both sides used armed drones extensively, making this the first drone war between nuclear-armed nations.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "india-strikes-pak-airbases",
+    "name": "India Strikes Pakistani Air Bases with BrahMos",
+    "lat": 33.601,
+    "lon": 73.068,
+    "type": "missile",
+    "date": "2025-05-10T00:00:00Z",
+    "operation": "Operation Sindoor",
+    "parties": [
+      "Indian Air Force",
+      "Pakistan Air Force"
+    ],
+    "target": "Nur Khan/Rawalpindi, Rafiqui, Bholari, Mushaf, Sukkur air bases",
+    "casualties": "6 PAF airmen killed, 9 injured",
+    "description": "India struck multiple Pakistani air bases with BrahMos and SCALP cruise missiles, marking a significant escalation to strategic military infrastructure targeting. Six PAF personnel were killed at the bases.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "pakistan-bunyan-um-marsoos",
+    "name": "Pakistan Op Bunyan-um-Marsoos: 34 Indian Targets",
+    "lat": 32.276,
+    "lon": 75.652,
+    "type": "retaliation",
+    "date": "2025-05-10T06:00:00Z",
+    "operation": "Operation Bunyan-um-Marsoos",
+    "parties": [
+      "Pakistan Air Force",
+      "Indian Air Force"
+    ],
+    "target": "Adampur, Pathankot, Udhampur air bases; Indian air defense systems",
+    "casualties": "1 IAF soldier killed at Udhampur; Pakistan claims S-400 destruction",
+    "description": "Pakistan launched Operation Bunyan-um-Marsoos, striking 34 Indian military targets including Adampur, Pathankot, and Udhampur air bases. Pakistan claimed destruction of an S-400 battery. A simultaneous cyberattack involved 1.5 million+ intrusion attempts.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "us-brokered-ceasefire",
+    "name": "US-Brokered Ceasefire Ends Four-Day War",
+    "lat": 28.614,
+    "lon": 77.209,
+    "type": "political",
+    "date": "2025-05-10T12:30:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "India",
+      "Pakistan",
+      "United States",
+      "Saudi Arabia",
+      "UAE",
+      "UK"
+    ],
+    "target": "Cessation of hostilities along LOC and international border",
+    "casualties": "Total war: ~29 Indian, ~53 Pakistani killed",
+    "description": "A US-brokered ceasefire took effect at 17:00 IST, ending 88 hours of combat. President Trump announced via social media; confirmed by Indian and Pakistani foreign ministries. Saudi Arabia, Iran, UAE, and UK also played roles in de-escalation.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict",
+      "Time — https://time.com/article/2026/06/26/peace-conflict-india-modi-munir-pakistan/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "track-2-diplomacy",
+    "name": "Track 2 Talks in Sri Lanka and Thailand",
+    "lat": 6.9271,
+    "lon": 79.8612,
+    "type": "political",
+    "date": "2026-06-01T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Indian retired diplomats/military",
+      "Pakistani retired diplomats/military"
+    ],
+    "target": "Back-channel de-escalation and confidence building",
+    "casualties": "N/A",
+    "description": "Retired Indian and Pakistani diplomats and military officers conducted Track 2 talks in Colombo and Bangkok, the first sustained back-channel engagement since the May 2025 war. Official diplomatic relations remain frozen.",
+    "sources": [
+      "Time — https://time.com/article/2026/06/26/peace-conflict-india-modi-munir-pakistan/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "turkey-saudi-pakistan-pact",
+    "name": "Turkey-Saudi-Pakistan Mutual Defense Pact",
+    "lat": 39.934,
+    "lon": 32.86,
+    "type": "political",
+    "date": "2026-08-07T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Turkey",
+      "Saudi Arabia",
+      "Pakistan"
+    ],
+    "target": "Collective defense framework — attack on one equals attack on all",
+    "casualties": "N/A",
+    "description": "Turkey, Saudi Arabia, and Pakistan signed a mutual defense pact establishing that an attack on any signatory constitutes an attack on all. The agreement includes joint defense projects and counterterrorism operations, representing a significant geopolitical realignment.",
+    "sources": [
+      "CFR Conflict Tracker — https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "ajk-elections-violence",
+    "name": "Pakistan-Administered Kashmir Elections Amid Violence",
+    "lat": 34.371,
+    "lon": 73.472,
+    "type": "political",
+    "date": "2026-08-12T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Pakistan government",
+      "Kashmiri protesters"
+    ],
+    "target": "Assembly elections in Pakistan-administered Kashmir",
+    "casualties": "24+ killed in election-related protests",
+    "description": "Pakistan-administered Kashmir held assembly elections under heavy security with road closures and internet blackouts. At least 24 people were killed in related protests and violence, underscoring the region's volatility one year after the war.",
+    "sources": [
+      "CFR Conflict Tracker — https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
+    ],
+    "theater": "india-pakistan"
+  }
+]

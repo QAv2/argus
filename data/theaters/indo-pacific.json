@@ -2,17 +2,25 @@
   {
     "id": "taiwan-presidential-election-2024",
     "name": "Taiwan Presidential Election - Lai Ching-te Wins",
-    "lat": 25.0330,
+    "lat": 25.033,
     "lon": 121.5654,
     "type": "political",
     "theater": "indo-pacific",
     "date": "2024-01-13T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPP (Taiwan)", "KMT (Taiwan)", "TPP (Taiwan)"],
+    "parties": [
+      "DPP (Taiwan)",
+      "KMT (Taiwan)",
+      "TPP (Taiwan)"
+    ],
     "target": "Taiwan presidency",
     "casualties": "None",
     "description": "Lai Ching-te of the Democratic Progressive Party won Taiwan's presidential election with 40% of the vote, defying Beijing's preferred outcome.",
-    "sources": ["NBC News", "Reuters", "BBC News"]
+    "sources": [
+      "NBC News",
+      "Reuters",
+      "BBC News"
+    ]
   },
   {
     "id": "sts-water-cannon-march-5-2024",
@@ -23,11 +31,18 @@
     "theater": "indo-pacific",
     "date": "2024-03-05T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China Coast Guard", "Philippine Navy"],
+    "parties": [
+      "China Coast Guard",
+      "Philippine Navy"
+    ],
     "target": "Unaizah May 4 (Philippine resupply vessel)",
     "casualties": "4 Philippine Navy personnel injured",
     "description": "Two China Coast Guard ships simultaneously fired water cannons at the Philippine Navy-chartered vessel during a routine resupply mission to Second Thomas Shoal, shattering the windshield and injuring four crew members.",
-    "sources": ["Radio Free Asia", "VOA News", "Al Jazeera"]
+    "sources": [
+      "Radio Free Asia",
+      "VOA News",
+      "Al Jazeera"
+    ]
   },
   {
     "id": "sts-water-cannon-march-23-2024",
@@ -38,26 +53,41 @@
     "theater": "indo-pacific",
     "date": "2024-03-23T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China Coast Guard", "Philippine Navy", "Philippine Coast Guard"],
+    "parties": [
+      "China Coast Guard",
+      "Philippine Navy",
+      "Philippine Coast Guard"
+    ],
     "target": "Unaizah May 4 and escort vessels",
     "casualties": "4 Philippine Navy personnel injured; vessel heavily damaged",
     "description": "China Coast Guard vessels blasted the repaired Unaizah May 4 with water cannons for nearly an hour during another resupply attempt.",
-    "sources": ["CNN", "Al Jazeera", "Rappler"]
+    "sources": [
+      "CNN",
+      "Al Jazeera",
+      "Rappler"
+    ]
   },
   {
     "id": "typhon-philippines-deployment",
     "name": "US Typhon Mid-Range Missile System Deployed to Philippines",
-    "lat": 18.1790,
-    "lon": 120.5940,
+    "lat": 18.179,
+    "lon": 120.594,
     "type": "missile",
     "theater": "indo-pacific",
     "date": "2024-04-15T00:00:00Z",
     "operation": "Salaknib 2024",
-    "parties": ["United States Army", "Armed Forces of the Philippines"],
+    "parties": [
+      "United States Army",
+      "Armed Forces of the Philippines"
+    ],
     "target": "Northern Luzon strategic positioning",
     "casualties": "None",
     "description": "The US Army deployed the Typhon missile launcher, capable of firing Tomahawk cruise missiles and SM-6 at ranges of 500-2,000 km, to northern Luzon for the first time.",
-    "sources": ["Naval News", "Defense News", "PBS News"]
+    "sources": [
+      "Naval News",
+      "Defense News",
+      "PBS News"
+    ]
   },
   {
     "id": "balikatan-2024",
@@ -68,71 +98,107 @@
     "theater": "indo-pacific",
     "date": "2024-04-22T00:00:00Z",
     "operation": "Balikatan 2024",
-    "parties": ["United States", "Philippines", "Australia", "France"],
+    "parties": [
+      "United States",
+      "Philippines",
+      "Australia",
+      "France"
+    ],
     "target": "Joint interoperability and territorial defense",
     "casualties": "None",
     "description": "The 39th iteration of Balikatan included live-fire exercises in the South China Sea and the first-ever joint sinking exercise targeting a decommissioned ship.",
-    "sources": ["Rappler", "Lowy Institute", "PACOM"]
+    "sources": [
+      "Rappler",
+      "Lowy Institute",
+      "PACOM"
+    ]
   },
   {
     "id": "halsey-fonop-paracels",
     "name": "USS Halsey FONOP Near Paracel Islands",
-    "lat": 16.5000,
-    "lon": 112.3300,
+    "lat": 16.5,
+    "lon": 112.33,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-05-10T00:00:00Z",
     "operation": "Freedom of Navigation Operation",
-    "parties": ["United States Navy", "China (PLA Navy)"],
+    "parties": [
+      "United States Navy",
+      "China (PLA Navy)"
+    ],
     "target": "China's excessive maritime claims around Paracel Islands",
     "casualties": "None",
     "description": "USS Halsey conducted the first publicly announced FONOP of 2024, asserting innocent passage near the Paracel Islands to challenge China's straight baselines declaration.",
-    "sources": ["Stars and Stripes", "USNI News", "US 7th Fleet"]
+    "sources": [
+      "Stars and Stripes",
+      "USNI News",
+      "US 7th Fleet"
+    ]
   },
   {
     "id": "lai-inauguration",
     "name": "Lai Ching-te Inaugurated as Taiwan President",
-    "lat": 25.0400,
+    "lat": 25.04,
     "lon": 121.5119,
     "type": "political",
     "theater": "indo-pacific",
     "date": "2024-05-20T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Taiwan (ROC)", "China (PRC)"],
+    "parties": [
+      "Taiwan (ROC)",
+      "China (PRC)"
+    ],
     "target": "Cross-strait relations",
     "casualties": "None",
     "description": "Lai Ching-te was inaugurated as Taiwan's president. His speech referenced Taiwan as 'a sovereign and independent state,' which Beijing labeled a 'confession of Taiwan independence.'",
-    "sources": ["Asia Society", "Radio Free Asia", "Reuters"]
+    "sources": [
+      "Asia Society",
+      "Radio Free Asia",
+      "Reuters"
+    ]
   },
   {
     "id": "joint-sword-2024a",
     "name": "PLA Joint Sword-2024A Exercises Around Taiwan",
-    "lat": 24.1500,
-    "lon": 121.7500,
+    "lat": 24.15,
+    "lon": 121.75,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-05-23T00:00:00Z",
     "operation": "Joint Sword-2024A",
-    "parties": ["PLA Eastern Theater Command", "Taiwan (ROC) Armed Forces"],
+    "parties": [
+      "PLA Eastern Theater Command",
+      "Taiwan (ROC) Armed Forces"
+    ],
     "target": "Taiwan and outlying islands (Kinmen, Matsu, Wuqiu, Dongyin)",
     "casualties": "None",
     "description": "Two days after Lai's inauguration, the PLA launched Joint Sword-2024A, surrounding Taiwan with naval, air, and rocket force drills in six zones simulating precision strikes and joint operations.",
-    "sources": ["Reuters", "BBC News", "Jamestown Foundation"]
+    "sources": [
+      "Reuters",
+      "BBC News",
+      "Jamestown Foundation"
+    ]
   },
   {
     "id": "fujian-sea-trials-begin",
     "name": "Aircraft Carrier Fujian Begins Sea Trials",
     "lat": 31.3227,
-    "lon": 121.5400,
+    "lon": 121.54,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-05-01T00:00:00Z",
     "operation": "N/A",
-    "parties": ["PLA Navy"],
+    "parties": [
+      "PLA Navy"
+    ],
     "target": "Carrier qualification and EMALS testing",
     "casualties": "None",
     "description": "China's third and most advanced aircraft carrier, the Fujian (Type 003), began sea trials from Shanghai, becoming the first Chinese carrier equipped with electromagnetic aircraft launch systems.",
-    "sources": ["Naval News", "Global Times", "Stars and Stripes"]
+    "sources": [
+      "Naval News",
+      "Global Times",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "sts-june-17-boarding",
@@ -143,161 +209,223 @@
     "theater": "indo-pacific",
     "date": "2024-06-17T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China Coast Guard", "PLA Navy", "Chinese Maritime Militia", "Philippine Navy"],
+    "parties": [
+      "China Coast Guard",
+      "PLA Navy",
+      "Chinese Maritime Militia",
+      "Philippine Navy"
+    ],
     "target": "Philippine Navy inflatable resupply boat",
     "casualties": "8 Filipino personnel injured; 1 lost a finger",
     "description": "Chinese forces surrounded, rammed, and boarded a Philippine Navy inflatable boat during a Sierra Madre resupply mission, wielding knives and axes to destroy equipment.",
-    "sources": ["VOA News", "Al Jazeera", "AMTI/CSIS"]
+    "sources": [
+      "VOA News",
+      "Al Jazeera",
+      "AMTI/CSIS"
+    ]
   },
   {
     "id": "sabina-shoal-confrontation-aug-2024",
     "name": "China-Philippines Confrontation at Sabina Shoal",
-    "lat": 10.0000,
+    "lat": 10.0,
     "lon": 116.0667,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-08-19T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China Coast Guard", "Philippine Coast Guard"],
+    "parties": [
+      "China Coast Guard",
+      "Philippine Coast Guard"
+    ],
     "target": "Philippine Coast Guard vessels near Sabina Shoal",
     "casualties": "Unknown",
     "description": "Sabina Shoal emerged as a new flashpoint when China surged up to 207 vessels into the area by September 10, the largest maritime militia deployment observed.",
-    "sources": ["Foreign Policy", "SCMP", "CSIS AMTI"]
+    "sources": [
+      "Foreign Policy",
+      "SCMP",
+      "CSIS AMTI"
+    ]
   },
   {
     "id": "joint-sword-2024b",
     "name": "PLA Joint Sword-2024B Exercises Around Taiwan",
-    "lat": 23.5000,
-    "lon": 120.5000,
+    "lat": 23.5,
+    "lon": 120.5,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-10-14T00:00:00Z",
     "operation": "Joint Sword-2024B",
-    "parties": ["PLA Eastern Theater Command", "China Coast Guard", "Taiwan (ROC) Armed Forces"],
+    "parties": [
+      "PLA Eastern Theater Command",
+      "China Coast Guard",
+      "Taiwan (ROC) Armed Forces"
+    ],
     "target": "Taiwan and outlying islands; key ports and blockade routes",
     "casualties": "None",
     "description": "China launched Joint Sword-2024B deploying 125 aircraft sorties, 17 PLAN ships, and 17 Coast Guard ships, featuring unprecedented Coast Guard blockade drills on Taiwan's major ports.",
-    "sources": ["USNI News", "CSIS ChinaPower", "Global Taiwan Institute"]
-  },
-  {
-    "id": "hwasong-19-icbm-test",
-    "name": "North Korea Tests Hwasong-19 ICBM",
-    "lat": 39.0392,
-    "lon": 125.7625,
-    "type": "missile",
-    "theater": "indo-pacific",
-    "date": "2024-10-31T00:00:00Z",
-    "operation": "N/A",
-    "parties": ["North Korea"],
-    "target": "ICBM capability demonstration",
-    "casualties": "None",
-    "description": "North Korea tested the Hwasong-19, a new solid-fueled ICBM that flew for 87 minutes to 7,000 km altitude — the longest ICBM flight in DPRK history, putting all of the contiguous US within range.",
-    "sources": ["CBS News", "Global Security", "38 North"]
+    "sources": [
+      "USNI News",
+      "CSIS ChinaPower",
+      "Global Taiwan Institute"
+    ]
   },
   {
     "id": "pla-combat-patrol-jan-2025",
     "name": "PLA First Combat Patrol of 2025 Around Taiwan",
-    "lat": 24.5000,
-    "lon": 121.0000,
+    "lat": 24.5,
+    "lon": 121.0,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2025-01-02T00:00:00Z",
     "operation": "N/A",
-    "parties": ["PLA Eastern Theater Command", "Taiwan Armed Forces"],
+    "parties": [
+      "PLA Eastern Theater Command",
+      "Taiwan Armed Forces"
+    ],
     "target": "Taiwan ADIZ and median line",
     "casualties": "None",
     "description": "The PRC's first combat patrol of 2025 involved 22 military aircraft, with 18 crossing the Taiwan Strait median line.",
-    "sources": ["CFR", "CommonWealth Magazine Taiwan", "CSIS ChinaPower"]
+    "sources": [
+      "CFR",
+      "CommonWealth Magazine Taiwan",
+      "CSIS ChinaPower"
+    ]
   },
   {
     "id": "strait-thunder-2025a",
     "name": "PLA Strait Thunder-2025A Exercises Around Taiwan",
-    "lat": 24.0000,
-    "lon": 120.0000,
+    "lat": 24.0,
+    "lon": 120.0,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2025-04-01T00:00:00Z",
     "operation": "Strait Thunder-2025A",
-    "parties": ["PLA Eastern Theater Command", "China Coast Guard", "Taiwan Armed Forces"],
+    "parties": [
+      "PLA Eastern Theater Command",
+      "China Coast Guard",
+      "Taiwan Armed Forces"
+    ],
     "target": "Taiwan; simulated ports and energy infrastructure",
     "casualties": "None",
     "description": "The 33-hour exercise deployed 76 PLA aircraft, 15 PLAN ships, and the Shandong carrier strike group, with first-ever boarding inspection drills and live-fire strikes on simulated ports.",
-    "sources": ["USNI News", "The Diplomat", "Global Taiwan Institute"]
+    "sources": [
+      "USNI News",
+      "The Diplomat",
+      "Global Taiwan Institute"
+    ]
   },
   {
     "id": "shandong-24nm-taiwan",
     "name": "Carrier Shandong Sails Within 24nm of Taiwan",
-    "lat": 23.0000,
-    "lon": 121.5000,
+    "lat": 23.0,
+    "lon": 121.5,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2025-04-01T00:00:00Z",
     "operation": "Strait Thunder-2025A",
-    "parties": ["PLA Navy", "Taiwan Armed Forces"],
+    "parties": [
+      "PLA Navy",
+      "Taiwan Armed Forces"
+    ],
     "target": "Taiwan's military response zone",
     "casualties": "None",
     "description": "During Strait Thunder-2025A, the carrier Shandong maneuvered to within 24 nautical miles of Taiwan's coast — the closest a Chinese carrier had ever sailed to the island.",
-    "sources": ["USNI News", "The Diplomat", "Jamestown Foundation"]
+    "sources": [
+      "USNI News",
+      "The Diplomat",
+      "Jamestown Foundation"
+    ]
   },
   {
     "id": "shandong-near-guam",
     "name": "Carrier Shandong Approaches Within 600km of Guam",
-    "lat": 15.5000,
-    "lon": 142.0000,
+    "lat": 15.5,
+    "lon": 142.0,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2025-04-20T00:00:00Z",
     "operation": "N/A",
-    "parties": ["PLA Navy", "United States Indo-Pacific Command"],
+    "parties": [
+      "PLA Navy",
+      "United States Indo-Pacific Command"
+    ],
     "target": "Western Pacific power projection near Guam",
     "casualties": "None",
     "description": "The Shandong strike group sailed east into the Pacific and came within 600 km of Guam before turning west, marking a significant extension of Chinese carrier operations.",
-    "sources": ["USNI News", "Army Recognition", "Naval News"]
+    "sources": [
+      "USNI News",
+      "Army Recognition",
+      "Naval News"
+    ]
   },
   {
     "id": "japan-jsdf-joint-operations-command",
     "name": "Japan Launches Joint Operations Command",
     "lat": 35.6938,
-    "lon": 139.7500,
+    "lon": 139.75,
     "type": "political",
     "theater": "indo-pacific",
     "date": "2025-03-24T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Japan Self-Defense Forces", "United States Forces Japan"],
+    "parties": [
+      "Japan Self-Defense Forces",
+      "United States Forces Japan"
+    ],
     "target": "Joint operational coordination",
     "casualties": "None",
     "description": "Japan launched its new Joint Operations Command, the most significant military command restructuring in decades, aimed at improving allied deterrence.",
-    "sources": ["Defense of Japan Report 2025", "International Crisis Group", "Stars and Stripes"]
+    "sources": [
+      "Defense of Japan Report 2025",
+      "International Crisis Group",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "scarborough-nature-reserve",
     "name": "China Declares 'Nature Reserve' at Scarborough Shoal",
-    "lat": 15.1500,
-    "lon": 117.7600,
+    "lat": 15.15,
+    "lon": 117.76,
     "type": "political",
     "theater": "indo-pacific",
     "date": "2025-09-11T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China", "Philippines", "United States", "Australia", "Japan", "Canada"],
+    "parties": [
+      "China",
+      "Philippines",
+      "United States",
+      "Australia",
+      "Japan",
+      "Canada"
+    ],
     "target": "Scarborough Shoal sovereignty assertion",
     "casualties": "None",
     "description": "China's State Council approved the 'Huangyan Dao National Nature Reserve' covering 3,524 hectares of Scarborough Shoal, within the Philippines' EEZ. Multiple nations rejected the move as 'lawfare.'",
-    "sources": ["Stars and Stripes", "USNI News", "The Diplomat"]
+    "sources": [
+      "Stars and Stripes",
+      "USNI News",
+      "The Diplomat"
+    ]
   },
   {
     "id": "fujian-emals-achievement",
     "name": "Carrier Fujian Achieves Initial Full-Deck Operational Capability",
     "lat": 31.3227,
-    "lon": 121.5400,
+    "lon": 121.54,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2025-09-22T00:00:00Z",
     "operation": "N/A",
-    "parties": ["PLA Navy"],
+    "parties": [
+      "PLA Navy"
+    ],
     "target": "Carrier aviation qualification",
     "casualties": "None",
     "description": "China released video showing complete electromagnetic catapult launch and recovery of J-15T, J-35 stealth fighters, and KJ-600 AWACS aircraft from the Fujian.",
-    "sources": ["Stars and Stripes", "Army Recognition", "Global Times"]
+    "sources": [
+      "Stars and Stripes",
+      "Army Recognition",
+      "Global Times"
+    ]
   },
   {
     "id": "antelope-reef-dredging",
@@ -308,11 +436,18 @@
     "theater": "indo-pacific",
     "date": "2025-10-01T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China", "Vietnam"],
+    "parties": [
+      "China",
+      "Vietnam"
+    ],
     "target": "Antelope Reef, Paracel Islands",
     "casualties": "None",
     "description": "China began its first major artificial island-building since 2017, dredging approximately 1,490 acres at Antelope Reef — potentially surpassing Mischief Reef as the largest artificial island in the SCS.",
-    "sources": ["AMTI/CSIS", "Asia Times", "Defense News"]
+    "sources": [
+      "AMTI/CSIS",
+      "Asia Times",
+      "Defense News"
+    ]
   },
   {
     "id": "fujian-commissioning",
@@ -323,11 +458,17 @@
     "theater": "indo-pacific",
     "date": "2025-11-05T00:00:00Z",
     "operation": "N/A",
-    "parties": ["PLA Navy"],
+    "parties": [
+      "PLA Navy"
+    ],
     "target": "Fleet capability expansion",
     "casualties": "None",
     "description": "The Fujian, China's first domestically designed carrier with electromagnetic catapults, was formally commissioned at Sanya with Xi Jinping presiding. China entered a three-carrier operational era.",
-    "sources": ["Naval News", "The War Zone", "Global Times"]
+    "sources": [
+      "Naval News",
+      "The War Zone",
+      "Global Times"
+    ]
   },
   {
     "id": "japan-yonaguni-missile-plan",
@@ -338,25 +479,299 @@
     "theater": "indo-pacific",
     "date": "2025-11-23T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Japan Ground Self-Defense Force"],
+    "parties": [
+      "Japan Ground Self-Defense Force"
+    ],
     "target": "Air defense coverage near Taiwan Strait",
     "casualties": "None",
     "description": "Japan confirmed plans to deploy Type-03 SAMs on Yonaguni Island, just 70 miles from Taiwan, as part of a 'missile archipelago' buildup across the Nansei chain backed by a record $58B defense budget.",
-    "sources": ["Bloomberg", "Japan Times", "Stars and Stripes"]
+    "sources": [
+      "Bloomberg",
+      "Japan Times",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "scarborough-barrier-april-2026",
     "name": "China Deploys 352m Floating Barrier at Scarborough Shoal",
-    "lat": 15.1500,
-    "lon": 117.7600,
+    "lat": 15.15,
+    "lon": 117.76,
     "type": "blockade",
     "theater": "indo-pacific",
     "date": "2026-04-11T00:00:00Z",
     "operation": "N/A",
-    "parties": ["China Coast Guard", "Chinese Maritime Militia", "Philippine Coast Guard"],
+    "parties": [
+      "China Coast Guard",
+      "Chinese Maritime Militia",
+      "Philippine Coast Guard"
+    ],
     "target": "Scarborough Shoal lagoon access",
     "casualties": "None confirmed",
     "description": "China installed a 352-meter floating barrier to block Scarborough Shoal's lagoon entrance, accompanied by maritime militia vessels. The Philippine Coast Guard condemned it as illegal under international law.",
-    "sources": ["Vision Times", "Indo-Pacific Defense Forum", "Yahoo News"]
+    "sources": [
+      "Vision Times",
+      "Indo-Pacific Defense Forum",
+      "Yahoo News"
+    ]
+  },
+  {
+    "id": "ikazuchi-taiwan-strait-april-2026",
+    "name": "JS Ikazuchi Transits Taiwan Strait on Treaty Anniversary",
+    "lat": 24.25,
+    "lon": 119.5,
+    "type": "naval",
+    "date": "2026-04-17T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Japan Maritime Self-Defense Force",
+      "PLA Eastern Theater Command"
+    ],
+    "target": "Freedom of navigation in Taiwan Strait",
+    "casualties": "None",
+    "description": "Japanese destroyer JS Ikazuchi made a 14-hour transit of the Taiwan Strait, the fourth JMSDF passage since September 2024 and the first under Prime Minister Takaichi. The timing on the anniversary of the 1895 Treaty of Shimonoseki drew sharp protest from China's Eastern Theater Command, which deployed naval and air forces to track and warn the vessel.",
+    "sources": [
+      "Taipei Times — https://www.taipeitimes.com/News/taiwan/archives/2026/04/18/2003855820",
+      "Focus Taiwan — https://focustaiwan.tw/politics/202604180011"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "liaoning-taiwan-strait-april-2026",
+    "name": "Carrier Liaoning Transits Taiwan Strait",
+    "lat": 24.0,
+    "lon": 119.5,
+    "type": "naval",
+    "date": "2026-04-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "PLA Navy",
+      "Taiwan Armed Forces"
+    ],
+    "target": "Strategic signaling in Taiwan Strait",
+    "casualties": "None",
+    "description": "Aircraft carrier Liaoning transited the Taiwan Strait heading south, the first carrier passage since December 2025. The transit came three days after Japan's JS Ikazuchi traversed the waterway, and coincided with the opening of Balikatan 2026 in the Philippines.",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-04-21/china-aircraft-carrier-taiwan-strait-21440494.html",
+      "Taipei Times — https://www.taipeitimes.com/News/taiwan/archives/2026/04/21/2003855962"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "balikatan-2026",
+    "name": "Balikatan 2026 - Largest Iteration to Date",
+    "lat": 18.179,
+    "lon": 120.594,
+    "type": "naval",
+    "date": "2026-04-20T00:00:00Z",
+    "operation": "Balikatan 2026",
+    "parties": [
+      "United States",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "Canada",
+      "France",
+      "New Zealand"
+    ],
+    "target": "Combined defense readiness and interoperability",
+    "casualties": "None",
+    "description": "The 41st and largest Balikatan ran April 20 to May 8 across the Philippine archipelago with seven nations. Counter-landing live-fire exercises in Palawan and Ilocos Norte integrated HIMARS, air-missile defense, and maritime strike capabilities. INDOPACOM commander Adm. Paparo characterized the exercise as a rehearsal for defense of the Philippines.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/05/19/balikatan-2026-was-rehearsal-for-defense-of-the-philippines-paparo-says",
+      "The Diplomat — https://thediplomat.com/2026/04/philippines-us-kick-off-largest-ever-balikatan-exercises-close-to-regional-flashpoints/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "trump-xi-beijing-summit-2026",
+    "name": "Trump-Xi Beijing Summit",
+    "lat": 39.9042,
+    "lon": 116.4074,
+    "type": "political",
+    "date": "2026-05-14T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "United States",
+      "China"
+    ],
+    "target": "US-China bilateral relations",
+    "casualties": "N/A",
+    "description": "Trump visited Beijing May 13-15, his first China trip since 2017. The summit produced Boeing and agriculture purchase commitments but few strategic breakthroughs. Beijing succeeded in placing Taiwan arms sales on the bilateral agenda. PLA sorties near Taiwan dropped to zero on both summit days before resuming within days of its conclusion.",
+    "sources": [
+      "East Asia Forum — https://eastasiaforum.org/2026/05/31/china-turns-trumps-ill-prepared-summit-towards-taiwan/",
+      "Global Taiwan Institute — https://globaltaiwan.org/2026/05/how-taiwan-fared-during-the-trump-xi-summit/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "pla-post-summit-patrol-may-2026",
+    "name": "PLA Resumes Combat Patrols After Trump-Xi Summit",
+    "lat": 24.5,
+    "lon": 121.0,
+    "type": "naval",
+    "date": "2026-05-19T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "PLA Eastern Theater Command",
+      "Taiwan Armed Forces"
+    ],
+    "target": "Taiwan ADIZ",
+    "casualties": "None",
+    "description": "Four days after PLA sorties dropped to zero during the Trump-Xi summit, the PLA conducted a joint combat readiness patrol sending 24 military aircraft around Taiwan. The surge restored the four-per-month patrol cadence and signaled that diplomatic courtesies had not altered the military baseline around the island.",
+    "sources": [
+      "Taiwan Security Monitor — https://tsm.schar.gmu.edu/strait-snapshot-may-2026-update/",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/5/26/taiwan-monitors-unprovoked-chinese-combat-patrol-near-island"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "us-pauses-taiwan-arms-sale-2026",
+    "name": "US Pauses $14B Taiwan Arms Sale Over Iran Munitions",
+    "lat": 25.033,
+    "lon": 121.5654,
+    "type": "political",
+    "date": "2026-05-22T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Taiwan",
+      "China"
+    ],
+    "target": "Taiwan defense modernization",
+    "casualties": "N/A",
+    "description": "Acting Navy Secretary Hung Cao told Congress the US was pausing a $14 billion arms sale to Taiwan to conserve munitions for Operation Epic Fury in Iran. The announcement came one week after the Trump-Xi summit where Beijing pressed on the sale. Taiwan's defense ministry said it had not been officially notified of any delay.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/5/22/us-pausing-14bn-arms-sale-to-taiwan-due-to-iran-war-navy-chief-says",
+      "The Hill — https://thehill.com/policy/defense/5890471-us-arms-sales-taiwan-paused-iran/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "aukus-revised-submarine-plan-2026",
+    "name": "AUKUS Partners Revise Submarine Plan at Shangri-La",
+    "lat": 1.305,
+    "lon": 103.825,
+    "type": "political",
+    "date": "2026-05-30T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Australia",
+      "United States",
+      "United Kingdom"
+    ],
+    "target": "AUKUS submarine pathway",
+    "casualties": "N/A",
+    "description": "At the Shangri-La Dialogue in Singapore, AUKUS defense ministers announced Australia would acquire three used Virginia-class Block IV submarines instead of two used and one new, reflecting US shipyard capacity constraints. The partners also signed a UUV joint development agreement as the first Pillar II signature project, with initial capabilities expected by 2027.",
+    "sources": [
+      "Breaking Defense — https://breakingdefense.com/2026/05/aukus-partners-sign-agreement-on-underwater-drones-speed-up-sub-plan/",
+      "Army Recognition — https://www.armyrecognition.com/news/navy-news/2026/revised-aukus-plan-australia-second-hand-us-submarines"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "scarborough-naval-standoff-june-2026",
+    "name": "China-Philippines Naval Standoff at Scarborough Shoal",
+    "lat": 15.15,
+    "lon": 117.76,
+    "type": "naval",
+    "date": "2026-06-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "PLA Navy",
+      "Philippine Navy"
+    ],
+    "target": "BRP Diego Silang near Scarborough Shoal",
+    "casualties": "None reported",
+    "description": "Four Chinese warships confronted the Philippine Navy frigate BRP Diego Silang near Scarborough Shoal in a rare ship-to-ship naval standoff. Both sides issued radio demands to leave the area and the Chinese side accused a Philippine helicopter of entering what it called Chinese airspace. The incident coincided with the close of Salaknib 2026.",
+    "sources": [
+      "SCMP — https://www.scmp.com/news/china/military/article/3358063/china-and-philippines-have-rare-naval-stand-near-disputed-scarborough-shoal",
+      "GMA News — https://www.gmanetwork.com/news/topstories/nation/992166/chinese-warships-shadow-ph-navy-vessel-on-wps-patrol/story/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "sts-baton-assault-july-2026",
+    "name": "Chinese Coast Guard Strikes Filipino Sailor at Second Thomas",
+    "lat": 9.7333,
+    "lon": 115.8667,
+    "type": "naval",
+    "date": "2026-07-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "China Coast Guard",
+      "Philippine Navy"
+    ],
+    "target": "Philippine Navy personnel during Sierra Madre resupply",
+    "casualties": "1 Filipino sailor injured (head wound)",
+    "description": "A Chinese Coast Guard officer struck a Filipino sailor on the head with a wooden baton during a resupply mission to the grounded BRP Sierra Madre. A navy rubber boat was also damaged. The US condemned China's actions as 'dangerous and aggressive,' coinciding with Secretary Rubio's scheduled visit to Manila for ASEAN meetings.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/07/20/philippine-sailor-injured-in-violent-clash-with-china-coast-guard-off-second-thomas-shoal",
+      "Washington Post — https://www.washingtonpost.com/world/2026/07/20/philippines-south-china-sea-second-thomas-shoal/4733a51e-8427-11f1-9cec-0fb26676f07e_story.html"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "trilateral-scs-drills-july-2026",
+    "name": "US-Philippines-Japan Trilateral South China Sea Drills",
+    "lat": 15.0,
+    "lon": 117.0,
+    "type": "naval",
+    "date": "2026-07-21T00:00:00Z",
+    "operation": "17th Multilateral Maritime Cooperative Activity",
+    "parties": [
+      "United States Navy",
+      "Philippine Navy",
+      "Japan Maritime Self-Defense Force"
+    ],
+    "target": "Maritime interoperability and deterrence",
+    "casualties": "None",
+    "description": "The US, Philippines, and Japan conducted five-day trilateral drills from July 21-25 deploying USS Santa Barbara, JS Yuudachi, and Philippine vessels in the South China Sea. The drills ran concurrently with the ASEAN Foreign Ministers' Meeting in Manila and drew condemnation from the PLA Southern Theater Command.",
+    "sources": [
+      "The Diplomat — https://thediplomat.com/2026/07/philippines-holds-joint-exercises-with-us-japan-in-south-china-sea-amid-tensions-with-china/",
+      "Japan Times — https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "scarborough-water-cannon-july-2026",
+    "name": "China Water Cannons Philippine Vessels at Scarborough",
+    "lat": 15.15,
+    "lon": 117.76,
+    "type": "naval",
+    "date": "2026-07-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "China Coast Guard",
+      "Philippine Coast Guard",
+      "Philippine Bureau of Fisheries"
+    ],
+    "target": "Philippine fisheries and coast guard vessels near Scarborough Shoal",
+    "casualties": "None reported",
+    "description": "China Coast Guard vessels fired water cannons at Philippine BFAR ships on July 23, one day after Foreign Minister Wang Yi warned Manila of 'bitter consequences' at the ASEAN meeting. A second attack struck a vessel carrying CNN journalists on July 24. China logged 993 coast guard ship-days at Scarborough in June alone, approaching the total for all of 2025.",
+    "sources": [
+      "CNN — https://www.cnn.com/2026/07/24/asia/china-philippines-south-china-sea-scarborough-intl-hnk",
+      "SCMP — https://www.scmp.com/news/china/diplomacy/article/3361523/after-latest-clash-sea-china-warns-philippines-bitter-consequences"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "japan-defense-white-paper-2026",
+    "name": "Japan Releases 2026 Defense White Paper",
+    "lat": 35.6938,
+    "lon": 139.75,
+    "type": "political",
+    "date": "2026-08-04T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Japan Ministry of Defense"
+    ],
+    "target": "National defense posture assessment",
+    "casualties": "N/A",
+    "description": "Japan released its 2026 Defense White Paper describing China as 'an unprecedented and the greatest strategic challenge' and warning of PLA power projection beyond the First Island Chain. The paper serves as a prelude to the planned revision of Japan's three core security documents by year-end.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/08/04/japans-2026-defense-white-paper-digest",
+      "The Diplomat — https://thediplomat.com/2026/08/japans-2026-defense-white-paper-warns-of-chinas-expanding-military-reach-in-the-pacific/"
+    ],
+    "theater": "indo-pacific"
   }
 ]

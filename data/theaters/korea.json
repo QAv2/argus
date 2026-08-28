@@ -3,16 +3,22 @@
     "id": "dprk-irbm-marv-jan-2024",
     "name": "North Korea IRBM Test with Maneuverable Reentry Vehicle",
     "lat": 39.224,
-    "lon": 125.670,
+    "lon": 125.67,
     "type": "missile",
     "theater": "korea",
     "date": "2024-01-14T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "East Sea / Sea of Japan splash zone",
     "casualties": "None",
     "description": "North Korea launched a solid-fuel IRBM fitted with a maneuverable reentry vehicle from the Sunan area near Pyongyang, traveling approximately 1,000 km.",
-    "sources": ["38 North", "CBS News", "South Korea JCS"]
+    "sources": [
+      "38 North",
+      "CBS News",
+      "South Korea JCS"
+    ]
   },
   {
     "id": "dprk-pulhwasal-slcm-jan-2024",
@@ -23,11 +29,17 @@
     "theater": "korea",
     "date": "2024-01-28T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Island target in East Sea",
     "casualties": "None",
     "description": "North Korea conducted two test launches of the Pulhwasal-3-31 submarine-launched strategic cruise missile from a submarine off Sinpo Naval Base.",
-    "sources": ["KCNA via Al Jazeera", "USNI News", "NBC News"]
+    "sources": [
+      "KCNA via Al Jazeera",
+      "USNI News",
+      "NBC News"
+    ]
   },
   {
     "id": "freedom-shield-24",
@@ -38,11 +50,18 @@
     "theater": "korea",
     "date": "2024-03-04T00:00:00Z",
     "operation": "Freedom Shield 24",
-    "parties": ["United States", "Republic of Korea"],
+    "parties": [
+      "United States",
+      "Republic of Korea"
+    ],
     "target": "N/A — joint training exercise",
     "casualties": "None",
     "description": "The US and ROK conducted the annual 11-day Freedom Shield exercise, for the first time rehearsing responses to a hypothetical North Korean nuclear strike.",
-    "sources": ["USFK Press Release", "U.S. Army", "Indo-Pacific Defense Forum"]
+    "sources": [
+      "USFK Press Release",
+      "U.S. Army",
+      "Indo-Pacific Defense Forum"
+    ]
   },
   {
     "id": "dprk-hwasong16b-hypersonic-apr-2024",
@@ -53,41 +72,82 @@
     "theater": "korea",
     "date": "2024-04-02T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "East Sea target at 1,000 km range",
     "casualties": "None",
     "description": "North Korea test-launched the Hwasong-16B, its first solid-fueled IRBM equipped with a hypersonic glide vehicle, reaching peaks of 101.1 km and 72.3 km altitude.",
-    "sources": ["38 North", "CSIS Missile Threat", "KCNA via Al Jazeera"]
+    "sources": [
+      "38 North",
+      "CSIS Missile Threat",
+      "KCNA via Al Jazeera"
+    ]
   },
   {
     "id": "dprk-satellite-fail-may-2024",
     "name": "Failed Malligyong-1-1 Spy Satellite Launch",
-    "lat": 39.660,
+    "lat": 39.66,
     "lon": 124.705,
     "type": "missile",
     "theater": "korea",
     "date": "2024-05-27T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Low Earth Orbit",
     "casualties": "None",
     "description": "A new-type rocket carrying the Malligyong-1-1 spy satellite launched from Sohae but exploded shortly after liftoff. North Korea's fourth satellite attempt after one success in November 2023.",
-    "sources": ["38 North", "Korea Times", "Al Jazeera"]
+    "sources": [
+      "38 North",
+      "Korea Times",
+      "Al Jazeera"
+    ]
   },
   {
     "id": "dprk-trash-balloon-campaign",
     "name": "North Korea Trash Balloon Campaign Begins",
-    "lat": 37.970,
-    "lon": 126.680,
+    "lat": 37.97,
+    "lon": 126.68,
     "type": "ground",
     "theater": "korea",
     "date": "2024-05-28T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK", "Republic of Korea"],
+    "parties": [
+      "DPRK",
+      "Republic of Korea"
+    ],
     "target": "South Korean territory south of DMZ",
     "casualties": "None",
     "description": "North Korea launched 260 balloons carrying feces, garbage, and waste batteries across the DMZ. Over the summer, approximately 2,000 trash-filled balloons were sent as retaliation for anti-DPRK leaflets.",
-    "sources": ["NPR", "Al Jazeera", "NBC News", "CSIS Analysis"]
+    "sources": [
+      "NPR",
+      "Al Jazeera",
+      "NBC News",
+      "CSIS Analysis"
+    ]
+  },
+  {
+    "id": "dprk-gps-spoofing-may-2024",
+    "name": "North Korea GPS Spoofing Campaign",
+    "lat": 37.8,
+    "lon": 126.3,
+    "type": "cyber",
+    "theater": "korea",
+    "date": "2024-05-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "South Korean civilian aircraft and maritime vessels",
+    "casualties": "None",
+    "description": "North Korea conducted GPS spoofing operations near the border, disrupting navigation for 201 aircraft and 731 ships by feeding false position data to approaching aircraft.",
+    "sources": [
+      "GPS World",
+      "VOA News",
+      "Korea Times"
+    ]
   },
   {
     "id": "rok-loudspeaker-restart-jun-2024",
@@ -98,71 +158,85 @@
     "theater": "korea",
     "date": "2024-06-09T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Republic of Korea", "DPRK"],
+    "parties": [
+      "Republic of Korea",
+      "DPRK"
+    ],
     "target": "North Korean populations along DMZ",
     "casualties": "None",
     "description": "South Korea redeployed loudspeakers along the DMZ for the first time in six years, broadcasting anti-DPRK propaganda and K-pop in response to the trash balloon campaign.",
-    "sources": ["NPR", "PBS News", "NBC News", "Stars and Stripes"]
+    "sources": [
+      "NPR",
+      "PBS News",
+      "NBC News",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "freedom-edge-inaugural-jun-2024",
     "name": "Inaugural Freedom Edge Trilateral Exercise",
-    "lat": 35.100,
-    "lon": 129.040,
+    "lat": 35.1,
+    "lon": 129.04,
     "type": "naval",
     "theater": "korea",
     "date": "2024-06-27T00:00:00Z",
     "operation": "Freedom Edge",
-    "parties": ["United States", "Republic of Korea", "Japan"],
+    "parties": [
+      "United States",
+      "Republic of Korea",
+      "Japan"
+    ],
     "target": "N/A — trilateral training exercise",
     "casualties": "None",
     "description": "The US, ROK, and Japan conducted the first-ever Freedom Edge exercise involving the USS Theodore Roosevelt carrier strike group, creating a new framework for trilateral security cooperation.",
-    "sources": ["U.S. Navy", "USNI News", "U.S. Indo-Pacific Command"]
-  },
-  {
-    "id": "dprk-gps-spoofing-may-2024",
-    "name": "North Korea GPS Spoofing Campaign",
-    "lat": 37.800,
-    "lon": 126.300,
-    "type": "cyber",
-    "theater": "korea",
-    "date": "2024-05-29T00:00:00Z",
-    "operation": "N/A",
-    "parties": ["DPRK"],
-    "target": "South Korean civilian aircraft and maritime vessels",
-    "casualties": "None",
-    "description": "North Korea conducted GPS spoofing operations near the border, disrupting navigation for 201 aircraft and 731 ships by feeding false position data to approaching aircraft.",
-    "sources": ["GPS World", "VOA News", "Korea Times"]
+    "sources": [
+      "U.S. Navy",
+      "USNI News",
+      "U.S. Indo-Pacific Command"
+    ]
   },
   {
     "id": "dprk-nuclear-law-sep-2024",
     "name": "North Korea Enacts Updated Nuclear Doctrine Law",
-    "lat": 39.020,
+    "lat": 39.02,
     "lon": 125.753,
     "type": "political",
     "theater": "korea",
     "date": "2024-09-09T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "N/A — legal/doctrinal change",
     "casualties": "None",
     "description": "Kim Jong Un declared DPRK's nuclear status 'irreversible,' authorizing preemptive nuclear strikes and mandating automatic launch if leadership command-and-control is threatened.",
-    "sources": ["Arms Control Association", "VOA News", "CSIS Analysis"]
+    "sources": [
+      "Arms Control Association",
+      "VOA News",
+      "CSIS Analysis"
+    ]
   },
   {
     "id": "dprk-road-demolition-oct-2024",
     "name": "North Korea Demolishes Inter-Korean Roads and Railways",
-    "lat": 37.930,
-    "lon": 126.680,
+    "lat": 37.93,
+    "lon": 126.68,
     "type": "ground",
     "theater": "korea",
     "date": "2024-10-15T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Gyeongui and Donghae inter-Korean road and rail links",
     "casualties": "None",
     "description": "The KPA detonated 60-meter stretches of both inter-Korean roads and rail lines just 10 meters north of the MDL, symbolizing the declaration that North and South are 'two hostile countries at war.'",
-    "sources": ["NPR", "CNN", "NBC News", "Al Jazeera"]
+    "sources": [
+      "NPR",
+      "CNN",
+      "NBC News",
+      "Al Jazeera"
+    ]
   },
   {
     "id": "dprk-troops-kursk-oct-2024",
@@ -173,26 +247,41 @@
     "theater": "korea",
     "date": "2024-10-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK", "Russian Federation"],
+    "parties": [
+      "DPRK",
+      "Russian Federation"
+    ],
     "target": "Ukrainian forces in Kursk Oblast",
-    "casualties": "Heavy losses reported by early 2025",
+    "casualties": "~4,700 DPRK casualties incl. ~600 killed by Apr 2025 (ROK NIS); 7,000+ by Jun 2026 (Ukraine HUR estimate)",
     "description": "Approximately 10,000-12,000 North Korean soldiers deployed to Russia's Kursk Oblast to fight against Ukrainian forces. NATO confirmed the deployment on October 28.",
-    "sources": ["NATO Secretary General", "CNN", "Foreign Policy", "NPR"]
+    "sources": [
+      "NATO Secretary General",
+      "CNN",
+      "Foreign Policy",
+      "NPR"
+    ]
   },
   {
     "id": "dprk-hwasong19-icbm-oct-2024",
     "name": "Hwasong-19 Solid-Fuel ICBM First Test",
     "lat": 39.224,
-    "lon": 125.670,
+    "lon": 125.67,
     "type": "missile",
     "theater": "korea",
     "date": "2024-10-31T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Sea of Japan west of Okushiri Island",
     "casualties": "None",
     "description": "The Hwasong-19 flew 85.93 minutes to 7,687.5 km altitude — the longest flight for any DPRK ICBM. Likely intended for MIRV capability.",
-    "sources": ["38 North", "CSIS Missile Threat", "CNN", "Arms Control Association"]
+    "sources": [
+      "38 North",
+      "CSIS Missile Threat",
+      "CNN",
+      "Arms Control Association"
+    ]
   },
   {
     "id": "rok-martial-law-crisis-dec-2024",
@@ -203,11 +292,17 @@
     "theater": "korea",
     "date": "2024-12-03T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Republic of Korea"],
+    "parties": [
+      "Republic of Korea"
+    ],
     "target": "N/A — domestic political crisis",
     "casualties": "None",
     "description": "President Yoon declared martial law at 22:27, but 190 legislators unanimously lifted it by 01:02. Yoon was impeached December 14 and removed April 4, 2025 — the most severe political disruption since democratization.",
-    "sources": ["Washington Post", "Human Rights Watch", "NBC News"]
+    "sources": [
+      "Washington Post",
+      "Human Rights Watch",
+      "NBC News"
+    ]
   },
   {
     "id": "lazarus-bybit-heist-feb-2025",
@@ -218,11 +313,18 @@
     "theater": "korea",
     "date": "2025-02-21T00:00:00Z",
     "operation": "TraderTraitor",
-    "parties": ["DPRK Lazarus Group"],
+    "parties": [
+      "DPRK Lazarus Group"
+    ],
     "target": "Bybit cryptocurrency exchange",
     "casualties": "None — $1.5 billion in Ethereum stolen",
     "description": "North Korea's Lazarus Group executed the largest cryptocurrency theft in history via a supply chain compromise. DPRK has stolen over $5 billion in crypto since 2017.",
-    "sources": ["FBI", "Bleeping Computer", "TRM Labs", "Wilson Center"]
+    "sources": [
+      "FBI",
+      "Bleeping Computer",
+      "TRM Labs",
+      "Wilson Center"
+    ]
   },
   {
     "id": "freedom-shield-25",
@@ -233,11 +335,40 @@
     "theater": "korea",
     "date": "2025-03-03T00:00:00Z",
     "operation": "Freedom Shield 25",
-    "parties": ["United States", "Republic of Korea"],
+    "parties": [
+      "United States",
+      "Republic of Korea"
+    ],
     "target": "N/A — joint training exercise",
     "casualties": "None",
     "description": "Annual exercise tested upgraded responses to DPRK nuclear threats including drones, GPS jamming, and cyberattack scenarios amid South Korea's political instability.",
-    "sources": ["U.S. Army Eighth Army", "Stars and Stripes", "USFK"]
+    "sources": [
+      "U.S. Army Eighth Army",
+      "Stars and Stripes",
+      "USFK"
+    ]
+  },
+  {
+    "id": "dprk-choe-hyon-destroyer-launch-apr-2025",
+    "name": "Choe Hyon 5,000-ton Destroyer Launched at Nampo",
+    "lat": 38.7333,
+    "lon": 125.4,
+    "type": "naval",
+    "date": "2025-04-25T00:00:00Z",
+    "operation": "Naval modernization",
+    "parties": [
+      "North Korea"
+    ],
+    "target": "Korean People's Navy first modern destroyer",
+    "casualties": "N/A",
+    "description": "Kim Jong Un attended the launch of the Choe Hyon, the KPN's first 5,000-ton destroyer, at Nampo shipyard, and oversaw test-firings of its cruise and anti-air missiles days later. Its Russian-pattern sensors and CIWS pointed to Moscow's technical assistance.",
+    "sources": [
+      "KCNA",
+      "Yonhap",
+      "NK News",
+      "38 North"
+    ],
+    "theater": "korea"
   },
   {
     "id": "dprk-haekpangasoe-nuclear-drill-may-2025",
@@ -248,41 +379,129 @@
     "theater": "korea",
     "date": "2025-05-08T00:00:00Z",
     "operation": "Haekpangasoe (Nuclear Trigger)",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Simulated US and ROK forces",
     "casualties": "None",
     "description": "Kim Jong Un oversaw a 'joint striking drill' using the national combined nuclear weapons management system, launching KN-25 rockets and at least one SRBM from Wonsan.",
-    "sources": ["PBS News", "NBC News", "Euronews"]
+    "sources": [
+      "PBS News",
+      "NBC News",
+      "Euronews"
+    ]
+  },
+  {
+    "id": "dprk-destroyer-capsize-chongjin-may-2025",
+    "name": "Second Destroyer Capsizes at Chongjin Launch",
+    "lat": 41.7833,
+    "lon": 129.7833,
+    "type": "naval",
+    "date": "2025-05-21T00:00:00Z",
+    "operation": "Naval modernization",
+    "parties": [
+      "North Korea"
+    ],
+    "target": "Second 5,000-ton destroyer (later named Kang Kon)",
+    "casualties": "None reported; officials arrested",
+    "description": "The KPN's second 5,000-ton destroyer capsized during a side-launch at Chongjin in front of Kim Jong Un, who called it a 'criminal act'. The hull was righted within weeks and relaunched at Rajin in June 2025 as the Kang Kon.",
+    "sources": [
+      "KCNA",
+      "Reuters",
+      "38 North (satellite imagery)"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "rok-lee-jae-myung-elected-jun-2025",
+    "name": "Lee Jae-myung Wins Snap Presidential Election",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "type": "political",
+    "date": "2025-06-03T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "South Korea"
+    ],
+    "target": "ROK presidency after Yoon Suk-yeol's removal",
+    "casualties": "N/A",
+    "description": "Democratic Party candidate Lee Jae-myung won the snap election triggered by the Constitutional Court's April 2025 removal of Yoon Suk-yeol over the December 2024 martial-law decree, taking office the next day. His government halted loudspeaker broadcasts across the DMZ within its first weeks and sought to reopen channels with Pyongyang.",
+    "sources": [
+      "Yonhap",
+      "Reuters",
+      "BBC"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "kim-xi-putin-beijing-parade-sep-2025",
+    "name": "Kim Joins Xi and Putin at Beijing Victory Day Parade",
+    "lat": 39.9055,
+    "lon": 116.3976,
+    "type": "political",
+    "date": "2025-09-03T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "North Korea",
+      "China",
+      "Russia"
+    ],
+    "target": "Trilateral alignment display",
+    "casualties": "N/A",
+    "description": "Kim Jong Un stood alongside Xi Jinping and Vladimir Putin at Beijing's parade marking 80 years since the end of WWII — his first multilateral appearance — after travelling by armoured train, and held separate talks with both leaders.",
+    "sources": [
+      "Reuters",
+      "AP",
+      "Yonhap",
+      "KCNA"
+    ],
+    "theater": "korea"
   },
   {
     "id": "dprk-hwasong20-parade-oct-2025",
     "name": "Hwasong-20 ICBM Unveiled at WPK 80th Anniversary Parade",
-    "lat": 39.020,
+    "lat": 39.02,
     "lon": 125.753,
     "type": "political",
     "theater": "korea",
     "date": "2025-10-10T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK", "China", "Russia"],
+    "parties": [
+      "DPRK",
+      "China",
+      "Russia"
+    ],
     "target": "N/A — military display",
     "casualties": "None",
     "description": "North Korea unveiled the Hwasong-20, described as its 'strongest nuclear strategic weapon,' on an unprecedented 11-axle TEL. China's Premier Li Qiang and Russia's Medvedev attended.",
-    "sources": ["Al Jazeera", "RFA", "PBS News", "CNN"]
+    "sources": [
+      "Al Jazeera",
+      "RFA",
+      "PBS News",
+      "CNN"
+    ]
   },
   {
     "id": "dprk-hypersonic-srbm-oct-2025",
     "name": "Hwasong-11E Hypersonic SRBM Dual Launch",
-    "lat": 38.700,
-    "lon": 125.700,
+    "lat": 38.7,
+    "lon": 125.7,
     "type": "missile",
     "theater": "korea",
     "date": "2025-10-22T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Tableland target in North Hamgyong Province",
     "casualties": "None",
     "description": "Two hypersonic SRBMs traveled 350 km northeast, striking a tableland target. US Indo-Pacific Command condemned the tests ahead of the APEC summit.",
-    "sources": ["USNI News", "Euronews", "38 North", "Washington Post"]
+    "sources": [
+      "USNI News",
+      "Euronews",
+      "38 North",
+      "Washington Post"
+    ]
   },
   {
     "id": "dprk-strategic-cruise-dec-2025",
@@ -293,10 +512,357 @@
     "theater": "korea",
     "date": "2025-12-28T00:00:00Z",
     "operation": "N/A",
-    "parties": ["DPRK"],
+    "parties": [
+      "DPRK"
+    ],
     "target": "Sea targets — nuclear deterrence test",
     "casualties": "None",
     "description": "North Korea's final weapons test of 2025, capping a year of significant missile development including the Hwasong-20 unveiling, multiple hypersonic tests, and the Nuclear Trigger system debut.",
-    "sources": ["ABC News", "Arms Control Center"]
+    "sources": [
+      "ABC News",
+      "Arms Control Center"
+    ]
+  },
+  {
+    "id": "dprk-ballistic-missile-jan-2026",
+    "name": "DPRK Ballistic Missile Tests Open 2026",
+    "lat": 39.224,
+    "lon": 125.67,
+    "type": "missile",
+    "date": "2026-01-04T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea / Sea of Japan at 900 km range",
+    "casualties": "None reported",
+    "description": "North Korea launched multiple ballistic missiles from the Pyongyang area, traveling approximately 900 km into the East Sea at altitudes around 50 km. South Korea's JCS and Japan's MOD confirmed the launches. This was the DPRK's first missile test of 2026.",
+    "sources": [
+      "France 24 — https://www.france24.com/en/live-news/20260104-north-korea-fires-ballistic-missiles-in-first-test-of-2026",
+      "The Defense Post — https://thedefensepost.com/2026/01/04/north-korea-missile-test-2026/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "yoon-insurrection-verdict-feb-2026",
+    "name": "Yoon Suk-yeol Sentenced to Life for Insurrection",
+    "lat": 37.567,
+    "lon": 126.978,
+    "type": "political",
+    "date": "2026-02-19T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Republic of Korea"
+    ],
+    "target": "N/A — criminal verdict",
+    "casualties": "N/A",
+    "description": "Seoul Central District Court sentenced former President Yoon Suk-yeol to life imprisonment for leading an insurrection during his December 2024 martial law declaration. Prosecutors had sought the death penalty. Former Defense Minister Kim Yong-hyun received 30 years.",
+    "sources": [
+      "CNN — https://www.cnn.com/2026/02/19/asia/south-korea-yoon-suk-yeol-verdict-insurrection-intl-hnk",
+      "Korea Herald — https://www.koreaherald.com/article/10678550"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "wpk-9th-congress-feb-2026",
+    "name": "9th Workers' Party of Korea Congress",
+    "lat": 39.02,
+    "lon": 125.753,
+    "type": "political",
+    "date": "2026-02-19T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "N/A — party congress",
+    "casualties": "N/A",
+    "description": "The 9th WPK Congress convened February 19-25 at the April 25 House of Culture with 5,000 delegates. Kim Jong Un was re-elected General Secretary and announced simultaneous nuclear and conventional force buildup. A new five-year plan emphasized AI and space technology. Fifty nuclear-capable rocket launchers were displayed at the post-congress parade.",
+    "sources": [
+      "Human Rights Watch — https://www.hrw.org/news/2026/02/20/north-korea-party-congress-set-to-bolster-repression",
+      "UPI — https://www.upi.com/Top_News/World-News/2026/03/03/nkorea-9th-congress-workers-party/5051772590152/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "freedom-shield-26",
+    "name": "Freedom Shield 2026 Exercise",
+    "lat": 36.967,
+    "lon": 127.033,
+    "type": "ground",
+    "date": "2026-03-09T00:00:00Z",
+    "operation": "Freedom Shield 26",
+    "parties": [
+      "United States",
+      "Republic of Korea"
+    ],
+    "target": "N/A — joint training exercise",
+    "casualties": "None reported",
+    "description": "The annual Freedom Shield 26 combined exercise ran March 9-19, validating US-ROK combined readiness against threats including cyber warfare, missile defense, and asymmetric tactics. The exercise also assessed the conditions-based transition of wartime operational control.",
+    "sources": [
+      "USFK — https://www.usfk.mil/What-We-Do/Exercises/Freedom-Shield/",
+      "U.S. Army — https://www.army.mil/article/291231/freedom_shield_26_strengthens_rok_us_combined_defense_posture"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-kn25-barrage-mar-2026",
+    "name": "KN-25 10-Missile Barrage During Freedom Shield",
+    "lat": 39.224,
+    "lon": 125.67,
+    "type": "missile",
+    "date": "2026-03-14T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "Island target in Sea of Japan at 360 km range",
+    "casualties": "None reported",
+    "description": "North Korea fired 10 ballistic missiles from KN-25 multiple rocket launchers, striking an island target approximately 360 km away in the Sea of Japan. Two artillery companies and 12 launchers were mobilized. The barrage coincided with the ongoing US-ROK Freedom Shield 26 exercise.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/03/16/north-korea-fires-10-missiles-over-sea-of-japan-in-latest-multiple-rocket-launcher-system-test",
+      "The Diplomat — https://thediplomat.com/2026/03/north-korea-launches-massive-ballistic-missile-barrage-amid-south-korea-us-drills/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-choe-hyon-missile-test-apr-2026",
+    "name": "Choe Hyon Destroyer Cruise and Anti-Ship Missile Tests",
+    "lat": 38.737,
+    "lon": 125.405,
+    "type": "naval",
+    "date": "2026-04-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "Sea targets in Yellow Sea",
+    "casualties": "None reported",
+    "description": "The 5,000-ton destroyer Choe Hyon launched two cruise missiles and three anti-ship missiles in its first weapons trials, observed by Kim Jong Un. Cruise missiles flew over two hours and anti-ship missiles over 30 minutes along pre-set trajectories before striking targets in the western seas.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/04/15/north-korea-test-launches-anti-ship-cruise-missiles-from-first-in-class-destroyer",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-04-14/north-korea-destroyer-missile-test-21370381.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "lazarus-kelpdao-heist-apr-2026",
+    "name": "Lazarus Group KelpDAO $292M Cryptocurrency Theft",
+    "lat": 39.034,
+    "lon": 125.754,
+    "type": "cyber",
+    "date": "2026-04-18T00:00:00Z",
+    "operation": "TraderTraitor",
+    "parties": [
+      "DPRK Lazarus Group"
+    ],
+    "target": "KelpDAO / LayerZero cross-chain bridge",
+    "casualties": "None — $292 million in crypto stolen",
+    "description": "North Korea's Lazarus Group TraderTraitor subunit compromised two RPC nodes used by LayerZero's Decentralized Verifier Network, then DDoS'd legitimate nodes to force failover to poisoned ones, enabling a fraudulent cross-chain message draining approximately $292 million. DPRK cumulative crypto theft now exceeds $6 billion since 2017.",
+    "sources": [
+      "TRM Labs — https://www.trmlabs.com/resources/blog/north-korea-stole-76-of-all-crypto-hack-value-in-2026-with-just-two-attacks",
+      "UPI — https://www.upi.com/Top_News/World-News/2026/04/22/KelpDAO-LayerZero-North-Korea-crypto-hack-theft-Lazarus-Group/6151776848419/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-cluster-srbm-apr-2026",
+    "name": "DPRK Cluster Munition SRBM Test",
+    "lat": 39.224,
+    "lon": 125.67,
+    "type": "missile",
+    "date": "2026-04-19T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "Island target in Sea of Japan",
+    "casualties": "None reported",
+    "description": "North Korea launched five short-range ballistic missiles armed with cluster and fragmentation warheads against an island target in the Sea of Japan, overseen by Kim Jong Un. ROK JCS assessed the missiles flew approximately 140 km.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/04/24/north-korea-test-launches-short-range-ballistic-missiles-with-cluster-munitions",
+      "NPR — https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-lightweight-launcher-may-2026",
+    "name": "New Lightweight Launch System and Cruise Missile Test",
+    "lat": 39.034,
+    "lon": 125.754,
+    "type": "missile",
+    "date": "2026-05-26T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "Test targets in western sea area",
+    "casualties": "None reported",
+    "description": "North Korea tested a newly developed lightweight multi-purpose missile launching system and a multiple tactical cruise missile weapon system. State media reported Kim Jong Un oversaw the tests, which were aimed at diversifying mobile launch platforms.",
+    "sources": [
+      "USNI News — https://news.usni.org/2026/05/27/north-korea-tests-new-lightweight-launch-system-and-tactical-cruise-missiles"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-choe-hyon-commissioned-jun-2026",
+    "name": "Destroyer Choe Hyon Enters Service",
+    "lat": 38.737,
+    "lon": 125.405,
+    "type": "naval",
+    "date": "2026-06-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "N/A — ship commissioning",
+    "casualties": "N/A",
+    "description": "The 5,000-ton Choe Hyon, lead ship of its class and the Korean People's Navy's first destroyer, was formally commissioned. The warship carries 88 VLS cells, anti-ship missiles, a 127/130mm naval gun, a Pantsir-ME CIWS, and torpedo tubes. A sister ship, Kang Kon, is undergoing sea trials after a capsizing accident during its May 2025 launch.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/North_Korean_destroyer_Choe_Hyon",
+      "Meta-Defense — https://meta-defense.fr/en/2026/06/25/choe-hyon-destroyer-relaunched-after-capsize/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-kursk-casualties-report-jun-2026",
+    "name": "HUR Reports 7,000+ DPRK Casualties in Kursk Oblast",
+    "lat": 51.737,
+    "lon": 36.187,
+    "type": "ground",
+    "date": "2026-06-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK",
+      "Russian Federation",
+      "Ukraine"
+    ],
+    "target": "Intelligence assessment of DPRK troop losses",
+    "casualties": "7,000+ DPRK troops killed or wounded (HUR claim, unverified)",
+    "description": "Ukraine's military intelligence (HUR) reported North Korean forces had suffered over 7,000 casualties in Kursk Oblast since their late 2024 deployment. South Korean and British intelligence separately assessed approximately 6,000 killed or wounded. More than 20,000 DPRK troops have been deployed to Russia in total.",
+    "sources": [
+      "Kyiv Independent — https://kyivindependent.com/north-korean-troops-took-over-7-000-casualties-in-russias-kursk-oblast-hur-claims/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "putin-choe-son-hui-meeting-jul-2026",
+    "name": "Putin Meets DPRK Foreign Minister in Moscow",
+    "lat": 55.752,
+    "lon": 37.6175,
+    "type": "political",
+    "date": "2026-07-19T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Russian Federation",
+      "DPRK"
+    ],
+    "target": "N/A — diplomatic meeting",
+    "casualties": "N/A",
+    "description": "President Putin received DPRK Foreign Minister Choe Son Hui at the Kremlin, continuing high-level diplomatic engagement between Moscow and Pyongyang amid the ongoing military partnership in Ukraine.",
+    "sources": [
+      "NPR — https://www.npr.org/2026/07/20/g-s1-134555/putin-meets-north-korean-foreign-minister-in-diplomatic-push",
+      "Washington Post — https://www.washingtonpost.com/world/2026/07/20/north-korea-russia-putin-kim-jong-un/b7e30c88-83f4-11f1-9cec-0fb26676f07e_story.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-srbm-wonsan-aug-2026",
+    "name": "DPRK Short-Range Ballistic Missile from Wonsan",
+    "lat": 39.154,
+    "lon": 127.446,
+    "type": "missile",
+    "date": "2026-08-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "Sea of Japan",
+    "casualties": "None reported",
+    "description": "North Korea launched a short-range ballistic missile from the Wonsan area into the Sea of Japan, its first ballistic missile test since April 19. The test came days before the scheduled start of US-ROK Ulchi Freedom Shield exercises.",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-08-06/north-korea-ballistic-missile-launch-22478338.html",
+      "Bloomberg — https://www.bloomberg.com/news/articles/2026-08-06/north-korea-fires-unidentified-projectile-south-korea-says"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-srbm-pre-ufs-aug-2026",
+    "name": "DPRK Missile Launch Ahead of Ulchi Freedom Shield",
+    "lat": 39.154,
+    "lon": 127.446,
+    "type": "missile",
+    "date": "2026-08-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea at 700+ km range",
+    "casualties": "None reported",
+    "description": "North Korea launched a ballistic missile from the Wonsan area that traveled over 700 km into the East Sea. ROK JCS confirmed the launch at approximately 6:00 AM local time. This was the DPRK's 11th suspected ballistic missile test of 2026, five days before Ulchi Freedom Shield.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "ulchi-freedom-shield-26",
+    "name": "Ulchi Freedom Shield 2026 Exercise",
+    "lat": 36.967,
+    "lon": 127.033,
+    "type": "ground",
+    "date": "2026-08-17T00:00:00Z",
+    "operation": "Ulchi Freedom Shield 26",
+    "parties": [
+      "United States",
+      "Republic of Korea"
+    ],
+    "target": "N/A — joint training exercise",
+    "casualties": "None reported",
+    "description": "The annual Ulchi Freedom Shield exercise ran August 17-27 with approximately 18,000 ROK troops and personnel from 11 UNC member states. Scenarios incorporated DPRK combat lessons from Ukraine and addressed drones, GPS disruption, and cyberattacks. The exercise also assessed wartime OPCON transition readiness.",
+    "sources": [
+      "Korea Times — https://www.koreatimes.co.kr/amp/southkorea/defense/20260810/s-korea-us-to-hold-ufs-exercise-from-aug-17",
+      "UPI — https://www.upi.com/Top_News/World-News/2026/08/10/korea-Ulchi-Freedom-Shield-26-US-South-Korea-joint-military-exercise-launch/3191786354705/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "trump-kim-diplomacy-signal-aug-2026",
+    "name": "Trump Signals Plans for Kim Jong Un Meeting",
+    "lat": 39.02,
+    "lon": 125.753,
+    "type": "political",
+    "date": "2026-08-19T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "United States",
+      "DPRK"
+    ],
+    "target": "N/A — diplomatic signal",
+    "casualties": "N/A",
+    "description": "President Trump stated publicly that he expects to meet Kim Jong Un later in 2026, reportedly targeting the November APEC summit. Kim Yo Jong responded that while the personal relationship remains excellent, scaling back exercises has not changed what Pyongyang views as US hostile policy. North Korea set demanding preconditions for any talks.",
+    "sources": [
+      "Washington Post — https://www.washingtonpost.com/politics/2026/08/19/trump-says-he-expects-meet-with-north-koreas-kim-jong-un-later-this-year/",
+      "Korea Herald — https://www.koreaherald.com/article/10844783"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-kn25-barrage-ufs-aug-2026",
+    "name": "KN-25 Barrage as Ulchi Freedom Shield Concludes",
+    "lat": 39.224,
+    "lon": 125.67,
+    "type": "missile",
+    "date": "2026-08-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea at approximately 300 km range",
+    "casualties": "None reported",
+    "description": "North Korea fired more than 10 short-range ballistic missiles from 600mm KN-25 multiple rocket launchers, traveling approximately 300 km toward the East Sea. The ROK presidential office convened an emergency security meeting. ROK Defense Minister Ahn Gyu-back assessed DPRK possesses 80-120 nuclear warheads and noted KN-25 systems are capable of delivering tactical nuclear weapons.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/20/north-korea-launches-ballistic-missiles-as-us-south-korea-drills-end"
+    ],
+    "theater": "korea"
   }
 ]

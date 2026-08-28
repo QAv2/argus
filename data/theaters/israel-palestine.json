@@ -1,0 +1,246 @@
+[
+  {
+    "id": "october-7-hamas-attack",
+    "name": "Hamas Attack on Southern Israel",
+    "lat": 31.325,
+    "lon": 34.31,
+    "type": "ground",
+    "date": "2023-10-07T06:30:00Z",
+    "operation": "Al-Aqsa Flood (Hamas designation)",
+    "parties": [
+      "Hamas",
+      "Israel"
+    ],
+    "target": "Kibbutzim, military bases, and Nova music festival in southern Israel",
+    "casualties": "~1,200 Israelis killed, 251 hostages taken",
+    "description": "Hamas launched a large-scale surprise attack from Gaza into southern Israel, killing approximately 1,200 people and taking 251 hostages. This triggered Israel's ground invasion of Gaza.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2023_Hamas-led_attack_on_Israel"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "israel-gaza-ground-invasion",
+    "name": "Israel Launches Ground Invasion of Gaza",
+    "lat": 31.5,
+    "lon": 34.47,
+    "type": "ground",
+    "date": "2023-10-27T00:00:00Z",
+    "operation": "Operation Swords of Iron",
+    "parties": [
+      "Israel Defense Forces",
+      "Hamas"
+    ],
+    "target": "Northern Gaza Strip",
+    "casualties": "Tens of thousands killed over following months",
+    "description": "Israel launched a ground invasion of the Gaza Strip, beginning in the north and progressively expanding. The campaign caused massive civilian casualties and near-total destruction of infrastructure.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Israeli_invasion_of_the_Gaza_Strip"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-ceasefire-jan-2025",
+    "name": "Gaza Ceasefire Agreement Takes Effect",
+    "lat": 31.5,
+    "lon": 34.47,
+    "type": "political",
+    "date": "2025-01-19T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Israel",
+      "Hamas",
+      "Qatar",
+      "Egypt",
+      "United States"
+    ],
+    "target": "Cessation of hostilities and phased hostage-prisoner exchange",
+    "casualties": "N/A (over 46,000 Palestinians killed by this date)",
+    "description": "A ceasefire agreement brokered by Qatar, Egypt, and the US took effect, establishing phased hostage-prisoner exchanges and partial Israeli withdrawal. The agreement has been repeatedly violated since.",
+    "sources": [
+      "J Street — https://jstreet.org/nine-months-in-assessing-the-status-of-the-gaza-ceasefire/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-health-crisis-2026",
+    "name": "Gaza Disease Outbreak: 9,300+ Chickenpox Cases",
+    "lat": 31.42,
+    "lon": 34.36,
+    "type": "political",
+    "date": "2026-06-15T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Gaza Health Ministry",
+      "WHO"
+    ],
+    "target": "130+ health facilities across Gaza Strip",
+    "casualties": "9,300+ cases; indirect deaths from collapsed healthcare system",
+    "description": "Over 9,300 chickenpox cases were recorded across 130 health facilities in Gaza, reflecting the near-total collapse of the healthcare system. Only 3 hospitals remain fully functional in the entire territory.",
+    "sources": [
+      "J Street — https://jstreet.org/nine-months-in-assessing-the-status-of-the-gaza-ceasefire/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "hamas-ncag-handover",
+    "name": "Hamas Announces Civilian Governance Handover",
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "type": "political",
+    "date": "2026-07-06T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Hamas",
+      "NCAG (National Committee for Administration of Gaza)"
+    ],
+    "target": "Civilian governance of Gaza Strip",
+    "casualties": "N/A",
+    "description": "Hamas announced via Cairo that it would hand over civilian governance in Gaza to the NCAG, but without a disarmament timeline. Israel rejected the move as insufficient for its security demands.",
+    "sources": [
+      "J Street — https://jstreet.org/nine-months-in-assessing-the-status-of-the-gaza-ceasefire/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "eu-gaza-recovery-funding",
+    "name": "EU Announces 900M Euro Gaza Recovery Fund",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "type": "political",
+    "date": "2026-07-13T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "European Union",
+      "Gaza reconstruction stakeholders"
+    ],
+    "target": "Gaza early recovery and reconstruction",
+    "casualties": "N/A",
+    "description": "The European Union announced 900 million euros in funding for Gaza early recovery, the largest single international financial commitment to post-ceasefire reconstruction.",
+    "sources": [
+      "J Street — https://jstreet.org/nine-months-in-assessing-the-status-of-the-gaza-ceasefire/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "west-bank-settler-violence-wave",
+    "name": "West Bank Settler Violence Wave: Tell/Nablus",
+    "lat": 32.2211,
+    "lon": 35.2544,
+    "type": "ground",
+    "date": "2026-07-24T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Israeli settlers",
+      "IDF",
+      "Palestinian civilians"
+    ],
+    "target": "Tell village near Nablus; spread to 5 towns across West Bank",
+    "casualties": "6 killed (4 Palestinians, 2 Israelis), 12+ injured",
+    "description": "A settler raid and shootout in Tell village near Nablus killed 4 Palestinians and 2 Israelis, triggering the most intense settler violence wave of 2026. Over the following days, settlers attacked across 5 towns, and 70+ Palestinians were detained in sweeping IDF raids.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "settler-mosque-burnings",
+    "name": "Settler Revenge Attacks: Mosques Burned in Qusra, Kur",
+    "lat": 32.14,
+    "lon": 35.27,
+    "type": "ground",
+    "date": "2026-07-26T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Israeli settlers",
+      "Palestinian communities"
+    ],
+    "target": "Rahma Mosque in Qusra, mosque in Kur, homes in Beit Furik",
+    "casualties": "Property destruction; injuries reported",
+    "description": "In retaliation for the Tell incident, settlers burned the Rahma Mosque in Qusra and set fire to a mosque in Kur. Homes were burned in Beit Furik. Four illegal outposts were established by settlers during the violence.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "netanyahu-rejects-roadmap",
+    "name": "Netanyahu Rejects US 15-Point Gaza Roadmap",
+    "lat": 31.7683,
+    "lon": 35.2137,
+    "type": "political",
+    "date": "2026-08-09T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Israel (Netanyahu)",
+      "United States"
+    ],
+    "target": "US-proposed phased withdrawal and disarmament plan",
+    "casualties": "N/A",
+    "description": "Netanyahu rejected a US-led 15-point roadmap for Gaza, declaring Israel would not withdraw until Hamas was genuinely disarmed. The rejection was described by analysts as threatening endless war and undermining the ceasefire framework.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/10/why-netanyahus-coup-against-gaza-plan-risks-endless-war"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-airstrikes-aug-23",
+    "name": "Israeli Airstrikes Kill 3 Including Child in Gaza",
+    "lat": 31.44,
+    "lon": 34.38,
+    "type": "airstrike",
+    "date": "2026-08-23T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Israel Defense Forces",
+      "Palestinian civilians"
+    ],
+    "target": "az-Zawayda, Shujaiyya, Khan Younis",
+    "casualties": "3 killed including a 4-year-old child, multiple wounded",
+    "description": "Israeli airstrikes killed 3 people including a 4-year-old child across multiple locations in Gaza. Netanyahu threatened intensification of operations over kite launches from Gaza into Israeli territory.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/23/israeli-air-strike-near-gaza-refugee-camp-kills-one-person-and-injures-two"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-infrastructure-strikes-aug-24",
+    "name": "Strikes Hit Water Plant, Mosque, UNICEF Warehouse",
+    "lat": 31.41,
+    "lon": 34.35,
+    "type": "airstrike",
+    "date": "2026-08-24T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Israel Defense Forces",
+      "Palestinian civilians/UN facilities"
+    ],
+    "target": "Water plant, mosque, and UNICEF warehouse in Bureij, Deir el-Balah, Khan Younis",
+    "casualties": "7 killed including 2 children",
+    "description": "Israeli strikes hit civilian infrastructure including a water treatment plant, a mosque, and a UNICEF warehouse storing nutrition supplies for children and pregnant women. Seven people were killed including two children.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "punitive-demolition-tell",
+    "name": "IDF Demolishes Tell Shooter's Family Home",
+    "lat": 32.2211,
+    "lon": 35.2544,
+    "type": "ground",
+    "date": "2026-08-11T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Israel Defense Forces",
+      "Palestinian family"
+    ],
+    "target": "Home of Farouq Ramadan in Tell village",
+    "casualties": "Property destruction (punitive demolition)",
+    "description": "The IDF demolished the family home of Farouq Ramadan, identified as the Palestinian shooter in the July 24 Tell incident, as a punitive measure. Punitive home demolitions are considered collective punishment under international law.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
+    ],
+    "theater": "israel-palestine"
+  }
+]

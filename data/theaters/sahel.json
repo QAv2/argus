@@ -8,11 +8,19 @@
     "theater": "sahel",
     "date": "2023-07-26T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Presidential Guard (CNSP)", "President Mohamed Bazoum"],
+    "parties": [
+      "Presidential Guard (CNSP)",
+      "President Mohamed Bazoum"
+    ],
     "target": "Nigerien government / President Bazoum",
     "casualties": "No reported combat casualties",
     "description": "Presidential guard led by Gen. Tchiani detained President Bazoum and seized power, forming the CNSP. Bazoum remains detained at the presidential palace.",
-    "sources": ["Al Jazeera", "NPR", "BBC", "France 24"]
+    "sources": [
+      "Al Jazeera",
+      "NPR",
+      "BBC",
+      "France 24"
+    ]
   },
   {
     "id": "ecowas-standby-force-activation",
@@ -23,11 +31,20 @@
     "theater": "sahel",
     "date": "2023-08-10T00:00:00Z",
     "operation": "N/A",
-    "parties": ["ECOWAS", "Niger CNSP junta", "Mali junta", "Burkina Faso junta"],
+    "parties": [
+      "ECOWAS",
+      "Niger CNSP junta",
+      "Mali junta",
+      "Burkina Faso junta"
+    ],
     "target": "Niger military junta",
     "casualties": "N/A",
     "description": "ECOWAS ordered activation of standby force after Niger junta ignored ultimatum. Mali and Burkina Faso warned intervention would be a 'declaration of war.'",
-    "sources": ["Al Jazeera", "CNN", "Foreign Policy"]
+    "sources": [
+      "Al Jazeera",
+      "CNN",
+      "Foreign Policy"
+    ]
   },
   {
     "id": "timbuktu-blockade-jnim",
@@ -38,11 +55,18 @@
     "theater": "sahel",
     "date": "2023-08-08T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Malian Armed Forces"],
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
     "target": "City of Timbuktu, supply routes",
     "casualties": "33,000 displaced",
     "description": "JNIM imposed a complete blockade on Timbuktu, cutting off food supplies, humanitarian aid, and commercial flights. Food prices doubled.",
-    "sources": ["NPR", "The New Humanitarian", "Africa Defense Forum"]
+    "sources": [
+      "NPR",
+      "The New Humanitarian",
+      "Africa Defense Forum"
+    ]
   },
   {
     "id": "gabon-coup-2023",
@@ -53,11 +77,19 @@
     "theater": "sahel",
     "date": "2023-08-30T00:00:00Z",
     "operation": "N/A",
-    "parties": ["CTRI", "President Ali Bongo Ondimba"],
+    "parties": [
+      "CTRI",
+      "President Ali Bongo Ondimba"
+    ],
     "target": "Gabonese government / Bongo dynasty",
     "casualties": "Minimal reported",
     "description": "Military officers seized power minutes after Ali Bongo was declared election winner, ending the Bongo family's 56-year rule.",
-    "sources": ["CNN", "Al Jazeera", "NPR", "USIP"]
+    "sources": [
+      "CNN",
+      "Al Jazeera",
+      "NPR",
+      "USIP"
+    ]
   },
   {
     "id": "aes-formation-liptako-gourma",
@@ -68,11 +100,19 @@
     "theater": "sahel",
     "date": "2023-09-16T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Mali", "Burkina Faso", "Niger"],
+    "parties": [
+      "Mali",
+      "Burkina Faso",
+      "Niger"
+    ],
     "target": "N/A - mutual defense pact",
     "casualties": "N/A",
     "description": "Mali, Burkina Faso, and Niger signed the Charter of Liptako-Gourma establishing a mutual defense alliance. Article VI: attack on one is attack on all.",
-    "sources": ["Peoples Dispatch", "The Conversation", "Al Jazeera"]
+    "sources": [
+      "Peoples Dispatch",
+      "The Conversation",
+      "Al Jazeera"
+    ]
   },
   {
     "id": "mali-kidal-capture-2023",
@@ -83,11 +123,19 @@
     "theater": "sahel",
     "date": "2023-11-14T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Malian Armed Forces", "Wagner Group", "Tuareg separatist groups (CMA/CSP)"],
+    "parties": [
+      "Malian Armed Forces",
+      "Wagner Group",
+      "Tuareg separatist groups (CMA/CSP)"
+    ],
     "target": "City of Kidal, Tuareg rebel stronghold",
     "casualties": "Unknown",
     "description": "Malian army backed by Wagner mercenaries captured Kidal, ending over a decade of Tuareg rebel control. Wagner flew their flag over the fort on November 22.",
-    "sources": ["France 24", "Al Jazeera", "BBC"]
+    "sources": [
+      "France 24",
+      "Al Jazeera",
+      "BBC"
+    ]
   },
   {
     "id": "burkina-zaongo-massacre",
@@ -98,11 +146,18 @@
     "theater": "sahel",
     "date": "2023-11-05T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Burkinabe Armed Forces", "Civilians"],
+    "parties": [
+      "Burkinabe Armed Forces",
+      "Civilians"
+    ],
     "target": "Zaongo village civilians",
     "casualties": "70-200+ killed",
     "description": "The Burkinabe army massacred at least 70 people in Zaongo village in Yatenga Province. Reports range from 70 to over 200 killed.",
-    "sources": ["Associated Press", "Human Rights Watch", "PBS"]
+    "sources": [
+      "Associated Press",
+      "Human Rights Watch",
+      "PBS"
+    ]
   },
   {
     "id": "plateau-state-christmas-massacre",
@@ -113,11 +168,18 @@
     "theater": "sahel",
     "date": "2023-12-24T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Suspected Fulani militias", "Civilian communities"],
+    "parties": [
+      "Suspected Fulani militias",
+      "Civilian communities"
+    ],
     "target": "17+ rural communities in Bokkos and Barkin Ladi",
     "casualties": "195 killed, 500+ injured, 200+ houses burned",
     "description": "Armed attackers systematically attacked villages across Plateau State on Christmas Eve in one of Nigeria's worst sectarian attacks.",
-    "sources": ["Vatican News", "Vanguard Nigeria", "Amnesty International"]
+    "sources": [
+      "Vatican News",
+      "Vanguard Nigeria",
+      "Amnesty International"
+    ]
   },
   {
     "id": "french-withdrawal-niger-complete",
@@ -128,11 +190,18 @@
     "theater": "sahel",
     "date": "2023-12-22T00:00:00Z",
     "operation": "End of Operation Barkhane (Niger)",
-    "parties": ["France", "Niger CNSP junta"],
+    "parties": [
+      "France",
+      "Niger CNSP junta"
+    ],
     "target": "N/A - military withdrawal",
     "casualties": "N/A",
     "description": "The last 1,500 French soldiers departed Niger, ending a decade of French counterterrorism operations in the Sahel. France also closed its embassy.",
-    "sources": ["Al Jazeera", "France 24", "Washington Post"]
+    "sources": [
+      "Al Jazeera",
+      "France 24",
+      "Washington Post"
+    ]
   },
   {
     "id": "minusma-withdrawal-complete",
@@ -143,26 +212,39 @@
     "theater": "sahel",
     "date": "2023-12-31T00:00:00Z",
     "operation": "MINUSMA liquidation",
-    "parties": ["United Nations", "Mali transitional government"],
+    "parties": [
+      "United Nations",
+      "Mali transitional government"
+    ],
     "target": "N/A - peacekeeping withdrawal",
     "casualties": "311 MINUSMA personnel killed over 10 years",
     "description": "The UN completed its full withdrawal from Mali per Security Council Resolution 2690, ending 10 years of peacekeeping operations.",
-    "sources": ["UN News", "House of Commons Library", "Wilson Center"]
+    "sources": [
+      "UN News",
+      "House of Commons Library",
+      "Wilson Center"
+    ]
   },
   {
     "id": "africa-corps-burkina-deployment",
     "name": "Russia's Africa Corps Deploys to Burkina Faso",
     "lat": 12.49,
-    "lon": -1.40,
+    "lon": -1.4,
     "type": "political",
     "theater": "sahel",
     "date": "2024-01-24T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Russia (Africa Corps)", "Burkina Faso transitional government"],
+    "parties": [
+      "Russia (Africa Corps)",
+      "Burkina Faso transitional government"
+    ],
     "target": "N/A - security deployment",
     "casualties": "N/A",
     "description": "Russia's Africa Corps deployed 100 military personnel with plans to expand to 300. Base established at Loumbila, 20 km northeast of Ouagadougou.",
-    "sources": ["Stratfor/RANE", "Nordsint OSINT"]
+    "sources": [
+      "Stratfor/RANE",
+      "Nordsint OSINT"
+    ]
   },
   {
     "id": "aes-ecowas-withdrawal-announcement",
@@ -173,11 +255,20 @@
     "theater": "sahel",
     "date": "2024-01-28T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Mali", "Burkina Faso", "Niger", "ECOWAS"],
+    "parties": [
+      "Mali",
+      "Burkina Faso",
+      "Niger",
+      "ECOWAS"
+    ],
     "target": "ECOWAS membership",
     "casualties": "N/A",
     "description": "The three AES juntas jointly announced ECOWAS withdrawal, citing sanctions and intervention threats. Withdrawal became effective January 29, 2025.",
-    "sources": ["Al Jazeera", "Human Rights Watch", "VOA"]
+    "sources": [
+      "Al Jazeera",
+      "Human Rights Watch",
+      "VOA"
+    ]
   },
   {
     "id": "burkina-nondin-soro-massacre",
@@ -188,11 +279,19 @@
     "theater": "sahel",
     "date": "2024-02-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Burkinabe Armed Forces", "Civilians"],
+    "parties": [
+      "Burkinabe Armed Forces",
+      "Civilians"
+    ],
     "target": "Nondin and Soro villages, Yatenga Province",
     "casualties": "223 killed including 56 children",
     "description": "Burkinabe soldiers summarily executed at least 223 civilians, including 56 children. Human Rights Watch described it as the worst army abuse since 2015, possibly crimes against humanity.",
-    "sources": ["Human Rights Watch", "PBS", "CBC", "Associated Press"]
+    "sources": [
+      "Human Rights Watch",
+      "PBS",
+      "CBC",
+      "Associated Press"
+    ]
   },
   {
     "id": "kuriga-school-kidnapping",
@@ -203,11 +302,19 @@
     "theater": "sahel",
     "date": "2024-03-07T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Armed bandits", "Nigerian security forces"],
+    "parties": [
+      "Armed bandits",
+      "Nigerian security forces"
+    ],
     "target": "Students at Kuriga schools, Kaduna State",
     "casualties": "287 students abducted (all freed March 24)",
     "description": "Armed men abducted 287 students aged 8-15 from schools in Kuriga, demanding 1 billion naira ransom. All freed after 17 days.",
-    "sources": ["Al Jazeera", "NPR", "CBS News", "Human Rights Watch"]
+    "sources": [
+      "Al Jazeera",
+      "NPR",
+      "CBS News",
+      "Human Rights Watch"
+    ]
   },
   {
     "id": "africa-corps-niger-deployment",
@@ -218,11 +325,19 @@
     "theater": "sahel",
     "date": "2024-04-12T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Russia (Africa Corps)", "Niger CNSP junta"],
+    "parties": [
+      "Russia (Africa Corps)",
+      "Niger CNSP junta"
+    ],
     "target": "N/A - military cooperation",
     "casualties": "N/A",
     "description": "One hundred Africa Corps troops arrived in Niamey with a 'latest generation' air defense system to train Nigerien forces.",
-    "sources": ["France 24", "CNN", "VOA", "Critical Threats"]
+    "sources": [
+      "France 24",
+      "CNN",
+      "VOA",
+      "Critical Threats"
+    ]
   },
   {
     "id": "orano-imouraren-license-revoked",
@@ -233,11 +348,18 @@
     "theater": "sahel",
     "date": "2024-06-21T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Niger military government", "Orano (France)"],
+    "parties": [
+      "Niger military government",
+      "Orano (France)"
+    ],
     "target": "Imouraren uranium mine",
     "casualties": "N/A",
     "description": "Niger revoked Orano's license at the Imouraren mine (200,000 tonnes uranium). Orano halted all production at Arlit by October 31.",
-    "sources": ["Al Jazeera", "World Nuclear News", "VOA"]
+    "sources": [
+      "Al Jazeera",
+      "World Nuclear News",
+      "VOA"
+    ]
   },
   {
     "id": "aes-confederation-niamey-summit",
@@ -248,11 +370,19 @@
     "theater": "sahel",
     "date": "2024-07-06T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Mali", "Burkina Faso", "Niger"],
+    "parties": [
+      "Mali",
+      "Burkina Faso",
+      "Niger"
+    ],
     "target": "N/A - confederation formation",
     "casualties": "N/A",
     "description": "AES leaders signed a confederation treaty transforming the mutual defense pact into a full confederation with economic integration goals, free from Western influence.",
-    "sources": ["Katoikos", "Modern Diplomacy", "Peoples Dispatch"]
+    "sources": [
+      "Katoikos",
+      "Modern Diplomacy",
+      "Peoples Dispatch"
+    ]
   },
   {
     "id": "us-withdrawal-niamey-ab101",
@@ -263,11 +393,18 @@
     "theater": "sahel",
     "date": "2024-07-07T00:00:00Z",
     "operation": "N/A",
-    "parties": ["United States (AFRICOM)", "Niger military government"],
+    "parties": [
+      "United States (AFRICOM)",
+      "Niger military government"
+    ],
     "target": "N/A - military withdrawal",
     "casualties": "N/A",
     "description": "US forces completed withdrawal from Air Base 101 in Niamey following Niger's termination of the bilateral defense agreement.",
-    "sources": ["AFRICOM", "Washington Post", "Stars and Stripes"]
+    "sources": [
+      "AFRICOM",
+      "Washington Post",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "battle-tinzaouaten",
@@ -278,11 +415,21 @@
     "theater": "sahel",
     "date": "2024-07-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Malian Armed Forces", "Wagner Group", "CSP-DPA (Tuareg rebels)", "JNIM"],
+    "parties": [
+      "Malian Armed Forces",
+      "Wagner Group",
+      "CSP-DPA (Tuareg rebels)",
+      "JNIM"
+    ],
     "target": "Malian-Wagner convoy near Algerian border",
     "casualties": "47-84 Wagner killed, 40-47 Malian soldiers killed",
     "description": "Tuareg rebels ambushed a Malian-Wagner convoy in a three-day battle. Wagner's largest known loss of life in Africa, with possibly only three Russian fighters surviving.",
-    "sources": ["CBS News", "VOA", "BBC", "Africanews"]
+    "sources": [
+      "CBS News",
+      "VOA",
+      "BBC",
+      "Africanews"
+    ]
   },
   {
     "id": "us-withdrawal-agadez-ab201",
@@ -293,11 +440,19 @@
     "theater": "sahel",
     "date": "2024-08-05T00:00:00Z",
     "operation": "N/A",
-    "parties": ["United States (AFRICOM)", "Niger military government"],
+    "parties": [
+      "United States (AFRICOM)",
+      "Niger military government"
+    ],
     "target": "N/A - base handover",
     "casualties": "N/A",
     "description": "US completed withdrawal from Air Base 201 near Agadez, a $110 million drone base and the largest USAF-led construction project in history.",
-    "sources": ["AFRICOM", "Washington Post", "CNN", "Stars and Stripes"]
+    "sources": [
+      "AFRICOM",
+      "Washington Post",
+      "CNN",
+      "Stars and Stripes"
+    ]
   },
   {
     "id": "barsalogho-massacre",
@@ -308,11 +463,20 @@
     "theater": "sahel",
     "date": "2024-08-24T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Burkinabe Armed Forces", "Civilians"],
+    "parties": [
+      "JNIM",
+      "Burkinabe Armed Forces",
+      "Civilians"
+    ],
     "target": "Civilians digging military trenches",
     "casualties": "400-600 killed",
     "description": "JNIM attacked hundreds of civilians forced by the military to dig defensive trenches. The deadliest massacre in Burkinabe history and deadliest single attack of the Sahel insurgency.",
-    "sources": ["CNN", "Human Rights Watch", "Bellingcat", "The New Humanitarian"]
+    "sources": [
+      "CNN",
+      "Human Rights Watch",
+      "Bellingcat",
+      "The New Humanitarian"
+    ]
   },
   {
     "id": "djibo-siege-humanitarian-crisis",
@@ -323,11 +487,20 @@
     "theater": "sahel",
     "date": "2024-10-21T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Ansarul Islam", "Burkinabe Armed Forces"],
+    "parties": [
+      "JNIM",
+      "Ansarul Islam",
+      "Burkinabe Armed Forces"
+    ],
     "target": "City of Djibo and 300,000 residents",
     "casualties": "Near-famine conditions (IPC Phase 5 risk)",
     "description": "MSF suspended operations in Djibo after recurrent attacks. Residents had less than 3L of water per day, resorted to eating leaves.",
-    "sources": ["MSF", "ACAPS", "FEWS NET", "Norwegian Refugee Council"]
+    "sources": [
+      "MSF",
+      "ACAPS",
+      "FEWS NET",
+      "Norwegian Refugee Council"
+    ]
   },
   {
     "id": "ndjamena-presidential-palace-attack",
@@ -338,11 +511,19 @@
     "theater": "sahel",
     "date": "2025-01-08T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Unknown attackers", "Chad Presidential Guard"],
+    "parties": [
+      "Unknown attackers",
+      "Chad Presidential Guard"
+    ],
     "target": "Presidential palace, N'Djamena",
     "casualties": "20 killed (18 attackers, 2 guards)",
     "description": "24 attackers armed with knives and machetes attempted to storm the presidential complex. President Deby was inside but unharmed.",
-    "sources": ["Al Jazeera", "Bloomberg", "Xinhua", "Africanews"]
+    "sources": [
+      "Al Jazeera",
+      "Bloomberg",
+      "Xinhua",
+      "Africanews"
+    ]
   },
   {
     "id": "aes-ecowas-formal-exit",
@@ -353,26 +534,43 @@
     "theater": "sahel",
     "date": "2025-01-29T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Mali", "Burkina Faso", "Niger", "ECOWAS"],
+    "parties": [
+      "Mali",
+      "Burkina Faso",
+      "Niger",
+      "ECOWAS"
+    ],
     "target": "ECOWAS membership",
     "casualties": "N/A",
     "description": "Niger, Mali, and Burkina Faso officially left ECOWAS after a one-year notice period.",
-    "sources": ["VOA", "Al Jazeera", "JURIST"]
+    "sources": [
+      "VOA",
+      "Al Jazeera",
+      "JURIST"
+    ]
   },
   {
     "id": "aes-operation-yereko-2",
     "name": "AES Joint Operation Yereko 2",
-    "lat": 14.50,
-    "lon": 0.50,
+    "lat": 14.5,
+    "lon": 0.5,
     "type": "ground",
     "theater": "sahel",
     "date": "2025-02-15T00:00:00Z",
     "operation": "Operation Yereko 2",
-    "parties": ["Mali Armed Forces", "Burkina Faso Armed Forces", "Niger Armed Forces"],
+    "parties": [
+      "Mali Armed Forces",
+      "Burkina Faso Armed Forces",
+      "Niger Armed Forces"
+    ],
     "target": "Jihadist groups in Liptako-Gourma tri-border area",
     "casualties": "Multiple terrorist leaders neutralized",
     "description": "The three AES armies conducted a tripartite joint operation targeting jihadist sanctuaries in the tri-border area.",
-    "sources": ["Peoples Dispatch", "Military Africa", "ISS Africa"]
+    "sources": [
+      "Peoples Dispatch",
+      "Military Africa",
+      "ISS Africa"
+    ]
   },
   {
     "id": "mali-fuel-blockade-jnim",
@@ -383,11 +581,19 @@
     "theater": "sahel",
     "date": "2025-09-03T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Malian Armed Forces"],
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
     "target": "Fuel supply routes from Senegal, Guinea, Ivory Coast",
     "casualties": "300+ fuel tankers destroyed",
     "description": "JNIM announced a fuel blockade destroying over 300 tankers on national roads, crippling 95% of Mali's fuel imports.",
-    "sources": ["Bellingcat", "Al Jazeera", "Janes", "The Soufan Center"]
+    "sources": [
+      "Bellingcat",
+      "Al Jazeera",
+      "Janes",
+      "The Soufan Center"
+    ]
   },
   {
     "id": "aes-unified-force-launch",
@@ -398,11 +604,42 @@
     "theater": "sahel",
     "date": "2025-12-20T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Mali", "Burkina Faso", "Niger"],
+    "parties": [
+      "Mali",
+      "Burkina Faso",
+      "Niger"
+    ],
     "target": "N/A - military force establishment",
     "casualties": "N/A",
     "description": "The AES inaugurated a 5,000-strong unified military force with headquarters in Niamey, integrating air power, intelligence sharing, and coordinated ground operations.",
-    "sources": ["Peoples Dispatch", "TRT Afrika", "Military Africa"]
+    "sources": [
+      "Peoples Dispatch",
+      "TRT Afrika",
+      "Military Africa"
+    ]
+  },
+  {
+    "id": "niamey-airport-attack-jan-2026",
+    "name": "ISSP/ISWAP Assault on Niamey Airport & Air Base 101",
+    "lat": 13.4815,
+    "lon": 2.1836,
+    "type": "ground",
+    "date": "2026-01-29T03:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Islamic State Sahel Province",
+      "Islamic State West Africa Province",
+      "Niger Armed Forces",
+      "Africa Corps"
+    ],
+    "target": "Diori Hamani International Airport and Air Base 101, Niamey",
+    "casualties": "Niger: 20 attackers killed, 11 captured, 4 soldiers wounded (official); unconfirmed reports of 24 Nigerien soldiers and 3–4 Russian personnel killed",
+    "description": "30+ Islamic State militants on motorcycles, using drones and mortars, attacked Niamey's airport and the adjoining Air Base 101 in the early hours, destroying at least five military aircraft including a helicopter and damaging Air Côte d'Ivoire and Asky airliners. Gen. Tiani accused France, Benin and Côte d'Ivoire of sponsoring the attack without presenting evidence; the US moved Niger to Level 4 'Do Not Travel' the next day.",
+    "sources": [
+      "Semafor — https://www.semafor.com/article/01/30/2026/niger-leader-blames-france-benin-cte-divoire-for-airport-attack",
+      "Wikipedia (Al Jazeera / France 24 / AP / Long War Journal citations) — https://en.wikipedia.org/wiki/January_2026_Diori_Hamani_International_Airport_attack"
+    ],
+    "theater": "sahel"
   },
   {
     "id": "mali-coordinated-attacks-kati",
@@ -413,11 +650,20 @@
     "theater": "sahel",
     "date": "2026-04-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Azawad Liberation Front", "Malian Armed Forces", "Russia Africa Corps"],
+    "parties": [
+      "JNIM",
+      "Azawad Liberation Front",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
     "target": "Kati military base, Defense Minister Sadio Camara",
     "casualties": "Defense Minister Camara killed; Intelligence Chief Kone killed April 26; Army Chief Diarra wounded",
     "description": "JNIM drove a car bomb into the Defense Minister's house. President Goita evacuated. Part of the largest coordinated offensive since the 2012 northern Mali capture.",
-    "sources": ["Al Jazeera", "NPR", "FDD Long War Journal"]
+    "sources": [
+      "Al Jazeera",
+      "NPR",
+      "FDD Long War Journal"
+    ]
   },
   {
     "id": "mali-coordinated-attacks-sevare",
@@ -428,11 +674,19 @@
     "theater": "sahel",
     "date": "2026-04-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["JNIM", "Malian Armed Forces", "Russia Africa Corps"],
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
     "target": "Sevare military airfield and Mopti area",
     "casualties": "Unknown; city split between government and rebel control",
     "description": "JNIM attacked the strategic Sevare airfield hosting Mali Air Force and Russian forces. The city was split under dual control.",
-    "sources": ["Al Jazeera", "FDD Long War Journal", "NPR"]
+    "sources": [
+      "Al Jazeera",
+      "FDD Long War Journal",
+      "NPR"
+    ]
   },
   {
     "id": "kidal-rebel-recapture-2026",
@@ -443,10 +697,298 @@
     "theater": "sahel",
     "date": "2026-04-25T00:00:00Z",
     "operation": "N/A",
-    "parties": ["Azawad Liberation Front", "JNIM", "Malian Armed Forces", "Russia Africa Corps"],
+    "parties": [
+      "Azawad Liberation Front",
+      "JNIM",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
     "target": "City of Kidal",
     "casualties": "Unknown",
-    "description": "In unprecedented alliance, Tuareg separatists and JNIM jointly recaptured Kidal, reversing the November 2023 victory. Africa Corps confirmed withdrawal on April 26.",
-    "sources": ["France 24", "Al Jazeera", "FDD", "The New Arab"]
+    "description": "In unprecedented alliance, Tuareg separatists and JNIM jointly recaptured Kidal, reversing the November 2023 victory. Africa Corps confirmed withdrawal on April 27.",
+    "sources": [
+      "France 24",
+      "Al Jazeera",
+      "FDD",
+      "The New Arab"
+    ]
+  },
+  {
+    "id": "issp-labbezanga-capture",
+    "name": "ISSP Seizes Labbezanga Border Post",
+    "lat": 14.9333,
+    "lon": 0.2833,
+    "type": "ground",
+    "date": "2026-04-27T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Islamic State Sahel Province",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
+    "target": "Labbezanga border post on Mali-Niger frontier",
+    "casualties": "Unknown",
+    "description": "ISSP forces captured Labbezanga, a key post on the Mali-Niger border, after Malian and Russian forces withdrew during the broader April 25 offensive. ISSP subsequently began probing military positions around the regional capital Menaka.",
+    "sources": [
+      "Critical Threats — https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara",
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-bamako-blockade-reimposed",
+    "name": "JNIM Reimpose Full Blockade on Bamako",
+    "lat": 12.6392,
+    "lon": -8.0029,
+    "type": "blockade",
+    "date": "2026-04-28T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
+    "target": "Bamako supply routes and 4 million residents",
+    "casualties": "N/A",
+    "description": "Two days after the April 25 offensive, JNIM announced a full blockade of Bamako, establishing checkpoints on all approaches and halting incoming and outgoing traffic. By April 30 over 250 vehicles were stranded on blocked roads.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/5/6/al-qaeda-linked-fighters-storm-mali-prison-block-food-supplies-to-bamako",
+      "Critical Threats — https://www.criticalthreats.org/analysis/mali-jnim-fla-somalia-shabaab-houthi-sudan-rsf-saf-nile-mozambique-prc-drc-m23-africa-file-april-30-2026"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "fla-jnim-tessalit-capture",
+    "name": "FLA and JNIM Capture Tessalit Military Base",
+    "lat": 20.2,
+    "lon": 0.9833,
+    "type": "ground",
+    "date": "2026-05-01T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Azawad Liberation Front",
+      "JNIM",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
+    "target": "Tessalit military base near Algerian border",
+    "casualties": "Unknown",
+    "description": "FLA and JNIM seized the Tessalit military base after Malian and Russian forces withdrew southward. The capture completed rebel consolidation of the entire Kidal Region including Aguelhok and Anefis.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives",
+      "Critical Threats — https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "goita-defense-minister-self-appointment",
+    "name": "Goita Assumes Defense Ministry After Camara Death",
+    "lat": 12.6392,
+    "lon": -8.0029,
+    "type": "political",
+    "date": "2026-05-04T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Assimi Goita",
+      "Malian transitional government"
+    ],
+    "target": "N/A - leadership restructuring",
+    "casualties": "N/A",
+    "description": "President Assimi Goita appointed himself Defense Minister following Sadio Camara's death in the April 25 attacks. The move consolidated all political and military authority under Goita as the junta faced its gravest crisis.",
+    "sources": [
+      "Washington Post — https://www.washingtonpost.com/world/2026/05/04/mali-defense-minister-junta-assimi-goita/93d2e596-47dd-11f1-a119-857cd2bf4fd4_story.html",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/4/26/mali-rattled-by-ongoing-armed-attacks-what-to-know"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-kenieroba-prison-attack",
+    "name": "JNIM Storms Kenieroba Central Prison",
+    "lat": 12.1,
+    "lon": -8.32,
+    "type": "ground",
+    "date": "2026-05-06T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
+    "target": "Kenieroba Central Prison housing 2,500 inmates",
+    "casualties": "Unknown",
+    "description": "JNIM fighters stormed Kenieroba Central Prison, dubbed Africa's Alcatraz, located 60 km southwest of Bamako. The facility held 2,500 prisoners including 72 high-value detainees and captured JNIM fighters. Attackers set vehicles ablaze inside the compound.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/5/6/al-qaeda-linked-fighters-storm-mali-prison-block-food-supplies-to-bamako",
+      "Africa Center — https://africacenter.org/daily-media-review/africa-media-review-for-may-7-2026/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-mopti-village-massacres-may",
+    "name": "JNIM Village Attacks Kill 70+ in Mopti Region",
+    "lat": 14.35,
+    "lon": -3.61,
+    "type": "ground",
+    "date": "2026-05-07T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Dan Na Ambassagou militia",
+      "Civilians"
+    ],
+    "target": "Villages of Korikori, Gomossogou, Kouroude, and Dougara",
+    "casualties": "70+ killed over two days",
+    "description": "JNIM attacked multiple villages in Mopti Region over two days. On May 7 fighters killed over 30 in Korikori and Gomossogou in apparent retaliation against Dan Na Ambassagou militia. On May 8, 40 more were killed in Kouroude and Dougara.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-bamako-kayes-bus-mine",
+    "name": "JNIM Landmine Kills 8 on Bamako-Kayes Highway",
+    "lat": 12.6392,
+    "lon": -8.0029,
+    "type": "ground",
+    "date": "2026-06-01T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Civilians"
+    ],
+    "target": "Civilian bus on Bamako-Kayes highway",
+    "casualties": "8 killed, 42 injured",
+    "description": "A JNIM landmine detonated under a civilian bus on the Bamako-Kayes highway, killing eight and injuring 42. The attack illustrated JNIM's ability to disrupt transport corridors across southern Mali during the ongoing blockade.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-fla-second-offensive-july",
+    "name": "Second Coordinated FLA/JNIM Offensive Across Mali",
+    "lat": 15.8833,
+    "lon": 2.0333,
+    "type": "ground",
+    "date": "2026-07-04T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Azawad Liberation Front",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
+    "target": "Anefis, Gao, Aguelhok, Bandiagara, Kati, Kenieroba prison",
+    "casualties": "30+ soldiers killed; Mali claimed 100 militants killed",
+    "description": "FLA and JNIM launched a second coordinated offensive after a two-month operational pause, simultaneously attacking Anefis, Gao, Aguelhok, Bandiagara, Kati, and again the Kenieroba prison. Anefis was the primary target with FLA claiming control of the town.",
+    "sources": [
+      "France 24 — https://www.france24.com/en/live-news/20260704-mali-hit-by-new-wave-of-coordinated-attacks",
+      "Critical Threats — https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "fla-russian-helicopter-shootdown-anefis",
+    "name": "FLA Shoots Down Russian Mi-24 Near Anefis",
+    "lat": 15.8833,
+    "lon": 2.0333,
+    "type": "ground",
+    "date": "2026-07-05T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Azawad Liberation Front",
+      "Russia Africa Corps"
+    ],
+    "target": "Africa Corps Mi-24P helicopter and relief convoy",
+    "casualties": "Helicopter crew killed; additional convoy casualties unknown",
+    "description": "FLA fighters ambushed an Africa Corps relief convoy moving from Gao toward Anefis and shot down a Mi-24P attack helicopter near Tabrichat. The shootdown was verified by OSINT analysts and marked a significant escalation in rebel anti-aircraft capability.",
+    "sources": [
+      "The Insider — https://theins.press/en/news/294511",
+      "Defence Blog — https://defence-blog.com/tuareg-fighters-shoot-down-russian-helicopter-in-mali/",
+      "The Deep Dive — https://thedeepdive.ca/tuareg-rebels-claim-to-have-shot-down-a-russian-helicopter-in-mali-as-fighting-rages-over-anefis/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "niger-tillaberi-ambush-july",
+    "name": "Jihadist Ambush Kills 16 Niger Soldiers in Tillaberi",
+    "lat": 14.3,
+    "lon": 0.73,
+    "type": "ground",
+    "date": "2026-07-17T00:00:00Z",
+    "operation": "Operation Niyya",
+    "parties": [
+      "Jihadist fighters",
+      "Niger Armed Forces"
+    ],
+    "target": "Niger military liaison detachment on Bankilare-Tera axis",
+    "casualties": "16 soldiers killed, 23 wounded; 15 attackers reportedly killed",
+    "description": "Jihadist fighters ambushed a Niger military liaison mission near Doungouro village on the Bankilare-Tera axis in Tillaberi Region. Reinforcements from Tera and air support forced the attackers to retreat. The AU Commission condemned the attack.",
+    "sources": [
+      "GAT Report — https://www.gat.report/87678/terrorist-ambush-kills-16-soldiers-in-nigers-tillaberi/",
+      "Advocate Nigeria — https://advocatengr.com/2026/07/19/terrorists-kill-16-soldiers-in-niger-republic/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "fla-anefis-convoy-ambush-july",
+    "name": "FLA Ambushes Mali Convoy Near Anefis",
+    "lat": 16.0,
+    "lon": 1.5,
+    "type": "ground",
+    "date": "2026-07-17T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "Azawad Liberation Front",
+      "Malian Armed Forces",
+      "Russia Africa Corps"
+    ],
+    "target": "Malian-Africa Corps relief convoy returning from Anefis",
+    "casualties": "50 soldiers killed, 20 captured (FLA claim)",
+    "description": "FLA fighters ambushed a Malian-Africa Corps convoy on the return route from Anefis, where government forces had briefly recaptured the town on July 9. The FLA claimed 50 soldiers killed and 20 captured.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-kouakourou-capture",
+    "name": "JNIM Overruns Kouakourou, Shoots Down Helicopter",
+    "lat": 14.02,
+    "lon": -4.74,
+    "type": "ground",
+    "date": "2026-07-18T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
+    "target": "Kouakourou military camp and town in Mopti Region",
+    "casualties": "Multiple soldiers killed; Mi-24 helicopter crew killed",
+    "description": "JNIM overran the military camp in Kouakourou in the Cercle de Djenne, forcing the population to flee. When three helicopters were dispatched the next day to evacuate casualties, JNIM fighters shot down and destroyed one Mi-24, killing its crew.",
+    "sources": [
+      "Critical Threats — https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23",
+      "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-san-barracks-attack",
+    "name": "JNIM Attacks San Barracks in Segou Region",
+    "lat": 13.3,
+    "lon": -4.9,
+    "type": "ground",
+    "date": "2026-08-09T00:00:00Z",
+    "operation": "Unnamed",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
+    "target": "San military barracks in Segou Region",
+    "casualties": "10+ soldiers killed",
+    "description": "JNIM claimed full control of the army barracks in San, Segou Region, releasing video of fighters inside the base. The Malian army disputed this, stating the attack was repelled and the facility remained under government control.",
+    "sources": [
+      "Arab News — https://www.arabnews.com/node/2654037/world",
+      "West African Voice Network — https://www.wavn.org/mali-army-says-san-military-base-attack-repelled-as-jnim-claims-victory/"
+    ],
+    "theater": "sahel"
   }
 ]

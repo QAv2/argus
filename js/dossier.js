@@ -530,7 +530,98 @@ const Dossier = (() => {
         <div class="dossier-field-value">${lat != null ? Number(lat).toFixed(4) : '—'}, ${lon != null ? Number(lon).toFixed(4) : '—'}</div>
       </div>
 
-      ${eventSources ? `<div class="dossier-field"><div class="dossier-field-label">Sources</div><div class="dossier-field-value" style="font-size:0.85em;color:var(--text-secondary)">${esc(String(eventSources))}</div></div>` : ''}
+      ${eventSources ? `<div class="dossier-field"><div class="dossier-field-label">Sources</div><div class="dossier-field-value dossier-source-list">${renderSourceList(eventSources, '; ')}</div></div>` : ''}
+    `;
+
+    bodyEl.innerHTML = html;
+    openPanel();
+    Bases.clearCorrelation(Globe.getViewer());
+  }
+
+  // Sources arrive as one string of items joined by `sep`. Items shaped
+  // "Outlet — https://…" render as a link (URL gated by safeHref); bare
+  // outlet names (the pre-2026-08 theater files) render as plain text.
+  function renderSourceList(joined, sep) {
+    const items = joined ? String(joined).split(sep).map(s => s.trim()).filter(Boolean) : [];
+    return items.map(s => {
+      const m = s.match(/^(.*?)\s+[—–-]\s+(https?:\/\/\S+)$/);
+      const label = m ? m[1] : s;
+      const href = safeHref(m ? m[2] : s);
+      return href
+        ? `<div><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a></div>`
+        : `<div>${esc(s)}</div>`;
+    }).join('');
+  }
+
+  function showDisaster(props) {
+    currentId = null;
+    const g = (k) => (props[k]?.getValue ? props[k].getValue() : props[k]);
+    const name = g('name');
+    const eventType = g('eventType');
+    const alertLevel = g('alertLevel');
+    const status = g('status');
+    const region = g('region');
+    const date = g('date');
+    const endDate = g('endDate');
+    const scale = g('scale');
+    const casualties = g('casualties');
+    const displaced = g('displaced');
+    const cause = g('cause');
+    const description = g('description');
+    const eventSources = g('eventSources');
+    const feed = g('feed');
+    const eventColor = g('eventColor');
+    const lat = g('lat');
+    const lon = g('lon');
+    const photoUrl = g('photoUrl');
+
+    titleEl.textContent = name || 'Disaster';
+
+    const color = eventColor || '#fb7185';
+    const typeLabel = eventType ? String(eventType).replace(/_/g, ' ') : 'disaster';
+    const fmt = (d) => {
+      if (!d) return null;
+      const t = new Date(d);
+      return isNaN(t) ? null : t.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+    };
+    const dateStr = fmt(date) || '—';
+    const endStr = fmt(endDate);
+
+    const alertColors = { Red: '#ef4444', Orange: '#f97316', Green: '#22c55e' };
+    let chips = `<div class="dossier-type-tag" style="background:${color}22;color:${color}">${esc(typeLabel)}</div>`;
+    if (alertLevel) {
+      const ac = alertColors[alertLevel] || '#9ca3af';
+      chips += `<div class="dossier-type-tag" style="background:${ac}22;color:${ac}">GDACS ${esc(String(alertLevel))}</div>`;
+    }
+    if (status === 'ongoing') {
+      chips += `<div class="dossier-type-tag" style="background:#fbbf2422;color:#fbbf24">ongoing</div>`;
+    }
+
+    const sourcesHtml = renderSourceList(eventSources, ' | ');
+
+    const field = (label, value) => value
+      ? `<div class="dossier-field"><div class="dossier-field-label">${label}</div><div class="dossier-field-value">${esc(String(value))}</div></div>`
+      : '';
+
+    const html = `
+      <div class="dossier-chips">${chips}</div>
+      ${renderPhoto(photoUrl, name)}
+      ${field('Region', region)}
+      <div class="dossier-field">
+        <div class="dossier-field-label">Date</div>
+        <div class="dossier-field-value">${dateStr}${endStr ? ` → ${endStr}` : ''}</div>
+      </div>
+      ${field('Scale', scale)}
+      ${field('Casualties', casualties)}
+      ${field('Displaced', displaced)}
+      ${field('Cause', cause)}
+      ${field('Description', description)}
+      <div class="dossier-field">
+        <div class="dossier-field-label">Coordinates</div>
+        <div class="dossier-field-value">${lat != null ? Number(lat).toFixed(4) : '—'}, ${lon != null ? Number(lon).toFixed(4) : '—'}</div>
+      </div>
+      ${sourcesHtml ? `<div class="dossier-field"><div class="dossier-field-label">Sources</div><div class="dossier-field-value dossier-source-list">${sourcesHtml}</div></div>` : ''}
+      ${feed ? `<div class="dossier-field"><div class="dossier-field-label">Feed</div><div class="dossier-field-value" style="font-size:0.85em;color:var(--text-secondary)">${esc(String(feed))}</div></div>` : ''}
     `;
 
     bodyEl.innerHTML = html;
@@ -770,5 +861,5 @@ const Dossier = (() => {
     return null;
   }
 
-  return { init, showBase, showMilitary, showIntel, showEarthquake, showAircraft, showSatellite, showVessel, showConflict, showAntarctica, close, isOpen };
+  return { init, showBase, showMilitary, showIntel, showEarthquake, showAircraft, showSatellite, showVessel, showConflict, showDisaster, showAntarctica, close, isOpen };
 })();

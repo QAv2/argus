@@ -13,7 +13,7 @@ const App = (() => {
 
       // Phase 1 — sequential core init
       setProgress('INITIALIZING CORE...', 10);
-      const viewer = Globe.init();
+      const viewer = await Globe.init();
 
       // Apply camera from hash (overrides default US view)
       if (hashState) HashState.applyCamera(hashState);

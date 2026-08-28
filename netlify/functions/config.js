@@ -19,6 +19,7 @@ exports.handler = async (event) => {
     headers,
     body: JSON.stringify({
       maptilerApiKey: process.env.MAPTILER_API_KEY || '',
+      cartoApiKey: process.env.CARTO_API_KEY || '',
     }),
   };
 };

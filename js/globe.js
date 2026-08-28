@@ -4,14 +4,23 @@ const Globe = (() => {
   let viewer = null;
   let currentBaseLayer = 'dark';
   let MAPTILER_API_KEY = '';
+  let CARTO_API_KEY = '';
+
+  // CARTO basemaps now require an API key (appended as ?key=). Falls back to
+  // the un-keyed URL if config hasn't loaded yet — that serves CARTO's
+  // "API key required" watermark tile, so the key must be loaded before init.
+  const cartoUrl = (style) => {
+    const base = `https://basemaps.cartocdn.com/${style}/{z}/{x}/{y}.png`;
+    return CARTO_API_KEY ? `${base}?key=${CARTO_API_KEY}` : base;
+  };
 
   // Available base layer providers
   const BASE_LAYERS = {
     dark: {
       name: 'Dark Matter',
       create: () => new Cesium.UrlTemplateImageryProvider({
-        url: 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-        credit: new Cesium.Credit('CartoDB'),
+        url: cartoUrl('dark_all'),
+        credit: new Cesium.Credit('CARTO'),
         maximumLevel: 18,
       }),
     },
@@ -41,8 +50,8 @@ const Globe = (() => {
     voyager: {
       name: 'Voyager',
       create: () => new Cesium.UrlTemplateImageryProvider({
-        url: 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        credit: new Cesium.Credit('CartoDB'),
+        url: cartoUrl('rastertiles/voyager'),
+        credit: new Cesium.Credit('CARTO'),
         maximumLevel: 18,
       }),
     },
@@ -54,15 +63,20 @@ const Globe = (() => {
       if (resp.ok) {
         const cfg = await resp.json();
         MAPTILER_API_KEY = cfg.maptilerApiKey || '';
+        CARTO_API_KEY = cfg.cartoApiKey || '';
       }
     } catch (err) {
       console.warn('[Globe] Config fetch failed, API features disabled:', err.message);
     }
   }
 
-  function init() {
+  async function init() {
     // No Ion token — use open tile sources only
     Cesium.Ion.defaultAccessToken = undefined;
+
+    // Load API keys before building the viewer so the default CARTO base
+    // layer is created with its key (no watermark flash on boot).
+    await loadConfig();
 
     viewer = new Cesium.Viewer('cesiumContainer', {
       // Disable all default UI
@@ -94,16 +108,14 @@ const Globe = (() => {
       },
     });
 
-    // Fetch API keys then load terrain — non-blocking
-    loadConfig().then(() => {
-      if (MAPTILER_API_KEY) {
-        Cesium.CesiumTerrainProvider.fromUrl(
-          `https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=${MAPTILER_API_KEY}`,
-          { requestVertexNormals: true }
-        ).then(tp => { viewer.terrainProvider = tp; requestRender(); })
-         .catch(err => console.warn('[Globe] MapTiler terrain failed:', err.message));
-      }
-    });
+    // Load MapTiler terrain if key present (config already loaded above) — non-blocking
+    if (MAPTILER_API_KEY) {
+      Cesium.CesiumTerrainProvider.fromUrl(
+        `https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=${MAPTILER_API_KEY}`,
+        { requestVertexNormals: true }
+      ).then(tp => { viewer.terrainProvider = tp; requestRender(); })
+       .catch(err => console.warn('[Globe] MapTiler terrain failed:', err.message));
+    }
 
     // Dark scene settings
     const scene = viewer.scene;

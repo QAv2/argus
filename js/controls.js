@@ -55,11 +55,34 @@ const Controls = (() => {
     { id: 'flir', name: 'FLIR', key: '3' },
   ];
 
+  // Single keys the keydown handler below already owns (modes, timeline, layer
+  // toggles, labels, share, crosshair). A preset bound to one of these can never
+  // fire from the keyboard — T/A/L shipped half-dead that way until 2026-08-28 —
+  // so such presets are dropped at boot with a warning instead of shipped broken.
+  const RESERVED_KEYS = new Set(['0', '1', '2', '3', 't', 'a', 'k', 'l', 's', 'x', '[', ']', '\\', '{', '}']);
+
+  function validatePresets(list) {
+    const seen = new Set();
+    return list.filter(p => {
+      const k = String(p.key || '').toLowerCase();
+      let reason = null;
+      if (!k) reason = 'no key';
+      else if (RESERVED_KEYS.has(k)) reason = `key "${p.key}" is reserved by a control binding`;
+      else if (seen.has(k)) reason = `key "${p.key}" already bound to another preset`;
+      if (reason) {
+        console.warn(`[Controls] Preset "${p.name}" dropped — ${reason}`);
+        return false;
+      }
+      seen.add(k);
+      return true;
+    });
+  }
+
   async function init() {
     // Load presets
     try {
       const resp = await fetch('data/presets.json');
-      presets = await resp.json();
+      presets = validatePresets(await resp.json());
     } catch {
       presets = [];
     }

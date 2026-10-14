@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Build the ARGUS sweep briefing (HTML) from the sweep/*.md agent reports + repo data.
+"""Build the ARGUS sweep briefing (HTML) from the sweep's agent reports + repo data.
 
-Env: SWEEP_DIR (default: this session's scratchpad sweep dir), ARGUS_DIR (default ~/argus),
-     OUT (default ~/argus/reports/sweep-2026-08-28.html)
+Env: SWEEP_DIR   sweep folder (agent .md/.json reports, corrections.json, briefing.json)
+     SWEEP_DATE  date shown + default output folder (default: today)
+     BASE_REF    git ref of the data BEFORE the sweep (default HEAD) — drives the before/after
+                 counts and the "added this sweep" tables
+     ARGUS_DIR   repo (default: two levels up)   OUT  output file
+briefing.json (optional, in SWEEP_DIR) carries the narrative: title, lede, meta, tiles
+[{k,v,small}], shipped [html], open [html], new_theaters [ids], photo_tool (url).
 """
 import json, os, re, html, pathlib, subprocess, datetime
 
@@ -24,7 +29,6 @@ THEATERS = [
     ('drc-great-lakes', 'DRC / Great Lakes', '#84cc16', '5'),
     ('israel-palestine', 'Israel–Palestine', '#6366f1', '6'),
 ]
-NEW_THEATERS = {'india-pakistan', 'drc-great-lakes', 'israel-palestine'}
 
 TYPE_COLORS = {
     'glacial': '#a5f3fc', 'avalanche': '#e0f2fe', 'landslide': '#d97706', 'flood': '#0ea5e9',
@@ -127,37 +131,54 @@ def md_to_html(md):
     return '\n'.join(out)
 
 
-def git_head_count(theater):
+
+BASE_REF = os.environ.get('BASE_REF', 'HEAD')
+NOTES = json.loads(read(SWEEP / 'briefing.json') or '{}')
+NEW_THEATERS = set(NOTES.get('new_theaters', []))
+
+
+def at_base(path):
     try:
-        raw = subprocess.run(['git', 'show', f'HEAD:data/theaters/{theater}.json'], cwd=ARGUS,
+        raw = subprocess.run(['git', 'show', f'{BASE_REF}:{path}'], cwd=ARGUS,
                              capture_output=True, text=True, check=True).stdout
-        return len(json.loads(raw))
+        return json.loads(raw)
     except Exception:
-        return 0
+        return []
 
 
 # ── Gather ────────────────────────────────────────────────────────────────
 theater_data = {}
 for tid, name, color, key in THEATERS:
     evs = json.load(open(ARGUS / 'data' / 'theaters' / f'{tid}.json'))
+    base_ids = {e['id'] for e in at_base(f'data/theaters/{tid}.json')}
     md = read(SWEEP / f'{tid}.md')
     theater_data[tid] = {
-        'name': name, 'color': color, 'key': key, 'count': len(evs),
-        'before': git_head_count(tid),
+        'name': name, 'color': color, 'key': key, 'count': len(evs), 'before': len(base_ids),
         'latest': max(e['date'] for e in evs)[:10],
         'state': section(md, r'[Ss]tate of the theater'),
         'corrections': section(md, r'Corrections'),
         'dropped': section(md, r'Dropped'),
-        'events': sorted(evs, key=lambda e: e['date']),
+        'added': sorted((e for e in evs if e['id'] not in base_ids), key=lambda e: e['date']),
     }
 
 scan_md = read(SWEEP / 'global-scan.md')
 scan_table = section(scan_md, r'Ranked')
-scan_recs = section(scan_md, r'Top-3')
+scan_recs = section(scan_md, r'Top-3|justification')
+scan_monitor = section(scan_md, r'Monitor')
+candidates = []
+for path in sorted(SWEEP.glob('candidate-*.json')):
+    candidates.append((path.stem[len('candidate-'):], sorted(json.load(open(path)), key=lambda e: e['date'])))
+
 dis_md = read(SWEEP / 'disasters.md')
-langtang = section(dis_md, r'Full Dossier')
-year = section(dis_md, r'Year in Review')
+dis_head = section(dis_md, r'^\(a\)|[Hh]eadline')
+dis_updates = section(dis_md, r'Updates to existing|Corrections')
 disasters = json.load(open(ARGUS / 'data' / 'disasters.json'))
+dis_base = {d['id'] for d in at_base('data/disasters.json')}
+corrections = json.loads(read(SWEEP / 'corrections.json') or '[]')
+photo_sets = []
+for path in sorted(SWEEP.glob('candidates-*.json')):
+    ents = json.load(open(path))['entities']
+    photo_sets.append((path.stem[len('candidates-'):], len(ents), sum(len(e['candidates']) for e in ents)))
 
 total_after = sum(t['count'] for t in theater_data.values())
 total_before = sum(t['before'] for t in theater_data.values())
@@ -203,108 +224,97 @@ td.mono{font-family:var(--mono);font-size:12px;white-space:nowrap}
 .note{font-size:13px;color:var(--faint);font-family:var(--mono)}
 """
 
+
+def ev_rows(evs):
+    return ''.join(
+        f'<tr><td class="mono">{e["date"][:10]}</td><td>{html.escape(e["name"])}</td><td class="mono">{html.escape(e["type"])}</td><td>{html.escape(str(e.get("casualties") or ""))[:90]}</td></tr>'
+        for e in evs)
+
+
+EV_HEAD = '<thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Casualties</th></tr></thead>'
+
+
 def theater_card(tid):
     t = theater_data[tid]
-    delta = t['count'] - t['before']
     new = tid in NEW_THEATERS
-    events_rows = ''.join(
-        f'<tr><td class="mono">{e["date"][:10]}</td><td>{html.escape(e["name"])}</td><td class="mono">{html.escape(e["type"])}</td><td>{html.escape(str(e.get("casualties") or ""))[:90]}</td></tr>'
-        for e in t['events'] if e['date'] >= '2026-04-01' or new
-    )
     extras = ''
     if t['corrections']:
-        extras += f'<details><summary>Corrections applied / flagged</summary><div class="inner">{md_to_html(t["corrections"])}</div></details>'
+        extras += f'<details><summary>Corrections — agent notes</summary><div class="inner">{md_to_html(t["corrections"])}</div></details>'
     if t['dropped']:
         extras += f'<details><summary>Dropped as unverifiable</summary><div class="inner">{md_to_html(t["dropped"])}</div></details>'
     return f'''
 <div class="card" style="border-left-color:{t['color']}">
   <div class="hd"><h3><span class="dot" style="background:{t['color']}"></span>{html.escape(t['name'])}</h3>
     <span class="key">preset {t['key']}</span>{'<span class="badge new">new theater</span>' if new else ''}
-    <span class="stat">{t['before']} → <b>{t['count']}</b> events (+{delta}) · latest {t['latest']}</span></div>
-  {md_to_html(t['state']) if t['state'] else '<p class="note">(new theater — see scan justification below)</p>'}
-  <details><summary>{'Events' if new else 'Events added since April'} ({sum(1 for e in t['events'] if e['date'] >= '2026-04-01' or new)})</summary><div class="inner tablewrap"><table><thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Casualties</th></tr></thead><tbody>{events_rows}</tbody></table></div></details>
+    <span class="stat">{t['before']} → <b>{t['count']}</b> events (+{len(t['added'])}) · latest {t['latest']}</span></div>
+  {md_to_html(t['state']) if t['state'] else ''}
+  <details><summary>Added this sweep ({len(t['added'])})</summary><div class="inner tablewrap"><table>{EV_HEAD}<tbody>{ev_rows(t['added'])}</tbody></table></div></details>
   {extras}
 </div>'''
 
 
+def candidate_card(slug, evs):
+    return f'''
+<div class="card" style="border-left-color:#f472b6">
+  <div class="hd"><h3>{html.escape(slug)}</h3><span class="badge new">candidate · awaiting your call</span>
+    <span class="stat">seed timeline: {len(evs)} events · {evs[0]["date"][:10]} → {evs[-1]["date"][:10]}</span></div>
+  <details><summary>Seed timeline</summary><div class="inner tablewrap"><table>{EV_HEAD}<tbody>{ev_rows(evs)}</tbody></table></div></details>
+</div>'''
+
+
+dis_new = [d for d in disasters if d['id'] not in dis_base]
 dis_rows = ''.join(
     f'<tr><td class="mono">{d["date"][:10]}</td><td><span class="dot" style="background:{TYPE_COLORS.get(d["type"], "#fb7185")}"></span>{html.escape(d["type"])}</td>'
-    f'<td>{html.escape(d["name"])}</td><td>{html.escape(d.get("region") or "")}</td><td>{html.escape(d.get("casualties") or "—")}</td><td class="mono">{d["status"]}</td></tr>'
+    f'<td>{html.escape(d["name"])}{" <span class=badge>new</span>" if d["id"] not in dis_base else ""}</td><td>{html.escape(d.get("region") or "")}</td><td>{html.escape(d.get("casualties") or "—")}</td><td class="mono">{d["status"]}</td></tr>'
     for d in sorted(disasters, key=lambda d: d['date'])
 )
-langtang_entry = next((d for d in disasters if d['type'] == 'glacial'), None)
+corr_rows = ''.join(
+    f'<tr><td class="mono">{html.escape(c["file"].replace("theaters/", ""))}</td><td class="mono">{html.escape(c["id"])}</td><td>{html.escape(c.get("why", ""))}</td></tr>'
+    for c in corrections)
+tiles = NOTES.get('tiles') or [
+    {'k': 'Conflict events', 'v': total_after, 'small': f'was {total_before}'},
+    {'k': 'Disasters · curated', 'v': len(disasters), 'small': f'was {len(dis_base)}'},
+    {'k': 'Corrections', 'v': len(corrections), 'small': 'records'},
+]
+tiles_html = ''.join(f'<div class="tile"><div class="k">{html.escape(str(t["k"]))}</div><div class="v">{t["v"]} <small>{html.escape(str(t.get("small", "")))}</small></div></div>' for t in tiles)
+lis = lambda items: ''.join(f'<li>{i}</li>' for i in items)
+photo_html = ''.join(f'<li><b>{html.escape(n)}</b> — {e} entities, {c} candidates</li>' for n, e, c in photo_sets)
 
 doc = f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ARGUS Sweep Briefing — {DATE}</title><style>{css}</style></head>
 <body>
-<header><div class="logo">ARGUS <span>// SWEEP BRIEFING</span></div><div class="meta">{DATE} · Fable 5 · research by Opus 4.8 agents (10 lanes)</div></header>
+<header><div class="logo">ARGUS <span>// SWEEP BRIEFING</span></div><div class="meta">{html.escape(NOTES.get('meta', DATE))}</div></header>
 <main>
-<h1>Current sweep — conflict theaters &amp; the new Disasters layer</h1>
-<p class="lede">Everything below is now live on <a href="https://argus-intel-globe.netlify.app">argus-intel-globe.netlify.app</a>. All eight existing theaters were researched forward from their last event to today; three theaters were added on the global scan's recommendation; the glacial collapse of Aug 26 seeded a new F11 Disasters layer (curated 2026 events + the live GDACS alert feed).</p>
+<h1>{html.escape(NOTES.get('title', 'Sweep — ' + DATE))}</h1>
+<p class="lede">{NOTES.get('lede', '')}</p>
+<div class="strip">{tiles_html}</div>
 
-<div class="strip">
-  <div class="tile"><div class="k">Conflict events</div><div class="v">{total_after} <small>was {total_before}</small></div></div>
-  <div class="tile"><div class="k">Theaters</div><div class="v">11 <small>was 8</small></div></div>
-  <div class="tile"><div class="k">Disasters · curated</div><div class="v">{len(disasters)} <small>2026 YTD</small></div></div>
-  <div class="tile"><div class="k">Disasters · live</div><div class="v">GDACS <small>30-day alerts, 10-min poll</small></div></div>
-  <div class="tile"><div class="k">New keys</div><div class="v">F11 · Z <small>· 4 · 5 · 6</small></div></div>
-</div>
-
-<h2>The glacial collapse — Langtang Lirung, 26 Aug 2026</h2>
-<div class="dossier">
-  <h3>{html.escape(langtang_entry['name']) if langtang_entry else 'Nepal–Tibet glacial collapse'}</h3>
-  <div class="two">
-    <div>
-      <div class="kv"><b>When</b> 02:55 UTC · 08:40 NPT, 26 Aug 2026</div>
-      <div class="kv"><b>Source</b> ~28.38 N 85.50 E, ~5,200 m, Lhende Khola (Tibet side)</div>
-      <div class="kv"><b>Impact</b> Timure / Syapru Besi, Rasuwa district · Gyirong Port</div>
-      <div class="kv"><b>Scale</b> {html.escape(langtang_entry['scale']) if langtang_entry else ''}</div>
-    </div>
-    <div>
-      <div class="kv"><b>Casualties</b> {html.escape(langtang_entry['casualties']) if langtang_entry else ''}</div>
-      <div class="kv"><b>Displaced</b> {html.escape(langtang_entry.get('displaced') or '') if langtang_entry else ''}</div>
-      <div class="kv"><b>Cause</b> {html.escape(langtang_entry.get('cause') or '') if langtang_entry else ''}</div>
-      <div class="kv"><b>In ARGUS</b> preset <code>Z</code> flies to it · F11 dossier carries the six sources</div>
-    </div>
-  </div>
-  <details open><summary>Full dossier (agent report)</summary><div class="inner">{md_to_html(langtang)}</div></details>
-</div>
+{'<h2>Open for your call</h2><ul class="changes">' + lis(NOTES['open']) + '</ul>' if NOTES.get('open') else ''}
 
 <h2>State of the theaters — {DATE}</h2>
 {''.join(theater_card(tid) for tid, *_ in THEATERS if tid not in NEW_THEATERS)}
+{('<h2>New theaters</h2>' + ''.join(theater_card(tid) for tid, *_ in THEATERS if tid in NEW_THEATERS)) if NEW_THEATERS else ''}
 
-<h2>New theaters (from the global scan)</h2>
-<p class="lede">The scan ranked 22 candidates outside the existing eight. Three cleared the bar and are now live with seed timelines; Ethiopia (Fano/Tigray), Haiti and Somalia were near-misses to keep on watch.</p>
-{''.join(theater_card(tid) for tid, *_ in THEATERS if tid in NEW_THEATERS)}
-<details><summary>Scan justifications</summary><div class="inner">{md_to_html(scan_recs)}</div></details>
-<details><summary>Full ranked candidate table (22)</summary><div class="inner">{md_to_html(scan_table)}</div></details>
+<h2>Corrections applied to existing records ({len(corrections)})</h2>
+<div class="tablewrap"><table><thead><tr><th>File</th><th>Record</th><th>What changed</th></tr></thead><tbody>{corr_rows}</tbody></table></div>
 
-<h2>2026 disaster year — curated layer contents</h2>
-{md_to_html(year)}
-<div class="tablewrap"><table><thead><tr><th>Date</th><th>Type</th><th>Event</th><th>Region</th><th>Casualties</th><th>Status</th></tr></thead><tbody>{dis_rows}</tbody></table></div>
-<p class="note">Earthquakes are included only at M7+ or ≥50 dead (F1 carries the live USGS feed). The live GDACS feed (TC/FL/VO/DR/WF, Green/Orange/Red, last 30 days) is drawn at alert-scaled sizes; Green wildfires under 20,000 ha are dropped for legibility.</p>
+<h2>Global scan — theater candidates</h2>
+{md_to_html(scan_recs)}
+{''.join(candidate_card(s, e) for s, e in candidates)}
+<details><summary>Monitor list</summary><div class="inner">{md_to_html(scan_monitor)}</div></details>
+<details><summary>Full ranked candidate table</summary><div class="inner">{md_to_html(scan_table)}</div></details>
 
-<h2>What shipped in ARGUS</h2>
-<ul class="changes">
-  <li><b>F11 Disasters layer</b> — <code>js/disasters.js</code>: curated <code>data/disasters.json</code> + live GDACS SEARCH feed (CORS-open, no proxy), 16 typed canvas icons, alert-level sizing, time-scrubber aware, 12th hash-state bit, stats-bar item with "GDACS offline" degradation, dossier with chips/scale/cause/linked sources.</li>
-  <li><b>Preset Z</b> → Langtang glacier collapse (auto-enables F11). Presets <b>4 / 5 / 6</b> → India–Pakistan, DRC / Great Lakes, Israel–Palestine (auto-enable F9).</li>
-  <li><b>Conflict theaters</b> 8 → 11; events {total_before} → {total_after}. Theater filter, hash mask and dossier pick up the new theaters automatically.</li>
-  <li><b>Dossier sources are links now</b> — new events carry "Outlet — URL" sources; the conflict and disaster dossiers render them as links (URL-gated by <code>safeHref</code>); legacy bare outlet names still render as text.</li>
-  <li><b>F-key mapping</b> now matches each layer's declared key (fixes F11 silently toggling Antarctica).</li>
-  <li><b>Bug fixed in passing</b> — Antarctica dossier crashed on operations whose <code>achievements</code> is a string (Operation Highjump, German Antarctic Expedition).</li>
-  <li><b>Corrections applied</b> — Pokrovsk retitled (city still contested per ISW); El Fasher casualties consolidated to the UN FFM finding; Kidal withdrawal date; Min Aung Hlaing inauguration date; Mandalay quake toll; junta election-announcement month; DPRK Kursk casualties; a DPRK ICBM test removed from Indo-Pacific (already in Korea). Gap events added: Niamey airport assault (Jan 29), Orthodox Easter truce (Apr 11), and four 2025 Korea milestones.</li>
-</ul>
+<h2>Disasters — {len(dis_base)} → {len(disasters)} curated</h2>
+{md_to_html(dis_head)}
+<details><summary>Updates to existing records — agent notes</summary><div class="inner">{md_to_html(dis_updates)}</div></details>
+<details><summary>All curated disasters ({len(disasters)})</summary><div class="inner tablewrap"><table><thead><tr><th>Date</th><th>Type</th><th>Event</th><th>Region</th><th>Casualties</th><th>Status</th></tr></thead><tbody>{dis_rows}</tbody></table></div></details>
 
-<h2>Open for your call</h2>
-<ul class="changes">
-  <li><b>Monitor list</b> — Ethiopia (Fano/Tigray two-front crisis), Haiti (10 massacres H1 2026), Somalia (al-Shabaab +60%). Any of these can become a theater on the next sweep.</li>
-  <li><b>Dead preset keys</b> (pre-existing) — <code>T</code> Mogul Area is shadowed by the timeline toggle, <code>A</code> Pentagon by the Antarctica toggle, <code>L</code> Northwestern fires together with the labels toggle. Reassign or drop.</li>
-  <li><b>Iran theater scope</b> — with Israel–Palestine split out, the Gaza-adjacent Iran events stay where they are; no re-tagging was done.</li>
-  <li><b>Photos</b> — none of the new events or disasters carry <code>photo_url</code>; the photo-approval workflow can cover the iconic ones.</li>
-</ul>
+{('<h2>Photo candidates (Wikimedia Commons)</h2><ul class="changes">' + photo_html + '</ul>' + (f'<p class="note">Approve in the photo tool: <a href="{NOTES["photo_tool"]}">{NOTES["photo_tool"]}</a></p>' if NOTES.get('photo_tool') else '')) if photo_sets else ''}
+
+{'<h2>What shipped in ARGUS</h2><ul class="changes">' + lis(NOTES['shipped']) + '</ul>' if NOTES.get('shipped') else ''}
 </main></body></html>'''
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(doc)
-print(f'wrote {OUT} ({len(doc)//1024} KB) · theaters {total_before}→{total_after} · disasters {len(disasters)}')
+print(f'wrote {OUT} ({len(doc)//1024} KB) · theaters {total_before}→{total_after} · disasters {len(dis_base)}→{len(disasters)}')

@@ -17,7 +17,8 @@
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2023_Hamas-led_attack_on_Israel"
     ],
-    "theater": "israel-palestine"
+    "theater": "israel-palestine",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Gaza_envelope_after_coordinated_surprise_offensive_on_Israel%2C_October_2023_%28KBG_GPO05%29.jpg/960px-Gaza_envelope_after_coordinated_surprise_offensive_on_Israel%2C_October_2023_%28KBG_GPO05%29.jpg"
   },
   {
     "id": "israel-gaza-ground-invasion",
@@ -37,7 +38,8 @@
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/Israeli_invasion_of_the_Gaza_Strip"
     ],
-    "theater": "israel-palestine"
+    "theater": "israel-palestine",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/SoI-War_23-10-29_IDF_03-05.jpg/960px-SoI-War_23-10-29_IDF_03-05.jpg"
   },
   {
     "id": "gaza-ceasefire-jan-2025",
@@ -60,7 +62,8 @@
     "sources": [
       "J Street — https://jstreet.org/nine-months-in-assessing-the-status-of-the-gaza-ceasefire/"
     ],
-    "theater": "israel-palestine"
+    "theater": "israel-palestine",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/With_the_announcement_of_the_ceasefire%2C_tens_of_thousands_of_residents_in_northern_Gaza_rushed_back_in_search_of_their_homes%2C_hoping_to_end_their_journey_of_displacemen.jpg/960px-thumbnail.jpg"
   },
   {
     "id": "gaza-health-crisis-2026",

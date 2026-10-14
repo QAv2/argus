@@ -83,7 +83,8 @@
       "PIB India — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2127370",
       "War on the Rocks — https://warontherocks.com/deep-learning-from-operation-sindoor-five-takeaways-from-a-four-day-war/"
     ],
-    "theater": "india-pakistan"
+    "theater": "india-pakistan",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Operation_Sindoor_Press_Briefing.jpg/960px-Operation_Sindoor_Press_Briefing.jpg"
   },
   {
     "id": "pakistan-poonch-retaliation",
@@ -123,7 +124,8 @@
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
     ],
-    "theater": "india-pakistan"
+    "theater": "india-pakistan",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Director_General_Air_Operations_%28DGAO%29_Sh._A.K._Bharti_briefing_the_media_on_%E2%80%98Operation_Sindoor%E2%80%99_showing_shotdown_Lotering_Munitions_and_UAV%27s.jpg/960px-Director_General_Air_Operations_%28DGAO%29_Sh._A.K._Bharti_briefing_the_media_on_%E2%80%98Operation_Sindoor%E2%80%99_showing_shotdown_Lotering_Munitions_and_UAV%27s.jpg"
   },
   {
     "id": "india-strikes-pak-airbases",
@@ -143,7 +145,8 @@
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
     ],
-    "theater": "india-pakistan"
+    "theater": "india-pakistan",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Director_General_Air_Operations_%28DGAO%29_Sh._A.K._Bharti_briefing_the_media_on_%E2%80%98Operation_Sindoor%E2%80%99_showing_attack_on_Nur_Khan_Airbase.jpg/960px-Director_General_Air_Operations_%28DGAO%29_Sh._A.K._Bharti_briefing_the_media_on_%E2%80%98Operation_Sindoor%E2%80%99_showing_attack_on_Nur_Khan_Airbase.jpg"
   },
   {
     "id": "pakistan-bunyan-um-marsoos",
@@ -188,7 +191,8 @@
       "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict",
       "Time — https://time.com/article/2026/06/26/peace-conflict-india-modi-munir-pakistan/"
     ],
-    "theater": "india-pakistan"
+    "theater": "india-pakistan",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Foreign_Secretary_Shri_Vikram_Misri.jpg/960px-Foreign_Secretary_Shri_Vikram_Misri.jpg"
   },
   {
     "id": "track-2-diplomacy",

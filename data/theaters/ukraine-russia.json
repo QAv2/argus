@@ -20,7 +20,8 @@
       "CNN",
       "Al Jazeera",
       "CSIS"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Avdiivka_during_fighting_%282024-01-03%29_01.jpg/960px-Avdiivka_during_fighting_%282024-01-03%29_01.jpg"
   },
   {
     "id": "caesar-kunikov-sinking-2024",
@@ -157,7 +158,8 @@
       "VOA",
       "Kyiv Independent",
       "Harvard Ukrainian Research Institute"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/CUMBRE_POR_LA_PAZ_EN_UCRANIA._Z%C3%9ARICH-SUIZA%2C_16_DE_JUNIO_DE_2024_-_1.jpg/960px-CUMBRE_POR_LA_PAZ_EN_UCRANIA._Z%C3%9ARICH-SUIZA%2C_16_DE_JUNIO_DE_2024_-_1.jpg"
   },
   {
     "id": "eu-14th-sanctions-package-2024",
@@ -226,7 +228,8 @@
       "NPR",
       "Bellingcat",
       "UN Security Council"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Okhmatdyt_after_Russian_attack%2C_2024-07-08_%2827%29.jpg/960px-Okhmatdyt_after_Russian_attack%2C_2024-07-08_%2827%29.jpg"
   },
   {
     "id": "kursk-incursion-launch-2024",
@@ -248,7 +251,8 @@
       "Kyiv Independent",
       "Wikipedia (Timeline of Russian Invasion)",
       "CNN"
-    ]
+    ],
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ukrainian_soldier_removing_the_Russian_flag_from_Apanasovka%2C_during_the_Kursk_offensive.jpg"
   },
   {
     "id": "znpp-cooling-tower-fire-2024",
@@ -316,7 +320,8 @@
       "CNN",
       "Euronews",
       "RFE/RL"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Destructions_in_Poltava_after_Russian_attack%2C_2024-09-03_%2801%29.webp/960px-Destructions_in_Poltava_after_Russian_attack%2C_2024-09-03_%2801%29.webp"
   },
   {
     "id": "north-korean-troops-kursk-2024",
@@ -457,7 +462,8 @@
       "Al Jazeera",
       "CNN",
       "Carnegie Endowment"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Destructions_in_Dnipro_after_Russian_attack%2C_2024-11-21_%2801%29.webp/960px-Destructions_in_Dnipro_after_Russian_attack%2C_2024-11-21_%2801%29.webp"
   },
   {
     "id": "nov-28-energy-strike-2024",
@@ -711,7 +717,8 @@
       "CFR",
       "Kyiv Independent",
       "Wikipedia"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2025-06-01_DroneAttack_SBU_%28Burning_Plane%29.jpg/960px-2025-06-01_DroneAttack_SBU_%28Burning_Plane%29.jpg"
   },
   {
     "id": "eu-18th-sanctions-package-2025",
@@ -873,7 +880,8 @@
       "NPR",
       "NBC News",
       "ABC News"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/P20251228DT-0396_President_Donald_Trump_meets_with_Ukrainian_President_Volodymyr_Zelensky_at_Mar-a-Lago.jpg/960px-P20251228DT-0396_President_Donald_Trump_meets_with_Ukrainian_President_Volodymyr_Zelensky_at_Mar-a-Lago.jpg"
   },
   {
     "id": "paris-peace-talks-jan-2026",
@@ -1225,7 +1233,8 @@
       "NPR — https://www.npr.org/2026/07/02/g-s1-131681/russian-attack-ukraine",
       "Kyiv Independent — https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-fire-breaks-out/"
     ],
-    "theater": "ukraine-russia"
+    "theater": "ukraine-russia",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Destructions_in_Kyiv_after_Russian_attack%2C_2026-07-02_%2807%29.jpg/960px-Destructions_in_Kyiv_after_Russian_attack%2C_2026-07-02_%2807%29.jpg"
   },
   {
     "id": "kyiv-ballistic-strike-july-6-2026",
@@ -1246,7 +1255,8 @@
       "Kyiv Independent — https://kyivindependent.com/russian-attack-july-6/",
       "Time — https://time.com/article/2026/07/06/ukraine-russia-attack-zelensky-nato-summit-request-trump-putin/"
     ],
-    "theater": "ukraine-russia"
+    "theater": "ukraine-russia",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Destructions_in_Kyiv_after_Russian_attack%2C_2026-07-06_%2806%29.jpg/960px-Destructions_in_Kyiv_after_Russian_attack%2C_2026-07-06_%2806%29.jpg"
   },
   {
     "id": "ankara-nato-summit-2026",
@@ -1442,7 +1452,8 @@
       "The Moscow Times — https://www.themoscowtimes.com/2026/08/20/russian-missile-and-drone-attack-kills-17-in-kyiv-a93536",
       "Al Jazeera — https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
     ],
-    "theater": "ukraine-russia"
+    "theater": "ukraine-russia",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Destructions_in_Kyiv_after_Russian_attack%2C_2026-08-20_%2801%29.jpg/960px-Destructions_in_Kyiv_after_Russian_attack%2C_2026-08-20_%2801%29.jpg"
   },
   {
     "id": "myla-munitions-warehouse-strike-2026",
@@ -1463,7 +1474,8 @@
       "Al Jazeera — https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27",
       "CNN — https://www.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
     ],
-    "theater": "ukraine-russia"
+    "theater": "ukraine-russia",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Destructions_in_Myla_after_Russian_attack%2C_2026-08-29_%2862%29.jpg/960px-Destructions_in_Myla_after_Russian_attack%2C_2026-08-29_%2862%29.jpg"
   },
   {
     "id": "ust-luga-novatek-strike-aug-2026",
@@ -1697,7 +1709,8 @@
       "Euronews — https://www.euronews.com/2026/09/28/russia-strikes-ukraines-national-academy-of-sciences-killing-at-least-one-person",
       "Chemistry World — https://www.chemistryworld.com/news/ukraines-national-academy-of-sciences-hit-by-russian-drone-killing-two/4024291.article"
     ],
-    "theater": "ukraine-russia"
+    "theater": "ukraine-russia",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Presidium_of_National_Academy_of_Sciences_of_Ukraine_after_Russian_attack%2C_2026-09-28_%2801%29.jpg/960px-Presidium_of_National_Academy_of_Sciences_of_Ukraine_after_Russian_attack%2C_2026-09-28_%2801%29.jpg"
   },
   {
     "id": "chonhar-bridge-collapse-2026",

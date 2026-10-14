@@ -87,7 +87,8 @@
       "Naval News",
       "Defense News",
       "PBS News"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/2024-04-07_Typhon_MRC_Salaknib_001.jpg/960px-2024-04-07_Typhon_MRC_Salaknib_001.jpg"
   },
   {
     "id": "balikatan-2024",
@@ -111,7 +112,8 @@
       "Rappler",
       "Lowy Institute",
       "PACOM"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Balikatan_24_SOCOM_AFP%2C_1SFG%28A%29_conduct_Joint_Combat_Training_%2810-21%29.jpg/960px-Balikatan_24_SOCOM_AFP%2C_1SFG%28A%29_conduct_Joint_Combat_Training_%2810-21%29.jpg"
   },
   {
     "id": "halsey-fonop-paracels",
@@ -155,7 +157,8 @@
       "Asia Society",
       "Radio Free Asia",
       "Reuters"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Lai_Ching-te_accepting_the_Seal_of_the_Republic_of_China_from_Han_Kuo-yu_2024-05-20.jpg/960px-Lai_Ching-te_accepting_the_Seal_of_the_Republic_of_China_from_Han_Kuo-yu_2024-05-20.jpg"
   },
   {
     "id": "joint-sword-2024a",
@@ -222,7 +225,8 @@
       "VOA News",
       "Al Jazeera",
       "AMTI/CSIS"
-    ]
+    ],
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/CCG_and_AFP_ship_damage_1.jpg/960px-CCG_and_AFP_ship_damage_1.jpg"
   },
   {
     "id": "sabina-shoal-confrontation-aug-2024",
@@ -580,7 +584,8 @@
       "USNI News — https://news.usni.org/2026/05/19/balikatan-2026-was-rehearsal-for-defense-of-the-philippines-paparo-says",
       "The Diplomat — https://thediplomat.com/2026/04/philippines-us-kick-off-largest-ever-balikatan-exercises-close-to-regional-flashpoints/"
     ],
-    "theater": "indo-pacific"
+    "theater": "indo-pacific",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Balikatan_26-_Exercise_Balikatan_2026_Opening_Ceremony_%289625877%29.jpg/960px-Balikatan_26-_Exercise_Balikatan_2026_Opening_Ceremony_%289625877%29.jpg"
   },
   {
     "id": "trump-xi-beijing-summit-2026",
@@ -601,7 +606,8 @@
       "East Asia Forum — https://eastasiaforum.org/2026/05/31/china-turns-trumps-ill-prepared-summit-towards-taiwan/",
       "Global Taiwan Institute — https://globaltaiwan.org/2026/05/how-taiwan-fared-during-the-trump-xi-summit/"
     ],
-    "theater": "indo-pacific"
+    "theater": "indo-pacific",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Welcome_ceremony_of_Trump_by_Xi_Jinping_%282%29-20260514.jpg/960px-Welcome_ceremony_of_Trump_by_Xi_Jinping_%282%29-20260514.jpg"
   },
   {
     "id": "pla-post-summit-patrol-may-2026",
@@ -708,7 +714,8 @@
       "USNI News — https://news.usni.org/2026/07/20/philippine-sailor-injured-in-violent-clash-with-china-coast-guard-off-second-thomas-shoal",
       "Washington Post — https://www.washingtonpost.com/world/2026/07/20/philippines-south-china-sea-second-thomas-shoal/4733a51e-8427-11f1-9cec-0fb26676f07e_story.html"
     ],
-    "theater": "indo-pacific"
+    "theater": "indo-pacific",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/2026-07-23_%E2%80%93_President_Marcos_honors_wounded_Navy_personnel_in_Ayungin_Shoal_encounter_%2801%29.jpg/960px-2026-07-23_%E2%80%93_President_Marcos_honors_wounded_Navy_personnel_in_Ayungin_Shoal_encounter_%2801%29.jpg"
   },
   {
     "id": "trilateral-scs-drills-july-2026",
@@ -856,7 +863,8 @@
     "sources": [
       "Stars and Stripes — https://www.stripes.com/branches/army/2026-10-06/army-deactivates-okinawa-support-group-23069266.html"
     ],
-    "theater": "indo-pacific"
+    "theater": "indo-pacific",
+    "photo_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/45th_Sustainment_Brigade_Reactivation_Ceremony_on_6_Oct%2C_2026_%289994092%29.jpg/960px-45th_Sustainment_Brigade_Reactivation_Ceremony_on_6_Oct%2C_2026_%289994092%29.jpg"
   },
   {
     "id": "lai-national-day-address-oct-2026",

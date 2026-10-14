@@ -227,8 +227,8 @@
   {
     "id": "sabina-shoal-confrontation-aug-2024",
     "name": "China-Philippines Confrontation at Sabina Shoal",
-    "lat": 10.0,
-    "lon": 116.0667,
+    "lat": 9.75,
+    "lon": 116.4667,
     "type": "naval",
     "theater": "indo-pacific",
     "date": "2024-08-19T00:00:00Z",
@@ -771,6 +771,132 @@
     "sources": [
       "USNI News — https://news.usni.org/2026/08/04/japans-2026-defense-white-paper-digest",
       "The Diplomat — https://thediplomat.com/2026/08/japans-2026-defense-white-paper-warns-of-chinas-expanding-military-reach-in-the-pacific/"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "ph-japan-acsa-in-force-aug-2026",
+    "name": "Philippines-Japan ACSA Logistics Pact Enters Into Force",
+    "lat": 14.5995,
+    "lon": 120.9842,
+    "type": "political",
+    "date": "2026-08-22T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Philippines",
+      "Japan"
+    ],
+    "target": "AFP-JSDF logistics cooperation framework",
+    "casualties": "N/A",
+    "description": "The Philippines-Japan Acquisition and Cross-Servicing Agreement, signed in January 2026, took effect on August 22 after foreign ministers exchanged diplomatic notes at the July ASEAN meetings. It lets the two militaries supply and service each other on a reciprocal basis for exercises and disaster response, building on the 2024 Reciprocal Access Agreement.",
+    "sources": [
+      "Philstar — https://www.philstar.com/headlines/2026/08/23/2551174/philippines-japan-defense-agreement-takes-effect"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "sabina-ccg-rams-bfar-sep-2026",
+    "name": "China Coast Guard Rams Philippine Fisheries Vessel Near Sabina",
+    "lat": 9.75,
+    "lon": 116.47,
+    "type": "naval",
+    "date": "2026-09-18T03:13:00Z",
+    "operation": "N/A",
+    "parties": [
+      "China Coast Guard",
+      "Philippine Bureau of Fisheries and Aquatic Resources",
+      "Philippine Coast Guard"
+    ],
+    "target": "BRP Datu Magat Salamat (BFAR) distributing fuel to Filipino fishermen",
+    "casualties": "None reported (railings and deck damaged)",
+    "description": "A China Coast Guard vessel (CCG-21585 per the PCG) struck the BFAR vessel BRP Datu Magat Salamat about 54 nm off Palawan at 11:13 local time after crossing its stern twice; video shows crew shouting 'brace for impact'. China's coast guard said it was conducting law enforcement near Sabina Shoal and blamed the Philippine vessel for cutting across its bow. It is the first reported collision of the window, following the July baton and water-cannon incidents.",
+    "sources": [
+      "Arab News (Reuters) — https://www.arabnews.com/world/china-vessel-rams-philippine-boat-on-refueling-mission-coast-guard-says-3002302",
+      "ABS-CBN — https://www.abs-cbn.com/news/nation/2026/9/18/china-coast-guard-rams-bfar-vessel-off-palawan-1336",
+      "Baird Maritime — https://www.bairdmaritime.com/security/incidents/video-chinese-ship-rams-philippine-resupply-vessel-in-disputed-waters"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "okinawa-marine-homicide-oct-2026",
+    "name": "US Marine Arrested in Naha Killing; Curfew Imposed on Okinawa",
+    "lat": 26.2124,
+    "lon": 127.6809,
+    "type": "political",
+    "date": "2026-10-03T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States Marine Corps",
+      "Japan",
+      "Okinawa Prefecture"
+    ],
+    "target": "US-Japan alliance / US basing on Okinawa",
+    "casualties": "1 killed (Anna Yagi, 39)",
+    "description": "Okinawa police arrested Lance Cpl. Devin Jacob Ballard, 20, on suspicion of killing and robbing a woman at a Naha hotel early on October 3; he denies the allegations. III MEF imposed a 48-hour alcohol ban and liberty suspension followed by a 30-day midnight-5 a.m. curfew from October 9. PM Sanae Takaichi called the curfew 'insufficient' on October 13, and the Okinawa Prefectural Assembly demanded an apology, compensation and SOFA revision.",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-10-06/okinawa-homicide-marine-service-record-23068942.html",
+      "Stars and Stripes — https://www.stripes.com/branches/marine_corps/2026-10-13/okinawa-homicide-security-camera-footage-23138627.html"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "us-army-45th-sustainment-okinawa-oct-2026",
+    "name": "US Army Reactivates 45th Sustainment Brigade on Okinawa",
+    "lat": 26.3756,
+    "lon": 127.7372,
+    "type": "political",
+    "date": "2026-10-06T00:00:00Z",
+    "operation": "US Army Pacific force restructuring",
+    "parties": [
+      "United States Army"
+    ],
+    "target": "Army logistics command in the First Island Chain",
+    "casualties": "N/A",
+    "description": "The US Army reactivated the 45th Sustainment Brigade at Torii Station, replacing the 10th Support Group as its main logistics headquarters on Okinawa and adding about 120 personnel under the 8th Theater Sustainment Command. Officials described it as the only general-support sustainment brigade in the First Island Chain not assigned to a division, part of a wider Indo-Pacific restructuring.",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/branches/army/2026-10-06/army-deactivates-okinawa-support-group-23069266.html"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "lai-national-day-address-oct-2026",
+    "name": "Lai National Day Address Warns of Chinese Gray-Zone Pressure",
+    "lat": 25.0402,
+    "lon": 121.5119,
+    "type": "political",
+    "date": "2026-10-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Taiwan",
+      "China"
+    ],
+    "target": "Cross-strait status quo",
+    "casualties": "N/A",
+    "description": "In his National Day address in Taipei, President Lai Ching-te accused Beijing of using military and gray-zone tactics to alter the Taiwan Strait status quo and framed China as seeking to reshape the world order. Opposition leaders criticized the speech. Beijing announced coastal live-fire drills two days later without explicitly linking them to the address.",
+    "sources": [
+      "Focus Taiwan — https://focustaiwan.tw/video/004356866",
+      "Focus Taiwan — https://focustaiwan.tw/politics/202610100015",
+      "Focus Taiwan — https://focustaiwan.tw/politics/202610100013"
+    ],
+    "theater": "indo-pacific"
+  },
+  {
+    "id": "pla-coastal-live-fire-oct-2026",
+    "name": "PLA Six-Day Live-Fire Drills Across Five Chinese Sea Zones",
+    "lat": 26.3,
+    "lon": 120.6,
+    "type": "naval",
+    "date": "2026-10-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "People's Liberation Army",
+      "Taiwan"
+    ],
+    "target": "Closure areas in the Bohai, Yellow, East China and South China seas",
+    "casualties": "None reported",
+    "description": "China's Maritime Safety Administration closed five sea areas for PLA live-fire artillery drills from October 12 to 17, the East China Sea and South China Sea zones lying 159 nm and 588 nm from Taiwan. Taiwan's Defense Minister Wellington Koo assessed the drills would stay off the Chinese coast and not near Taiwan. Beijing described them as deterring 'Taiwan independence' moves, two days after Lai's National Day speech. Plotted point is approximate (East China Sea zone off Zhejiang/Fujian).",
+    "sources": [
+      "Focus Taiwan — https://focustaiwan.tw/politics/202610120006"
     ],
     "theater": "indo-pacific"
   }

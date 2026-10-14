@@ -818,10 +818,12 @@
     ],
     "target": "N/A — joint training exercise",
     "casualties": "None reported",
-    "description": "The annual Ulchi Freedom Shield exercise ran August 17-27 with approximately 18,000 ROK troops and personnel from 11 UNC member states. Scenarios incorporated DPRK combat lessons from Ukraine and addressed drones, GPS disruption, and cyberattacks. The exercise also assessed wartime OPCON transition readiness.",
+    "description": "The annual Ulchi Freedom Shield exercise began August 17 with approximately 18,000 ROK troops and personnel from 11 UNC member states. Scheduled to run to August 27, it was cut to five days and ended August 21 after Trump ordered the Pentagon to 'substantially reduce' US involvement, citing Seoul's refusal to help in the Iran war. Scenarios incorporated DPRK combat lessons from Ukraine and addressed drones, GPS disruption, and cyberattacks.",
     "sources": [
       "Korea Times — https://www.koreatimes.co.kr/amp/southkorea/defense/20260810/s-korea-us-to-hold-ufs-exercise-from-aug-17",
-      "UPI — https://www.upi.com/Top_News/World-News/2026/08/10/korea-Ulchi-Freedom-Shield-26-US-South-Korea-joint-military-exercise-launch/3191786354705/"
+      "UPI — https://www.upi.com/Top_News/World-News/2026/08/10/korea-Ulchi-Freedom-Shield-26-US-South-Korea-joint-military-exercise-launch/3191786354705/",
+      "Korea JoongAng Daily — https://www.koreajoongangdaily.com/korea/koreaus-joint-drill-to-end-friday-after-trump-orders-cutback/12836251",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/trump-tells-pentagon-to-scale-back-joint-exercises-with-south-korea-citing-anger-over-iran-war/"
     ],
     "theater": "korea"
   },
@@ -862,6 +864,279 @@
     "description": "North Korea fired more than 10 short-range ballistic missiles from 600mm KN-25 multiple rocket launchers, traveling approximately 300 km toward the East Sea. The ROK presidential office convened an emergency security meeting. ROK Defense Minister Ahn Gyu-back assessed DPRK possesses 80-120 nuclear warheads and noted KN-25 systems are capable of delivering tactical nuclear weapons.",
     "sources": [
       "Al Jazeera — https://www.aljazeera.com/news/2026/8/20/north-korea-launches-ballistic-missiles-as-us-south-korea-drills-end"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "freedom-edge-26-sep-2026",
+    "name": "Freedom Edge 2026 Trilateral Exercise Off Jeju",
+    "lat": 33.0,
+    "lon": 127.0,
+    "type": "naval",
+    "date": "2026-09-07T00:00:00Z",
+    "operation": "Freedom Edge 26",
+    "parties": [
+      "United States",
+      "Republic of Korea",
+      "Japan"
+    ],
+    "target": "N/A — trilateral multi-domain exercise",
+    "casualties": "None reported",
+    "description": "The fourth Freedom Edge exercise ran September 7-11 in international waters east and south of Jeju, opening at Yokota Air Base, adding air-defense, medevac and maritime-interdiction serials. It went ahead at full scope weeks after Trump ordered Ulchi Freedom Shield cut short. North Korea fired SRBMs the day after it ended.",
+    "sources": [
+      "Korea Times — https://koreatimes.co.kr/southkorea/defense/20260907/s-korea-us-japan-highlight-firm-3-way-security-cooperation-as-joint-drills-kick-off",
+      "Nippon.com (Jiji) — https://www.nippon.com/en/news/yjj2026090700739/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-joint-firepower-drill-sep-2026",
+    "name": "DPRK SRBMs in 'Joint Firepower Attack' Drill From Wonsan",
+    "lat": 39.154,
+    "lon": 127.446,
+    "type": "missile",
+    "date": "2026-09-11T20:20:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea at approximately 250 km range",
+    "casualties": "None reported",
+    "description": "South Korea's JCS detected multiple short-range ballistic missiles fired from the Wonsan area at about 05:20 KST on September 12, flying about 250 km into the East Sea, a day after Freedom Edge ended. KCNA called it a joint firepower attack drill involving attack drones, tactical cruise missiles, a large-caliber thermobaric multiple rocket launcher and tactical ballistic missiles. Date given in UTC (Sept 11, 20:20Z).",
+    "sources": [
+      "Oman Observer (AFP) — https://www.omanobserver.om/article/1196038/world/asia/north-korea-fires-multiple-ballistic-missiles",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-09-20/north-korea-missiles-sept-20-22907123.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-new-type-weapon-sep-2026",
+    "name": "DPRK Tests 'New-Type Weapon' With Two Ballistic Missiles",
+    "lat": 39.154,
+    "lon": 127.446,
+    "type": "missile",
+    "date": "2026-09-20T06:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea, outside Japan's EEZ",
+    "casualties": "None reported",
+    "description": "North Korea fired a ballistic missile from the Wonsan area around 15:00 KST and a second about three hours later; ROK JCS put the ranges at about 450 km and more than 600 km, both falling outside Japan's EEZ. KCNA said Kim Jong Un, with Kim Ju Ae, supervised a test of an 'ultra-modern' new-type weapon system and showed a trajectory display of over 900 km, which Seoul said 'cannot be 100% trusted'. The launch came as Pyongyang denounced an IAEA General Conference resolution.",
+    "sources": [
+      "Oman Observer (Reuters) — https://www.omanobserver.om/article/1196482/world/asia/north-korea-fires-ballistic-missile-off-east-coast-seoul-says",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-09-22/north-korea-ultra-modern-combat-weapon-22926868.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dmz-mine-blast-sep-2026",
+    "name": "DMZ Mine Blast Wounds Three ROK Soldiers; Mines Ruled North Korean",
+    "lat": 37.97,
+    "lon": 126.9,
+    "type": "ground",
+    "date": "2026-09-21T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Republic of Korea Army",
+      "DPRK",
+      "United Nations Command"
+    ],
+    "target": "ROK 25th Infantry Division troops clearing a patrol route in the western DMZ",
+    "casualties": "3 ROK soldiers wounded (2 seriously, incl. a battalion commander)",
+    "description": "Two mines exploded about 10 m south of the Military Demarcation Line while 25th Infantry Division soldiers cleared a new search route, wounding three. On October 5 the JCS said a joint probe with UN Command found North Korean troops had crossed the MDL and deliberately buried at least four mines more than a year earlier; two unexploded mines were removed. Pyongyang denies responsibility. Seoul counts about 50 DPRK MDL crossings so far in 2026 versus 17 in 2025. Plotted point is approximate (25th Division sector).",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-09-29/north-korea-dmz-landmines-23000457.html",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-10-06/north-korea-landmines-dmz-border-23069075.html",
+      "Korea Times — https://www.koreatimes.co.kr/southkorea/defense/20260928/soldiers-statement-points-to-possible-unexploded-land-mine-at-dmz-blast-site"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "lee-unga-address-sep-2026",
+    "name": "Lee Jae-myung UN Address Urges US-DPRK Talks, Phased Denuclearization",
+    "lat": 40.7489,
+    "lon": -73.968,
+    "type": "political",
+    "date": "2026-09-22T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Republic of Korea",
+      "United States",
+      "DPRK"
+    ],
+    "target": "N/A — diplomatic initiative",
+    "casualties": "N/A",
+    "description": "At the 81st UN General Assembly, President Lee Jae-myung called for long-suspended US-North Korea dialogue to resume 'without delay', leading to a formal end of the Korean War and a peace regime. He proposed a phased approach: freeze, then reduce, then eliminate the North's nuclear and missile capabilities. US, ROK and Japanese foreign ministers met in New York the day before and reaffirmed 'complete denuclearization'.",
+    "sources": [
+      "Korea Herald — https://www.koreaherald.com/article/10882970",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-09-22/north-korea-ultra-modern-combat-weapon-22926868.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-pows-transferred-to-rok-sep-2026",
+    "name": "Two North Korean POWs Transferred From Ukraine to South Korea",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "type": "political",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ukraine",
+      "Republic of Korea",
+      "DPRK",
+      "Russia"
+    ],
+    "target": "Two DPRK soldiers captured fighting for Russia",
+    "casualties": "N/A",
+    "description": "President Zelensky announced that two North Korean soldiers captured while fighting for Russia, held for over a year, had been transferred to South Korea, an arrival Seoul had kept out of public view. The disclosure sparked a diplomatic feud between Seoul and Kyiv.",
+    "sources": [
+      "NK News — https://www.nknews.org/2026/10/north-korean-pows-face-uncertain-future-after-ukraine-transfer-sparks-feud/",
+      "BBC (cited via Wikipedia, not fetched) — https://www.bbc.com/news/articles/c8ly40xx0dr0o"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "russia-invites-kim-visit-sep-2026",
+    "name": "Russia Formally Invites Kim Jong Un to Visit",
+    "lat": 55.752,
+    "lon": 37.6175,
+    "type": "political",
+    "date": "2026-09-24T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "DPRK"
+    ],
+    "target": "Russia-DPRK summitry",
+    "casualties": "N/A",
+    "description": "Russian Deputy Foreign Minister Andrey Rudenko told TASS that Kim Jong Un has been invited to visit Russia, with dates being arranged through diplomatic channels. Kim has never visited Moscow; the invitation follows FM Choe Son Hui's July trip and rests on the 2024 mutual-defense treaty.",
+    "sources": [
+      "Asia Business Daily — https://view.asiae.co.kr/en/article/2026092420065022780",
+      "Korea JoongAng Daily — https://www.koreajoongangdaily.com/korea/russia-invites-north-koreas-kim-jongun-for-possible-visit/12891299"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-hypersonic-irbm-oct-2026",
+    "name": "DPRK Hypersonic Intermediate-Range Missile Launch From Wonsan",
+    "lat": 39.154,
+    "lon": 127.446,
+    "type": "missile",
+    "date": "2026-10-02T21:30:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea, outside Japan's EEZ (700+ km)",
+    "casualties": "None reported",
+    "description": "North Korea fired one ballistic missile northeast from the Wonsan area around 06:30 KST on October 3; ROK JCS said it flew over 700 km and Japan put the apogee near 90 km. KCNA called it an intermediate-range 'hypersonic strategic weapon system' drill hitting a target 1,000 km away, overseen by Kim Jong Un; analysts suggest a Hwasong-16B-class system. Japan protested a UNSC violation.",
+    "sources": [
+      "Telangana Today (Reuters/KCNA) — https://telanganatoday.com/north-koreas-kim-oversees-hypersonic-missile-launch-calls-for-bolstering-war-deterrent",
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-10-02/north-korea-suspected-missile-launch-23038623.html"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "rok-hgv-first-test-oct-2026",
+    "name": "South Korea's First Successful Hypersonic Glide Vehicle Test",
+    "lat": 36.68,
+    "lon": 126.16,
+    "type": "missile",
+    "date": "2026-10-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Republic of Korea",
+      "Agency for Defense Development"
+    ],
+    "target": "Test range — domestic HGV",
+    "casualties": "None reported",
+    "description": "President Lee Jae-myung watched the Agency for Defense Development's first successful test of a domestically developed hypersonic glide vehicle at the Anheung test facility in Taean. The Blue House called it a significant step toward a new deterrent, weeks after two DPRK launches billed as hypersonic.",
+    "sources": [
+      "NK News — https://www.nknews.org/2026/10/south-korea-tests-hypersonic-missile-for-first-time-weeks-after-north/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-defense-museum-party-81st-oct-2026",
+    "name": "Kim Opens Weapons Museum as WPK Marks 81st Anniversary",
+    "lat": 39.0392,
+    "lon": 125.7625,
+    "type": "political",
+    "date": "2026-10-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK",
+      "Workers' Party of Korea"
+    ],
+    "target": "N/A — commemorative and propaganda event",
+    "casualties": "N/A",
+    "description": "North Korea marked the WPK's 81st anniversary on October 10 with a low-key concert and no military parade or speech by Kim. On October 11 Kim opened a 'National Defense Revolution Museum' displaying Hwasong-20 and Hwasong-17 ICBMs, hypersonic IRBMs, SLBMs and drones, vowing weapons development 'in a more strenuous manner'. Its location was not disclosed.",
+    "sources": [
+      "NK News — https://www.nknews.org/2026/10/kim-jong-un-opens-new-weapons-museum-as-north-korea-claims-missile-test-success/",
+      "Korea JoongAng Daily — https://www.koreajoongangdaily.com/korea/north-marks-party-anniversary-on-modest-scale/12913430"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "russia-emercom-kurenkov-pyongyang-oct-2026",
+    "name": "Russian Emergencies Minister Kurenkov Visits Pyongyang",
+    "lat": 39.2241,
+    "lon": 125.67,
+    "type": "political",
+    "date": "2026-10-11T13:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "DPRK"
+    ],
+    "target": "Russia-DPRK civil-defense cooperation",
+    "casualties": "N/A",
+    "description": "EMERCOM head Alexander Kurenkov arrived at Pyongyang Sunan airport late on October 11 on his first DPRK visit; the sides reportedly signed a 2027-2029 action plan, and Pyongyang seeks Russian rescue equipment after an agreement for Russia to train North Korean rescuers.",
+    "sources": [
+      "NK News — https://www.nknews.org/2026/10/russian-emergency-minister-arrives-in-north-korea-to-discuss-joint-projects/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "eu-sanctions-dprk-russia-oct-2026",
+    "name": "EU Sanctions DPRK and Russian Targets Over Weapons Cooperation",
+    "lat": 50.8466,
+    "lon": 4.3528,
+    "type": "economic",
+    "date": "2026-10-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "European Union",
+      "DPRK",
+      "Russia"
+    ],
+    "target": "3 individuals and 4 entities supporting DPRK weapons programs",
+    "casualties": "N/A",
+    "description": "The EU added three individuals and four entities to its autonomous DPRK sanctions list as part of its largest sanctions package to date (1,569 listings, mostly Russia's military-industrial complex). The listings include a North Korean missile official sent to help Russia fight in Ukraine and Russian firms accused of labor violations.",
+    "sources": [
+      "NK News — https://www.nknews.org/2026/10/eu-sanctions-north-korean-russian-targets-for-supporting-dprk-weapons-programs/"
+    ],
+    "theater": "korea"
+  },
+  {
+    "id": "dprk-tactical-bm-oct-12-2026",
+    "name": "DPRK Fires Two Tactical Ballistic Missiles, One Flies ~910 km",
+    "lat": 39.03,
+    "lon": 125.75,
+    "type": "missile",
+    "date": "2026-10-12T00:19:00Z",
+    "operation": "N/A",
+    "parties": [
+      "DPRK"
+    ],
+    "target": "East Sea, outside Japan's EEZ",
+    "casualties": "None reported",
+    "description": "North Korea fired at least two ballistic missiles at about 09:19 and 09:36 KST; Japan said the first flew ~220 km (20 km apogee) and the second ~910 km (70 km apogee) on an 'irregular' trajectory, both landing outside its EEZ. KCNA called it a 'tactical ballistic missile' test; the photographed launcher resembles the Hwasong-11C/11E TEL. Launch site was reported as near Pyongyang (Reuters via Wikipedia, not confirmed); plotted point is approximate. It was the fourth DPRK launch in a month.",
+    "sources": [
+      "Stars and Stripes — https://www.stripes.com/theaters/asia_pacific/2026-10-11/north-korea-missile-launch-23127348.html",
+      "NK News — https://www.nknews.org/2026/10/kim-jong-un-opens-new-weapons-museum-as-north-korea-claims-missile-test-success/"
     ],
     "theater": "korea"
   }

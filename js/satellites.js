@@ -35,9 +35,13 @@ const Satellites = (() => {
         if (!resp.ok) throw new Error('Direct fetch failed');
       } catch {
         resp = await fetch(`/.netlify/functions/proxy?url=${encodeURIComponent(TLE_URL)}`);
+        if (!resp.ok) throw new Error(`proxy ${resp.status}`);
       }
 
       const text = await resp.text();
+      // CelesTrak answers rate-limited requests with a plain-text notice; parsing
+      // that would wipe the satellites already on the globe.
+      if (!/^1 \d/m.test(text)) throw new Error('no TLE data in response');
       parseTLEs(text);
       renderSats(viewer);
       updateStats();

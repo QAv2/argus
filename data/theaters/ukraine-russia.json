@@ -758,7 +758,7 @@
   },
   {
     "id": "pokrovsk-fall-2025",
-    "name": "Russian Forces Enter Pokrovsk After Year-Long Siege",
+    "name": "Russian Forces Take Pokrovsk After Two-Year Battle",
     "lat": 48.2833,
     "lon": 37.1833,
     "type": "ground",
@@ -771,7 +771,7 @@
     ],
     "target": "Pokrovsk and Myrnohrad, western Donetsk Oblast — key supply hub",
     "casualties": "Russia lost 1,000+ armored vehicles and 500+ tanks in the Pokrovsk area since Oct 2023; daily attacks of 30-60",
-    "description": "Russian forces entered Pokrovsk in November 2025 after a prolonged siege with an average advance rate of 70 meters/day — slower than the Battle of the Somme. CSIS assessed that despite capturing the supply hub, Russia was unable to make operationally significant advances west of Pokrovsk by February 2026. ISW assessed that fighting continued north and west of the city, with both sides conducting localized attacks and counterattacks, into August 2026.",
+    "description": "Russian forces entered Pokrovsk in November 2025 after a siege that advanced at an average of about 70 metres a day. ISW assessed on 25 Feb 2026 that Russia had likely seized the town, with no Ukrainian forces observed there since late January 2026. CSIS assessed that Russia could not turn the capture into operationally significant advances west of the city. By September 2026 the fighting had moved north-west of it, where Russian forces seized Myrne and Vasylivka (ISW, 8 Sep).",
     "sources": [
       "Al Jazeera",
       "The Soufan Center",
@@ -779,7 +779,9 @@
       "Euronews",
       "CSIS",
       "Washington Post",
-      "ISW"
+      "ISW",
+      "Euromaidan Press (ISW 25 Feb 2026) — https://euromaidanpress.com/2026/02/26/russia-appears-to-have-seized-pokrovsk-after-two-year-battle/",
+      "ISW — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-8-2026"
     ]
   },
   {
@@ -1248,7 +1250,7 @@
   },
   {
     "id": "ankara-nato-summit-2026",
-    "name": "NATO Ankara Summit — 70B Euro Pledge, Patriot Co-Production",
+    "name": "NATO Ankara Summit — 70B Euro Pledge for Ukraine",
     "lat": 39.9334,
     "lon": 32.8597,
     "type": "political",
@@ -1261,11 +1263,12 @@
     ],
     "target": "Ukraine defense support and peace framework",
     "casualties": "N/A",
-    "description": "NATO allies pledged 70 billion euros in military equipment, assistance, and training for Ukraine at the Ankara summit. In a bilateral meeting, Trump told Zelensky the US would grant Ukraine a license to manufacture Patriot air defense systems. Trump praised recent peace progress but acknowledged Putin and Zelensky as difficult negotiators. Ukraine's full NATO membership was assessed as not imminent.",
+    "description": "NATO allies pledged 70 billion euros in military equipment, assistance, and training for Ukraine at the Ankara summit. In a bilateral meeting, Trump told Zelensky the US would grant Ukraine a license to manufacture Patriot air defense systems. Trump praised recent peace progress but acknowledged Putin and Zelensky as difficult negotiators. Ukraine's full NATO membership was assessed as not imminent. Update: Trump later retracted the Patriot licensing offer (Al Jazeera, 2 Oct 2026).",
     "sources": [
       "Al Jazeera — https://www.aljazeera.com/news/2026/7/8/nato-pledges-70-billion-euros-for-ukraine-as-trump-praises-peace-progress",
       "NPR — https://www.npr.org/2026/07/09/nx-s1-5887053/trump-nato-zelenskyy",
-      "Time — https://time.com/article/2026/07/08/trump-zelensky-ukraine-patriot-missile-interceptors-russia-nato/"
+      "Time — https://time.com/article/2026/07/08/trump-zelensky-ukraine-patriot-missile-interceptors-russia-nato/",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/2/russia-tries-to-freeze-ukraine-as-it-suffers-record-casualties-and-retreats"
     ],
     "theater": "ukraine-russia"
   },
@@ -1393,9 +1396,10 @@
     ],
     "target": "Russian-occupied territory in southern Dnipropetrovsk Oblast, near Donetsk and Zaporizhia borders",
     "casualties": "Russia: approximately 10,000 killed (Ukrainian claim); Ukraine: unknown",
-    "description": "Ukraine declared the successful conclusion of a counteroffensive that recaptured 745 square kilometers and 26 settlements in Dnipropetrovsk Oblast, reversing nearly all Russian gains since June 2025. ISW conservatively assessed 627 sq km recaptured. Planned by former commander-in-chief Syrskii, the operation relied heavily on a 16-to-10 FPV drone advantage. Zelensky stated it proved Ukraine could launch offensives, not only hold defenses.",
+    "description": "Ukraine declared the successful conclusion of a counteroffensive that recaptured 745 square kilometers and 26 settlements in Dnipropetrovsk Oblast, reversing nearly all Russian gains since June 2025. ISW conservatively assessed 627 sq km recaptured. Planned by former commander-in-chief Syrskii, the operation relied heavily on a 16-to-10 FPV drone advantage. Zelensky stated it proved Ukraine could launch offensives, not only hold defenses. Update: the counteroffensive did not stop there; ISW reported Ukrainian forces liberating Fedorivka by 9 Oct and reaching the Mokryi Yaly River by 12 Oct 2026.",
     "sources": [
-      "Al Jazeera — https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks"
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks",
+      "ISW — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-12-2026"
     ],
     "theater": "ukraine-russia"
   },
@@ -1416,6 +1420,431 @@
     "description": "Ukrainian drones struck an oil refinery in Ufa, the capital of Bashkortostan, sparking a fire at a unit undergoing maintenance. The strike, over 1,100 km from the front line, came nine days after the TANECO attack in Tatarstan and underscored the expanding reach and tempo of Ukraine's deep-strike campaign against Russian energy infrastructure.",
     "sources": [
       "Moscow Times — https://www.themoscowtimes.com/2026/08/19/ukrainian-drone-strikes-oil-refinery-in-bashkortostan-a93527"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "kyiv-mass-strike-aug-20-2026",
+    "name": "Overnight Missile-Drone Strike on Kyiv Kills 17",
+    "lat": 50.4501,
+    "lon": 30.5234,
+    "type": "missile",
+    "date": "2026-08-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Residential buildings in Kyiv (Solomianskyi district), a school and children's hospital damaged; Odesa port",
+    "casualties": "17 killed (15 in Kyiv), 40+ injured (Moscow Times); at least 18 killed nationwide (Al Jazeera)",
+    "description": "Russia launched dozens of missiles and 168 drones overnight; the upper floors of a nine-storey residential building in Kyiv's Solomianskyi district were destroyed. Ukraine's air force said nearly 90% of drones and most cruise missiles were downed but gave no ballistic-missile interception figure. Odesa port infrastructure and ships were also hit.",
+    "sources": [
+      "The Moscow Times — https://www.themoscowtimes.com/2026/08/20/russian-missile-and-drone-attack-kills-17-in-kyiv-a93536",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "myla-munitions-warehouse-strike-2026",
+    "name": "Drone Hits Munitions Warehouse at Myla Near Kyiv, 37+ Killed",
+    "lat": 50.437,
+    "lon": 30.237,
+    "type": "airstrike",
+    "date": "2026-08-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Warehouse storing explosive objects in Myla, Bucha district, Kyiv Oblast; fire spread to 50+ homes",
+    "casualties": "At least 37 killed (Kyiv Oblast governor Tymur Tkachenko, via Al Jazeera); CNN reported at least 38; dozens injured; ~400 evacuated",
+    "description": "An overnight Russian drone strike on 28-29 August hit a warehouse holding munitions in Myla on Kyiv's western edge, setting off hours of secondary explosions and a fire that reached at least 50 residential buildings. It was the deadliest single strike in the Kyiv region in the window. Ukrainian prosecutors opened a criminal-negligence probe into whether the unnamed company stored the explosives legally.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27",
+      "CNN — https://www.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "ust-luga-novatek-strike-aug-2026",
+    "name": "Ukraine Strikes Novatek Ust-Luga Export Terminal Again",
+    "lat": 59.68,
+    "lon": 28.41,
+    "type": "airstrike",
+    "date": "2026-08-31T00:00:00Z",
+    "operation": "Ukrainian long-range strike campaign",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Novatek Ust-Luga oil/gas-condensate export terminal, Leningrad Oblast",
+    "casualties": "None reported",
+    "description": "Ukraine's GUR reported a strike on the Novatek terminal at Ust-Luga on 1 September; the Leningrad Oblast governor acknowledged damage to the port area on 31 August. It is a repeat hit on the Baltic export hub first struck in March 2026.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 1, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-1-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "germany-attributes-leipzig-drone-attack-2026",
+    "name": "Germany and EU Attribute Leipzig/Halle Airport Drone Attack to Russia",
+    "lat": 51.4239,
+    "lon": 12.2364,
+    "type": "political",
+    "date": "2026-09-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Germany",
+      "European Union"
+    ],
+    "target": "Leipzig/Halle Airport — Ukrainian Antonov cargo aircraft targeted on 4-5 August",
+    "casualties": "None reported",
+    "description": "German authorities had found an explosives-laden drone near a Ukrainian Antonov cargo plane at Leipzig/Halle on 4-5 August, and a second drone collided with another cargo aircraft aborting its landing. On 1 September Interior Minister Dobrindt, Foreign Minister Wadephul and Commission President von der Leyen attributed the attack to Russia. Police in Brandenburg also defused a double-digit number of explosive devices near the Janschwalde power plant.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 1, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-1-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "kyiv-oblast-rail-depot-strike-sep-2026",
+    "name": "Ballistic Strike on Kyiv Oblast Rail Depot Kills 7",
+    "lat": 50.3,
+    "lon": 30.6,
+    "type": "missile",
+    "date": "2026-09-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Ukrzaliznytsia railway depot and facilities, Kyiv Oblast (exact site not given)",
+    "casualties": "At least 7 killed, including 6 Ukrzaliznytsia employees",
+    "description": "Overnight 31 Aug-1 Sep Russia launched ballistic and cruise missiles plus 218 Shahed-type drones; a ballistic missile hit a railway depot in Kyiv Oblast. ISW notes Russia's jet-powered drone share rose to about 56% of strike packages in August, with Ukraine intercepting about 60% of them versus 90-95% of piston drones. Coordinates are approximate (oblast-level).",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 1, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-1-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "witkoff-kushner-moscow-kyiv-2026",
+    "name": "Witkoff and Kushner Meet Putin, Then Make First Kyiv Visit",
+    "lat": 50.4501,
+    "lon": 30.5234,
+    "type": "political",
+    "date": "2026-09-06T00:00:00Z",
+    "operation": "US peace initiative",
+    "parties": [
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Peace negotiations — Putin meeting in Moscow (~5 Sep), Zelensky meeting in Kyiv (6 Sep)",
+    "casualties": "None",
+    "description": "US envoys Steve Witkoff and Jared Kushner met Putin in Moscow for over three hours, then travelled by train to Kyiv for their first visit during the full-scale war. No breakthrough was announced; territory and US security guarantees remain the sticking points. Russia did not strike Kyiv during the visit. Putin and Trump spoke by phone on 8 September; ISW assessed Putin pressed for Ukrainian capitulation.",
+    "sources": [
+      "NPR (via WYSO) — https://www.wyso.org/2026-09-06/u-s-envoys-visit-kyiv-for-first-time-after-meeting-putin-in-moscow",
+      "ISW/CTP Russian Offensive Campaign Assessment, September 8, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-8-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "russian-drone-moldova-romania-airspace-2026",
+    "name": "Russian Drone Crosses Romanian Airspace, Crashes in Moldova",
+    "lat": 46.0,
+    "lon": 28.6,
+    "type": "airstrike",
+    "date": "2026-09-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Romania (NATO)",
+      "Moldova"
+    ],
+    "target": "Romanian and Moldovan airspace",
+    "casualties": "None reported",
+    "description": "A Russian drone, likely jet-powered per ISW, spent nearly an hour in Moldovan and Romanian airspace before crashing in Moldova. NATO had also reacted to air targets near Romania's Ukrainian border on 6 September, and Romanian forces found UAVs off the Romanian coast on 3-4 September. Coordinates approximate (southern Moldova); crash site not specified in source.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 8, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-8-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "syzran-taganrog-strikes-sep-2026",
+    "name": "Ukraine Hits Syzran Refinery and Taganrog Drone Plant",
+    "lat": 53.1585,
+    "lon": 48.4681,
+    "type": "airstrike",
+    "date": "2026-09-14T00:00:00Z",
+    "operation": "Ukrainian long-range strike campaign",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Syzran refinery (Samara Oblast, ~816 km from front); Atlant Aero drone plant, Taganrog",
+    "casualties": "Unknown",
+    "description": "Over 13-15 September Ukraine struck the Syzran refinery, the Atlant Aero drone plant in Taganrog, a Nebo-M radar near Millerovo, the Slavyansk refinery in Krasnodar Krai (13 Sep) and a Perm chemical plant (11 Sep). The strikes are part of a sustained refinery campaign that Ukraine's MoD said by early October had disabled over 51% of Russian refining capacity (Ukrainian claim, not independently verified).",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 15, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-15-2026",
+      "ISW/CTP Russian Offensive Campaign Assessment, October 6, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "lithuania-drone-intercept-sep-2026",
+    "name": "NATO Jets Intercept Explosive-Laden Drone Over Lithuania",
+    "lat": 54.6872,
+    "lon": 25.2797,
+    "type": "airstrike",
+    "date": "2026-09-15T00:00:00Z",
+    "operation": "NATO Baltic Air Policing",
+    "parties": [
+      "Russia (suspected)",
+      "Belarus",
+      "Lithuania (NATO)",
+      "Italy (NATO)"
+    ],
+    "target": "Lithuanian airspace",
+    "casualties": "None reported",
+    "description": "On the night of 14-15 September Italian NATO jets intercepted a drone in Lithuanian airspace that Lithuanian officials said flew in from Belarus and likely carried an explosive; Italy's defence minister said it was likely Russian. ISW had not confirmed Russian involvement. Drone debris was found near Wunstorf Air Base in Germany the same night. Coordinates are Vilnius (intercept location not published).",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 15, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-15-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "operation-vivaldi-lyman-2026",
+    "name": "Operation Vivaldi Pushes Russians Back North of Lyman",
+    "lat": 49.05,
+    "lon": 37.8,
+    "type": "ground",
+    "date": "2026-09-15T00:00:00Z",
+    "operation": "Operation Vivaldi",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Russian positions north and northeast of Lyman, Donetsk Oblast (Serednie, Kolodyazi, Drobysheve, Derylove, toward the Zherebets River)",
+    "casualties": "Unknown; Ukraine claims 46,230 Russian casualties war-wide in September (unverified)",
+    "description": "Ukraine's 3rd Army Corps said on 15 September it had liberated 85 sq km north of Lyman including Serednie, rising to at least 147 sq km (Biletskyi) and 176 sq km (3rd Corps) by early October; Rai-Oleksandrivka east of Sloviansk was reported cleared on 19 September. ISW assessed Russia had a net loss of about 81 sq km in September (seized ~175.5, lost ~256.4), the first net monthly loss of 2026; by 9 October Ukrainian forces were advancing toward the Zherebets River.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 15, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-15-2026",
+      "ISW/CTP Russian Offensive Campaign Assessment, October 9, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-9-2026",
+      "Newsweek — https://www.newsweek.com/map-shows-ukraines-september-gains-as-russian-casualties-hit-2026-high-12515343",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/2/russia-tries-to-freeze-ukraine-as-it-suffers-record-casualties-and-retreats"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "moscow-refinery-strike-sep-2026",
+    "name": "Drones Halt Gazpromneft Moscow Refinery",
+    "lat": 55.6386,
+    "lon": 37.7442,
+    "type": "airstrike",
+    "date": "2026-09-20T00:00:00Z",
+    "operation": "Ukrainian long-range strike campaign",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Gazpromneft Moscow oil refinery (Kapotnya)",
+    "casualties": "None reported",
+    "description": "Ukrainian drones struck the Moscow refinery on 20 September; Reuters sources said processing was halted. Over 21-22 September Ukraine also hit the Bashneft-UNPZ refinery in Ufa and the Kuibyshev refinery in Samara.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 22, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-22-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "trump-zelensky-unga-sep-22-2026",
+    "name": "Trump-Zelensky UNGA Meeting — Energy-Strike Ceasefire Proposal",
+    "lat": 40.7489,
+    "lon": -73.968,
+    "type": "political",
+    "date": "2026-09-22T00:00:00Z",
+    "operation": "US peace initiative",
+    "parties": [
+      "United States",
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Peace negotiations; proposed mutual halt to long-range strikes on energy infrastructure",
+    "casualties": "None",
+    "description": "At a joint press conference on the sidelines of the UN General Assembly, Trump said Russia and Ukraine were 'going to make a deal' without giving specifics. Zelensky said the US would convey Ukraine's proposal for a ceasefire on long-range strikes against energy infrastructure and voiced openness to a Trump-Putin-Zelensky meeting. Peskov had called a US energy-ceasefire idea 'a very good idea' on 15 September but tied progress to sanctions relief.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, September 22, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-22-2026",
+      "ISW/CTP Russian Offensive Campaign Assessment, September 15, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-15-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "kyiv-academy-of-sciences-strike-2026",
+    "name": "Russian Drone Hits National Academy of Sciences in Kyiv",
+    "lat": 50.4485,
+    "lon": 30.5165,
+    "type": "airstrike",
+    "date": "2026-09-28T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "National Academy of Sciences presidium building, central Kyiv",
+    "casualties": "At least 2 killed in the building (Reuters, via Al Jazeera); 9 killed and 80+ injured nationwide that day (Zelensky)",
+    "description": "A Russian jet-powered drone destroyed two floors of the Academy of Sciences building; former NSDC secretary Volodymyr Horbulin was lightly injured and his assistant killed. Russia hit a thermal power plant in Kyiv region on 30 September, causing outages in Kyiv; Ukraine reported downing only 81% of 1,933 long-range drones in the week to 1 October, with jet drones intercepted at about 55%.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
+      "Euronews — https://www.euronews.com/2026/09/28/russia-strikes-ukraines-national-academy-of-sciences-killing-at-least-one-person",
+      "Chemistry World — https://www.chemistryworld.com/news/ukraines-national-academy-of-sciences-hit-by-russian-drone-killing-two/4024291.article"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "chonhar-bridge-collapse-2026",
+    "name": "Ukrainian Strikes Collapse Chonhar Bridge to Crimea",
+    "lat": 46.056,
+    "lon": 34.507,
+    "type": "airstrike",
+    "date": "2026-09-30T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Chonhar road bridge linking occupied Kherson Oblast and Crimea",
+    "casualties": "Unknown",
+    "description": "Satellite imagery cited by a Ukrainian OSINT source and ISW showed three large holes in the Chonhar bridge on 26 September and the span collapsed by 30 September (it was damaged but standing in mid-August). The bridge is one of the main land links supplying Crimea from occupied southern Ukraine. Exact strike dates not established.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, October 6, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "black-sea-ship-strike-romania-eez-2026",
+    "name": "Drones Sink Grain Ship Off Romania, 2 Killed",
+    "lat": 44.4,
+    "lon": 29.7,
+    "type": "naval",
+    "date": "2026-10-05T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia (attributed by Ukraine)",
+      "Romania (NATO)",
+      "Turkey"
+    ],
+    "target": "Turkish-owned cargo ship (reported as Royad Mammadov) ~30 nm south of Sfantu Gheorghe, outside Romanian territorial waters",
+    "casualties": "2 killed, 11 rescued (Romanian authorities)",
+    "description": "Drones struck a civilian cargo vessel about 30 nautical miles south of Sfantu Gheorghe, setting it ablaze; it sank. Zelensky blamed Russian drones. It was the first fatal drone strike on merchant shipping in Romania's maritime zone in the war. Ship name reported in wire copy, not confirmed by UNITED24.",
+    "sources": [
+      "UNITED24 Media — https://united24media.com/world/two-commercial-vessels-struck-by-drones-off-bulgaria-in-first-reported-attack-of-its-kind-23151",
+      "ISW/CTP Russian Offensive Campaign Assessment, October 6, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "black-sea-ships-sunk-bulgaria-eez-2026",
+    "name": "Drones Hit Two Cargo Ships in Bulgaria's EEZ, One Sinks",
+    "lat": 42.9,
+    "lon": 29.5,
+    "type": "naval",
+    "date": "2026-10-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia (suspected)",
+      "Bulgaria (NATO)"
+    ],
+    "target": "Togo-flagged ALFA WATAN (sank) and Palau-flagged ABLE (fire), ~80 miles east of Byala/Cape St. Atanas",
+    "casualties": "Reports differ: crew of ALFA WATAN reported missing; ABLE's 18 crew rescued, some injured",
+    "description": "Drones struck two merchant vessels inside Bulgaria's exclusive economic zone, the first such attack there; ALFA WATAN sank and ABLE's crew were taken aboard the ferry DIOSCURIA. PM Rumen Radev called it a gross violation of international law without naming a party; a maritime security source said the drones probably came from Russia. Attribution remains under investigation.",
+    "sources": [
+      "UNITED24 Media — https://united24media.com/world/two-commercial-vessels-struck-by-drones-off-bulgaria-in-first-reported-attack-of-its-kind-23151",
+      "Il Foglio — https://www.ilfoglio.it/en/world/2026/10/06/news/several-drones-struck-two-cargo-ships-in-bulgarian-waters-one-has-sunk--409727",
+      "BusinessDay — https://www.businessday.co.za/world/europe/2026-10-06-crew-missing-after-drone-sinks-ship-in-bulgarias-black-sea/"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "yandex-data-center-strikes-2026",
+    "name": "Ukraine Strikes Yandex Data Centers and Ukhta Refinery",
+    "lat": 54.5293,
+    "lon": 36.2754,
+    "type": "airstrike",
+    "date": "2026-10-09T00:00:00Z",
+    "operation": "Ukrainian long-range strike campaign",
+    "parties": [
+      "Ukraine",
+      "Russia"
+    ],
+    "target": "Yandex data centers in Kaluga and Sasovo (Ryazan Oblast); Ukhta refinery (Komi); defence plants in Nizhny Novgorod and Tver oblasts",
+    "casualties": "None reported",
+    "description": "Over 8-9 October Ukraine hit Yandex data centers in Kaluga and Sasovo; Yandex confirmed damage and service outages including Yandex Pay. Ukraine also struck the Ukhta refinery in the Komi Republic and a fuel-component plant in Tver Oblast. The data-center strikes mirror Russia's campaign against Ukrainian data centers since mid-September.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, October 9, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-9-2026",
+      "ISW/CTP Russian Offensive Campaign Assessment, October 12, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-12-2026",
+      "ArcticToday — https://www.arctictoday.com/oil-refinery-in-northern-russia-attacked-by-drones/"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "us-russian-diesel-sanctions-waiver-2026",
+    "name": "US Waives Sanctions on Russian Diesel Exports",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "economic",
+    "date": "2026-10-09T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Russia"
+    ],
+    "target": "US sanctions on Russian diesel exports — Treasury temporary general license",
+    "casualties": "None",
+    "description": "Trump announced an agreement with Putin to waive sanctions on Russian diesel, saying Russia would immediately supply 'over 300,000 tons' with more in November; the Treasury issued a temporary general license. ISW assessed the waiver will help fund Russia's war effort; a State Duma deputy called it a win for Russia.",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, October 9, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-9-2026",
+      "ISW/CTP Russian Offensive Campaign Assessment, October 12, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-12-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "trump-energy-ceasefire-announcement-2026",
+    "name": "Trump Announces Energy Ceasefire; Kremlin Rejects 60-Day Truce",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-10-11T00:00:00Z",
+    "operation": "US peace initiative",
+    "parties": [
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Mutual halt to strikes on oil refineries/energy infrastructure; proposed 60-day election ceasefire",
+    "casualties": "None",
+    "description": "Trump announced an energy ceasefire covering oil refineries on Truth Social; a White House official later called it a 'potential deal', not an agreement. Zelensky proposed a 60-day ceasefire to allow elections and said Ukraine would accept a full energy ceasefire if Russia reciprocated; Ukraine paused refinery strikes on 11-12 October. On 12 October Peskov rejected the 60-day truce, offering only a one-day pause for elections, and Russia kept striking Ukrainian energy sites (six on 12 October).",
+    "sources": [
+      "ISW/CTP Russian Offensive Campaign Assessment, October 12, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-12-2026"
+    ],
+    "theater": "ukraine-russia"
+  },
+  {
+    "id": "eu-22nd-sanctions-package-2026",
+    "name": "EU Adopts 22nd Sanctions Package — Largest Since 2022",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "type": "economic",
+    "date": "2026-10-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "European Union",
+      "Russia"
+    ],
+    "target": "Nearly 1,600 individuals and entities in Russia's military-industrial complex, including submarine shipyards",
+    "casualties": "None",
+    "description": "The EU approved its largest package since the full-scale invasion, listing almost 1,600 individuals and entities, including the Sevmash and Zvezdochka submarine yards, the Rubin and Malakhit design bureaus and developer Samolet over North Korean labour. Earlier reporting put the listings at about 1,570 and said the package carried no other major economic measures. Package number inferred from sequence (21st adopted 23 July 2026).",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/eu-sanctions-shipyards-and-design-bureaus-key-to-russias-nuclear-submarine-fleet/459664",
+      "APA (citing Reuters) — https://en.apa.az/europe/eu-ambassadors-intend-to-agree-on-a-22nd-package-of-sanctions-against-russia-on-october-7-528549"
     ],
     "theater": "ukraine-russia"
   }

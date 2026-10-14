@@ -242,5 +242,352 @@
       "Wikipedia — https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
     ],
     "theater": "israel-palestine"
+  },
+  {
+    "id": "knesset-dissolves-oct27-election",
+    "name": "Knesset Dissolves, Sets October 27 Election",
+    "lat": 31.7767,
+    "lon": 35.2054,
+    "type": "political",
+    "date": "2026-07-17T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Knesset",
+      "Netanyahu government"
+    ],
+    "target": "Israeli parliament",
+    "casualties": "N/A",
+    "description": "Israel's parliament voted to dissolve itself and set a general election for 27 October 2026, putting Netanyahu's handling of Gaza and the Iran war before voters.",
+    "sources": [
+      "AP via Local10 — https://www.local10.com/news/world/2026/07/17/israels-parliament-dissolves-ahead-of-oct-27-elections/",
+      "Al Jazeera — https://aljazeera.com/news/2026/7/17/knesset-dissolves-how-will-israel-vote-in-octobers-general-election"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "unrwa-kafr-aqab-evacuation-order-aug25",
+    "name": "Netanyahu Orders Evacuation of UNRWA Compound in Kafr Aqab",
+    "lat": 31.853,
+    "lon": 35.223,
+    "type": "political",
+    "date": "2026-08-25T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israel",
+      "UNRWA"
+    ],
+    "target": "UNRWA compound, Kafr 'Aqab, East Jerusalem",
+    "casualties": "None reported",
+    "description": "Netanyahu ordered the evacuation of the UNRWA compound in Kafr 'Aqab in East Jerusalem, blaming the agency for the October 7 attacks. The same day far-right MK Zvi Sukkot was filmed smashing a Palestinian monument in Madama under IDF escort.",
+    "sources": [
+      "Haaretz (live) — https://www.haaretz.com/israel-news/israel-security/2026-08-25/ty-article-live/two-children-among-four-people-killed-in-gaza-strikes-officials-say/000001a0-3656-dfc3-abf8-b656da950000?liveBlogItemId=154967915#154967915",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/far-right-mk-sukkot-seen-smashing-palestinian-monument-with-idf-escort/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "settler-attack-qusra-home-aug29",
+    "name": "Settlers Attack Qusra Home Again; Troops Beat Residents",
+    "lat": 32.087,
+    "lon": 35.336,
+    "type": "ground",
+    "date": "2026-08-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israeli settlers",
+      "IDF",
+      "Palestinians"
+    ],
+    "target": "Palestinian home in Qusra, Nablus governorate",
+    "casualties": "Unknown (residents beaten per witnesses)",
+    "description": "Witnesses said settlers staged a new attack on a home in Qusra and IDF troops then fired tear gas and handcuffed, blindfolded and beat residents inside. The same day masked settlers attacked an NBC News crew in Jalud, drawing an alarmed Foreign Press Association statement.",
+    "sources": [
+      "Reuters — https://www.reuters.com/world/middle-east/israeli-settlers-stage-new-attack-home-west-banks-qusra-witnesses-say-2026-08-29/",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/foreign-press-association-deeply-alarmed-after-settler-attack-on-nbc-news-crew-palestinian-woman/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "al-tabban-village-demolished-sep2",
+    "name": "Israel Demolishes Al-Tabban Village in Masafer Yatta",
+    "lat": 31.395,
+    "lon": 35.155,
+    "type": "ground",
+    "date": "2026-09-02T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israel",
+      "Palestinians"
+    ],
+    "target": "Al-Tabban hamlet, Firing Zone 918, South Hebron Hills",
+    "casualties": "None reported",
+    "description": "Israeli authorities demolished the Palestinian village of Al-Tabban in the southern West Bank, citing the Supreme Court ruling on Firing Zone 918. Structures in nearby Jinba were razed on 23 September under the same ruling as evictions in Masafer Yatta accelerated. Coordinates approximate.",
+    "sources": [
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/israel-demolishes-palestinian-village-located-in-firing-zone-in-southern-west-bank/",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/security-forces-razing-hamlet-in-west-banks-masafer-yatta-as-evictions-ramp-up/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "netanyahu-orders-outposts-removed-sep6",
+    "name": "Netanyahu Orders Unauthorized Settler Outposts Removed",
+    "lat": 31.7683,
+    "lon": 35.2137,
+    "type": "political",
+    "date": "2026-09-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israel",
+      "United States",
+      "Israeli settlers"
+    ],
+    "target": "About 100 unauthorized West Bank settler outposts (per Ynet)",
+    "casualties": "None reported",
+    "description": "Under US pressure, Netanyahu ordered unauthorized settler outposts dismantled, two sources told Reuters; Ynet put the number at about 100. It followed US Ambassador Mike Huckabee calling violent settlers terrorists. Smotrich said the instruction covered places built in Areas A and B. No start date was given.",
+    "sources": [
+      "GV Wire (Reuters) — https://gvwire.com/2026/09/06/israels-netanyahu-orders-west-bank-settler-outposts-to-be-removed-sources-say/",
+      "L'Orient Today (Reuters) — https://today.lorientlejour.com/article/1546711/netanyahu-orders-west-bank-settler-outposts-to-be-removed-sources-say.html"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "twelve-states-sanction-settlement-trade-sep8",
+    "name": "12 States Incl. UK, France, Canada Sanction Settlement Trade",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "type": "economic",
+    "date": "2026-09-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United Kingdom",
+      "France",
+      "Canada",
+      "Spain",
+      "Ireland",
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "Finland",
+      "Iceland",
+      "Poland",
+      "Portugal",
+      "Israel"
+    ],
+    "target": "Trade in goods from Israeli West Bank settlements",
+    "casualties": "None reported",
+    "description": "Twelve countries said in a joint foreign-ministers' statement they would restrict trade in goods from settlements they call illegal under international law, citing settlement expansion and settler violence. Israel responded by ordering the UK consulate in East Jerusalem closed. Pin at Paris (France led the push; no single venue — inference).",
+    "sources": [
+      "Ahram Online — https://english.ahram.org.eg/News/576226.aspx",
+      "Naharnet — https://m.naharnet.com/stories/en/322344-12-countries-including-france-uk-say-to-sanction-trade-from-israeli-settlements",
+      "North West Star (AAP) — https://www.northweststar.com.au/story/9346577/hit-with-broad-sanctions-israel-to-close-uk-consulate/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-city-building-collapse-sep16",
+    "name": "War-Damaged Building Collapses in Gaza City, Killing 16",
+    "lat": 31.5017,
+    "lon": 34.4668,
+    "type": "political",
+    "date": "2026-09-16T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Palestinian civilians"
+    ],
+    "target": "War-damaged residential building, Gaza City",
+    "casualties": "16 killed (AP headline; Wikipedia summary says 21)",
+    "description": "A building damaged during the war collapsed in Gaza City, killing at least 16, AP reported, as perilous living conditions persist during the truce. Typed 'political' as a humanitarian milestone (schema has no humanitarian type).",
+    "sources": [
+      "Seattle Times (AP) — https://www.seattletimes.com/nation-world/building-collapse-in-gaza-kills-16-as-perilous-conditions-persist-for-palestinians-during-truce/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "us-bars-abbas-from-unga-sep16",
+    "name": "US Bars Abbas and PA Delegation From UN General Assembly",
+    "lat": 38.8951,
+    "lon": -77.0364,
+    "type": "political",
+    "date": "2026-09-16T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Palestinian Authority",
+      "PLO"
+    ],
+    "target": "Abbas and PA/PLO delegation to UNGA",
+    "casualties": "None reported",
+    "description": "The State Department sanctioned PA and PLO officials and barred President Mahmoud Abbas and his delegation from attending the UN General Assembly in New York, accusing them of breaching US law.",
+    "sources": [
+      "US State Department — https://www.state.gov/releases/office-of-the-spokesman/2026/09/sanctioning-officials-of-the-palestinian-authority-and-members-of-the-palestine-liberation-organization-2/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "gaza-schools-reopen-sep19",
+    "name": "Gaza Schools Reopen for First Time Since War Began",
+    "lat": 31.5017,
+    "lon": 34.4668,
+    "type": "political",
+    "date": "2026-09-19T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Gaza education authorities"
+    ],
+    "target": "Schools across the Gaza Strip",
+    "casualties": "None reported",
+    "description": "Schools in the Gaza Strip reopened for the first time since the war began in October 2023. Humanitarian milestone; single Palestinian outlet source.",
+    "sources": [
+      "Palestine News Network — https://english.pnn.ps/index.php/news/48304"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "halamish-shooting-israeli-killed-sep20",
+    "name": "Israeli Killed in Shooting Attack Near Halamish",
+    "lat": 32.005,
+    "lon": 35.11,
+    "type": "ground",
+    "date": "2026-09-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Palestinian gunman",
+      "Israeli civilians"
+    ],
+    "target": "Israeli man near Halamish settlement",
+    "casualties": "1 Israeli killed",
+    "description": "An Israeli man shot in a West Bank attack near Halamish died of his wounds; the IDF said the Palestinian gunman was later captured at a hospital.",
+    "sources": [
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/police-man-shot-in-west-bank-terror-attack-dies-of-his-injuries/",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/palestinian-who-carried-out-deadly-west-bank-shooting-captured-at-hospital-says-idf/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "route-443-ramming-leiter-son-sep23",
+    "name": "Ramming on Route 443 Seriously Wounds Son of Israel's US Envoy",
+    "lat": 31.8935,
+    "lon": 35.039,
+    "type": "ground",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Palestinian attacker",
+      "IDF"
+    ],
+    "target": "Israeli reservist Neriya Leiter at Maccabim junction, Route 443",
+    "casualties": "1 seriously injured; attacker shot dead",
+    "description": "A car-ramming at Maccabim junction on Route 443 seriously wounded IDF reservist Neriya Leiter, son of Israel's ambassador to the US Yechiel Leiter; troops shot the attacker dead.",
+    "sources": [
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/israeli-man-seriously-injured-in-car-ramming-attack-in-west-bank-assailant-shot-dead/",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/reservist-seriously-wounded-in-west-bank-attack-ided-as-neriya-leiter-son-of-israels-us-envoy/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "israel-kills-qassam-north-chief-al-beik-sep29",
+    "name": "Israel Kills Qassam Northern Gaza Commander Izz al-Din al-Beik",
+    "lat": 31.525,
+    "lon": 34.46,
+    "type": "airstrike",
+    "date": "2026-09-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israel",
+      "Hamas"
+    ],
+    "target": "Apartment building, Nasr neighbourhood, Gaza City",
+    "casualties": "6-7 killed that day incl. al-Beik (Gaza officials)",
+    "description": "An Israeli airstrike on a Gaza City apartment building killed Izz al-Din al-Beik, Qassam Brigades commander for northern Gaza and successor to Ahmed al-Ghandour. Gaza officials said Israeli fire killed six or seven that day. Al Jazeera reports Israel has escalated strikes in recent weeks while disarmament and withdrawal talks stall.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/29/israeli-forces-kill-hamas-commander-izz-al-din-al-beik-in-gaza-attack",
+      "Ahram Online — https://english.ahram.org.eg/News/577808.aspx",
+      "LBC — https://www.lbc.co.uk/world-news/israel-kills-senior-hamas-commander-in-gaza-officials-say/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "hamas-pij-dahlan-electoral-alliance-sep29",
+    "name": "Hamas, PIJ and Dahlan Form Electoral Alliance",
+    "lat": 31.5017,
+    "lon": 34.4668,
+    "type": "political",
+    "date": "2026-09-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Hamas",
+      "Palestinian Islamic Jihad",
+      "Mohammed Dahlan"
+    ],
+    "target": "2026 Palestinian legislative election",
+    "casualties": "None reported",
+    "description": "Hamas and Islamic Jihad agreed an unlikely electoral coalition with ex-Fatah strongman Mohammed Dahlan for the planned Palestinian legislative election, AP reported. The election was cancelled by Abbas on 10 October. Venue not confirmed; pin at Gaza City is a placeholder.",
+    "sources": [
+      "Los Angeles Times (AP) — https://www.latimes.com/world-nation/story/2026-09-29/hamas-islamic-jihad-powerful-ex-fatah-official-form-unlikely-electoral-alliance"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "settlers-kill-palestinian-yasuf-oct1",
+    "name": "Settlers Shoot Dead Palestinian at Home in Yasuf",
+    "lat": 32.115,
+    "lon": 35.238,
+    "type": "ground",
+    "date": "2026-10-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Israeli settlers",
+      "IDF",
+      "Palestinians"
+    ],
+    "target": "Mashour Yassin, 51, at his home in Yasuf",
+    "casualties": "1 Palestinian killed, 2 injured",
+    "description": "Settlers shot and killed Mashour Yassin, 51, at his home in Yasuf, the village council head said; two others were wounded. The IDF said it opened fire after Palestinians threw rocks at settlers, and Israeli authorities said they were investigating.",
+    "sources": [
+      "Reuters — https://www.reuters.com/world/middle-east/israeli-settlers-kill-palestinian-west-bank-say-officials-2026-10-01/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "kobar-gate-clash-19yo-killed-oct2",
+    "name": "19-Year-Old Shot Dead in Kobar After Settler Gate Clash",
+    "lat": 31.976,
+    "lon": 35.174,
+    "type": "ground",
+    "date": "2026-10-02T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "IDF",
+      "Israeli settlers",
+      "Palestinians"
+    ],
+    "target": "Young Palestinians trying to open a settler-erected gate at Kobar",
+    "casualties": "1 Palestinian killed (per mayor)",
+    "description": "Young Palestinians trying to pass a gate settlers had erected at Kobar were attacked and a clash followed; the mayor said the army shot dead a 19-year-old. Settler violence continued into the olive harvest, with Defense Minister Katz banning pro-Palestinian activists from helping harvesters on 8 October.",
+    "sources": [
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/west-bank-mayor-settlers-attacked-palestinians-who-tried-to-open-gate-to-leave-village-army-shot-dead-19-year-old/",
+      "Times of Israel — https://www.timesofisrael.com/liveblog_entry/defense-min-gives-instructions-to-ban-pro-palestinian-activists-from-west-bank-during-olive-harvest-yesha-council-says/"
+    ],
+    "theater": "israel-palestine"
+  },
+  {
+    "id": "abbas-cancels-november-election-oct10",
+    "name": "Abbas Cancels Nov. 28 Legislative Vote, Sets Sept. 2027",
+    "lat": 31.9038,
+    "lon": 35.2034,
+    "type": "political",
+    "date": "2026-10-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Palestinian Authority",
+      "Mahmoud Abbas"
+    ],
+    "target": "Palestinian legislative and presidential elections",
+    "casualties": "None reported",
+    "description": "Abbas formally cancelled the 28 November 2026 legislative election, WAFA said, and set combined presidential and legislative elections for 11 September 2027, citing Israeli restrictions and attacks in Gaza, the West Bank and East Jerusalem. He had committed to the vote under donor pressure as the PA sought a governing role in Gaza.",
+    "sources": [
+      "Times of Israel (WAFA) — https://www.timesofisrael.com/liveblog_entry/abbas-scraps-legislative-election-sets-nov-2027-for-palestinians-to-elect-president-and-legislature/"
+    ],
+    "theater": "israel-palestine"
   }
 ]

@@ -705,12 +705,13 @@
     ],
     "target": "City of Kidal",
     "casualties": "Unknown",
-    "description": "In unprecedented alliance, Tuareg separatists and JNIM jointly recaptured Kidal, reversing the November 2023 victory. Africa Corps confirmed withdrawal on April 27.",
+    "description": "In unprecedented alliance, Tuareg separatists and JNIM jointly recaptured Kidal, reversing the November 2023 victory. Africa Corps confirmed withdrawal on April 27. Update: the Malian army, with Africa Corps, re-entered Kidal on 6 Oct 2026 after the FLA announced a 'strategic withdrawal'; the town is back under government control.",
     "sources": [
       "France 24",
       "Al Jazeera",
       "FDD",
-      "The New Arab"
+      "The New Arab",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/6/tuareg-rebels-withdraw-from-strategic-town-of-kidal-in-northern-mali"
     ]
   },
   {
@@ -772,10 +773,11 @@
     ],
     "target": "Tessalit military base near Algerian border",
     "casualties": "Unknown",
-    "description": "FLA and JNIM seized the Tessalit military base after Malian and Russian forces withdrew southward. The capture completed rebel consolidation of the entire Kidal Region including Aguelhok and Anefis.",
+    "description": "FLA and JNIM seized the Tessalit military base after Malian and Russian forces withdrew southward. The capture completed rebel consolidation of the entire Kidal Region including Aguelhok and Anefis. Update: Malian army convoys reoccupied Anefis and Aguelhok on 3–5 Oct 2026; Tessalit's status was unconfirmed as of 13 Oct.",
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2026_Mali_offensives",
-      "Critical Threats — https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara"
+      "Critical Threats — https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara",
+      "RFI — https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal"
     ],
     "theater": "sahel"
   },
@@ -983,11 +985,270 @@
       "Malian Armed Forces"
     ],
     "target": "San military barracks in Segou Region",
-    "casualties": "10+ soldiers killed",
+    "casualties": "10 soldiers and 40 militants killed (Malian army figures)",
     "description": "JNIM claimed full control of the army barracks in San, Segou Region, releasing video of fighters inside the base. The Malian army disputed this, stating the attack was repelled and the facility remained under government control.",
     "sources": [
       "Arab News — https://www.arabnews.com/node/2654037/world",
-      "West African Voice Network — https://www.wavn.org/mali-army-says-san-military-base-attack-repelled-as-jnim-claims-victory/"
+      "West African Voice Network — https://www.wavn.org/mali-army-says-san-military-base-attack-repelled-as-jnim-claims-victory/",
+      "BBC — https://www.bbc.com/news/articles/cly8j7ygwvlo"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "mali-pm-algiers-visit-aug2026",
+    "name": "Mali PM Maiga in Algiers as Ties Thaw",
+    "lat": 36.7538,
+    "lon": 3.0588,
+    "type": "political",
+    "date": "2026-08-24T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Mali",
+      "Algeria"
+    ],
+    "target": "Mali-Algeria relations",
+    "casualties": "N/A",
+    "description": "Prime Minister Abdoulaye Maiga met President Tebboune in Algiers after the two states restored diplomatic ties in July 2026, ending more than a year of rupture. The visit produced an invitation for Goita to visit Algeria, and Algeria's PM went to Bamako in mid-September. AFP sources later said Algeria may have asked Tuareg rebels not to resist the army's October push on Kidal.",
+    "sources": [
+      "CTP Africa File, Aug 27 2026 — https://www.criticalthreats.org/analysis/ethiopia-tplf-fano-libya-lna-mali-fla-algeria-morocco-togo-congo-russia-africa-file-august-27-2026",
+      "The Sahel Brief, Sep 15 2026 — https://buttondown.com/TheSahelBrief/archive/sahel-morning-brief-15-september-2026/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "niamey-mutiny-aug2026",
+    "name": "Army Mutiny Hits Niamey Airport Base and Palace Area",
+    "lat": 13.4815,
+    "lon": 2.1836,
+    "type": "political",
+    "date": "2026-08-29T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Niger mutineers",
+      "Niger junta (CNSP)"
+    ],
+    "target": "Air Base 101 at Diori Hamani airport, presidential palace area, state broadcaster RTN",
+    "casualties": "Dozens of soldiers reported killed or arrested",
+    "description": "Soldiers, reportedly from Ouallam, Tera and Dosso units that had suffered heavy losses to IS-Sahel, detained comrades and opened fire at sensitive sites after midnight. The state broadcaster went off air. The junta said it regained control within hours, and the AES called it a destabilisation plot. Two weeks later Tiani replaced the army chief of staff.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/30/nigers-military-led-government-says-it-contained-mutiny-what-next",
+      "Sahara Reporters — https://saharareporters.com/2026/08/29/explosions-rock-niger-republic-capital-niamey-gunmen-target-airport-military-base"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-dioura-camp-attack-sep2026",
+    "name": "JNIM Overruns Dioura Camp, ~100 Soldiers Killed",
+    "lat": 14.82,
+    "lon": -5.27,
+    "type": "ground",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces",
+      "Africa Corps"
+    ],
+    "target": "Malian army camp at Dioura, central Mali",
+    "casualties": "At least 100 soldiers and 5 Africa Corps personnel killed; dozens captured (AFP/RFI sources; unconfirmed by army)",
+    "description": "JNIM stormed and claimed full control of the Dioura camp. First AFP tolls of at least 50 soldiers roughly doubled within days, and JNIM videos showed dozens of prisoners. The army said only that it neutralised dozens of attackers. It is the deadliest single attack on the army in this window. Approximate coordinates.",
+    "sources": [
+      "Le Guide/AFP — https://leguide.ma/au-mali-au-moins-50-militaires-et-cinq-mercenaires-russes-tues-jeudi-dans-une-attaque-djihadiste/",
+      "Arab News/AFP — https://www.arabnews.com/world/death-toll-passes-100-soldiers-in-mali-attack-last-week-sources-3002283",
+      "RFI via AllAfrica — https://fr.allafrica.com/stories/202609190066.html"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "niger-army-chief-replaced-sep2026",
+    "name": "Tiani Replaces Niger Army Chief After Mutiny",
+    "lat": 13.5116,
+    "lon": 2.1254,
+    "type": "political",
+    "date": "2026-09-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Niger junta (CNSP)"
+    ],
+    "target": "Chief of staff of the armed forces",
+    "casualties": "N/A",
+    "description": "General Tiani replaced chief of staff Moussa Salaou Barmou with Mamane Sani Kiaou without giving a reason, two weeks after the Aug 29 mutiny in Niamey.",
+    "sources": [
+      "AP — https://apnews.com/article/niger-new-military-chief-mutiny-12ecef2a363e00f825274ca712ef948b",
+      "Wikipedia, 2026 in Niger — https://en.wikipedia.org/wiki/2026_in_Niger"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "jnim-fuel-convoys-kolokani-sep2026",
+    "name": "JNIM Burns Fuel Convoys on Senegal-Bamako Route",
+    "lat": 13.57,
+    "lon": -8.03,
+    "type": "blockade",
+    "date": "2026-09-13T00:00:00Z",
+    "operation": "JNIM blockade of Bamako",
+    "parties": [
+      "JNIM",
+      "Malian Armed Forces"
+    ],
+    "target": "Army-escorted fuel convoys from Senegal (Diedieni-Kolokani, Sep 13; Kaniera-Lakamane, Sep 14)",
+    "casualties": "About 20 trucks burned; some escort soldiers killed or captured (RFI local sources)",
+    "description": "JNIM hit an escorted fuel convoy about 100 km from Bamako on Sep 13, and the next day a convoy of more than 80 tankers near Kaniera-Lakamane. This showed the fuel blockade on the capital still enforced in mid-September. The army said only that it had responded vigorously.",
+    "sources": [
+      "The Sahel Brief (citing RFI/AFP), Sep 15 2026 — https://buttondown.com/TheSahelBrief/archive/sahel-morning-brief-15-september-2026/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "us-dfc-dasa-uranium-sep2026",
+    "name": "US DFC Approves $414M for Niger's Dasa Uranium Mine",
+    "lat": 17.95,
+    "lon": 7.95,
+    "type": "economic",
+    "date": "2026-09-17T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "US International Development Finance Corporation",
+      "Global Atomic",
+      "Niger"
+    ],
+    "target": "Dasa uranium project, Agadez region",
+    "casualties": "N/A",
+    "description": "The US DFC approved a debt facility of up to $414 million for Global Atomic's Dasa project, two years after US troops left Niger. A week later Niamey raised its stake in the Madaouela uranium project from 10% to 40%. The pair marks a re-opening of Niger's uranium sector to Western capital on junta terms. Approximate coordinates.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/17/us-approves-414m-uranium-investment-in-niger-two-years-after-troops-left",
+      "World Nuclear News — https://www.world-nuclear-news.org/articles/atomic-eagle-reaches-agreement-on-niger-uranium-project"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "kassela-checkpoint-attack-sep2026",
+    "name": "Militants Hit Kassela Checkpoint Near Bamako",
+    "lat": 12.57,
+    "lon": -7.7,
+    "type": "ground",
+    "date": "2026-09-18T00:00:00Z",
+    "operation": "JNIM blockade of Bamako",
+    "parties": [
+      "JNIM (reported)",
+      "Malian Armed Forces"
+    ],
+    "target": "Kassela checkpoint, about 36 km from Bamako",
+    "casualties": "Unconfirmed",
+    "description": "On the night of Sep 18–19, militants struck a checkpoint on the capital's eastern approach while a drone hit a hangar at the Sevare base in central Mali. Both came days before Mali's 66th independence anniversary, at which Goita acknowledged the violence. Approximate coordinates.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/22/mali-marks-independence-amid-a-worsening-security-crisis",
+      "Arab News/AFP — https://www.arabnews.com/world/death-toll-passes-100-soldiers-in-mali-attack-last-week-sources-3002283"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "issp-dabagu-base-attack-sep2026",
+    "name": "IS-Sahel Attack on Dabagu Base Kills 38 Soldiers",
+    "lat": 16.13,
+    "lon": 4.79,
+    "type": "ground",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Islamic State Sahel Province",
+      "Niger Armed Forces"
+    ],
+    "target": "Dabagu military base, Tahoua region, near the Malian border",
+    "casualties": "38 soldiers killed, several missing (Niger Ministry of Defence)",
+    "description": "IS-Sahel attacked the Dabagu base, about 450 km from Niamey, on Wednesday Sep 23. The Defence Ministry announced it the next day alongside a same-day attack at Abala. Together they are the deadliest day for Niger's forces in this window. Approximate coordinates (Tillia area); the base was not precisely located in reporting.",
+    "sources": [
+      "GNA/AFP — https://gna.org.gh/2026/09/at-least-57-security-personnel-killed-in-is-attacks-in-niger/",
+      "DH/Belga — https://www.dhnet.be/dernieres-depeches/2026/09/25/niger-57-morts-lors-de-deux-offensives-de-letat-islamique-VBSDYEAJ5BHDTDMV7DAPISUP3U/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "issp-abala-attack-sep2026",
+    "name": "IS-Sahel Attack at Abala Kills 19 Gendarmes",
+    "lat": 14.93,
+    "lon": 3.43,
+    "type": "ground",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Islamic State Sahel Province",
+      "Niger security forces"
+    ],
+    "target": "Security post at Abala, Filingue department, Tillaberi region",
+    "casualties": "19 military police or gendarmes killed (Niger Ministry of Defence)",
+    "description": "This was the second IS-Sahel attack of Sep 23, about 250 km from Niamey, bringing the day's toll to at least 57 security personnel. English wires say military police; Belga says gendarmes.",
+    "sources": [
+      "Newcastle Herald/AAP — https://www.newcastleherald.com.au/story/9357196/fifty-seven-security-personnel-killed-in-niger-attacks/",
+      "DH/Belga — https://www.dhnet.be/dernieres-depeches/2026/09/25/niger-57-morts-lors-de-deux-offensives-de-letat-islamique-VBSDYEAJ5BHDTDMV7DAPISUP3U/"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "mali-airstrikes-anefis-tinzaouaten-oct2026",
+    "name": "Malian Drone Strikes Ahead of Kidal Push",
+    "lat": 18.06,
+    "lon": 0.6,
+    "type": "airstrike",
+    "date": "2026-10-04T00:00:00Z",
+    "operation": "Kidal recapture offensive",
+    "parties": [
+      "Malian Armed Forces",
+      "Africa Corps",
+      "FLA",
+      "JNIM"
+    ],
+    "target": "FLA and JNIM positions near Anefis, Kidal and Tinzaouaten",
+    "casualties": "At least 10 militants killed (Malian officials); FLA alleges civilian casualties",
+    "description": "On Oct 4–6, Malian forces struck FLA and JNIM positions near Anefis, Kidal town and Tinzaouaten, reportedly with Turkish TB2 and Akinci drones. This followed an Oct 3 convoy of nearly 300 vehicles from Gao to the Anefis bases, then convoys to Aguelhok and Kidal.",
+    "sources": [
+      "CTP Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim",
+      "RFI — https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal",
+      "Abamako — https://news.abamako.com/h/305970.html"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "mali-army-retakes-kidal-oct2026",
+    "name": "Malian Army Retakes Kidal as FLA Withdraws",
+    "lat": 18.4411,
+    "lon": 1.4078,
+    "type": "ground",
+    "date": "2026-10-06T00:00:00Z",
+    "operation": "Kidal recapture offensive",
+    "parties": [
+      "Malian Armed Forces",
+      "Africa Corps",
+      "FLA"
+    ],
+    "target": "Kidal town",
+    "casualties": "None reported",
+    "description": "Malian troops backed by Africa Corps entered Kidal five months after FLA and JNIM took it in April. The FLA called it a temporary, controlled withdrawal under Russian air attack. It said the army entered without a fight, while the government described intense air-ground operations. The army then announced an offensive in the In-Tassik, Tin-Assalak and Abeibara sectors.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/6/tuareg-rebels-withdraw-from-strategic-town-of-kidal-in-northern-mali",
+      "Reuters — https://www.reuters.com/world/mali-separatists-announce-withdrawal-strategic-northern-mali-town-2026-10-06/",
+      "Arab News — https://www.arabnews.com/world/what-changes-with-malis-recapture-of-kidal-3005115"
+    ],
+    "theater": "sahel"
+  },
+  {
+    "id": "niger-imf-staff-level-deal-oct2026",
+    "name": "Niger Reaches $203M IMF Staff-Level Deal",
+    "lat": 13.5116,
+    "lon": 2.1254,
+    "type": "economic",
+    "date": "2026-10-09T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "IMF",
+      "Niger"
+    ],
+    "target": "38-month Extended Credit Facility",
+    "casualties": "N/A",
+    "description": "The IMF reached a staff-level agreement with Niger on a $203 million, 38-month Extended Credit Facility, pending Executive Board approval in December. It is the junta's main external financing lifeline in the window.",
+    "sources": [
+      "Africanews — https://www.africanews.com/2026/10/09/niger-set-for-200-million-financial-package-from-imf/",
+      "Ecofin Agency — https://www.ecofinagency.com/news/0910-59600-niger-reaches-imf-staff-level-deal-on-203-million-financing-programme"
     ],
     "theater": "sahel"
   }

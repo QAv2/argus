@@ -12,6 +12,7 @@ SWEEP = pathlib.Path(os.environ.get('SWEEP_DIR', pathlib.Path(__file__).resolve(
 THEATERS_DIR = pathlib.Path(__file__).resolve().parents[2] / 'data' / 'theaters'
 KEYS = ['id', 'name', 'lat', 'lon', 'type', 'date', 'operation', 'parties', 'target',
         'casualties', 'description', 'sources', 'theater']
+OPTIONAL = ['photo_url']
 TYPES = {'airstrike', 'missile', 'naval', 'retaliation', 'blockade', 'cyber', 'nuclear',
          'ground', 'political', 'economic'}
 ID_RE = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
@@ -27,7 +28,7 @@ def validate(theater, events, existing_ids, floor_date):
     for i, e in enumerate(events):
         tag = f'[{i}] {e.get("id", "?")}'
         missing = [k for k in KEYS if k not in e]
-        extra = [k for k in e if k not in KEYS]
+        extra = [k for k in e if k not in KEYS + OPTIONAL]
         if missing: errs.append(f'{tag}: missing keys {missing}')
         if extra: warns.append(f'{tag}: extra keys {extra} (will be dropped)')
         if missing: continue
@@ -63,7 +64,7 @@ def main():
     total_added = 0
     for path in sorted(SWEEP.glob('*.json')):
         theater = path.stem
-        if theater.startswith('candidate-') or theater == 'disasters':
+        if theater.startswith('candidate') or theater in ('disasters', 'corrections'):
             continue
         if only and theater not in only:
             continue
@@ -89,7 +90,7 @@ def main():
             if errs:
                 print(f'   >> NOT applied ({len(errs)} errors)')
                 continue
-            clean = [{k: e[k] for k in KEYS} for e in new]
+            clean = [{k: e[k] for k in KEYS + OPTIONAL if k in e} for e in new]
             clean.sort(key=lambda e: e['date'])
             merged = existing + clean
             with open(target, 'w') as f:

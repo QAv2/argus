@@ -13,10 +13,11 @@
     ],
     "target": "Hindu and Christian tourists in Baisaran Valley, Pahalgam",
     "casualties": "26 killed, 20+ wounded",
-    "description": "Gunmen attacked a group of tourists in Baisaran Valley near Pahalgam, killing 26 (25 Hindu, 1 Christian). The attack triggered the most severe India-Pakistan crisis since 1971 and led directly to Operation Sindoor.",
+    "description": "Gunmen attacked a group of tourists in Baisaran Valley near Pahalgam, killing 26 (25 Hindu, 1 Christian). The attack triggered the most severe India-Pakistan crisis since 1971 and led directly to Operation Sindoor. Follow-up: Indian forces reported killing three of the attackers near Dachigam on 28 Jul 2025, and on 30 Sep 2026 reported killing LeT commander Hashim Moosa, named as a key suspect, in Budgam.",
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2025_Pahalgam_attack",
-      "Al Jazeera — https://www.aljazeera.com/news/2025/7/29/rebels-behind-kashmir-attack-that-led-to-pakistan-tensions-killed-india"
+      "Al Jazeera — https://www.aljazeera.com/news/2025/7/29/rebels-behind-kashmir-attack-that-led-to-pakistan-tensions-killed-india",
+      "The Week — https://www.theweek.in/news/india/2026/09/30/pahalgam-attack-pakistan-terrorist-killed-budgam-encounter.html"
     ],
     "theater": "india-pakistan"
   },
@@ -34,10 +35,11 @@
     ],
     "target": "Bilateral relations and Indus Waters Treaty",
     "casualties": "N/A",
-    "description": "India suspended the Indus Waters Treaty, closed the Attari-Wagah border crossing, expelled Pakistani diplomats, and reduced High Commission staff. These were the most severe diplomatic measures between the two countries in decades.",
+    "description": "India suspended the Indus Waters Treaty, closed the Attari-Wagah border crossing, expelled Pakistani diplomats, and reduced High Commission staff. These were the most severe diplomatic measures between the two countries in decades. Update: on 31 Aug 2026 the Court of Arbitration ruled the abeyance impermissible and the treaty in force; India rejected the award on 2 Sep and keeps the treaty in abeyance.",
     "sources": [
       "Wikipedia — https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_crisis",
-      "Deccan Herald — https://www.deccanherald.com/india/pahalgam-terror-attack-india-informs-pakistan-of-its-decision-to-keep-indus-waters-treaty-in-abeyance-3509539"
+      "Deccan Herald — https://www.deccanherald.com/india/pahalgam-terror-attack-india-informs-pakistan-of-its-decision-to-keep-indus-waters-treaty-in-abeyance-3509539",
+      "Kashmir Life — https://kashmirlife.net/india-rejects-iwt-tribunal-award-says-decision-has-no-effect-on-kashmirs-ratle-project-449914/"
     ],
     "theater": "india-pakistan"
   },
@@ -246,6 +248,247 @@
     "description": "Pakistan-administered Kashmir held assembly elections under heavy security with road closures and internet blackouts. At least 24 people were killed in related protests and violence, underscoring the region's volatility one year after the war.",
     "sources": [
       "CFR Conflict Tracker — https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "iwt-coa-abeyance-award-2026",
+    "name": "Arbitration Court Rules IWT Abeyance Unlawful",
+    "lat": 52.0866,
+    "lon": 4.2955,
+    "type": "political",
+    "date": "2026-08-31T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Pakistan",
+      "India",
+      "Court of Arbitration (PCA)"
+    ],
+    "target": "Indus Waters Treaty; Ratle hydro project on the Chenab",
+    "casualties": "N/A",
+    "description": "The Court of Arbitration at the Permanent Court of Arbitration held that India's April 2025 decision to hold the Indus Waters Treaty in abeyance is not permitted under the treaty, which remains in force, and imposed interim limits on certain concreting at the Ratle project pending the Neutral Expert. India rejected the award on 2 September as from an \"illegally constituted\" tribunal and said abeyance continues; Pakistan welcomed it.",
+    "sources": [
+      "Kashmir Life — https://kashmirlife.net/india-rejects-iwt-tribunal-award-says-decision-has-no-effect-on-kashmirs-ratle-project-449914/",
+      "Express Tribune — https://tribune.com.pk/story/2626816/hague-court-upends-indias-iwt-move",
+      "Drishti IAS (2 Sep 2026) — https://www.drishtiias.com/daily-updates/daily-news-analysis/india-rejects-hague-courts-ruling-on-indus-waters-treaty/print_manually"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "bla-ziarat-surab-attacks-2026",
+    "name": "BLA Ambush at Ziarat Cross and Surab VBIED",
+    "lat": 30.3816,
+    "lon": 67.7258,
+    "type": "ground",
+    "date": "2026-09-03T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Balochistan Liberation Army",
+      "Pakistan Army"
+    ],
+    "target": "Military convoy at Ziarat Cross; forces in Hajika, Surab (vehicle bomb)",
+    "casualties": "BLA claims 25 soldiers killed (unverified); military claims ~48 militants killed in follow-up raids",
+    "description": "The BLA claimed a convoy ambush at Ziarat Cross and a remotely detonated vehicle bomb in Surab (dated 3 or 4 September by different outlets). Pakistani forces responded with operations in Mastung, Sibi, Quetta and Kalat. Casualty figures on both sides are claims, not independently verified.",
+    "sources": [
+      "Swarajya — https://swarajyamag.com/world/balochistan-bla-claims-25-pakistani-soldiers-killed-in-two-attacks-vows-to-expand-highway-blockades",
+      "Patrika — https://www.patrika.com/en/world-news/bla-attacks-pakistan-army-convoy-balochistan-20882878"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "india-pakistan-naval-collision-2026",
+    "name": "Pakistani and Indian Warships Collide, Arabian Sea",
+    "lat": 24.0,
+    "lon": 61.5,
+    "type": "naval",
+    "date": "2026-09-15T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Pakistan Navy",
+      "Indian Navy"
+    ],
+    "target": "PNS Hunain (F-273) and an Indian destroyer on surveillance patrol, North Arabian Sea",
+    "casualties": "None reported",
+    "description": "A Pakistani corvette and an Indian destroyer collided on the evening of 15 September; Indian officials called the Pakistani manoeuvre unsafe and unprofessional, and reports said PNS Hunain returned to Karachi with hull damage. India summoned Pakistan's chargé d'affaires and Pakistan summoned India's; reporting called it the closest military face-off since May 2025. Position approximate (reports place it near Gwadar or ~220 km east of Oman).",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/17/india-pakistan-navy-ship-collision-sparks-alarm-over-unintended-escalation",
+      "Business Today — https://businesstoday.in/india/story/unacceptable-unprofessional-conduct-india-summons-envoy-after-pakistani-ship-collides-with-indian-warship-555867-2026-09-16"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "kohat-police-hq-attack-2026",
+    "name": "Suicide and Gun Attack on Kohat Police HQ",
+    "lat": 33.5869,
+    "lon": 71.4429,
+    "type": "ground",
+    "date": "2026-09-18T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ittehad-ul-Mujahideen Pakistan (TTP-linked)",
+      "Khyber Pakhtunkhwa Police"
+    ],
+    "target": "District police headquarters complex (CTD, Special Branch, mosque), Kohat",
+    "casualties": "At least 31 killed incl. 16–17 police, 100+ wounded (AFP, 19 Sep); earlier counts 16–24; at least 7 attackers killed",
+    "description": "Militants struck the Kohat police complex with a suicide blast at its mosque followed by an armed assault, with attackers holding out in the Special Branch section into the next day. The attack was claimed by Ittehad-ul-Mujahideen Pakistan (some reports name Hafiz Gul Bahadur's faction). Pakistan blamed militants based in Afghanistan, and the attack triggered three rounds of Pakistani airstrikes there.",
+    "sources": [
+      "La Libre (AFP) — https://www.lalibre.be/dernieres-depeches/2026/09/19/attaque-dun-poste-de-police-au-pakistan-31-morts-TYWG5CDQWNFCVAGR2I3747BEKA/",
+      "Reuters — https://www.reuters.com/world/asia-pacific/least-16-killed-suicide-attack-police-facility-in-northwest-pakistan-2026-09-18/",
+      "Times of Israel liveblog — https://www.timesofisrael.com/liveblog_entry/at-least-31-said-killed-in-bombing-and-gun-attack-in-pakistan-police-station-fighting-ongoing/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "pakistan-strikes-kunar-paktika-sep21-2026",
+    "name": "Pakistani Airstrikes Hit Kunar and Paktika",
+    "lat": 34.63,
+    "lon": 70.78,
+    "type": "airstrike",
+    "date": "2026-09-21T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Pakistan Air Force",
+      "Afghan Taliban",
+      "TTP"
+    ],
+    "target": "Alleged militant hideouts in Nurgal (Kunar) and Barmal (Paktika) districts",
+    "casualties": "Pakistan claims 28 militants killed; Kabul says 3 civilians of one family killed",
+    "description": "Pakistan struck what it called militant hideouts in Afghanistan days after the Kohat attack. Afghan officials said the strikes hit Nurgal in Kunar and Barmal in Paktika and killed a villager and two relatives; neither side's figures could be verified. Point placed at Nurgal.",
+    "sources": [
+      "AP via Local10 — https://www.local10.com/news/world/2026/09/21/pakistan-says-airstrikes-target-militant-hideouts-in-afghanistan-killing-28-kabul-says-3-killed",
+      "Arab News — https://www.arabnews.com/world/pakistan-says-airstrikes-target-militant-hideouts-in-afghanistan-3002522"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "afghan-drones-torkham-kohat-2026",
+    "name": "Pakistan Downs Eight Afghan Drones at Torkham, Kohat",
+    "lat": 34.1,
+    "lon": 71.09,
+    "type": "retaliation",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Afghan Taliban",
+      "Pakistan Army"
+    ],
+    "target": "Pakistani positions near Torkham crossing and Kohat",
+    "casualties": "None reported",
+    "description": "Pakistani security sources said air defences shot down eight drones launched from Afghanistan, four near Torkham and four near Kohat, after Pakistani forces hit Taliban positions in the Kurram sector the previous night. Taliban spokesman Zabihullah Mujahid denied the drone launches. Single-side security-source reporting.",
+    "sources": [
+      "ARY News — https://arynews.tv/pakistan-shoots-down-eight-afghan-drones-near-torkham-kohat",
+      "Asia News Network — https://asianews.network/?p=303235"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "pakistan-strikes-10-sites-sep24-2026",
+    "name": "Pakistan Strikes 10 Sites Across Afghanistan",
+    "lat": 33.3395,
+    "lon": 69.9204,
+    "type": "airstrike",
+    "date": "2026-09-24T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Pakistan Air Force",
+      "Afghan Taliban"
+    ],
+    "target": "Taliban positions in Kandahar, Khost, Paktia and Paktika",
+    "casualties": "Reports cite at least 40 fighters killed (unverified); Taliban say 4 civilians killed",
+    "description": "Pakistan's information minister said overnight strikes hit 10 locations in Afghanistan, framed as a response to Taliban drone attacks. The Taliban said four civilians died and vowed to respond. Point placed at Khost.",
+    "sources": [
+      "GNA (dpa) — https://gna.org.gh/2026/09/pakistan-hits-afghan-targets-in-retaliation-for-taliban-drone-strikes/",
+      "Ground News — https://ground.news/article/3bbd99a9-a626-411b-a417-16f240b54244",
+      "BBC — https://bbc.com/news/articles/cm86xn0nnw58o"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "dera-ismail-khan-blast-2026",
+    "name": "TTP Bomb Attack in Dera Ismail Khan",
+    "lat": 31.8314,
+    "lon": 70.9019,
+    "type": "ground",
+    "date": "2026-09-26T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "TTP",
+      "Pakistan"
+    ],
+    "target": "Dera Ismail Khan, Khyber Pakhtunkhwa",
+    "casualties": "11 killed, 30 injured",
+    "description": "A bomb blast in Dera Ismail Khan killed 11 and injured 30; the attack was claimed by the TTP. It came amid the escalation with Kabul that followed the Kohat attack. Single source retrieved (via Wikipedia citation; not fetched directly).",
+    "sources": [
+      "Reuters — https://www.reuters.com/world/asia-pacific/blast-pakistans-dera-ismail-khan-kills-11-injures-30-2026-09-26/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "hashim-moosa-killed-budgam-2026",
+    "name": "LeT Commander Linked to Pahalgam Killed in Budgam",
+    "lat": 33.83,
+    "lon": 74.66,
+    "type": "ground",
+    "date": "2026-09-30T00:00:00Z",
+    "operation": "Operation Korag",
+    "parties": [
+      "Indian Army",
+      "J&K Police",
+      "Lashkar-e-Taiba"
+    ],
+    "target": "Mohammad Asif alias Hashim Moosa, Yousmarg/Doodhpathri area, Budgam district",
+    "casualties": "1 militant killed",
+    "description": "Security forces launched Operation Korag in the Yousmarg area of Budgam on 29 September and said they had killed LeT commander Mohammad Asif alias Hashim Moosa, whom they named among the three key suspects in the April 2025 Pahalgam massacre; his body was recovered on 30 September. Indian authorities had earlier announced that three Pakistani militants behind the attack were killed near Dachigam on 28 July 2025, so how the two operations' identifications relate is not settled in the reporting.",
+    "sources": [
+      "The Week — https://www.theweek.in/news/india/2026/09/30/pahalgam-attack-pakistan-terrorist-killed-budgam-encounter.html",
+      "India TV — https://www.indiatvnews.com/jammu-and-kashmir/pahalgam-terror-attack-wanted-hashim-moosa-killed-in-budgam-had-guarded-musharraf-2026-09-30-1055746",
+      "Swarajya — https://swarajyamag.com/defence/top-let-terrorist-linked-to-pahalgam-terror-attack-gunned-down-by-security-forces-in-budgam-encounter",
+      "Al Jazeera — https://www.aljazeera.com/news/2025/7/29/rebels-behind-kashmir-attack-that-led-to-pakistan-tensions-killed-india"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "pakistan-strikes-kunar-helmand-oct-2026",
+    "name": "Third Round of Pakistani Strikes, Kunar and Helmand",
+    "lat": 34.87,
+    "lon": 71.15,
+    "type": "airstrike",
+    "date": "2026-10-01T00:00:00Z",
+    "operation": "Ghazab lil Haq",
+    "parties": [
+      "Pakistan Air Force",
+      "Afghan Taliban",
+      "TTP"
+    ],
+    "target": "Sites Pakistan called terrorist camps in Kunar and Helmand",
+    "casualties": "Pakistan claims 22 militants killed; Taliban say 9 killed, 11 injured; UNAMA: 10 civilians killed (mostly children), 9 injured",
+    "description": "Pakistan carried out what it called \"planned, calibrated\" strikes overnight 30 Sep–1 Oct, the third round since the Kohat attack, which Long War Journal described as a conflict persisting into its third week. UNAMA reported 10 civilian deaths, most of them children. Point placed at Asadabad, Kunar.",
+    "sources": [
+      "Khaleej Times — https://www.khaleejtimes.com/world/asia/afghanistan-pakistani-airstrikes-death-toll-october-1",
+      "ARY News — https://arynews.tv/pakistan-eliminates-22-terrorists-in-calibrated-aerial-strikes-in-afghanistan-info-ministry",
+      "FDD Long War Journal — https://www.fdd.org/analysis/2026/10/05/pakistan-launches-new-strikes-as-conflict-with-taliban-persist-into-third-week/"
+    ],
+    "theater": "india-pakistan"
+  },
+  {
+    "id": "kp-emergency-governors-rule-2026",
+    "name": "Emergency and Governor's Rule Imposed in Khyber Pakhtunkhwa",
+    "lat": 33.6844,
+    "lon": 73.0479,
+    "type": "political",
+    "date": "2026-10-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Pakistan federal government",
+      "PTI provincial government"
+    ],
+    "target": "Khyber Pakhtunkhwa provincial government and assembly",
+    "casualties": "N/A",
+    "description": "President Asif Ali Zardari, on federal cabinet advice, imposed an emergency and governor's rule in Khyber Pakhtunkhwa under Articles 232 and 234, citing the security situation and accusing the PTI government of \"deliberate disengagement\" from counterterrorism. The assembly's powers passed to Parliament amid a PTI march on Islamabad; the provincial government claimed Chief Minister Sohail Afridi was detained, and mobile data was throttled in parts of the province.",
+    "sources": [
+      "ProPakistani — https://propakistani.pk/2026/10/11/emergency-imposed-in-kp/",
+      "Republic World — https://www.republicworld.com/world-news/pakistan-imposes-emergency-governor-s-rule-in-pti-led-khyber-pakhtunkhwa-2026-10-11-138718",
+      "Reuters — https://www.reuters.com/world/asia-pacific/pakistan-president-imposes-emergency-province-ruled-by-ex-pm-imran-khans-party-2026-10-11/"
     ],
     "theater": "india-pakistan"
   }

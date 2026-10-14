@@ -2642,10 +2642,11 @@
     ],
     "target": "Saudi maritime traffic — Red Sea and Bab el-Mandeb",
     "casualties": "N/A",
-    "description": "Yemen's Houthis declared a maritime blockade of Saudi Arabia under their 'siege for a siege' campaign. They subsequently attacked eight Saudi-linked vessels, including tankers NCC Ghazal, Encelia, and Layla. Saudi Arabia confirmed fire damage to the Encelia on July 23 and halted Red Sea exports on July 26 for ten days.",
+    "description": "Yemen's Houthis declared a maritime blockade of Saudi Arabia under their 'siege for a siege' campaign. They subsequently attacked eight Saudi-linked vessels, including tankers NCC Ghazal, Encelia, and Layla. Saudi Arabia confirmed fire damage to the Encelia on July 23 and halted Red Sea exports on July 26 for ten days. The blockade escalated into the Houthi seizure of Mokha and Perim Island at Bab al-Mandab (10–11 Sep) and missile strikes on Saudi airports in October.",
     "sources": [
       "Foreign Policy — https://foreignpolicy.com/2026/07/20/houthi-blockade-saudi-iran-war-red-sea-gulf-aden-hormuz/",
-      "FDD Long War Journal — https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php"
+      "FDD Long War Journal — https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php",
+      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
     ],
     "theater": "iran"
   },
@@ -2710,6 +2711,305 @@
     "sources": [
       "Euronews — https://www.euronews.com/2026/08/26/iran-and-oman-discuss-temporary-corridor-in-strait-or-hormuz",
       "CNBC — https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-crude-100-jul23",
+    "name": "Brent Crude Back Above $100 on Hormuz Tanker Attacks",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-07-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Oil markets",
+      "Iran",
+      "United States"
+    ],
+    "target": "Global crude benchmark",
+    "casualties": "N/A",
+    "description": "Brent crude crossed $100 a barrel ($101.04) on 23 July as tanker attacks and the renewed Hormuz closure put traders on edge, three weeks after prices had fallen back to pre-war levels around $69. It would cross $100 again on 9 September after the US destroyed five Iranian tankers.",
+    "sources": [
+      "Business Today — https://www.businesstoday.in/world/story/brent-hits-100-as-tanker-attacks-hormuz-risks-put-crude-traders-on-edge-amid-us-iran-tensions-544913-2026-07-23"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strikes-larak-island-aug30",
+    "name": "US Strikes IRGC Mine-Rocket Launchers on Larak Island",
+    "lat": 26.859,
+    "lon": 56.356,
+    "type": "airstrike",
+    "date": "2026-08-30T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "IRGC"
+    ],
+    "target": "Two IRGC launchers preparing to fire mine-carrying rockets into Hormuz",
+    "casualties": "IRGC: several soldiers and civilians killed or wounded; Tasnim: at least 2 killed, 2 injured (unverified)",
+    "description": "US forces struck two Iranian launchers on Larak Island after IRGC forces were seen preparing to fire rockets carrying sea mines into the Strait of Hormuz, a US official said. It was the first known US strike on Iran since late July and came days after CENTCOM finished clearing mines from the international shipping lanes. The IRGC vowed a response.",
+    "sources": [
+      "Irish Times (Reuters) — https://www.irishtimes.com/world/middle-east/2026/08/30/us-forces-strike-two-iranian-launchers-on-larak-island-us-official-says/",
+      "KEYT (CNN) — https://keyt.com/politics/cnn-us-politics/2026/08/30/us-strikes-iranian-island-where-forces-were-preparing-to-launch-mines-official-says/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-strike-kuhestak-wedding-sep1",
+    "name": "US Strike Near Hormuz Hits Wedding in Kuhestak, Iran Says",
+    "lat": 26.79,
+    "lon": 57.03,
+    "type": "airstrike",
+    "date": "2026-09-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Iran"
+    ],
+    "target": "Wedding gathering in Kuhestak, Sirik County, Hormozgan (per Iranian officials)",
+    "casualties": "4-5 killed incl. a child, 68 wounded (Iranian officials; unverified)",
+    "description": "Iranian officials said a US strike on Tuesday night hit a wedding in the coastal town of Kuhestak on the Strait of Hormuz, part of a wider round of US strikes on southern Iran that resumed open hostilities in early September. A US official said American forces had been striking in the vicinity and CENTCOM would investigate; CENTCOM said US forces do not target civilians. The IRGC chief vowed revenge.",
+    "sources": [
+      "bne IntelliNews — https://www.intellinews.com/iran-says-us-strike-on-sirik-wedding-killed-five-wounded-68-465205/",
+      "KATV (Sinclair) — https://katv.com/news/nation-world/iran-vows-revenge-after-wedding-strike-kills-4-wounds-68-blames-us-war-crime-tehran-child-killed"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "us-destroys-five-iranian-tankers-sep8",
+    "name": "US Destroys Five Iranian Oil Tankers, Sinking at Least One",
+    "lat": 25.64,
+    "lon": 57.77,
+    "type": "naval",
+    "date": "2026-09-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Iran",
+      "IRGC"
+    ],
+    "target": "Iranian crude tankers Kivik, Charminar, Horizon 1, Riesco, Derya (Gulf of Oman and off Kharg Island)",
+    "casualties": "None reported (crews told to abandon ship, per CENTCOM)",
+    "description": "CENTCOM struck five Iranian crude carriers, four in the Gulf of Oman and one off Kharg Island, after the IRGC twice in two days fired ballistic missiles at a US Navy warship, which evaded them. At least one tanker sank. Euronews called it one of the sharpest escalations since the June framework broke down. Location pinned near Jask (approximate, inference from Iranian reports).",
+    "sources": [
+      "Euronews — https://www.euronews.com/2026/09/09/us-destroys-five-iranian-tankers-as-tehran-launches-retaliatory-strikes-on-jordan",
+      "NEPM (NPR) — https://www.nepm.org/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-as-back-and-forth-strikes-continue"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "iran-missiles-jordan-muwaffaq-salti-sep9",
+    "name": "Iran Fires 20 Ballistic Missiles at Jordan's Muwaffaq Salti Base",
+    "lat": 31.8267,
+    "lon": 36.7822,
+    "type": "retaliation",
+    "date": "2026-09-09T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Iran",
+      "Jordan",
+      "United States"
+    ],
+    "target": "Muwaffaq Salti Air Base, Jordan (hosts US air operations)",
+    "casualties": "None reported by Jordan",
+    "description": "Iran retaliated for the tanker strikes by firing missiles at Jordan aimed at Muwaffaq Salti Air Base. Jordan said it intercepted 18 of 20 ballistic missiles and two fell in uninhabited areas. Jordan has been repeatedly targeted since the war began on February 28.",
+    "sources": [
+      "Euronews — https://www.euronews.com/2026/09/09/us-destroys-five-iranian-tankers-as-tehran-launches-retaliatory-strikes-on-jordan",
+      "NEPM (NPR) — https://www.nepm.org/2026-09-09/u-s-military-destroys-5-iranian-oil-tankers-as-back-and-forth-strikes-continue"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "brent-tops-100-tanker-war-sep9",
+    "name": "Brent Crude Back Above $100 as Hormuz Tanker War Escalates",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "type": "economic",
+    "date": "2026-09-09T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Global oil markets"
+    ],
+    "target": "Brent crude benchmark",
+    "casualties": "None reported",
+    "description": "Brent crude rose above $100 a barrel after the US sank Iranian tankers and Iran said it attacked 10 ships in the Strait of Hormuz, the highest level since late July. Prices have stayed well above the roughly $72 pre-war level.",
+    "sources": [
+      "WBUR Here & Now — https://www.wbur.org/hereandnow/2026/09/09/oil-prices-strait-of-hormuz",
+      "Washington Examiner — https://www.washingtonexaminer.com/?p=4718111"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "houthis-seize-mokha-sep10",
+    "name": "Houthis Seize Red Sea Port of Mokha in Push on Bab al-Mandab",
+    "lat": 13.32,
+    "lon": 43.25,
+    "type": "ground",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Yemeni government forces"
+    ],
+    "target": "Port city of Mokha, Taiz governorate",
+    "casualties": "Unknown",
+    "description": "Houthi forces took Mokha from government forces on Thursday 10 September and advanced south toward the Bab al-Mandab strait. The port had been under sustained missile attack since early August. A military source also said the Houthis seized Zuqar Island.",
+    "sources": [
+      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "houthis-take-perim-island-sep11",
+    "name": "Houthis Take Perim Island, Controlling Bab al-Mandab",
+    "lat": 12.661,
+    "lon": 43.418,
+    "type": "ground",
+    "date": "2026-09-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Yemeni government forces"
+    ],
+    "target": "Perim Island, Bab al-Mandab strait",
+    "casualties": "Unknown",
+    "description": "The Houthis took Perim Island in the middle of the Bab al-Mandab on the morning of 11 September, the WSJ and Aden al-Ghad reported, giving them control of the strait and opening a second maritime chokepoint front of the Iran war. Ynet noted the capture was not independently confirmed at the time.",
+    "sources": [
+      "To Vima (WSJ) — https://www.tovima.com/wsj/the-lightning-offensive-that-saw-the-houthis-grab-a-crucial-oil-corridor/amp/",
+      "Ynetnews — https://www.ynetnews.com/article/by11qq8efme"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "east-west-pipeline-drones-from-iraq-sep11",
+    "name": "Drones From Iraq Hit Saudi East-West Pipeline; Line Shut",
+    "lat": 24.7136,
+    "lon": 46.6753,
+    "type": "retaliation",
+    "date": "2026-09-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Iraqi militias (unattributed)",
+      "Saudi Arabia",
+      "Iraq"
+    ],
+    "target": "East-West oil pipeline pumping stations in Riyadh and Medina regions",
+    "casualties": "Injuries reported (Saudi foreign ministry; no figure)",
+    "description": "Saudi Arabia said drones launched from Iraq hit the East-West pipeline, its main bypass route around Hormuz, and shut it as a precaution. Riyadh held off retaliating at Baghdad's request; Iraq's PM Ali al-Zaidi dismissed the Maysan operations commander after finding the drones came from that province. Pin placed at Riyadh (approximate; exact stations not published).",
+    "sources": [
+      "Al Jazeera — https://aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq",
+      "Khaleej Times — https://www.khaleejtimes.com/world/gulf/saudi-arabia-east-west-pipeline-closure-iraqi-drones-cause-injuries"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "trump-rejects-iran-seven-day-plan-sep26",
+    "name": "Trump Rejects Iran's Seven-Day Hormuz Reopening Plan",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-09-26T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Iran",
+      "Qatar"
+    ],
+    "target": "Iranian ceasefire proposal conveyed via Qatar",
+    "casualties": "None reported",
+    "description": "Iran offered via Qatar to reopen the Strait of Hormuz and restart nuclear talks within seven days if the US lifted its naval blockade, waived oil sanctions and agreed a ceasefire covering Lebanon. Trump said on 26 September 'I've rejected their deal'; the WSJ reported he told aides he expects renewed bombing after the November midterms.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next",
+      "Boston Globe — https://www.bostonglobe.com/2026/09/26/world/trump-rejects-iranian-proposal-ceasefire/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "houthi-strikes-abha-riyadh-airports-oct6",
+    "name": "Houthi Strikes on Abha and Riyadh Airports Kill 3",
+    "lat": 18.2404,
+    "lon": 42.6566,
+    "type": "missile",
+    "date": "2026-10-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "target": "Abha International Airport (Oct 6) and King Khalid International Airport, Riyadh (Oct 7)",
+    "casualties": "3 killed, 36 injured (Saudi aviation authority)",
+    "description": "Saudi authorities said attacks on Abha airport on Tuesday 6 October and Riyadh's King Khalid airport on 7 October killed three and injured 36; the Houthis claimed both. On 8 October the Houthis claimed another missile at Riyadh airport and issued a 'final warning' to airlines using Saudi airspace.",
+    "sources": [
+      "Coeur d'Alene Press (AP) — https://cdapress.com/news/2026/oct/07/attacks-on-saudi-airports-claimed-by-houthi-rebels-kill-3-people-officials-say/",
+      "News On AIR — https://newsonair.gov.in/three-killed-36-injured-in-houthi-attacks-on-saudi-airports/"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "hormuz-record-week-tanker-attacks-oct7",
+    "name": "Hormuz Tanker Attacks Hit Wartime Weekly Record (12+)",
+    "lat": 26.5667,
+    "lon": 56.25,
+    "type": "naval",
+    "date": "2026-10-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "IRGC",
+      "Commercial shipping"
+    ],
+    "target": "Oil, LNG and LPG tankers in the Strait of Hormuz",
+    "casualties": "Unknown",
+    "description": "Maritime security sources told Reuters there were at least 12 attacks on oil, LNG and LPG tankers between 28 September and 5 October, the most in any week since the war began (IMO data showed nine). The IRGC said vessels on 'unauthorized routes' would be pursued and later claimed setting the LPG tanker NV Sunshine ablaze.",
+    "sources": [
+      "gCaptain (Reuters) — https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/",
+      "Zawya (Reuters) — https://www.zawya.com/en/world/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say-1551651"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "trump-no-iran-strikes-before-midterms-oct8",
+    "name": "Trump: No US Strikes on Iran Before Nov. 3 Midterms",
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "type": "political",
+    "date": "2026-10-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Iran",
+      "Qatar"
+    ],
+    "target": "US military posture toward Iran",
+    "casualties": "None reported",
+    "description": "Trump posted that the US would not resume strikes on Iran before the 3 November midterms, citing productive indirect talks mediated by Qatar. The naval blockade of Iranian ports stays in force, and a third carrier, USS Theodore Roosevelt, could arrive by late October. The Atlantic reported he had asked the Pentagon for pre-election strike options.",
+    "sources": [
+      "WOWT (AP) — https://www.wowt.com/2026/10/08/trump-says-us-will-not-resume-military-strikes-iran-before-midterm-elections/",
+      "Al-Monitor — https://www.al-monitor.com/originals/2026/10/trump-says-no-iran-strikes-midterms-amid-productive-talks"
+    ],
+    "theater": "iran"
+  },
+  {
+    "id": "riyadh-airport-missile-12-killed-oct10",
+    "name": "Missile Hits Riyadh Airport Terminals — 12 Killed, 300+ Hurt",
+    "lat": 24.9576,
+    "lon": 46.6988,
+    "type": "missile",
+    "date": "2026-10-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Saudi Arabia",
+      "Saudi-led coalition"
+    ],
+    "target": "Terminals 3 and 4, King Khalid International Airport, Riyadh",
+    "casualties": "12 killed, 300+ injured (Saudi civil aviation authorities)",
+    "description": "A missile struck the complex housing terminals 3 and 4 at King Khalid International Airport, the deadliest attack on any Gulf Arab state since the Iran war began; flights were suspended and diverted. The Saudi-led coalition blamed the Houthis, called it a war crime and vowed to respond; the Houthis said Saudi Arabia then carried out 124 strikes in Yemen including Sanaa (unverified). The airport was hit again the next day.",
+    "sources": [
+      "ITV News — https://www.itv.com/news/2026-10-11/at-least-12-killed-in-attack-on-saudi-arabias-riyadh-airport",
+      "Boston Globe — https://www.bostonglobe.com/2026/10/10/world/houthi-attack-riyadh-airport/",
+      "Canberra Times (AAP) — https://www.canberratimes.com.au/story/9366377/riyadh-airport-struck-again-day-after-12-killed/"
     ],
     "theater": "iran"
   }

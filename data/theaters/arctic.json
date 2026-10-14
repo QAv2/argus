@@ -421,12 +421,13 @@
     ],
     "target": "Greenland sovereignty / Pituffik Space Base",
     "casualties": "N/A",
-    "description": "Trump refused to rule out military or economic force to acquire Greenland, threatening Denmark with 25% tariffs. Greenland PM declared 'sovereignty is not for sale' with 85% public rejection.",
+    "description": "Trump refused to rule out military or economic force to acquire Greenland, threatening Denmark with 25% tariffs. Greenland PM declared 'sovereignty is not for sale' with 85% public rejection. Update: the dispute was settled for now by the US–Denmark–Greenland defence access agreement signed in New York on 22 Sep 2026, which amends the 1951 pact and transfers no territory.",
     "sources": [
       "NPR",
       "ABC News",
       "CFR",
-      "House of Commons Library"
+      "House of Commons Library",
+      "The Defense Post — https://thedefensepost.com/2026/09/23/us-military-greenland-deal-denmark/"
     ]
   },
   {
@@ -752,6 +753,285 @@
     "sources": [
       "gCaptain — https://gcaptain.com/china-launches-first-scheduled-weekly-arctic-container-service-to-europe/",
       "CNN — https://www.cnn.com/2026/08/14/china/china-arctic-northern-sea-route-russia-intl-hnk-vis-dst"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "professor-molchanov-seizure-svalbard-2026",
+    "name": "Norway Seizes Russian Ship Professor Molchanov at Barentsburg",
+    "lat": 78.065,
+    "lon": 14.2146,
+    "type": "economic",
+    "date": "2026-09-02T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Norway",
+      "Russia",
+      "Ukraine (Naftogaz)"
+    ],
+    "target": "Russian passenger vessel Professor Molchanov (Murmansk-Barentsburg liner)",
+    "casualties": "None",
+    "description": "Acting on a 31 August order of the Nord-Troms and Senja District Court, the Governor of Svalbard seized the vessel at Barentsburg to enforce Naftogaz's ~$4.22bn arbitral award against Russia over Crimea assets. Moscow called it piracy and summoned Norway's ambassador. It is the first seizure of a Russian state-linked asset on Svalbard.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/norway-seizes-russias-svalbard-liner/457215",
+      "Kyiv Independent — https://kyivindependent.com/norway-seizes-russian-ship-on-behalf-of-ukraines-naftogaz/",
+      "Maritime Executive — https://maritime-executive.com/index.php/article/norway-seizes-russian-research-vessel-as-ukraine-pursues-crimea-claims"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "arctic-shield-greenland-2026",
+    "name": "Exercise Arctic Shield — 11 Nations Drill Defence of Greenland",
+    "lat": 67.0086,
+    "lon": -50.7116,
+    "type": "political",
+    "date": "2026-09-07T00:00:00Z",
+    "operation": "Arctic Shield / NATO Arctic Sentry",
+    "parties": [
+      "Denmark",
+      "Norway",
+      "Finland",
+      "Sweden",
+      "Canada",
+      "France",
+      "Belgium",
+      "Netherlands"
+    ],
+    "target": "Defence of Greenland — southern Greenland and Kangerlussuaq area",
+    "casualties": "None",
+    "description": "Denmark led about 400 troops from 11 allied nations (Germany, Slovenia and Poland as observers) on 7-18 September in land, sea and air drills to defend Greenland, under NATO's Arctic Sentry activity and with the Greenlandic government. Contributions included French and Dutch marines, a Belgian drone unit and Nordic Home Guard units. The US was not listed among participants.",
+    "sources": [
+      "High North News — https://en.highnorthnews.com/politics/arctic-shield-400-soldiers-from-11-nato-nations-to-exercise-defending-greenland/1118486"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "gugi-svalbard-cable-drill-disclosed-2026",
+    "name": "Allies Disclose Foiled Russian Cable-Cutting Drill Near Svalbard",
+    "lat": 74.5,
+    "lon": 17.5,
+    "type": "naval",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia (GUGI)",
+      "United Kingdom",
+      "Norway",
+      "United States"
+    ],
+    "target": "Two ~1,400 km fibre-optic cables linking Svalbard to mainland Norway",
+    "casualties": "None; no cables damaged",
+    "description": "Reuters, citing two Western officials, reported that in spring 2026 Russia's GUGI deep-sea directorate used submersibles near Svalbard to simulate deploying technology to covertly disable undersea cables, and that British, Norwegian and US forces confronted the vessels and drove them off before the drill finished. The event dates to spring; the map date is the 10 September disclosure. Coordinates approximate (cable corridor).",
+    "sources": [
+      "Reuters — https://www.reuters.com/world/europe/nato-allies-foil-russian-subsea-cable-sabotage-plot-2026-09-10/",
+      "Kyiv Independent — https://kyivindependent.com/nato-allies-foiled-russian-exercise-involving-secret-weapon-targeting-subsea-cables-reuters-reports/",
+      "Euromaidan Press — https://euromaidanpress.com/2026/09/10/russia-rehearsed-how-to-disable-europes-undersea-cables-near-svalbard/"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "russian-frigate-flares-danish-helicopter-2026",
+    "name": "Russian Frigate Fires Flares at Danish Helicopter Off Gedser",
+    "lat": 54.45,
+    "lon": 12.0,
+    "type": "naval",
+    "date": "2026-09-14T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "Denmark"
+    ],
+    "target": "Danish Air Force Fennec helicopter monitoring a Russian frigate in international waters, Baltic Sea",
+    "casualties": "None; helicopter undamaged",
+    "description": "A Russian frigate fired two flares toward a Danish Fennec helicopter photographing it off Gedser; one passed close. Denmark summoned the Russian ambassador and PM Mette Frederiksen called it reckless and meant to intimidate. Russia promised an investigation and accused Danish helicopters of dangerous manoeuvres.",
+    "sources": [
+      "Euronews — https://www.euronews.com/2026/09/15/russia-summoned-by-denmark-after-warship-fires-flares-at-helicopter",
+      "ISW/CTP Russian Offensive Campaign Assessment, September 15, 2026 — https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-15-2026"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "northern-fleet-kotelny-drill-2026",
+    "name": "Northern Fleet Flotilla Drills Attack on New Siberian Islands",
+    "lat": 75.9,
+    "lon": 137.9,
+    "type": "naval",
+    "date": "2026-09-16T00:00:00Z",
+    "operation": "Northern Fleet Arctic expedition 2026",
+    "parties": [
+      "Russia"
+    ],
+    "target": "Kotelny military base, New Siberian Islands",
+    "casualties": "None",
+    "description": "A flotilla led by the ice-class patrol ship Ivan Papanin with the landing ship Kondopoga, tanker Sergey Osipov and tug Pamir left Severomorsk on 1 September and exercised a simulated attack on the New Siberian Islands around Kotelny in mid-September. The expedition shows the Northern Fleet using the Ivan Papanin class operationally along the Northern Sea Route. Date is the report date.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/security/warships-drill-attack-on-arctic-archipelago/458080"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "norway-svalbard-seizure-regulation-2026",
+    "name": "Norway Restricts Seizures of Svalbard Supply Assets",
+    "lat": 59.9139,
+    "lon": 10.7522,
+    "type": "political",
+    "date": "2026-09-18T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Norway",
+      "Russia",
+      "Ukraine"
+    ],
+    "target": "Assets needed to supply Svalbard communities, incl. Barentsburg",
+    "casualties": "None",
+    "description": "Norway's Justice Ministry adopted a regulation limiting seizure of assets needed to maintain Svalbard settlements, including those in transit, making it harder for Ukraine to enforce awards against ships supplying Barentsburg. The ministry said it does not affect the Professor Molchanov arrest, but a Svalbard expert expects that arrest to be lifted. Analysts said Moscow will likely present it as a win.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/norway-makes-it-harder-for-ukraine-to-seize-russian-ships-at-svalbard/458346"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "us-denmark-greenland-defense-agreement-2026",
+    "name": "US, Denmark and Greenland Sign Defence Access Deal",
+    "lat": 40.7489,
+    "lon": -73.968,
+    "type": "political",
+    "date": "2026-09-22T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Denmark",
+      "Greenland"
+    ],
+    "target": "1951 US-Denmark defence agreement on Greenland — new defence areas at Narsarsuaq and Mestersvig, Pituffik expansion",
+    "casualties": "None",
+    "description": "Signed in New York on the sidelines of the UN General Assembly after an agreement in principle reported around 19 September, the deal amends the 1951 pact: the US may open defence areas at Narsarsuaq and Mestersvig, expand Pituffik Space Base and move forces more freely, while no territory is transferred. Non-NATO states are barred from military installations in Greenland without all three governments' consent; 'Golden Dome' missile defence is referenced (reportedly in the preamble). It eases the Greenland dispute that had split NATO for months; no troop numbers or timeline are set.",
+    "sources": [
+      "The Defense Post — https://thedefensepost.com/2026/09/23/us-military-greenland-deal-denmark/",
+      "South China Morning Post — https://www.scmp.com/news/world/united-states-canada/article/3368427/us-greenland-denmark-sign-deal-new-york-bid-end-arctic-stand",
+      "CSIS — https://www.csis.org/analysis/what-does-greenland-deal-mean-north-american-security"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "nsr-record-traffic-2026",
+    "name": "Record Traffic on Northern Sea Route at Ice Minimum",
+    "lat": 75.5,
+    "lon": 140.0,
+    "type": "economic",
+    "date": "2026-09-24T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Russia",
+      "China"
+    ],
+    "target": "Eastern Northern Sea Route (Laptev / East Siberian seas)",
+    "casualties": "None",
+    "description": "The Barents Observer counted more than 50 vessels on the eastern NSR in mid-to-late September, over 30 of them tankers, a record, as sea ice reached a minimum among the 13 lowest on record. Rosatom's chief forecast ~14% cargo growth in 2026 from a 37m-tonne base, and Russia's Far East minister forecast 35+ international container voyages (24 in 2025). Coordinates are a representative point on the eastern route.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/as-arctic-sea-ice-reaches-this-years-low-shipping-reaches-historic-high/458715",
+      "TASS — https://tass.com/economy/2180421",
+      "ChemAnalyst — https://www.chemanalyst.com/NewsAndDeals/NewsDetails/russia-forecasts-record-northern-sea-route-container-44294"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "shokalsky-strait-first-naval-transit-2026",
+    "name": "Russian Warships Make First Transit of Shokalsky Strait",
+    "lat": 79.0,
+    "lon": 100.5,
+    "type": "naval",
+    "date": "2026-09-30T00:00:00Z",
+    "operation": "Northern Fleet Arctic expedition 2026",
+    "parties": [
+      "Russia"
+    ],
+    "target": "Strait of Shokalsky, Severnaya Zemlya (Kara Sea-Laptev Sea passage)",
+    "casualties": "None",
+    "description": "Four Northern Fleet vessels led by Ivan Papanin passed through the Shokalsky Strait between two of Severnaya Zemlya's largest islands, the first Russian naval transit of the strait, using helicopters for ice reconnaissance. The passage opens a northern alternative to the Vilkitsky Strait for naval movement along the NSR. Date is the report date.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/naval-flotilla-explores-new-passage-on-northern-sea-route/458938"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "northern-fleet-sedov-archipelago-landing-2026",
+    "name": "Northern Fleet Marines Land on Sedov Archipelago",
+    "lat": 79.4,
+    "lon": 91.0,
+    "type": "naval",
+    "date": "2026-10-02T00:00:00Z",
+    "operation": "Northern Fleet Arctic expedition 2026",
+    "parties": [
+      "Russia"
+    ],
+    "target": "Sedov archipelago (Golomyanny, Sredny islands), near Severnaya Zemlya",
+    "casualties": "None",
+    "description": "Northern Fleet marines landed by Ka-29 helicopter from Ivan Papanin and by the landing ship Kondopoga with Vityaz all-terrain vehicles, possibly the first Russian Navy drill on the archipelago in decades. Video and satellite images showed hundreds of rusting barrels left by a Soviet air-defence radar battalion withdrawn in 1993. Date is the report date.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/naval-landing-on-arctic-archipelago-reveals-major-pollution/459077"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "csto-delegation-northern-fleet-2026",
+    "name": "CSTO Military Delegation Tours Northern Fleet at Severomorsk",
+    "lat": 69.0769,
+    "lon": 33.4178,
+    "type": "political",
+    "date": "2026-10-07T00:00:00Z",
+    "operation": "Unbreakable Brotherhood-2026",
+    "parties": [
+      "Russia",
+      "CSTO (Belarus, Kazakhstan, Kyrgyzstan, Tajikistan)"
+    ],
+    "target": "Northern Fleet HQ, Severomorsk; Yasen-class submarine Kazan",
+    "casualties": "None",
+    "description": "A CSTO delegation led by deputy head Lt. Gen. Ruslan Shpekbaev visited Severomorsk on 5-7 October, met Northern Fleet commander Adm. Konstantin Kabantsev and toured the Yasen-class submarine Kazan. The visit preceded the CSTO command-staff exercise Unbreakable Brotherhood-2026 in Belarus on 12-16 October, near NATO territory.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/security/ahead-of-drills-in-belarus-putins-allies-pay-visit-to-northern-fleet/459467"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "sanctioned-chinese-carrier-norway-border-2026",
+    "name": "Sanctioned Chinese Arctic LNG 2 Carrier Loiters at Norway Border",
+    "lat": 69.83,
+    "lon": 31.58,
+    "type": "economic",
+    "date": "2026-10-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "China",
+      "Russia",
+      "Norway"
+    ],
+    "target": "Heavy-lift carrier Ya Qing Hai Yang (IMO 1021570) near Aynov Islands / Rybachy Peninsula",
+    "casualties": "None",
+    "description": "The sanctioned heavy-lift ship, which delivered power modules to Russia's sanctioned Arctic LNG 2 project in 2024, drifted for several days less than 30 km from Russia's maritime border with Norway after sailing from Zhuhai. Its AIS and satellite data appeared deliberately distorted, and its destination was unknown.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/sanctioned-chinese-heavy-lift-carrier-on-standby-outside-norwegian-arctic-coast/459551",
+      "ArcticToday — https://www.arctictoday.com/sanctioned-chinese-heavy-lift-carrier-on-standby-outside-norwegian-arctic-coast/"
+    ],
+    "theater": "arctic"
+  },
+  {
+    "id": "eu-sanctions-sevmash-zvezdochka-2026",
+    "name": "EU Sanctions Sevmash, Zvezdochka and Submarine Design Bureaus",
+    "lat": 64.58,
+    "lon": 39.8261,
+    "type": "economic",
+    "date": "2026-10-12T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "European Union",
+      "Russia"
+    ],
+    "target": "Sevmash and Zvezdochka (Severodvinsk), Shipyard No. 82 (Roslyakovo), Rubin and Malakhit design bureaus",
+    "casualties": "None",
+    "description": "The EU's 12 October package listed the yards that build and repair Russia's Northern Fleet nuclear submarines: Sevmash (Yasen-M, Borei-A, Admiral Nakhimov), Zvezdochka, and Shipyard No. 82 near Murmansk, plus the Rubin and Malakhit design bureaus. It also sanctioned developer Samolet over North Korean workers building the Kolskie Ogni complex near Murmansk.",
+    "sources": [
+      "The Barents Observer — https://www.thebarentsobserver.com/news/eu-sanctions-shipyards-and-design-bureaus-key-to-russias-nuclear-submarine-fleet/459664"
     ],
     "theater": "arctic"
   }

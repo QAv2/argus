@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Validate sweep/disasters.json against the ARGUS Disasters schema; --apply copies it to data/."""
+"""Validate sweep/disasters.json (NEW events only) against the ARGUS Disasters schema.
+
+--check  validate, write nothing
+--apply  validate + append the new events to data/disasters.json (ids must not collide)
+"""
 import json, sys, re, os, datetime, pathlib
 
 SRC = pathlib.Path(os.environ.get('SWEEP_DIR', pathlib.Path(__file__).resolve().parent / 'inbox')) / 'disasters.json'
 DST = pathlib.Path(__file__).resolve().parents[2] / 'data' / 'disasters.json'
 KEYS = ['id', 'name', 'lat', 'lon', 'type', 'date', 'end_date', 'status', 'region', 'scale',
         'casualties', 'displaced', 'cause', 'description', 'sources']
+OPTIONAL = ['photo_url']
 TYPES = {'glacial', 'landslide', 'flood', 'wildfire', 'cyclone', 'tornado', 'volcano', 'heatwave',
          'coldwave', 'drought', 'tsunami', 'avalanche', 'earthquake', 'industrial', 'epidemic', 'storm'}
 ID_RE = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
@@ -18,16 +23,19 @@ def pd(s):
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else '--check'
     data = json.load(open(SRC))
+    existing = json.load(open(DST))
+    existing_ids = {e['id'] for e in existing}
     errs, warns, seen = [], [], set()
     for i, e in enumerate(data):
         tag = f'[{i}] {e.get("id", "?")}'
         missing = [k for k in KEYS if k not in e]
-        extra = [k for k in e if k not in KEYS]
+        extra = [k for k in e if k not in KEYS + OPTIONAL]
         if missing: errs.append(f'{tag}: missing {missing}')
         if extra: warns.append(f'{tag}: extra {extra} (dropped)')
         if missing: continue
         if not ID_RE.match(e['id']): errs.append(f'{tag}: bad id')
         if e['id'] in seen: errs.append(f'{tag}: dup id')
+        if e['id'] in existing_ids: errs.append(f'{tag}: id collides with existing disaster')
         seen.add(e['id'])
         if e['type'] not in TYPES: errs.append(f'{tag}: bad type {e["type"]}')
         if e['status'] not in ('ongoing', 'concluded'): errs.append(f'{tag}: bad status {e["status"]}')
@@ -61,11 +69,11 @@ def main():
     if mode == '--apply':
         if errs:
             print('>> NOT applied'); sys.exit(1)
-        clean = [{k: e[k] for k in KEYS} for e in data]
-        clean.sort(key=lambda e: e['date'])
+        clean = [{k: e[k] for k in KEYS + OPTIONAL if k in e} for e in data]
+        merged = sorted(existing + clean, key=lambda e: e['date'])
         with open(DST, 'w') as f:
-            json.dump(clean, f, indent=2, ensure_ascii=False); f.write('\n')
-        print(f'>> wrote {DST} ({len(clean)} entries)')
+            json.dump(merged, f, indent=2, ensure_ascii=False); f.write('\n')
+        print(f'>> wrote {DST}: {len(existing)} → {len(merged)} entries')
 
 
 if __name__ == '__main__':

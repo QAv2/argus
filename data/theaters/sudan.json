@@ -1049,11 +1049,13 @@
     ],
     "target": "Kurmuk, Blue Nile State, strategic border town near Ethiopia",
     "casualties": "Unknown military; 25 civilian bodies later found in mass grave",
-    "description": "SAF recaptured Kurmuk from RSF and SPLM-N forces who had seized it on March 24. The reconquest completed a months-long Blue Nile counteroffensive after SAF retook Al-Kaili, Khor Hassan, and multiple towns in Qaysan. Sudan accused Ethiopia of supporting the RSF by hosting training camps and allowing drone launches from Bahir Dar airport.",
+    "description": "SAF recaptured Kurmuk from RSF and SPLM-N forces who had seized it on March 24. The reconquest completed a months-long Blue Nile counteroffensive after SAF retook Al-Kaili, Khor Hassan, and multiple towns in Qaysan. Sudan accused Ethiopia of supporting the RSF by hosting training camps and allowing drone launches from Bahir Dar airport. Update: the RSF announced it had recaptured Kurmuk on 13 Aug 2026 and fighting around the town continued into September; its status is contested.",
     "sources": [
       "Sudan Tribune — https://sudantribune.com/article/315994",
       "Xinhua — https://english.news.cn/africa/20260709/2183b2b2a037494bb1c7288b664a7216/c.html",
-      "Addis Standard — https://addisstandard.com/sudanese-army-claims-recapture-of-strategic-border-town-of-kurmuk-near-ethiopia/"
+      "Addis Standard — https://addisstandard.com/sudanese-army-claims-recapture-of-strategic-border-town-of-kurmuk-near-ethiopia/",
+      "The National — https://www.thenationalnews.com/news/mena/2026/08/13/sudans-rsf-says-it-captured-key-town-near-ethiopian-and-south-sudan-borders/",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia"
     ],
     "theater": "sudan"
   },
@@ -1200,6 +1202,304 @@
     "sources": [
       "Sudan Tribune — https://sudantribune.com/article/317193",
       "Wikipedia Timeline of the Sudanese civil war (2026) — https://en.wikipedia.org/wiki/Timeline_of_the_Sudanese_civil_war_(2026)"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "rsf-splmn-capture-geissan-aug2026",
+    "name": "RSF and SPLM-N Seize Geissan in Blue Nile",
+    "lat": 10.6,
+    "lon": 34.35,
+    "type": "ground",
+    "date": "2026-08-11T00:00:00Z",
+    "operation": "RSF Blue Nile offensive",
+    "parties": [
+      "RSF",
+      "SPLM-N",
+      "SAF"
+    ],
+    "target": "Geissan (Qaysan) town, Blue Nile State, on the Ethiopian border",
+    "casualties": "20 civilians killed, 2,500 displaced (UN); IOM later counted 5,355 displaced in four days",
+    "description": "A joint RSF and SPLM-N offensive, reportedly launched from Ethiopian territory, took Geissan near the Ethiopian border. It opened the Blue Nile front that pushed toward Kurmuk and later Ad-Damazin. Approximate coordinates.",
+    "sources": [
+      "Sudan Tribune — https://sudantribune.com/article/317261",
+      "Arab News PK — https://arab.news/ge7fc",
+      "Anadolu — https://www.aa.com.tr/en/africa/over-5-000-displaced-from-town-in-southeastern-sudan-in-4-days-says-un-migration-agency-/4029642"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "rsf-retakes-kurmuk-aug2026",
+    "name": "RSF Claims Recapture of Kurmuk",
+    "lat": 10.5514,
+    "lon": 34.2869,
+    "type": "ground",
+    "date": "2026-08-13T00:00:00Z",
+    "operation": "RSF Blue Nile offensive",
+    "parties": [
+      "RSF",
+      "SPLM-N",
+      "SAF"
+    ],
+    "target": "Kurmuk, Blue Nile border town (Ethiopia / South Sudan junction)",
+    "casualties": "Unknown",
+    "description": "The RSF announced it had captured Kurmuk, five weeks after SAF retook it on July 8. SAF did not publicly comment at the time. Through September, SAF reported repelling joint RSF and SPLM-N attacks around Kurmuk and advancing on its outskirts, so the town is contested.",
+    "sources": [
+      "The National — https://www.thenationalnews.com/news/mena/2026/08/13/sudans-rsf-says-it-captured-key-town-near-ethiopian-and-south-sudan-borders/",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "rsf-defections-al-dabbah-aug2026",
+    "name": "21 RSF Commanders and 270 Fighters Defect to Army",
+    "lat": 18.05,
+    "lon": 30.95,
+    "type": "political",
+    "date": "2026-08-13T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "SAF",
+      "RSF"
+    ],
+    "target": "RSF Groups 55 and 47",
+    "casualties": "None reported",
+    "description": "SAF said 21 commanders and 270 fighters of RSF Groups 55 and 47 surrendered at al-Dabbah. It was the first of a run of defections: about 300 under Brig. Gen. Musa Khamiseen on Aug 19, about 200 on Aug 31, 124 under Maj. Gen. Mohamadain Abu Zira on Oct 4, and 300 under Lt. Col. Mohammed al-Fanjari on Oct 8, per Sudan Tribune.",
+    "sources": [
+      "Anadolu — https://www.aa.com.tr/en/middle-east/sudan-says-21-rsf-commanders-270-fighters-defect-to-army/4026551",
+      "Sudan Tribune — https://sudantribune.com/article/317648"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "splmn-otoro-villages-attack-aug2026",
+    "name": "SPLM-N Attack on Otoro Villages Kills 27",
+    "lat": 11.21,
+    "lon": 30.51,
+    "type": "ground",
+    "date": "2026-08-25T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "SPLM-N (al-Hilu)",
+      "Otoro civilians"
+    ],
+    "target": "Qardud and Abu Hamama villages, Heiban area, South Kordofan",
+    "casualties": "27 killed, including four children (medical group)",
+    "description": "SPLM-N (al-Hilu), which is allied to the RSF-led TASIS bloc, attacked Otoro villages in the Nuba Mountains. This was part of an intra-Nuba conflict around Kauda. A community leader later said more than 500 Otoro had been killed and 25,000 displaced over six months. Approximate coordinates.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/26/dozens-killed-in-rebel-attacks-on-sudans-kordofan-medical-group-says"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "chad-border-fuel-market-strike-aug2026",
+    "name": "Chad Accuses Sudan Army of Deadly Border Market Strike",
+    "lat": 15.03,
+    "lon": 22.8,
+    "type": "airstrike",
+    "date": "2026-08-27T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "SAF",
+      "Chad"
+    ],
+    "target": "Fuel market near the Chad-Sudan border",
+    "casualties": "12 killed, 7 wounded (Chadian security source to AFP)",
+    "description": "Chad accused the Sudanese army of an air strike on a fuel market near the shared border, days after accusing it of striking a convoy in Ennedi Est. Sudan's foreign ministry said it was surprised by the allegation but did not directly deny it. The strike widened the cross-border friction between Port Sudan and N'Djamena. Coordinates approximate (Tine border area); the exact site was not named.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/28/chad-accuses-sudan-of-deadly-air-strike-near-shared-border",
+      "Sudan Tribune — https://sudantribune.com/article/317768"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "khartoum-curfew-lifted-aug2026",
+    "name": "Sudan Lifts Khartoum's Two-Year Curfew and Emergency",
+    "lat": 15.5007,
+    "lon": 32.5599,
+    "type": "political",
+    "date": "2026-08-27T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Sudanese Government"
+    ],
+    "target": "Khartoum State curfew and state of emergency",
+    "casualties": "N/A",
+    "description": "Authorities lifted the curfew and state of emergency in Khartoum State, which had been in force for about two years. It marked the government's consolidation of the capital after returning there in January 2026, although RSF drones still struck Omdurman in September.",
+    "sources": [
+      "Anadolu — https://www.aa.com.tr/en/africa/sudan-lifts-khartoums-2-year-old-curfew-state-of-emergency/4039481",
+      "Sudan Tribune — https://sudantribune.com/article/317979"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "debi-luweri-kauda-massacre-sep2026",
+    "name": "SPLM-N Attack Near Kauda Kills 21",
+    "lat": 11.1,
+    "lon": 30.52,
+    "type": "ground",
+    "date": "2026-09-03T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "SPLM-N (al-Hilu)",
+      "Otoro civilians"
+    ],
+    "target": "Debi and Luweri villages near Kauda, South Kordofan",
+    "casualties": "21 killed, including women and children",
+    "description": "Fighters of SPLM-N (al-Hilu) attacked Otoro villages around Kauda, the movement's headquarters, which it had retaken from Otoro fighters on Aug 20. It was the second mass-casualty attack on Otoro communities in nine days. Approximate coordinates.",
+    "sources": [
+      "AP — https://apnews.com/article/sudan-clashes-south-kordofan-rsf-b2835879f9d58b4231871a0670464680",
+      "Sudan Tribune — https://sudantribune.com/article/317666"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "umm-ruwaba-court-drone-strike-sep2026",
+    "name": "RSF Drone Strike on Umm Ruwaba Court Kills 13",
+    "lat": 12.9086,
+    "lon": 31.2158,
+    "type": "airstrike",
+    "date": "2026-09-08T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "RSF",
+      "Civilians"
+    ],
+    "target": "Court building, Umm Ruwaba, North Kordofan",
+    "casualties": "At least 13 killed, 22 injured",
+    "description": "An RSF drone struck a court in Umm Ruwaba, on the army-held eastern road into El Obeid. It was one of a series of long-range RSF drone strikes on civilian infrastructure behind SAF lines in Kordofan and Blue Nile.",
+    "sources": [
+      "Sudan Tribune — https://sudantribune.com/article/318507"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "saf-north-kordofan-11-areas-sep2026",
+    "name": "SAF Says It Retook 11 Areas in North Kordofan",
+    "lat": 13.75,
+    "lon": 30.1,
+    "type": "ground",
+    "date": "2026-09-17T00:00:00Z",
+    "operation": "SAF Kordofan offensive",
+    "parties": [
+      "SAF",
+      "Joint Darfur Force",
+      "RSF"
+    ],
+    "target": "Kajmar, Sharshar, Al-Qulay'at and surroundings of Al-Mazroub, north of Bara",
+    "casualties": "Unknown",
+    "description": "The army announced it had recaptured 11 areas in North Kordofan, after taking Hamrat al-Wiz (Sep 6) and Al-Safiya (Sep 7). Anadolu reported the capture of al-Jamama on Sep 19. No independent source confirmed control of every listed location. Coordinates are an approximate centroid of the northern Bara axis.",
+    "sources": [
+      "Sudan Tribune — https://sudantribune.com/article/318891",
+      "Asharq Al-Awsat — https://english.aawsat.com/arab-world/5320038-sudanese-army-repels-blue-nile-attack-advances-kordofan",
+      "Sudan Tribune — https://sudantribune.com/article/318423"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "el-obeid-dormitory-shelter-strikes-sep2026",
+    "name": "Drone Strikes on El Obeid Dormitory and Shelter Kill 10",
+    "lat": 13.1843,
+    "lon": 30.2167,
+    "type": "airstrike",
+    "date": "2026-09-30T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "RSF",
+      "Civilians"
+    ],
+    "target": "University of Kordofan dormitory and a displacement shelter, El Obeid",
+    "casualties": "10 killed: 5 killed, 47 wounded (dormitory); 5 killed, 13 injured (shelter, next day)",
+    "description": "A drone hit a University of Kordofan dormitory housing students and displaced civilians. The next day a drone hit a shelter for displaced families. A North Kordofan official blamed the RSF for the shelter strike, and the Sudanese Doctors Network blamed it for the dormitory. AFP dates the dormitory strike to Wednesday Sep 30; Sudan Tribune dates it to Oct 1.",
+    "sources": [
+      "Asharq Al-Awsat/AFP — https://english.aawsat.com/arab-world/5325363-drone-strikes-dormitory-shelter-kill-10-sudans-el-obeid",
+      "Ahram Online — https://english.ahram.org.eg/News/578063.aspx",
+      "Sudan Tribune — https://sudantribune.com/?p=319476"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "saf-captures-al-mazroub-oct2026",
+    "name": "SAF Announces Capture of Al-Mazroub",
+    "lat": 13.95,
+    "lon": 29.75,
+    "type": "ground",
+    "date": "2026-10-02T00:00:00Z",
+    "operation": "SAF Kordofan offensive",
+    "parties": [
+      "SAF",
+      "RSF"
+    ],
+    "target": "Al-Mazroub junction linking Bara, Umm Badr and En Nahud",
+    "casualties": "Unknown",
+    "description": "The army officially announced control of Al-Mazroub, staging from Sodari, which it had retaken in late September. Al-Mazroub links Bara, Umm Badr and En Nahud. Only Umm Badr and Hamrat al-Sheikh were reported left on the northern axis. Approximate coordinates.",
+    "sources": [
+      "Al-Quds — https://alquds.com/en/posts/260191"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "el-alamein-quadrilateral-summit-oct2026",
+    "name": "El Alamein Summit: Egypt, Sudan, Eritrea, Somalia",
+    "lat": 30.83,
+    "lon": 28.955,
+    "type": "political",
+    "date": "2026-10-04T00:00:00Z",
+    "operation": "Diplomatic",
+    "parties": [
+      "Egypt",
+      "Sudan (SAF government)",
+      "Eritrea",
+      "Somalia"
+    ],
+    "target": "Regional alignment against parallel authorities in Sudan",
+    "casualties": "N/A",
+    "description": "Burhan joined Sisi, Isaias Afwerki and Hassan Sheikh Mohamud at El Alamein. Their joint declaration backed Sudan's unity and condemned parallel entities, an implicit rejection of the RSF-led TASIS government. CTP reads it as an implicit critique of Ethiopia's alleged support for the RSF.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates",
+      "Shabait — https://shabait.com/2026/10/04/el-alamein-joint-declaration-the-quadrilateral-consultative-summit-between-egypt-sudan-eritrea-and-somalia"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "wad-al-mahi-drone-strike-oct2026",
+    "name": "Drone Strike Kills 30 Displaced Near Damazin",
+    "lat": 11.4,
+    "lon": 34.7,
+    "type": "airstrike",
+    "date": "2026-10-09T00:00:00Z",
+    "operation": "RSF Blue Nile offensive",
+    "parties": [
+      "RSF",
+      "Civilians"
+    ],
+    "target": "Area outside a displacement camp near an informal gold-mining site, Wad al-Mahi province",
+    "casualties": "At least 30 killed (26 women, 4 children), dozens wounded",
+    "description": "The Wad al-Mahi governor blamed an RSF drone launched from inside Ethiopia, which Ethiopia denies. It was the deadliest of a wave of RSF drone strikes on Blue Nile, including strikes on Ad-Damazin on Sep 14, Oct 4 and Oct 7. About 100,000 people have been displaced in the state this year (UN). Approximate coordinates.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region"
+    ],
+    "theater": "sudan"
+  },
+  {
+    "id": "uqaydat-gold-mine-airstrike-oct2026",
+    "name": "Airstrike on Border Gold Mine Kills 72, Egypt Blamed",
+    "lat": 21.9,
+    "lon": 34.0,
+    "type": "airstrike",
+    "date": "2026-10-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Egyptian Air Force (alleged)",
+      "Sudanese artisanal miners"
+    ],
+    "target": "Jabal al-Uqaydat informal gold-mining site on the Sudan-Egypt border",
+    "casualties": "At least 72 miners killed (Emergency Lawyers, preliminary)",
+    "description": "Jets struck the mining site at least five times, according to witnesses. The rights group Emergency Lawyers blamed the Egyptian air force; AFP could not confirm this and Egypt did not comment. It is the second strike on the site in 2026, after one in June that killed 23. Approximate coordinates, just south of the Halayeb triangle.",
+    "sources": [
+      "Khaleej Times/AFP — https://www.khaleejtimes.com/world/africa/airstrike-gold-mine-sudan-egypt-border-death-toll",
+      "Arab News PK — https://www.arabnews.pk/middle-east/72-killed-in-airstrike-on-gold-mine-on-sudan-egypt-border-rights-group-3003879",
+      "Sudan Tribune — https://sudantribune.com/article/319822"
     ],
     "theater": "sudan"
   }

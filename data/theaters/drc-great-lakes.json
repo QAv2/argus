@@ -263,10 +263,11 @@
     ],
     "target": "Remeka (Aug 20) and Katoyi-center (Aug 25) in Masisi territory",
     "casualties": "Not specifically reported; heavy displacement",
-    "description": "M23 launched a multi-axis offensive in August, capturing Remeka and Katoyi-center in Masisi territory. A drone strike also hit the Mwalu Hotel in Fizi targeting military officials. DRC coalition shot down an Antonov cargo aircraft near Gahwela on August 27.",
+    "description": "M23 launched a multi-axis offensive in August, capturing Remeka and Katoyi-center in Masisi territory. A drone strike also hit the Mwalu Hotel in Fizi targeting military officials. DRC coalition shot down an Antonov cargo aircraft near Gahwela on August 27. Update: Remeka changed hands three times afterwards (FARDC 15 Sep, M23 25 Sep, FARDC 3 Oct); southern Masisi remained contested as of 13 Oct.",
     "sources": [
       "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review",
-      "Africanews — https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/"
+      "Africanews — https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/",
+      "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
     ],
     "theater": "drc-great-lakes"
   },
@@ -288,10 +289,273 @@
     ],
     "target": "Structured roadmap for Doha Framework negotiations",
     "casualties": "N/A",
-    "description": "After talks August 17-21, DRC and M23 agreed to a structured roadmap defining stages and timetable for negotiations under the Doha Framework. Ceasefire verification mechanisms were standardized and EJVM+ deployed its first reconnaissance mission to Minembwe.",
+    "description": "After talks August 17-21, DRC and M23 agreed to a structured roadmap defining stages and timetable for negotiations under the Doha Framework. Ceasefire verification mechanisms were standardized and EJVM+ deployed its first reconnaissance mission to Minembwe. Update: the ceasefire is not holding — the FARDC accused M23 and Rwanda of violations in Masisi and Walikale on 22 Sep, and the AU panel called on all sides to respect it on 7 Oct.",
     "sources": [
       "Africanews — https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/",
-      "Voice of Emirates — https://www.voiceofemirates.com/en/news/2026/08/24/ceasefire-monitors-deploy-to-eastern-congo-under-qatar-mediated-peace-accord/"
+      "Voice of Emirates — https://www.voiceofemirates.com/en/news/2026/08/24/ceasefire-monitors-deploy-to-eastern-congo-under-qatar-mediated-peace-accord/",
+      "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026",
+      "Critical Threats — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-retakes-mitimingi-katoyi-aug2026",
+    "name": "M23 Retakes Mitimingi, Claims Most of Katoyi",
+    "lat": -1.48,
+    "lon": 28.73,
+    "type": "ground",
+    "date": "2026-08-29T00:00:00Z",
+    "operation": "M23 Masisi-Walikale offensive",
+    "parties": [
+      "AFC/M23",
+      "Wazalendo",
+      "FARDC"
+    ],
+    "target": "Mitimingi and Katoyi groupement, western Masisi",
+    "casualties": "Unknown",
+    "description": "M23 retook Mitimingi and said it now held most of Katoyi, extending its August offensive toward the Walikale border. Wazalendo tried and failed to retake Mitimingi on Sep 22, but pro-government forces claimed it again on Oct 5. Approximate coordinates.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 4 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-4-2026",
+      "CTP Congo War Security Review, Sep 25 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "minembwe-highlands-offensive-aug2026",
+    "name": "Government Coalition Drone-Backed Push on Minembwe",
+    "lat": -3.545,
+    "lon": 28.895,
+    "type": "ground",
+    "date": "2026-08-31T00:00:00Z",
+    "operation": "Minembwe highlands offensive",
+    "parties": [
+      "FARDC",
+      "Wazalendo",
+      "Burundi (FDNB)",
+      "Twirwaneho"
+    ],
+    "target": "Twirwaneho (M23-allied) positions around Minembwe and Point Zero, South Kivu highlands",
+    "casualties": "FARDC claimed 15 Twirwaneho killed (Aug 31) and 23 rebels (Sep 1); mass displacement",
+    "description": "The FARDC, Wazalendo and Burundian troops used drones, mortars and heavy weapons to retake Malimba, Rubarati, Masango and other villages south of Minembwe. Strikes on Point Zero, Mukoko and Nyaruhinga drove mass displacement. The front ground on through September and early October, with one-way attack drones used by both sides, including Twirwaneho drone strikes on Mulima and Gipimo.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 4 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-4-2026",
+      "CTP Congo War Security Review, Sep 25 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-captures-minjenje-sep2026",
+    "name": "M23 Takes Minjenje on Walikale Axis",
+    "lat": -1.4,
+    "lon": 28.55,
+    "type": "ground",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "M23 Masisi-Walikale offensive",
+    "parties": [
+      "AFC/M23",
+      "FARDC",
+      "Wazalendo"
+    ],
+    "target": "Minjenje, Walikale territory (RP1030 axis)",
+    "casualties": "Unknown",
+    "description": "M23 captured Minjenje after clashes with the FARDC and Wazalendo, during the same week the EJVM+ was verifying the ceasefire in Masisi. Government forces regained it on Sep 15 and pushed M23 back toward Malemo. It is one of several towns that changed hands repeatedly on the Masisi-Walikale line. Approximate coordinates.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 11 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-11-2026",
+      "CTP Congo War Security Review, Sep 18 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-18-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "ejvm-masisi-verification-sep2026",
+    "name": "EJVM+ Ceasefire Verification Mission to Masisi",
+    "lat": -1.4,
+    "lon": 28.82,
+    "type": "political",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "Doha Framework",
+    "parties": [
+      "EJVM+",
+      "ICGLR",
+      "AFC/M23",
+      "FARDC"
+    ],
+    "target": "Ceasefire compliance in Masisi territory",
+    "casualties": "N/A",
+    "description": "The expanded Joint Verification Mechanism ran a ceasefire verification field mission in Masisi from Sep 10 to 12, its second after Minembwe in late August. The ICGLR issued a statement on Sep 20. MONUSCO chief James Swan met M23 and EJVM+ in Goma on Sep 21–22, and FARDC and M23 officers held a working session under the EJVM+ on Sep 24. Fighting continued throughout.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 25 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "rwanda-almonty-tungsten-deal-sep2026",
+    "name": "Rwanda-Almonty Tungsten Deal Under Washington Track",
+    "lat": -1.9441,
+    "lon": 30.0619,
+    "type": "economic",
+    "date": "2026-09-14T00:00:00Z",
+    "operation": "Washington Peace Accords",
+    "parties": [
+      "Rwanda",
+      "Almonty Industries",
+      "US State Department"
+    ],
+    "target": "Rwandan tungsten development",
+    "casualties": "N/A",
+    "description": "Rwanda and the US-Canadian miner Almonty agreed to develop tungsten, with Rwanda taking a 25% stake in a new subsidiary. The State Department said it helped facilitate the deal under the US-Rwanda framework and the Regional Economic Integration Framework of the Washington Peace Accords. It is the first concrete minerals deal on the Rwanda side of the accords.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 18 2026 (citing Bloomberg, Reuters, BusinessWire) — https://www.criticalthreats.org/briefs/congo-war-security-review/september-18-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "fardc-masisi-counteroffensive-sep2026",
+    "name": "FARDC-Wazalendo Push Takes Remeka, Nears Ngungu",
+    "lat": -1.62,
+    "lon": 28.8,
+    "type": "ground",
+    "date": "2026-09-15T00:00:00Z",
+    "operation": "FARDC southern Masisi counteroffensive",
+    "parties": [
+      "FARDC",
+      "Wazalendo",
+      "FDLR/Nyatura (reported)",
+      "AFC/M23"
+    ],
+    "target": "Miko hill, Remeka, Kasake, Muhororo, southern Masisi",
+    "casualties": "Unknown",
+    "description": "The FARDC and Wazalendo, reportedly with FDLR and Nyatura fighters, took Miko hill and Remeka on Sep 15. They claimed Katuunda, Kaleta, Muhororo and Kasake on Sep 16 and pressed toward Ngungu. This reversed M23's August gains in southern Masisi and was the largest government advance since the Doha roadmap. Approximate coordinates.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 18 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-18-2026",
+      "CTP Congo War Security Review, Sep 25 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-makenga-plot-foiled-sep2026",
+    "name": "M23 Foils Plot to Oust Military Chief Makenga",
+    "lat": -1.6792,
+    "lon": 29.2228,
+    "type": "political",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "AFC/M23",
+      "Sultani Makenga",
+      "Theo Binamungu"
+    ],
+    "target": "AFC/M23 military leadership",
+    "casualties": "None reported",
+    "description": "Africa Intelligence reported that M23 had thwarted a plot to remove military chief Sultani Makenga. The plot was allegedly led by Theo Binamungu, an adviser to Corneille Nangaa arrested in late August, and was reportedly presented to members of Rwanda's security apparatus. It is the first reported internal split at the top of the movement.",
+    "sources": [
+      "CTP Congo War Security Review, Sep 25 2026 (citing Africa Intelligence) — https://www.criticalthreats.org/briefs/congo-war-security-review/september-25-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "m23-recaptures-remeka-sep2026",
+    "name": "M23 Recaptures Remeka, Nkokwe and Muhororo",
+    "lat": -1.62,
+    "lon": 28.8,
+    "type": "ground",
+    "date": "2026-09-25T00:00:00Z",
+    "operation": "M23 Masisi-Walikale offensive",
+    "parties": [
+      "AFC/M23",
+      "FARDC",
+      "Wazalendo"
+    ],
+    "target": "Remeka, Nkokwe, Muhororo, southern Masisi",
+    "casualties": "Unknown",
+    "description": "M23 counterattacked and retook the southern Masisi villages lost on Sep 15–16. The FARDC and Wazalendo claimed them again on Oct 3 along with Kamuhobe, Nyamiri and Mihano, and M23 retook Numbi, Shanje and Kavumu on Oct 7. This Remeka seesaw is the clearest sign that the Doha ceasefire is not holding in Masisi. Approximate coordinates.",
+    "sources": [
+      "CTP Congo War Security Review, Oct 7 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "twirwaneho-mwenga-villages-sep2026",
+    "name": "Twirwaneho and RED-Tabara Seize Mwenga Villages",
+    "lat": -3.35,
+    "lon": 28.7,
+    "type": "ground",
+    "date": "2026-09-26T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Twirwaneho",
+      "RED-Tabara (reported)",
+      "FARDC",
+      "Wazalendo"
+    ],
+    "target": "Magunda, Maheta, Kakuku, Mushojo, Nanjale, Mwenga territory",
+    "casualties": "Unknown",
+    "description": "The M23-allied Twirwaneho, reportedly with the Burundian rebel group RED-Tabara, captured five villages in Mwenga, northwest of the Minembwe front. The reported presence of RED-Tabara draws Burundi's own insurgency into the South Kivu highlands fight. Approximate coordinates.",
+    "sources": [
+      "CTP Congo War Security Review, Oct 7 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "pinga-airfield-drone-strike-sep2026",
+    "name": "First Drone Strike on Pinga Airfield; DRC Blames Rwanda",
+    "lat": -0.997,
+    "lon": 28.687,
+    "type": "airstrike",
+    "date": "2026-09-28T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "AFC/M23",
+      "Rwanda (alleged)",
+      "FARDC"
+    ],
+    "target": "FARDC position at Pinga airfield, Walikale territory",
+    "casualties": "Unknown",
+    "description": "A drone attack hit the FARDC position at Pinga airfield, the government's Walikale logistics hub. CTP calls it the first reported M23 air attack on the town. On Sep 29 the DRC's UN representative told the Security Council that Rwanda was responsible and had used a Turkish-made TB2-type drone. Pro-government forces said they shot down a drone over Rugezi the same day.",
+    "sources": [
+      "CTP Congo War Security Review, Oct 7 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "burundi-bans-entry-m23-areas-oct2026",
+    "name": "Burundi Bans Entry From M23-Held Areas",
+    "lat": -3.3614,
+    "lon": 29.3599,
+    "type": "political",
+    "date": "2026-10-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Burundi",
+      "AFC/M23"
+    ],
+    "target": "Border entry for people coming from M23-held territory, including UN personnel",
+    "casualties": "N/A",
+    "description": "Burundi's interior minister banned entry for people arriving from M23-held areas, including UN personnel. This hardened Burundi's front-line role alongside its troops fighting in the South Kivu highlands. Separately, the same day DRC envoys Anzuluni and Sita Mambu met President Ndayishimiye in Bujumbura on a regional tour.",
+    "sources": [
+      "CTP Congo War Security Review, Oct 7 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
+    ],
+    "theater": "drc-great-lakes"
+  },
+  {
+    "id": "au-facilitators-goma-kigali-oct2026",
+    "name": "AU Panel Meets M23 in Goma, Kagame in Kigali",
+    "lat": -1.6792,
+    "lon": 29.2228,
+    "type": "political",
+    "date": "2026-10-05T00:00:00Z",
+    "operation": "Doha Framework",
+    "parties": [
+      "AU facilitators (Kenyatta, Masisi, Zewde)",
+      "AFC/M23",
+      "Rwanda",
+      "MONUSCO",
+      "EJVM+"
+    ],
+    "target": "Revival of ceasefire and Doha engagement",
+    "casualties": "N/A",
+    "description": "AU facilitators Uhuru Kenyatta, Mokgweetsi Masisi and Sahle-Work Zewde met AFC/M23 leadership in Goma on Oct 5, then MONUSCO, OCHA, ICRC and the EJVM+. Kenyatta met Rwanda's foreign minister on Oct 6. On Oct 7 the panel met Kagame and urged all sides to respect the ceasefire and resume the Doha process, while fighting continued in Masisi and Kalehe.",
+    "sources": [
+      "CTP Congo War Security Review, Oct 7 2026 — https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026"
     ],
     "theater": "drc-great-lakes"
   }

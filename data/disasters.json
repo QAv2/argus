@@ -266,6 +266,28 @@
     ]
   },
   {
+    "id": "ebola-bundibugyo-drc-2026",
+    "name": "DR Congo Bundibugyo Ebola Epidemic",
+    "lat": 1.95,
+    "lon": 30.05,
+    "type": "epidemic",
+    "date": "2026-05-15T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Ituri, North Kivu and five other provinces, DR Congo",
+    "scale": "Largest Bundibugyo outbreak on record and second-largest Ebola outbreak; 62 health zones in 7 provinces; WHO PHEIC",
+    "casualties": "4,336 dead of 8,978 confirmed cases in DRC as of 11 Oct (Wikipedia, citing DRC INSP); 3,924 dead of 8,116 as of 27 Sep (UKHSA, citing WHO)",
+    "displaced": null,
+    "cause": "Bundibugyo ebolavirus; likely seeded at a February 2026 funeral in Mongbwalu, Ituri",
+    "description": "An Ebola outbreak of the Bundibugyo strain was confirmed in Ituri Province on 15 May 2026 and declared a public health emergency of international concern. By late September it covered 62 health zones in seven DRC provinces, with most cases in Ituri and a rise in North Kivu, and deaths passed 4,000 on 2 October. Uganda's 20-case spillover was declared over, and single cases reached Kenya and France. This is a gap-fill: the outbreak predates the window but was missing from the layer.",
+    "sources": [
+      "UK Government (UKHSA, wk 39) — https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-39-week-ending-27-september-2026",
+      "UK Government (UKHSA, wk 37) — https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-37-week-ending-13-september-2026",
+      "MesVaccins.net — https://www.mesvaccins.net/web/news/24470",
+      "Wikipedia 2026 Central Africa Ebola epidemic — https://en.wikipedia.org/wiki/2026_Central_Africa_Ebola_epidemic"
+    ]
+  },
+  {
     "id": "china-shanxi-coal-mine-explosion",
     "name": "Shanxi Coal Mine Explosion",
     "lat": 37.87,
@@ -313,13 +335,14 @@
     "end_date": null,
     "status": "ongoing",
     "region": "Ontario, British Columbia, Saskatchewan, Canada",
-    "scale": "4,082,237 ha burned (10M+ acres); 4,654 fires",
+    "scale": "4,492,283 ha burned; 5,248 fires (CIFFC, as of 31 Aug)",
     "casualties": "5 dead (4 firefighters, 1 civilian)",
     "displaced": "24,000+ evacuated",
     "cause": "Lightning; extreme heat and drought",
     "description": "Canada's 2026 wildfire season burned over 4 million hectares by mid-August across Ontario, British Columbia, and Saskatchewan. The Thunder Bay 36 fire in Ontario alone consumed 318,813 hectares, one of the province's largest fires on record. British Columbia declared a province-wide state of emergency after the Bald Range fire forced 12,000 evacuations near Summerland.",
     "sources": [
-      "Wikipedia 2026 Canadian wildfires — https://en.wikipedia.org/wiki/2026_Canadian_wildfires"
+      "Wikipedia 2026 Canadian wildfires — https://en.wikipedia.org/wiki/2026_Canadian_wildfires",
+      "Wikipedia (CIFFC figures) — https://en.wikipedia.org/wiki/2026_Canadian_wildfires"
     ]
   },
   {
@@ -406,7 +429,7 @@
     "type": "wildfire",
     "date": "2026-06-30T00:00:00Z",
     "end_date": null,
-    "status": "ongoing",
+    "status": "concluded",
     "region": "Attica, Crete, Thessaloniki, Salamis, Greece",
     "scale": "Dozens of fires nationwide; helicopter collision near Athens",
     "casualties": "8+ dead (4 civilians, 3+ firefighters, 1 helicopter collision)",
@@ -520,15 +543,16 @@
     "type": "flood",
     "date": "2026-07-19T00:00:00Z",
     "end_date": null,
-    "status": "ongoing",
+    "status": "concluded",
     "region": "Upper Assam (Sivasagar, Charaideo, Jorhat, Golaghat), India",
     "scale": "4 rivers above danger level; 481 villages submerged; 10,748 ha cropland flooded",
-    "casualties": "100+ dead",
+    "casualties": "98 dead (8 Aug)",
     "displaced": "700,000+ displaced; 30,000 in relief camps",
     "cause": "Cloudburst in Nagaland hills; deforestation and mining",
-    "description": "Catastrophic flooding struck upper Assam from 19 July onwards after a cloudburst in neighbouring Nagaland. The Dikhow, Disang, Janji, and Dhansiri rivers all crossed danger levels, submerging 481 villages and displacing over 700,000 people. More than 100 people died and 10,748 hectares of cropland were destroyed. The floods remained ongoing as of mid-August 2026.",
+    "description": "Catastrophic flooding struck upper Assam from 19 July onwards after a cloudburst in neighbouring Nagaland. The Dikhow, Disang, Janji, and Dhansiri rivers all crossed danger levels, submerging 481 villages and displacing over 700,000 people. More than 100 people died and 10,748 hectares of cropland were destroyed. The floods remained ongoing as of mid-August 2026. By 8 August the waters were receding: 155,000 people were still affected and damage assessment began on 9 August.",
     "sources": [
-      "Wikipedia 2026 Assam floods — https://en.wikipedia.org/wiki/2026_Assam_floods"
+      "Wikipedia 2026 Assam floods — https://en.wikipedia.org/wiki/2026_Assam_floods",
+      "The Hindu — https://www.thehindu.com/news/national/assam/over-155-lakh-people-affected-by-assam-flood-death-toll-at-98-damage-assessment-from-aug-9/article71320666.ece"
     ]
   },
   {
@@ -595,16 +619,17 @@
     "lon": -120.0,
     "type": "wildfire",
     "date": "2026-08-08T00:00:00Z",
-    "end_date": null,
-    "status": "ongoing",
-    "region": "Lassen and Sierra Counties, California, USA",
-    "scale": "93,733 acres (37,930 ha); threatening Reno area",
-    "casualties": "None reported",
+    "end_date": "2026-08-27T15:00:00Z",
+    "status": "concluded",
+    "region": "Lassen and Sierra Counties, CA / Washoe County, NV, USA",
+    "scale": "93,733 acres (37,930 ha): 12,817 in California, 80,916 in Nevada",
+    "casualties": "1 dead (civilian on the Nevada side, burn injuries sustained 12 Aug)",
     "displaced": "Evacuations near Cold Springs and Reno Stead Airport",
     "cause": "Extreme heat; 18% of average snowpack",
     "description": "The Bug Fire ignited on 8 August 2026 in Lassen and Sierra counties and grew to become California's largest fire of the year at 93,733 acres, crossing into Washoe County, Nevada near the Reno area. The fire prompted evacuations near Cold Springs and the Reno Stead Airport. The state's extreme heat and snowpack at just 18% of average fuelled an aggressive fire season.",
     "sources": [
-      "Wikipedia 2026 California wildfires — https://en.wikipedia.org/wiki/2026_California_wildfires"
+      "Wikipedia 2026 California wildfires — https://en.wikipedia.org/wiki/2026_California_wildfires",
+      "CAL FIRE — https://www.fire.ca.gov/incidents/2026/8/8/bug-fire"
     ]
   },
   {
@@ -652,21 +677,237 @@
     "lon": 85.39,
     "type": "glacial",
     "date": "2026-08-26T02:55:00Z",
-    "end_date": null,
-    "status": "ongoing",
-    "region": "Rasuwa District, Nepal / Gyirong, Tibet, China",
+    "end_date": "2026-10-05T00:00:00Z",
+    "status": "concluded",
+    "region": "Rasuwa and Nuwakot Districts, Nepal / Gyirong, Tibet, China",
     "scale": "Hundreds of millions of tonnes of rock and ice from ~5,200 m; flood wave 40-50 m high at ~70 km/h; seismic signal equivalent to M5.2",
-    "casualties": "359 dead, 1,300+ missing (including 476+ foreign tourists)",
+    "casualties": "1,498 dead, 5,804 missing (Nepal 1,455 dead / 5,285 missing per NDRRMA, 3 Oct; Tibet 43 dead / 519 missing, 18 Sep)",
     "displaced": "Tens of thousands; 19 bridges, ~40 km road destroyed",
     "cause": "Glacier tongue sheared off when underlying rock failed; accelerated by permafrost thaw and climate-driven glacial retreat",
-    "description": "On 26 August 2026 at 02:55 UTC, the lower tongue of a glacier near Langtang Lirung (7,227 m) sheared off at approximately 5,200 m elevation when the underlying rock failed, sending hundreds of millions of tonnes of ice and rock plunging 2,200 m into the Lhende Khola valley on the Tibet side of the border. The mass dammed the river; when the blockage breached, a wall of water estimated at 40-50 m high travelling at roughly 70 km/h tore through settlements in Nepal's Rasuwa district, destroying Timure and much of Syapru Besi, sweeping away 19 bridges, hydropower plants, and approximately 40 km of road. At least 359 people were killed and more than 1,300 remain missing, including over 476 foreign tourists. Scientists noted the seismic signal registered M5.2 on USGS instruments; a second landslide occurred three hours later, and researchers warned that permafrost thaw and accelerating glacial melt -- Nepal has lost a third of its ice volume in three decades -- make such collapses increasingly likely.",
+    "description": "On 26 August 2026 at 02:55 UTC, the lower tongue of a glacier near Langtang Lirung (7,227 m) sheared off at approximately 5,200 m elevation when the underlying rock failed, sending hundreds of millions of tonnes of ice and rock plunging 2,200 m into the Lhende Khola valley on the Tibet side of the border. The mass dammed the river; when the blockage breached, a wall of water estimated at 40-50 m high travelling at roughly 70 km/h tore through settlements in Nepal's Rasuwa district, destroying Timure and much of Syapru Besi, sweeping away 19 bridges, hydropower plants, and approximately 40 km of road. The toll rose for weeks as bodies were recovered down the Trishuli: by early October Nepal counted 1,455 dead and 5,285 missing, hundreds of them foreign visitors, and halted search and rescue on 5 October; Tibet reported 43 dead and 519 missing. Nepal put reconstruction at NPR 559 bn (about US$3.6 bn). The seismic signal registered M5.2 on USGS instruments, and researchers warned that permafrost thaw and accelerating glacial melt make such collapses increasingly likely.",
     "sources": [
       "ABC News — https://abcnews.com/International/deadly-nepal-flood-caused-enormous-landslide-glacier-tumble/story?id=135984405",
       "Al Jazeera — https://www.aljazeera.com/features/2026/8/27/nepal-tibet-floods-what-is-a-glacial-collapse-how-common-is-it",
       "Al Jazeera (satellite images) — https://www.aljazeera.com/news/2026/8/27/satellite-images-show-destruction-from-nepal-tibet-floods",
       "Scientific American — https://www.scientificamerican.com/article/why-glacial-collapse-likely-caused-the-nepal-disaster-and-why-climate-change-will-make-these-events-more-likely/",
       "EarthSky — https://earthsky.org/earth/nepal-flash-flood-glacier-collapse-landslide-aug-26-2026/",
-      "CNN — https://www.cnn.com/2026/08/28/world/video/glacier-collapse-langtang-lirung-peak-nepal-china-flood-hnk-vrtc-digvid"
+      "CNN — https://www.cnn.com/2026/08/28/world/video/glacier-collapse-langtang-lirung-peak-nepal-china-flood-hnk-vrtc-digvid",
+      "Bernama — https://bernama.com/en/world/news.php?id=2615902",
+      "ExplorersWeb — https://explorersweb.com/langtang-flood-update-1453-dead-6664-missing/",
+      "Kathmandu Post — https://kathmandupost.com/national/2026/08/31/death-toll-from-bhotekoshi-flood-reaches-903"
+    ]
+  },
+  {
+    "id": "grand-canyon-bright-angel-flash-flood",
+    "name": "Grand Canyon Bright Angel Flash Flood",
+    "lat": 36.1057,
+    "lon": -112.0947,
+    "type": "flood",
+    "date": "2026-08-29T00:00:00Z",
+    "end_date": "2026-08-29T00:00:00Z",
+    "status": "concluded",
+    "region": "Bright Angel Canyon / Phantom Ranch, Arizona, USA",
+    "scale": "Flash flood through Bright Angel Canyon to the Colorado River; 82 people rescued",
+    "casualties": "2 dead; ~12-15 unaccounted for in early reports, later cut to 1 missing",
+    "displaced": "82 rescued from the inner canyon, most by helicopter",
+    "cause": "Intense monsoon thunderstorm rainfall over the Bright Angel Creek drainage",
+    "description": "A flash flood tore through Bright Angel Canyon and the Phantom Ranch area of Grand Canyon National Park on 29 August 2026. At least two people died, and the National Park Service first listed about 15 people as missing or unaccounted for; later reports put it at one. 82 people were rescued, and the flood destroyed inner-canyon footbridges and damaged the Transcanyon Waterline.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/31/dozens-evacuated-and-about-15-missing-after-grand-canyon-flash-flood",
+      "KEYT/CNN — https://keyt.com/news/national-world/cnn-national/2026/08/31/1-dead-and-about-15-people-may-be-missing-as-flash-flood-tears-through-the-grand-canyon/",
+      "ABC7 — https://abc7news.com/19765991/"
+    ]
+  },
+  {
+    "id": "jiangxi-suichuan-mudslides",
+    "name": "Jiangxi Suichuan Mudslides",
+    "lat": 26.313,
+    "lon": 114.518,
+    "type": "landslide",
+    "date": "2026-09-04T00:00:00Z",
+    "end_date": "2026-09-10T00:00:00Z",
+    "status": "concluded",
+    "region": "Suichuan County, Jiangxi, China",
+    "scale": "Series of rain-triggered mudslides and landslides; 18,000+ evacuated",
+    "casualties": "16 dead",
+    "displaced": "18,000+ evacuated",
+    "cause": "Days of heavy rain; Wikipedia attributes the first Suichuan mudslide to the remnants of Typhoon Saudel (inference on linkage)",
+    "description": "Several days of heavy rain set off a series of mudslides and landslides in Suichuan County, Jiangxi, including at Mingkeng village. By 10 September authorities had confirmed 16 dead, and more than 18,000 residents had been evacuated. The 2026 Pacific typhoon season article ties the initial Suichuan mudslide (1 dead, 11 missing) to Typhoon Saudel, which made its last landfall in Fujian on 3 September; the exact start date is approximate.",
+    "sources": [
+      "China Daily HK (Xinhua) — https://www.chinadailyhk.com/article/639363",
+      "Wikipedia 2026 Pacific typhoon season — https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
+    ]
+  },
+  {
+    "id": "hurricane-lowell-kauai",
+    "name": "Hurricane Lowell Strikes Kauai and Niihau",
+    "lat": 22.0,
+    "lon": -159.65,
+    "type": "cyclone",
+    "date": "2026-09-08T09:00:00Z",
+    "end_date": "2026-09-11T00:00:00Z",
+    "status": "concluded",
+    "region": "Kauai County (Kauai, Niihau), Hawaii, USA",
+    "scale": "Peak Cat 5 (160 mph, 922 mbar); center passed ~64 km W of Niihau; first tornado watch on record for Hawaii",
+    "casualties": "3 dead",
+    "displaced": "18 homes destroyed, 100+ major damage, 700+ damaged (Kauai County, 18 Sep)",
+    "cause": "Eastern/Central Pacific hurricane recurving north past the western Hawaiian Islands",
+    "description": "Hurricane Lowell, which peaked at Category 5, passed about 64 km west of Niihau on 8 September 2026 and gave Kauai and Niihau a direct hit. Three people died: one on Kauai from storm surge, one in Wainiha, and one on Oahu when a tree fell on a tent. More than 91% of Kauai County lost power. Governor Josh Green said damage would exceed $400 million, with early estimates of $500 million to $1 billion, and compared the blow to Iniki.",
+    "sources": [
+      "Hawaii News Now — https://www.hawaiinewsnow.com/2026/09/09/gov-green-warns-hurricane-lowell-damage-kauai-will-exceed-400m/",
+      "Kauai County — https://www.kauai.gov/County-Press-Releases/Sept.-18-400-p.m.-County-of-Kaua%CA%BBi-Hurricane-Lowell-Recovery-Update",
+      "Kauai Now — https://kauainownews.com/2026/09/08/91-of-kiuc-customers-without-power-as-lowell-moves-north-of-kauai-niihau/",
+      "Civil Beat — https://www.civilbeat.org/2026/09/hurricane-lowell-niihau-news-emerges-while-gov-likens-kauai-hit-to-iniki/"
+    ]
+  },
+  {
+    "id": "thailand-bangkok-floods-2026",
+    "name": "Thailand and Bangkok Floods",
+    "lat": 13.7563,
+    "lon": 100.5018,
+    "type": "flood",
+    "date": "2026-09-16T00:00:00Z",
+    "end_date": null,
+    "status": "ongoing",
+    "region": "Bangkok and 21+ provinces (Prachin Buri, Samut Prakan, Nakhon Nayok), Thailand",
+    "scale": "3.13 million+ people affected across 21 provinces and parts of Bangkok; damage est. >฿11 bn (~$320-367 m)",
+    "casualties": "44 dead (AFP, 8 Oct): Prachin Buri 19, Samut Prakan 9, Nakhon Nayok 4, Bangkok 4",
+    "displaced": "Thousands in Bangkok shelters; ~700,000 affected in the capital (DDPM)",
+    "cause": "Monsoon rains plus a deep depression (BOB 07) moving inland over Thailand in late September",
+    "description": "Flooding that began on 16 September 2026 spread across central and eastern Thailand and into Bangkok in late September, when a deep depression moved inland. By 29 September the government counted 23 dead, four of them in Bangkok, and DDPM reported 2.6 million people affected. AFP put the toll at 44 dead and over 3.13 million affected on 8 October. Reuters cited damage estimates above $320 million.",
+    "sources": [
+      "Malay Mail (AFP) — https://www.malaymail.com/amp/news/world/2026/10/08/thailand-floods-since-sept-16-leave-44-dead-as-more-than-31-million-people-affected/238255",
+      "The Star — https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/29/four-dead-in-bangkok-floods-as-thailand-toll-rises-to-23-ministry",
+      "Khaosod English — https://www.khaosodenglish.com/featured/2026/09/29/more-than-2-6-million-people-affected-by-floods-across-thailand/amp/",
+      "Reuters — https://www.reuters.com/business/environment/thousands-huddle-bangkok-shelters-thai-flood-damages-seen-320-mln-2026-09-28/"
+    ]
+  },
+  {
+    "id": "japan-typhoon-dujuan-kanto",
+    "name": "Typhoon Dujuan Landslides in Kanto",
+    "lat": 35.144,
+    "lon": 139.62,
+    "type": "cyclone",
+    "date": "2026-09-21T00:00:00Z",
+    "end_date": "2026-09-22T00:00:00Z",
+    "status": "concluded",
+    "region": "Chiba, Kanagawa (Yokosuka, Miura), Izu Oshima, Japan",
+    "scale": "Typhoon, 140 km/h 10-min peak; 832 mm in 48 h on Izu Oshima (record since 1991)",
+    "casualties": "6 dead (5 Chiba, 1 Kanagawa), 6 missing, 22+ injured (22 Sep)",
+    "displaced": "1.6 million+ under evacuation orders (Wikipedia season table)",
+    "cause": "Typhoon rainfall triggering landslides on saturated slopes",
+    "description": "Typhoon Dujuan brushed the Kanto region on 21-22 September 2026 and dropped a record 832 mm of rain in 48 hours on Izu Oshima. Landslides in Kanagawa and Chiba killed six people and left six missing, mostly around Yokosuka and Miura, and at least 22 were injured. Tens of thousands of homes lost power.",
+    "sources": [
+      "Anadolu Agency — https://www.aa.com.tr/en/world/typhoon-dujuan-death-toll-rises-to-6-in-japan-6-remain-missing/4063955",
+      "ARY News — https://arynews.tv/typhoon-dujuan-two-dead-46000-houses-without-power-japan",
+      "Wikipedia 2026 Pacific typhoon season — https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
+    ]
+  },
+  {
+    "id": "uttar-pradesh-retreating-monsoon-floods",
+    "name": "Uttar Pradesh Retreating-Monsoon Floods",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "type": "flood",
+    "date": "2026-09-25T00:00:00Z",
+    "end_date": "2026-09-29T00:00:00Z",
+    "status": "concluded",
+    "region": "Uttar Pradesh (statewide), with Odisha, Andhra Pradesh, Chhattisgarh, India",
+    "scale": "Very heavy rain in nearly all 75 UP districts; 2,254 houses damaged; 15,000+ evacuated in Odisha",
+    "casualties": "81 dead, 62 injured in Uttar Pradesh; Wikipedia's BOB 06 total adds 19 in Chhattisgarh, Odisha, Andhra Pradesh",
+    "displaced": "15,000+ evacuated in Odisha; UP displacement not reported",
+    "cause": "Deep depression BOB 06 (JTWC 01B) crossing the south Odisha / north Andhra coast and tracking inland during monsoon withdrawal",
+    "description": "Deep Depression BOB 06 formed over the Bay of Bengal on 21 September 2026 and moved inland, bringing three days of extreme rain to Uttar Pradesh around 25-28 September. UP's Relief Commissioner reported 81 dead, 62 injured, more than 2,200 houses damaged and 154 animals killed. More than 15,000 people were evacuated in Odisha, and the same system fed deadly floods in Nepal.",
+    "sources": [
+      "Malay Mail (AFP) — https://www.malaymail.com/news/world/2026/09/28/indias-uttar-pradesh-reels-from-heavy-rains-and-floods-that-leave-81-dead/236913",
+      "Oman Observer — https://www.omanobserver.om/article/1196894/world/asia/floods-in-indias-uttar-pradesh-kill-81-new-toll",
+      "APA — https://en.apa.az/asia/death-toll-from-floods-in-indias-uttar-pradesh-rises-to-81-updated-526814",
+      "Pragativadi (Odisha) — https://pragativadi.com/odisha-rain-fury-deep-depression-inundates-10-districts-over-15k-evacuated/"
+    ]
+  },
+  {
+    "id": "nepal-kali-gandaki-floods-landslides",
+    "name": "Nepal Kali Gandaki Landslides and Floods",
+    "lat": 28.63,
+    "lon": 83.64,
+    "type": "landslide",
+    "date": "2026-09-27T00:00:00Z",
+    "end_date": "2026-10-01T00:00:00Z",
+    "status": "concluded",
+    "region": "Mustang, Baglung, Myagdi, Manang, Palpa (Gandaki/Lumbini), Nepal",
+    "scale": "Mountainside collapse into the Kali Gandaki River; Syangja-Gulmi bridge swept away; 144 MW Kali Gandaki A plant shut",
+    "casualties": "At least 24 dead, 14 missing (28 Sep); Wikipedia later tallies 31 flood/landslide deaths + 15 in a Manang avalanche",
+    "displaced": "~1,500 people (435 households) in Gandaki Province; 747 families affected",
+    "cause": "Days of heavy rain from the remnants of Deep Depression BOB 06 during monsoon withdrawal",
+    "description": "After days of heavy rain, part of a mountain in Mustang District collapsed into the Kali Gandaki River on 27 September 2026, and floods and landslides struck across western Nepal. At least 24 people died, including 10 in Baglung and 6 in Myagdi, and 14 were missing. An avalanche on Himlung Himal in Manang killed climbers. About 1,500 people were displaced, a bridge between Syangja and Gulmi was swept away, and the Kali Gandaki A hydropower plant halted.",
+    "sources": [
+      "The Pioneer — https://dailypioneer.com/news/mountain-collapses-into-kali-gandaki-river-as-nepal-floods-kill-24",
+      "NewsBytes — https://www.newsbytesapp.com/news/world/landslide-in-nepal-kills-at-least-24-14-missing/tldr",
+      "Wikipedia 2026 North Indian Ocean cyclone season — https://en.wikipedia.org/wiki/2026_North_Indian_Ocean_cyclone_season"
+    ]
+  },
+  {
+    "id": "russia-yaroslavl-pyrotechnics-fire",
+    "name": "Yaroslavl Pyrotechnics Plant Fire and Blast",
+    "lat": 56.736,
+    "lon": 38.854,
+    "type": "industrial",
+    "date": "2026-09-28T00:00:00Z",
+    "end_date": "2026-09-28T00:00:00Z",
+    "status": "concluded",
+    "region": "Kubrinsk, Pereslavl District, Yaroslavl Oblast, Russia",
+    "scale": "Fire and explosions at a pyrotechnics plant/warehouse (Salyut Yug LLC); 9 apartment buildings damaged",
+    "casualties": "14 dead (Emergencies Ministry via TASS); others reported missing",
+    "displaced": null,
+    "cause": "Fire at a pyrotechnics facility; short circuit presumed (Investigative Committee, per Charter 97), cause disputed",
+    "description": "On 28 September 2026 a fire and explosions at a pyrotechnics plant in Kubrinsk, Yaroslavl region, killed 14 people, according to TASS and the Emergencies Ministry. The blast damaged nine nearby apartment buildings and cut power to the village. Investigators opened a criminal case over safety violations and detained the plant's director, and the governor declared 30 September a day of mourning. Coordinates are those of Pereslavl-Zalessky, the district seat, not the plant itself.",
+    "sources": [
+      "Meduza — https://meduza.io/en/news/2026/09/28/fire-at-pyrotechnics-warehouse-kills-14-in-russia-s-yaroslavl-region-damages-nine-apartment-buildings",
+      "Gulf Daily News (Reuters/TASS) — https://www.gdnonline.com/Details/1408014/Fourteen-killed-in-fire-at-pyrotechnics-factory-in-Russias-Yaroslavl-region,-TASS-reports",
+      "Novaya Gazeta Europe — https://novayagazeta.eu/amp/articles/2026/09/29/pri-pozhare-na-zavode-pirotekhniki-pod-iaroslavlem-pogibli-14-chelovek-direktora-predpriiatiia-zaderzhali"
+    ]
+  },
+  {
+    "id": "panama-azuero-earthquake",
+    "name": "Panama M7.7 Azuero Earthquake",
+    "lat": 7.587,
+    "lon": -80.769,
+    "type": "earthquake",
+    "date": "2026-10-09T17:56:06Z",
+    "end_date": null,
+    "status": "concluded",
+    "region": "Herrera / Los Santos (Azuero Peninsula), Panama",
+    "scale": "Mw 7.7 strike-slip; depth 12.6 km; MMI IX at Tonosí; Mw 6.6 aftershock; felt by 4.5 million",
+    "casualties": "0 dead reported; 27+ injured",
+    "displaced": "2,097 structures damaged or destroyed (SINAPROC); 300 evacuated from Isla de Cañas",
+    "cause": "Shallow strike-slip faulting off the Azuero Peninsula",
+    "description": "A magnitude 7.7 earthquake struck the southern Azuero Peninsula at 12:56 local time on 9 October 2026. It was Panama's strongest since 1882, and a Mw 6.6 aftershock followed two and a half hours later. At least 27 people were injured and SINAPROC counted 2,097 structures damaged or destroyed; a hotel and homes collapsed in Tonosí, and outages hit six provinces. A regional tsunami warning was issued, but no damaging tsunami was reported.",
+    "sources": [
+      "USGS — https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+      "AP News — https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55",
+      "The Guardian — https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
+      "Infobae — https://www.infobae.com/panama/2026/10/12/panama-vivio-el-viernes-su-terremoto-mas-fuerte-desde-el-gran-sismo-ocurrido-en-1882/"
+    ]
+  },
+  {
+    "id": "hurricane-isaias-florida-panhandle",
+    "name": "Hurricane Isaias Landfall Near Destin",
+    "lat": 30.3935,
+    "lon": -86.4958,
+    "type": "cyclone",
+    "date": "2026-10-10T01:30:00Z",
+    "end_date": "2026-10-11T00:00:00Z",
+    "status": "concluded",
+    "region": "Florida Panhandle (Okaloosa, Escambia) and Alabama, USA",
+    "scale": "Landfall as Cat 2 (~105 mph) after Cat 3 peak (120 mph); ~900,000 customers without power",
+    "casualties": "4-5 dead (2 FL, 2 AL per Euronews/AP; Wikipedia adds 1 in SC)",
+    "displaced": null,
+    "cause": "Atlantic hurricane making Gulf Coast landfall",
+    "description": "Hurricane Isaias came ashore near Destin, Florida, late on 9 October local time (01:30 UTC on 10 October) as a Category 2 storm, after peaking at Category 3. Nearly 900,000 customers lost power across Florida and Alabama. Winds tore the roof off a Pensacola hotel and damaged a Panama City Beach high-rise. At least four deaths were reported in Florida and Alabama, and Wikipedia lists a fifth in South Carolina.",
+    "sources": [
+      "Euronews — https://www.euronews.com/2026/10/11/four-dead-as-isaias-continues-to-push-across-the-southeast-us-bringing-strong-winds-and-he",
+      "Boston Globe (AP) — https://www.bostonglobe.com/2026/10/10/nation/4-dead-storm-isaias-brings-threat-floods-across-southeast/",
+      "WWSB/Gray — https://www.mysuncoast.com/2026/10/10/isaias-leaves-2-dead-widespread-outages-after-category-2-landfall-near-destin/"
     ]
   }
 ]

@@ -832,5 +832,175 @@
       "Jakarta Post — http://www.thejakartapost.com/world/2026/08/20/thai-myanmar-military-chiefs-meet-as-post-coup-thaw-progresses"
     ],
     "theater": "myanmar"
+  },
+  {
+    "id": "swel-le-oh-monastery-airstrike-2026",
+    "name": "Airstrike on Swel Le Oh Monastery, Myaung",
+    "lat": 21.8,
+    "lon": 95.4,
+    "type": "airstrike",
+    "date": "2026-08-21T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Myanmar military",
+      "Civilians"
+    ],
+    "target": "Buddhist monastery hosting a meditation retreat, Swel Le Oh village, Myaung Township, Sagaing Region",
+    "casualties": "14 killed (incl. 3 women), 20 wounded per local civil defence (AP); DVB later cites 15",
+    "description": "A military fighter jet dropped two bombs about 15 minutes apart on a monastery in Swel Le Oh village during a Lent meditation retreat, hitting rescuers on the second pass. The strike came days after the UN investigative mechanism accused the military of indiscriminate aerial attacks on civilians. Coordinates approximate (township-level).",
+    "sources": [
+      "AP via Local10 — https://www.local10.com/news/world/2026/08/21/myanmar-military-strike-kills-14-people-at-a-buddhist-monastery-opposition-group-says/",
+      "The Star (AFP) — https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/22/myanmar-airstrike-on-monastery-marking-lent-kills-14-witnesses"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "operation-4926-sittwe-offensive-2026",
+    "name": "Junta Launches Counteroffensive Out of Sittwe",
+    "lat": 20.25,
+    "lon": 92.93,
+    "type": "ground",
+    "date": "2026-09-04T00:00:00Z",
+    "operation": "Operation 4926 (informal name used by pro-military channels)",
+    "parties": [
+      "Myanmar military",
+      "Arakan Army"
+    ],
+    "target": "AA positions on the Sittwe–Ponnagyun front (Minchaung and Ah Myint Kyun bridges); parallel pushes at Kyaukphyu and Gwa",
+    "casualties": "AA claims ~200 junta troops killed near Khamaungtaw and Ywarbo, 4–11 Sep (unverified); junta figures not released",
+    "description": "On 4 September the military launched a multi-front offensive against the Arakan Army, with a column crossing Minchaung Bridge from Sittwe toward Ponnagyun backed by airstrikes and naval shelling of Gwa and Thandwe. Regional outlets reported the push had largely stalled by 9 September; it was described as the first major campaign under new commander-in-chief Ye Win Oo. Sittwe remains in junta hands.",
+    "sources": [
+      "BNI — https://www.bnionline.net/en/node/117184",
+      "DMG — https://dmediag.com/news/jodpf.html",
+      "The Irrawaddy — https://www.irrawaddy.com/news/burma/major-regime-offensive-to-retake-territory-from-aa-stumbles.html"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "junta-revokes-kyaw-moe-tun-2026",
+    "name": "Naypyitaw Revokes UN Envoy Kyaw Moe Tun's Status",
+    "lat": 19.7633,
+    "lon": 96.0785,
+    "type": "political",
+    "date": "2026-09-13T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Myanmar government",
+      "Kyaw Moe Tun",
+      "National Unity Government"
+    ],
+    "target": "Myanmar's seat at the United Nations",
+    "casualties": "None reported",
+    "description": "Ahead of the UN Credentials Committee review at the 81st General Assembly, the military-backed government declared that Kyaw Moe Tun's status as UN permanent representative was \"revoked and withdrawn\" and said it would seek legal action via INTERPOL and US agencies. The committee had deferred the question in prior years, leaving him seated; no 2026 decision was found by this sweep.",
+    "sources": [
+      "ThePrint (Reuters) — https://theprint.in/world/myanmar-government-revokes-status-and-seeks-action-against-un-envoy-kyaw-moe-tun/3041490/",
+      "DVB — https://english.dvb.no/kim-aris-rallies-support-for-ambassador-kyaw-moe-tun-ahead-of-critical-un-credentials-battle/"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "us-myanmar-direct-talks-2026",
+    "name": "US Opens Direct Talks With Myanmar in Naypyitaw",
+    "lat": 19.7633,
+    "lon": 96.0785,
+    "type": "political",
+    "date": "2026-09-15T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "United States",
+      "Myanmar government (Min Aung Hlaing)"
+    ],
+    "target": "US–Myanmar diplomatic engagement (scam centres, rare earths, detained American)",
+    "casualties": "N/A",
+    "description": "A US delegation led by State Department intelligence chief Michael Vance held talks in Naypyitaw on 15–16 September with President Min Aung Hlaing, following a June meeting in Tokyo, reversing years of US isolation of the post-coup government. Agenda items included shutting scam centres, access to rare earths and the release of detained American Adam Castillo, who was freed around 17 September. Min Aung Hlaing remains under US sanctions; no formal agreement was reported.",
+    "sources": [
+      "Times of Israel (AP) — https://www.timesofisrael.com/us-opens-direct-talks-with-myanmar-reversing-years-of-isolation-amid-deadly-civil-war/"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "kyauktaw-market-airstrike-sep-2026",
+    "name": "Airstrike on Kyauktaw Market Kills Dozens",
+    "lat": 20.8406,
+    "lon": 92.9814,
+    "type": "airstrike",
+    "date": "2026-09-28T05:30:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Myanmar military",
+      "Arakan Army",
+      "Civilians"
+    ],
+    "target": "Main wholesale market and adjacent bridge, Kyauktaw town (AA-held), Rakhine State",
+    "casualties": "Initially 33 killed, 36 wounded (AA/AFP); later at least 49 killed, 58 wounded (AP); UN human rights officials: over 50 killed",
+    "description": "Around noon a military jet dropped two bombs near Kyauktaw's main market, burning buildings and damaging a bridge, in what a Rakhine rescue official called one of the most severe airstrikes in the state. The military did not comment. The Philippines publicly voiced concern.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state",
+      "The Star (AP) — https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/30/market-airstrike-kills-49",
+      "Khaosod English — https://www.khaosodenglish.com/news/international/2026/09/30/myanmar-airstrike-kills-50-at-market-in-rakhine/"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "momeik-mabein-counteroffensive-2026",
+    "name": "Regime Pushes on Momeik–Mabein Axis Toward Kachin",
+    "lat": 23.33,
+    "lon": 96.65,
+    "type": "ground",
+    "date": "2026-10-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Myanmar military",
+      "KIA"
+    ],
+    "target": "Momeik–Mabein road (northern Shan) and Momeik–Twinnge road; springboard to Bhamo and Shwegu",
+    "casualties": "None reported",
+    "description": "A regime counteroffensive begun in August along the Momeik–Mabein axis produced fighting with the KIA on the Momeik–Mabein road on 7 October and on the Momeik–Twinnge road on 8–9 October, per a KIA source. Retaking KIA-held Mabein would give the military a springboard into southern Kachin, where the KIA and regime are contesting Bhamo and Shwegu. Coordinates are the midpoint of the axis.",
+    "sources": [
+      "DVB — https://english.dvb.no/fighting-erupts-in-northern-shan-state-as-military-pushes-into-southern-kachin-state/"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "min-aung-hlaing-malaysia-2026",
+    "name": "Min Aung Hlaing Visits Malaysia Amid Mass Returns",
+    "lat": 3.139,
+    "lon": 101.6869,
+    "type": "political",
+    "date": "2026-10-07T04:30:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Min Aung Hlaing",
+      "Malaysia (Anwar Ibrahim)"
+    ],
+    "target": "Bilateral talks; repatriation of Myanmar nationals from Malaysia",
+    "casualties": "N/A",
+    "description": "Min Aung Hlaing arrived in Kuala Lumpur on 7 October for a two-day visit and talks with Prime Minister Anwar Ibrahim, centred on the \"voluntary\" return of Myanmar nationals; a first organised wave began in late September. Anwar said about 10,000 Myanmar nationals had been sent back since January and that Myanmar gave assurances returnees, including Rohingya, would not be harmed; UNHCR and rights groups warned against returns. No signed agreement was reported.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/7/myanmars-min-aung-hlaing-visits-malaysia-amid-concerns-over-repatriations",
+      "Al Jazeera — https://aljazeera.com/news/2026/10/6/malaysias-anwar-to-host-myanmar-leader-as-repatriations-surpass-10000",
+      "Arab News — https://www.arabnews.com/world/malaysia-to-invite-myanmar-leader-over-rohingya-repatriation-push-3001949"
+    ],
+    "theater": "myanmar"
+  },
+  {
+    "id": "seikkhun-monastery-airstrike-2026",
+    "name": "Airstrikes on Mahasi Monastery, Seikkhun, Shwebo",
+    "lat": 22.5,
+    "lon": 95.73,
+    "type": "airstrike",
+    "date": "2026-10-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Myanmar military",
+      "Civilians"
+    ],
+    "target": "Mahasi Buddhist monastery compound, Seikkhun village, Shwebo Township, Sagaing Region",
+    "casualties": "2 killed, 8 injured",
+    "description": "Three rounds of airstrikes hit the Mahasi monastery compound in Seikkhun during a meditation retreat, part of a run of attacks on Sagaing monasteries from 7–11 October (Pyankya, Monywa; Chaung-U) that killed at least two and injured nine. Coordinates approximate.",
+    "sources": [
+      "DVB — https://english.dvb.no/myanmar-air-force-targets-monasteries-in-sagaing-region-killing-civilians-and-destroying-historic-sites/"
+    ],
+    "theater": "myanmar"
   }
 ]

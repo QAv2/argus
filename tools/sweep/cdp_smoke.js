@@ -96,6 +96,35 @@ const getJson = (url) => new Promise((res, rej) => {
   console.log('=== DOM ===');
   console.log(dom);
 
+  // Optional social-card capture: SHOT=out.png [SHOT_VIEW="lon,lat,alt"] [SHOT_WAIT=ms]
+  if (process.env.SHOT) {
+    const [lon, lat, alt] = (process.env.SHOT_VIEW || '30,22,17000000').split(',').map(Number);
+    // Boot can outlast the smoke window on a slow box: wait for the loading screen to clear
+    for (let i = 0; i < 90; i++) {
+      const b = await send('Runtime.evaluate', { expression: `(document.getElementById('loading-screen') || {style:{}}).style.display === 'none'`, returnByValue: true });
+      if (b && b.result && b.result.value) break;
+      await sleep(2000);
+    }
+    await send('Emulation.setDeviceMetricsOverride', { width: 1200, height: 630, deviceScaleFactor: 1, mobile: false });
+    await send('Runtime.evaluate', { expression: `(() => {
+      const l = document.getElementById('landing-overlay'); if (l) { l.style.display = 'none'; l.classList.remove('visible'); }
+      if (typeof Conflicts !== 'undefined') Conflicts.setVisible(true);
+      if (typeof Disasters !== 'undefined') Disasters.setVisible(true);
+      Globe.flyTo(${lon}, ${lat}, ${alt}, 0);
+    })()` });
+    // SHOT_KEYS: single-char app shortcuts to press first, e.g. "l" = labels off
+    for (const k of (process.env.SHOT_KEYS || '')) {
+      const code = k.toUpperCase().charCodeAt(0);
+      await send('Input.dispatchKeyEvent', { type: 'keyDown', key: k, code: `Key${k.toUpperCase()}`, text: k, windowsVirtualKeyCode: code });
+      await send('Input.dispatchKeyEvent', { type: 'keyUp', key: k, code: `Key${k.toUpperCase()}`, windowsVirtualKeyCode: code });
+      await sleep(300);
+    }
+    await sleep(parseInt(process.env.SHOT_WAIT || '15000', 10));
+    const shot = await send('Page.captureScreenshot', { format: 'png' });
+    require('fs').writeFileSync(process.env.SHOT, Buffer.from(shot.data, 'base64'));
+    console.log('=== SHOT === ' + process.env.SHOT);
+  }
+
   ws.close();
   chrome.kill('SIGKILL');
   process.exit(exceptions.length ? 1 : 0);

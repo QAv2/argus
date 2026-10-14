@@ -169,6 +169,8 @@ scan_recs = section(scan_md, r'Top-3|justification')
 scan_monitor = section(scan_md, r'Monitor')
 candidates = []
 for path in sorted(SWEEP.glob('candidate-*.json')):
+    if path.stem[len('candidate-'):] in NEW_THEATERS:
+        continue  # promoted — rendered as a live theater card instead
     candidates.append((path.stem[len('candidate-'):], sorted(json.load(open(path)), key=lambda e: e['date'])))
 
 dis_md = read(SWEEP / 'disasters.md')

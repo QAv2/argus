@@ -9,7 +9,7 @@ Workflow (see memory `worldview-intel-globe`, session 2026-08-28):
 4. `node test_disasters.js` → exercises js/disasters.js headlessly against a GDACS fixture.
 5. Serve the repo (`python3 -m http.server 8080`) and `node cdp_smoke.js http://127.0.0.1:8080/ 70000`
    → headless-Chrome boot check (console, exceptions, layer counters). Needs google-chrome.
-   `SHOT=og-image.png` also captures a 1200×630 social card after the window (`SHOT_VIEW="lon,lat,alt"`, `SHOT_WAIT=ms`, `SHOT_KEYS=l` presses app shortcuts first — `l` hides labels).
+   `SHOT=og-image.png` also captures a 1200×630 social card after the window (`SHOT_VIEW="lon,lat,alt"`, `SHOT_WAIT=ms`, `SHOT_KEYS=l` presses app shortcuts first — `l` hides labels, `SHOT_JS=…` runs page script to stage the card).
 6. `SWEEP_DATE=YYYY-MM-DD python3 build_briefing.py` → `~/argus-sweeps/<date>/briefing.html` for review.
 
 `SWEEP_DIR` overrides the inbox location. `inbox/` is gitignored.

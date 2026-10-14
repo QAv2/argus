@@ -112,6 +112,8 @@ const getJson = (url) => new Promise((res, rej) => {
       if (typeof Disasters !== 'undefined') Disasters.setVisible(true);
       Globe.flyTo(${lon}, ${lat}, ${alt}, 0);
     })()` });
+    // SHOT_JS: page script to stage the card (layer visibility, base layer, …)
+    if (process.env.SHOT_JS) await send('Runtime.evaluate', { expression: process.env.SHOT_JS });
     // SHOT_KEYS: single-char app shortcuts to press first, e.g. "l" = labels off
     for (const k of (process.env.SHOT_KEYS || '')) {
       const code = k.toUpperCase().charCodeAt(0);

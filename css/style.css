@@ -88,6 +88,7 @@ html, body {
 }
 
 #top-bar .logo {
+  margin-left: 28px; /* room for #toggle-panel-btn */
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -674,7 +675,7 @@ html, body {
 /* ── Toggle panel button ── */
 #toggle-panel-btn {
   position: fixed;
-  top: 50px;
+  top: 7px; /* in the top bar, left of the logo — clear of the panel content */
   left: 8px;
   width: 28px; height: 28px;
   display: flex;
@@ -685,7 +686,7 @@ html, body {
   border-radius: var(--radius);
   color: var(--text-secondary);
   cursor: pointer;
-  z-index: 1000;
+  z-index: 1001;
   font-size: 14px;
 }
 

@@ -2,6 +2,7 @@
 
 const Earthquakes = (() => {
   let entities = [];
+  let labelsVisible = true; // survives the poll rebuild
   let visible = true;
   let quakeData = [];
   const FEED_URL = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson';
@@ -68,7 +69,7 @@ const Earthquakes = (() => {
           verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
           pixelOffset: new Cesium.Cartesian2(0, -size - 4),
           disableDepthTestDistance: 0,
-          show: true,
+          show: labelsVisible,
         },
         properties: {
           type: 'earthquake',
@@ -132,6 +133,7 @@ const Earthquakes = (() => {
   }
 
   function setLabelsVisible(show) {
+    labelsVisible = show;
     entities.forEach(e => {
       if (e.label) e.label.show = show;
     });

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "tigray-war-begins-2020",
+    "name": "Tigray War begins after TPLF attack on ENDF Northern Command",
+    "lat": 13.4967,
+    "lon": 39.4753,
+    "type": "ground",
+    "date": "2020-11-04T00:00:00Z",
+    "operation": "Tigray War",
+    "parties": [
+      "ENDF",
+      "TPLF/TDF",
+      "Eritrean Defence Forces"
+    ],
+    "target": "Northern Command bases, Tigray",
+    "casualties": "Estimates of conflict deaths run into the hundreds of thousands (see source)",
+    "description": "Federal forces launched operations in Tigray after the TPLF attacked the ENDF Northern Command. Eritrean forces fought alongside the ENDF. The war ran until the Pretoria agreement of November 2022.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Tigray_war"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "pretoria-cessation-of-hostilities-2022",
+    "name": "Pretoria cessation-of-hostilities agreement signed",
+    "lat": -25.7479,
+    "lon": 28.2293,
+    "type": "political",
+    "date": "2022-11-02T00:00:00Z",
+    "operation": "AU-led Pretoria process",
+    "parties": [
+      "Government of Ethiopia",
+      "TPLF",
+      "African Union"
+    ],
+    "target": "Tigray War",
+    "casualties": "None reported",
+    "description": "The federal government and the TPLF signed an AU-brokered permanent cessation of hostilities in Pretoria. Eritrea was not a party. Its unravelling in 2025-26 is the root of the current war.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Tigray_war"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "amhara-state-of-emergency-fano-2023",
+    "name": "State of emergency in Amhara as Fano insurgency erupts",
+    "lat": 11.5936,
+    "lon": 37.3908,
+    "type": "ground",
+    "date": "2023-08-04T00:00:00Z",
+    "operation": "War in Amhara",
+    "parties": [
+      "ENDF",
+      "Fano militias"
+    ],
+    "target": "Amhara region towns incl. Bahir Dar, Gondar, Lalibela",
+    "casualties": "Unknown",
+    "description": "Fano militias fought the federal army for control of Amhara towns after a federal plan to dissolve regional special forces. The government declared a state of emergency. The insurgency has run continuously since.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/War_in_Amhara"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "ethiopia-somaliland-port-mou-2024",
+    "name": "Ethiopia–Somaliland sea-access MoU signed",
+    "lat": 9.03,
+    "lon": 38.74,
+    "type": "political",
+    "date": "2024-01-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ethiopia",
+      "Somaliland"
+    ],
+    "target": "Red Sea access",
+    "casualties": "None reported",
+    "description": "Ethiopia signed a memorandum with Somaliland for naval and port access. It opened Abiy's sea-access campaign, which Eritrea now calls a declaration of war, and drew Egypt toward Eritrea and Somalia.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Ethiopia%E2%80%93Somaliland_Memorandum_of_Understanding",
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "ethiopia-demands-eritrea-withdraw-feb26",
+    "name": "Ethiopia demands Eritrea 'immediately withdraw' troops",
+    "lat": 9.03,
+    "lon": 38.74,
+    "type": "political",
+    "date": "2026-02-09T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "target": "Eritrean forces on Ethiopian territory",
+    "casualties": "None reported",
+    "description": "Addis Ababa demanded that Eritrean troops leave Ethiopian territory and accused Asmara of backing insurgents. Eritrea called the accusations deplorable. Date is approximate: reports appeared around 9 February.",
+    "sources": [
+      "The Standard (Kenya) — https://www.thestandard.ke/business/amp/africa/article/2001540408/ethiopia-demands-eritrea-immediately-withdraw-troops-from-its-territory",
+      "Polity / Reuters — https://www.polity.org.za/article/eritrea-calls-ethiopias-accusations-of-military-aggression-deplorable-2026-02-09"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "tplf-reinstates-prewar-government-may26",
+    "name": "TPLF sidelines interim administration, voiding Pretoria",
+    "lat": 13.4967,
+    "lon": 39.4753,
+    "type": "political",
+    "date": "2026-05-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "TPLF",
+      "Tigray Interim Administration",
+      "Government of Ethiopia"
+    ],
+    "target": "Tigray regional government",
+    "casualties": "None reported",
+    "description": "The TPLF sidelined the federally backed Tigray Interim Administration and reinstated the pre-war regional government, effectively voiding the Pretoria agreement. The exact day in May was not reported, so the date is set to 1 May.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Aug 27 2026 — https://www.criticalthreats.org/analysis/ethiopia-tplf-fano-libya-lna-mali-fla-algeria-morocco-togo-congo-russia-africa-file-august-27-2026"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "endf-tplf-clash-humera-aug1",
+    "name": "First large-scale ENDF–TPLF fighting since 2022, near Humera",
+    "lat": 14.2994,
+    "lon": 36.6167,
+    "type": "ground",
+    "date": "2026-08-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "ENDF",
+      "TPLF/TDF"
+    ],
+    "target": "Western Tigray",
+    "casualties": "Not reported",
+    "description": "CTP-ISW recorded large-scale fighting between the federal army and TPLF forces in western Tigray near Humera, the first major clash since the 2022 truce. Both sides had been mobilizing near Alamata since late July.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Aug 27 2026 — https://www.criticalthreats.org/analysis/ethiopia-tplf-fano-libya-lna-mali-fla-algeria-morocco-togo-congo-russia-africa-file-august-27-2026"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "endf-strikes-mekelle-aug18",
+    "name": "ENDF strikes in and around Mekelle",
+    "lat": 13.4967,
+    "lon": 39.4753,
+    "type": "airstrike",
+    "date": "2026-08-18T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "ENDF",
+      "TPLF"
+    ],
+    "target": "Mekelle and surroundings",
+    "casualties": "Over 12 civilians injured (TPLF claim)",
+    "description": "Federal forces struck in and around the Tigray capital on 18 and 20 August. The TPLF said residential areas were hit. Further strikes across eastern, northwestern and southern Tigray followed on 24–26 August.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Aug 27 2026 — https://www.criticalthreats.org/analysis/ethiopia-tplf-fano-libya-lna-mali-fla-algeria-morocco-togo-congo-russia-africa-file-august-27-2026"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "epfas-alliance-formed-sep20",
+    "name": "Seven armed groups form alliance to topple Abiy",
+    "lat": 13.4967,
+    "lon": 39.4753,
+    "type": "political",
+    "date": "2026-09-20T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "TPLF",
+      "Amhara Fano National Movement",
+      "OLA",
+      "ARDUF",
+      "BPLM",
+      "GPDM",
+      "ONLF (faction disputed)"
+    ],
+    "target": "Federal government of Ethiopia",
+    "casualties": "None reported",
+    "description": "Seven groups announced the Ethiopian People's Forces Alliance for Survival to remove the Prosperity Party government and set up a transitional administration. The Jigjiga-based ONLF faction denied joining. The venue was not reported; the pin is at Mekelle (TPLF seat).",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/9/21/ethiopian-armed-groups-forge-alliance-against-government",
+      "Hiiraan Online — https://www.hiiraan.com/politics4/2026/Sep/206344/onlf_denies_joining_ethiopian_opposition_alliance_against_abiy_ahmed_government.aspx"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "tigray-forces-seize-mekelle-airport-sep23",
+    "name": "Tigrayan Forces Seize Mekelle Airport; Flights Suspended",
+    "lat": 13.4674,
+    "lon": 39.5335,
+    "type": "ground",
+    "date": "2026-09-23T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Tigrayan forces",
+      "Ethiopian Federal Police"
+    ],
+    "target": "Alula Aba Nega Airport, Mekelle",
+    "casualties": "None reported (AP: takeover appeared peaceful)",
+    "description": "Tigrayan forces took the airport from federal police overnight, after the regional government ordered a 'defensive war' in response to federal drone and artillery attacks. Ethiopian Airlines suspended flights to Mekelle, Axum and Shire.",
+    "sources": [
+      "Local10 / AP — https://www.local10.com/news/world/2026/09/23/ethiopian-airlines-cancels-flights-to-tigray-capital-as-fighters-take-over-airport/",
+      "TimesLIVE / Reuters — https://www.timeslive.co.za/news/africa/2026-09-23-ethiopian-air-halts-flights-to-tigray-region-as-mekelle-airport-seized/"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "ethiopia-eritrea-sever-ties-oct1",
+    "name": "Ethiopia expels Eritrean diplomats; Eritrea severs all ties",
+    "lat": 15.3229,
+    "lon": 38.9251,
+    "type": "political",
+    "date": "2026-10-01T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Ethiopia",
+      "Eritrea",
+      "Egypt"
+    ],
+    "target": "Ethiopia–Eritrea diplomatic relations",
+    "casualties": "None reported",
+    "description": "Ethiopia closed its embassy in Asmara and expelled 10 Eritrean diplomats, citing acts of hostility. Eritrea cut all ties and called Ethiopia's sea-access stance a declaration of war. Ethiopia and Egypt also expelled each other's diplomats.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "endf-captures-mekelle-oct3",
+    "name": "Federal forces and Tigray Peace Force take Mekelle",
+    "lat": 13.4967,
+    "lon": 39.4753,
+    "type": "ground",
+    "date": "2026-10-03T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "ENDF",
+      "Tigray Peace Force",
+      "TPLF/TDF"
+    ],
+    "target": "Mekelle, Tigray regional capital",
+    "casualties": "Little resistance reported",
+    "description": "The ENDF and the allied Tigray Peace Force entered Mekelle after the TPLF withdrew and moved its administration elsewhere. Wukro and Agula fell on 4 October. CTP dates the capture to 3 October; Al Jazeera's photo captions give 4 October and the airport retaken on 6 October.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "el-alamein-quadrilateral-declaration-oct4",
+    "name": "Egypt, Eritrea, Somalia, Sudan issue El Alamein declaration",
+    "lat": 30.8333,
+    "lon": 28.95,
+    "type": "political",
+    "date": "2026-10-04T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Egypt",
+      "Eritrea",
+      "Somalia",
+      "Sudan"
+    ],
+    "target": "Regional alignment against Ethiopia",
+    "casualties": "None reported",
+    "description": "A quadrilateral summit issued a declaration on sovereignty, Red Sea governance, GERD and Somaliland recognition. It does not name Ethiopia, but CTP-ISW reads it as an Egypt-led anti-Ethiopia coalition.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "endf-airstrikes-adwa-sheraro-oct4",
+    "name": "ENDF airstrikes on Adwa and Sheraro kill 17",
+    "lat": 14.1667,
+    "lon": 38.9,
+    "type": "airstrike",
+    "date": "2026-10-04T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "ENDF",
+      "TPLF/TDF"
+    ],
+    "target": "Adwa (hotels) and Sheraro",
+    "casualties": "9 killed in Adwa, 8 in Sheraro",
+    "description": "Federal airstrikes on 4–5 October damaged hotels in Adwa and killed nine people. Strikes on Sheraro near the Eritrean border killed eight.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "abiy-reinaugurated-sea-access-oct5",
+    "name": "Abiy sworn in for new term, restates sea-access goal",
+    "lat": 9.03,
+    "lon": 38.74,
+    "type": "political",
+    "date": "2026-10-05T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Government of Ethiopia"
+    ],
+    "target": "Red Sea access / Eritrea",
+    "casualties": "None reported",
+    "description": "Abiy Ahmed began another five-year term. His address repeated the aim of direct sea access, which Eritrea says means a plan to seize Assab.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "eritrean-troops-adigrat-oct7",
+    "name": "Eritrean troops reported inside Ethiopia at Adigrat",
+    "lat": 14.277,
+    "lon": 39.462,
+    "type": "ground",
+    "date": "2026-10-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Eritrean Defence Forces",
+      "ENDF"
+    ],
+    "target": "Adigrat and the A2 road toward Wukro, eastern Tigray",
+    "casualties": "Unknown",
+    "description": "Witnesses told Reuters they saw dozens of Eritrean soldiers in trucks in Adigrat. CTP-ISW geolocated footage near Idaga Hamus. Ethiopia demanded their withdrawal, and an official put the deployment at about 4,500 troops, which CTP could not confirm. AFP and ACLED reported on 8 October that the Eritrean forces had pulled back north.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare",
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    ],
+    "theater": "ethiopia-eritrea"
+  },
+  {
+    "id": "fano-captures-mehal-meda-oct7",
+    "name": "Fano (AFNM) captures Mehal Meda, attacks Dabat",
+    "lat": 10.3167,
+    "lon": 39.6667,
+    "type": "ground",
+    "date": "2026-10-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Amhara Fano National Movement",
+      "ENDF"
+    ],
+    "target": "Mehal Meda (North Shewa); Dabat (North Gondar)",
+    "casualties": "Unknown",
+    "description": "As the Tigray front opened, Fano captured Mehal Meda and attacked Dabat, following its capture of Wurgessa on 3 October. This puts a second front in Amhara.",
+    "sources": [
+      "Critical Threats (CTP-ISW) Africa File, Oct 8 2026 — https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-tplf-egypt-somalia-sudan-saf-mali-fla-jnim"
+    ],
+    "theater": "ethiopia-eritrea"
+  }
+]

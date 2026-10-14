@@ -1,0 +1,360 @@
+[
+  {
+    "id": "houthis-seize-sanaa-2014",
+    "name": "Houthis seize Sanaa",
+    "lat": 15.3694,
+    "lon": 44.191,
+    "type": "ground",
+    "date": "2014-09-21T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis (Ansar Allah)",
+      "Government of Yemen"
+    ],
+    "target": "Sanaa",
+    "casualties": "Unknown",
+    "description": "Houthi forces took the capital, which began the current civil war. The government later fled to Aden and then Riyadh.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)",
+      "Wikipedia — https://en.wikipedia.org/wiki/Houthi_takeover_in_Yemen"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "saudi-led-intervention-2015",
+    "name": "Saudi-led coalition intervenes (Operation Decisive Storm)",
+    "lat": 15.3694,
+    "lon": 44.191,
+    "type": "airstrike",
+    "date": "2015-03-26T00:00:00Z",
+    "operation": "Operation Decisive Storm",
+    "parties": [
+      "Saudi-led coalition",
+      "Houthis"
+    ],
+    "target": "Houthi positions, Sanaa",
+    "casualties": "Unknown",
+    "description": "A Saudi-led coalition began an air campaign against the Houthis. This set the Saudi–Houthi axis that broke open again in July 2026.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Saudi_Arabian%E2%80%93led_intervention_in_Yemen"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "stockholm-agreement-hodeidah-2018",
+    "name": "Stockholm Agreement freezes Hodeidah front",
+    "lat": 59.75,
+    "lon": 18.36,
+    "type": "political",
+    "date": "2018-12-13T00:00:00Z",
+    "operation": "UN-led talks",
+    "parties": [
+      "Government of Yemen",
+      "Houthis",
+      "United Nations"
+    ],
+    "target": "Hodeidah port and city",
+    "casualties": "None reported",
+    "description": "UN-led talks in Sweden produced a ceasefire for Hodeidah and a prisoner-exchange framework. The West Coast front stayed largely frozen until 2026.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Stockholm_Agreement"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "un-truce-april-2022",
+    "name": "UN-brokered nationwide truce takes effect",
+    "lat": 15.3694,
+    "lon": 44.191,
+    "type": "political",
+    "date": "2022-04-02T00:00:00Z",
+    "operation": "UN truce",
+    "parties": [
+      "Saudi-led coalition",
+      "Government of Yemen",
+      "Houthis",
+      "United Nations"
+    ],
+    "target": "Nationwide hostilities",
+    "casualties": "None reported",
+    "description": "A two-month UN truce began at Ramadan. It formally lapsed in October 2022 but an informal Saudi–Houthi de-escalation held until July 2026. The pin is at Sanaa as a stand-in, since the truce was announced by the UN envoy.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)",
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "plc-formed-riyadh-2022",
+    "name": "Presidential Leadership Council formed in Riyadh",
+    "lat": 24.7136,
+    "lon": 46.6753,
+    "type": "political",
+    "date": "2022-04-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Government of Yemen",
+      "Saudi Arabia",
+      "UAE-backed factions incl. STC"
+    ],
+    "target": "Yemeni executive",
+    "casualties": "None reported",
+    "description": "President Hadi handed power to an eight-member council that united the anti-Houthi factions. It is the government now fighting the Houthis on the Marib, al-Jawf and West Coast fronts.",
+    "sources": [
+      "Wikipedia — https://en.wikipedia.org/wiki/Presidential_Leadership_Council"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "govt-strikes-sanaa-airport-jul13-2026",
+    "name": "Government airstrikes on Sanaa airport block Iranian plane",
+    "lat": 15.4763,
+    "lon": 44.2197,
+    "type": "airstrike",
+    "date": "2026-07-13T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Government of Yemen",
+      "Houthis",
+      "Iran (Mahan Air)"
+    ],
+    "target": "Sanaa International Airport runway",
+    "casualties": "None reported",
+    "description": "Government air strikes hit Sanaa airport to stop a Mahan Air plane carrying a Houthi delegation back from Khamenei's funeral. The plane was diverted to Hodeidah. The Houthis blamed Riyadh and declared the de-escalation phase over. The date is approximate from related headlines.",
+    "sources": [
+      "The National — https://www.thenationalnews.com/news/gulf/2026/07/15/hanging-by-a-thread-informal-truce-between-saudi-arabia-and-houthis-on-brink-of-collapse/"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthis-strike-abha-airport-jul13-2026",
+    "name": "Houthis strike Saudi Arabia's Abha airport",
+    "lat": 18.2404,
+    "lon": 42.6566,
+    "type": "retaliation",
+    "date": "2026-07-13T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "target": "Abha International Airport",
+    "casualties": "None reported",
+    "description": "The Houthis hit Abha airport on the evening of 13 July, disrupting flights for over 24 hours. It was their first strike on Saudi territory under the 2022 de-escalation. On 14 July they said they shot down a Saudi reconnaissance drone over al-Bayda.",
+    "sources": [
+      "The National — https://www.thenationalnews.com/news/gulf/2026/07/15/hanging-by-a-thread-informal-truce-between-saudi-arabia-and-houthis-on-brink-of-collapse/"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthi-blockade-saudi-jul20",
+    "name": "Houthis Declare Maritime Blockade of Saudi Arabia",
+    "lat": 13.5833,
+    "lon": 43.95,
+    "type": "blockade",
+    "date": "2026-07-20T00:00:00Z",
+    "operation": "Houthi 'Siege for a Siege'",
+    "parties": [
+      "Ansar Allah (Houthis)",
+      "Saudi Arabia"
+    ],
+    "target": "Saudi maritime traffic — Red Sea and Bab el-Mandeb",
+    "casualties": "N/A",
+    "description": "Yemen's Houthis declared a maritime blockade of Saudi Arabia under their 'siege for a siege' campaign. They subsequently attacked eight Saudi-linked vessels, including tankers NCC Ghazal, Encelia, and Layla. Saudi Arabia confirmed fire damage to the Encelia on July 23 and halted Red Sea exports on July 26 for ten days. The blockade escalated into the Houthi seizure of Mokha and Perim Island at Bab al-Mandab (10–11 Sep) and missile strikes on Saudi airports in October.",
+    "sources": [
+      "Foreign Policy — https://foreignpolicy.com/2026/07/20/houthi-blockade-saudi-iran-war-red-sea-gulf-aden-hormuz/",
+      "FDD Long War Journal — https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php",
+      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthi-strikes-marib-hadramout-camps-aug6",
+    "name": "Houthi strikes on Marib and Hadramout camps kill 30+ soldiers",
+    "lat": 15.462,
+    "lon": 45.3253,
+    "type": "missile",
+    "date": "2026-08-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Government of Yemen"
+    ],
+    "target": "Government military camps, Marib and Hadramout",
+    "casualties": "At least 30 government soldiers (Al Jazeera); other reports differ",
+    "description": "Al Jazeera called it the deadliest single episode of the war in years. The Houthis said they were answering a Saudi-backed build-up. UN envoy Grundberg warned that the risk of large-scale war was the highest since 2022.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates",
+      "Ahram Online — https://english.ahram.org.eg/News/574227.aspx"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "govt-181-operations-aug15",
+    "name": "Government says it hit Houthi targets 181 times in 24 hours",
+    "lat": 15.462,
+    "lon": 45.3253,
+    "type": "ground",
+    "date": "2026-08-15T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Government of Yemen",
+      "Houthis"
+    ],
+    "target": "Houthi positions across seven provinces",
+    "casualties": "4 Houthi members (Houthi statement)",
+    "description": "The Yemeni military announced 181 operations against Houthi positions. Fighting resumed on the al-Jawf, al-Dhalea and Taiz fronts. The pin is at Marib, the operations hub.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates",
+      "Morung Express / IANS — https://morungexpress.com/yemeni-govt-forces-launch-181-military-operations-against-houthis-within-24-hrs-spokesman"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthi-missiles-marib-mokha-aug16",
+    "name": "Houthi missiles and drones hit Marib city and al-Makha",
+    "lat": 13.3196,
+    "lon": 43.25,
+    "type": "missile",
+    "date": "2026-08-16T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Government of Yemen"
+    ],
+    "target": "Marib residential areas; al-Makha port and airport",
+    "casualties": "4 killed, 8 injured (al-Makha); 4 wounded (Marib)",
+    "description": "Six ballistic missiles and four drones hit Marib neighbourhoods, and overnight strikes hit al-Makha. Port operations at al-Makha were already paused after several days of strikes.",
+    "sources": [
+      "Al Jazeera — https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthi-offensive-west-taiz-sep3",
+    "name": "Houthi offensive west of Taiz and on the West Coast",
+    "lat": 13.55,
+    "lon": 43.7,
+    "type": "ground",
+    "date": "2026-09-03T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Giants Brigades",
+      "National Resistance"
+    ],
+    "target": "Fronts west of Taiz and along the Red Sea coast",
+    "casualties": "Unknown",
+    "description": "The Houthis opened a large-scale offensive west of Taiz and along the West Coast and made early gains. Southern Giants and National Resistance forces counterattacked. The coordinates are approximate.",
+    "sources": [
+      "South24 — https://south24.net/news/news.php?nid=5712"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "govt-al-jawf-offensive-sep7",
+    "name": "Government launches offensive in al-Jawf toward al-Labanat",
+    "lat": 16.16,
+    "lon": 44.78,
+    "type": "ground",
+    "date": "2026-09-07T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Government of Yemen",
+      "Houthis",
+      "Saudi Arabia (unconfirmed air support)"
+    ],
+    "target": "Al-Labanat camp area, al-Jawf",
+    "casualties": "Unknown",
+    "description": "Government-aligned forces attacked Houthi positions around al-Labanat, the day after airstrikes on al-Labanat and the al-Barh front. Soldiers said Saudi Arabia was supporting the operation, which Riyadh has not confirmed. The Houthis said they downed a CH-4 drone. The coordinates are approximate.",
+    "sources": [
+      "South24 — https://south24.net/news/news.php?nid=5712"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthis-seize-mokha-sep10",
+    "name": "Houthis Seize Red Sea Port of Mokha in Push on Bab al-Mandab",
+    "lat": 13.32,
+    "lon": 43.25,
+    "type": "ground",
+    "date": "2026-09-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Yemeni government forces"
+    ],
+    "target": "Port city of Mokha, Taiz governorate",
+    "casualties": "Unknown",
+    "description": "Houthi forces took Mokha from government forces on Thursday 10 September and advanced south toward the Bab al-Mandab strait. The port had been under sustained missile attack since early August. A military source also said the Houthis seized Zuqar Island.",
+    "sources": [
+      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthis-take-perim-island-sep11",
+    "name": "Houthis Take Perim Island, Controlling Bab al-Mandab",
+    "lat": 12.661,
+    "lon": 43.418,
+    "type": "ground",
+    "date": "2026-09-11T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Yemeni government forces"
+    ],
+    "target": "Perim Island, Bab al-Mandab strait",
+    "casualties": "Unknown",
+    "description": "The Houthis took Perim Island in the middle of the Bab al-Mandab on the morning of 11 September, the WSJ and Aden al-Ghad reported, giving them control of the strait and opening a second maritime chokepoint front of the Iran war. Ynet noted the capture was not independently confirmed at the time.",
+    "sources": [
+      "To Vima (WSJ) — https://www.tovima.com/wsj/the-lightning-offensive-that-saw-the-houthis-grab-a-crucial-oil-corridor/amp/",
+      "Ynetnews — https://www.ynetnews.com/article/by11qq8efme"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "houthi-strikes-abha-riyadh-airports-oct6",
+    "name": "Houthi Strikes on Abha and Riyadh Airports Kill 3",
+    "lat": 18.2404,
+    "lon": 42.6566,
+    "type": "missile",
+    "date": "2026-10-06T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Saudi Arabia"
+    ],
+    "target": "Abha International Airport (Oct 6) and King Khalid International Airport, Riyadh (Oct 7)",
+    "casualties": "3 killed, 36 injured (Saudi aviation authority)",
+    "description": "Saudi authorities said attacks on Abha airport on Tuesday 6 October and Riyadh's King Khalid airport on 7 October killed three and injured 36; the Houthis claimed both. On 8 October the Houthis claimed another missile at Riyadh airport and issued a 'final warning' to airlines using Saudi airspace.",
+    "sources": [
+      "Coeur d'Alene Press (AP) — https://cdapress.com/news/2026/oct/07/attacks-on-saudi-airports-claimed-by-houthi-rebels-kill-3-people-officials-say/",
+      "News On AIR — https://newsonair.gov.in/three-killed-36-injured-in-houthi-attacks-on-saudi-airports/"
+    ],
+    "theater": "yemen"
+  },
+  {
+    "id": "riyadh-airport-missile-12-killed-oct10",
+    "name": "Missile Hits Riyadh Airport Terminals — 12 Killed, 300+ Hurt",
+    "lat": 24.9576,
+    "lon": 46.6988,
+    "type": "missile",
+    "date": "2026-10-10T00:00:00Z",
+    "operation": "N/A",
+    "parties": [
+      "Houthis",
+      "Saudi Arabia",
+      "Saudi-led coalition"
+    ],
+    "target": "Terminals 3 and 4, King Khalid International Airport, Riyadh",
+    "casualties": "12 killed, 300+ injured (Saudi civil aviation authorities)",
+    "description": "A missile struck the complex housing terminals 3 and 4 at King Khalid International Airport, the deadliest attack on any Gulf Arab state since the Iran war began; flights were suspended and diverted. The Saudi-led coalition blamed the Houthis, called it a war crime and vowed to respond; the Houthis said Saudi Arabia then carried out 124 strikes in Yemen including Sanaa (unverified). The airport was hit again the next day.",
+    "sources": [
+      "ITV News — https://www.itv.com/news/2026-10-11/at-least-12-killed-in-attack-on-saudi-arabias-riyadh-airport",
+      "Boston Globe — https://www.bostonglobe.com/2026/10/10/world/houthi-attack-riyadh-airport/",
+      "Canberra Times (AAP) — https://www.canberratimes.com.au/story/9366377/riyadh-airport-struck-again-day-after-12-killed/"
+    ],
+    "theater": "yemen"
+  }
+]

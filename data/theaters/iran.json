@@ -2629,28 +2629,6 @@
     "theater": "iran"
   },
   {
-    "id": "houthi-blockade-saudi-jul20",
-    "name": "Houthis Declare Maritime Blockade of Saudi Arabia",
-    "lat": 13.5833,
-    "lon": 43.95,
-    "type": "blockade",
-    "date": "2026-07-20T00:00:00Z",
-    "operation": "Houthi 'Siege for a Siege'",
-    "parties": [
-      "Ansar Allah (Houthis)",
-      "Saudi Arabia"
-    ],
-    "target": "Saudi maritime traffic — Red Sea and Bab el-Mandeb",
-    "casualties": "N/A",
-    "description": "Yemen's Houthis declared a maritime blockade of Saudi Arabia under their 'siege for a siege' campaign. They subsequently attacked eight Saudi-linked vessels, including tankers NCC Ghazal, Encelia, and Layla. Saudi Arabia confirmed fire damage to the Encelia on July 23 and halted Red Sea exports on July 26 for ten days. The blockade escalated into the Houthi seizure of Mokha and Perim Island at Bab al-Mandab (10–11 Sep) and missile strikes on Saudi airports in October.",
-    "sources": [
-      "Foreign Policy — https://foreignpolicy.com/2026/07/20/houthi-blockade-saudi-iran-war-red-sea-gulf-aden-hormuz/",
-      "FDD Long War Journal — https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php",
-      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
-    ],
-    "theater": "iran"
-  },
-  {
     "id": "irgc-strikes-us-gulf-bases-jul21",
     "name": "IRGC Strikes US Bases in Kuwait, Bahrain, and Jordan",
     "lat": 29.0572,
@@ -2842,47 +2820,6 @@
     "theater": "iran"
   },
   {
-    "id": "houthis-seize-mokha-sep10",
-    "name": "Houthis Seize Red Sea Port of Mokha in Push on Bab al-Mandab",
-    "lat": 13.32,
-    "lon": 43.25,
-    "type": "ground",
-    "date": "2026-09-10T00:00:00Z",
-    "operation": "N/A",
-    "parties": [
-      "Houthis",
-      "Yemeni government forces"
-    ],
-    "target": "Port city of Mokha, Taiz governorate",
-    "casualties": "Unknown",
-    "description": "Houthi forces took Mokha from government forces on Thursday 10 September and advanced south toward the Bab al-Mandab strait. The port had been under sustained missile attack since early August. A military source also said the Houthis seized Zuqar Island.",
-    "sources": [
-      "Euronews — https://euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb"
-    ],
-    "theater": "iran"
-  },
-  {
-    "id": "houthis-take-perim-island-sep11",
-    "name": "Houthis Take Perim Island, Controlling Bab al-Mandab",
-    "lat": 12.661,
-    "lon": 43.418,
-    "type": "ground",
-    "date": "2026-09-11T00:00:00Z",
-    "operation": "N/A",
-    "parties": [
-      "Houthis",
-      "Yemeni government forces"
-    ],
-    "target": "Perim Island, Bab al-Mandab strait",
-    "casualties": "Unknown",
-    "description": "The Houthis took Perim Island in the middle of the Bab al-Mandab on the morning of 11 September, the WSJ and Aden al-Ghad reported, giving them control of the strait and opening a second maritime chokepoint front of the Iran war. Ynet noted the capture was not independently confirmed at the time.",
-    "sources": [
-      "To Vima (WSJ) — https://www.tovima.com/wsj/the-lightning-offensive-that-saw-the-houthis-grab-a-crucial-oil-corridor/amp/",
-      "Ynetnews — https://www.ynetnews.com/article/by11qq8efme"
-    ],
-    "theater": "iran"
-  },
-  {
     "id": "east-west-pipeline-drones-from-iraq-sep11",
     "name": "Drones From Iraq Hit Saudi East-West Pipeline; Line Shut",
     "lat": 24.7136,
@@ -2927,27 +2864,6 @@
     "theater": "iran"
   },
   {
-    "id": "houthi-strikes-abha-riyadh-airports-oct6",
-    "name": "Houthi Strikes on Abha and Riyadh Airports Kill 3",
-    "lat": 18.2404,
-    "lon": 42.6566,
-    "type": "missile",
-    "date": "2026-10-06T00:00:00Z",
-    "operation": "N/A",
-    "parties": [
-      "Houthis",
-      "Saudi Arabia"
-    ],
-    "target": "Abha International Airport (Oct 6) and King Khalid International Airport, Riyadh (Oct 7)",
-    "casualties": "3 killed, 36 injured (Saudi aviation authority)",
-    "description": "Saudi authorities said attacks on Abha airport on Tuesday 6 October and Riyadh's King Khalid airport on 7 October killed three and injured 36; the Houthis claimed both. On 8 October the Houthis claimed another missile at Riyadh airport and issued a 'final warning' to airlines using Saudi airspace.",
-    "sources": [
-      "Coeur d'Alene Press (AP) — https://cdapress.com/news/2026/oct/07/attacks-on-saudi-airports-claimed-by-houthi-rebels-kill-3-people-officials-say/",
-      "News On AIR — https://newsonair.gov.in/three-killed-36-injured-in-houthi-attacks-on-saudi-airports/"
-    ],
-    "theater": "iran"
-  },
-  {
     "id": "hormuz-record-week-tanker-attacks-oct7",
     "name": "Hormuz Tanker Attacks Hit Wartime Weekly Record (12+)",
     "lat": 26.5667,
@@ -2987,29 +2903,6 @@
     "sources": [
       "WOWT (AP) — https://www.wowt.com/2026/10/08/trump-says-us-will-not-resume-military-strikes-iran-before-midterm-elections/",
       "Al-Monitor — https://www.al-monitor.com/originals/2026/10/trump-says-no-iran-strikes-midterms-amid-productive-talks"
-    ],
-    "theater": "iran"
-  },
-  {
-    "id": "riyadh-airport-missile-12-killed-oct10",
-    "name": "Missile Hits Riyadh Airport Terminals — 12 Killed, 300+ Hurt",
-    "lat": 24.9576,
-    "lon": 46.6988,
-    "type": "missile",
-    "date": "2026-10-10T00:00:00Z",
-    "operation": "N/A",
-    "parties": [
-      "Houthis",
-      "Saudi Arabia",
-      "Saudi-led coalition"
-    ],
-    "target": "Terminals 3 and 4, King Khalid International Airport, Riyadh",
-    "casualties": "12 killed, 300+ injured (Saudi civil aviation authorities)",
-    "description": "A missile struck the complex housing terminals 3 and 4 at King Khalid International Airport, the deadliest attack on any Gulf Arab state since the Iran war began; flights were suspended and diverted. The Saudi-led coalition blamed the Houthis, called it a war crime and vowed to respond; the Houthis said Saudi Arabia then carried out 124 strikes in Yemen including Sanaa (unverified). The airport was hit again the next day.",
-    "sources": [
-      "ITV News — https://www.itv.com/news/2026-10-11/at-least-12-killed-in-attack-on-saudi-arabias-riyadh-airport",
-      "Boston Globe — https://www.bostonglobe.com/2026/10/10/world/houthi-attack-riyadh-airport/",
-      "Canberra Times (AAP) — https://www.canberratimes.com.au/story/9366377/riyadh-airport-struck-again-day-after-12-killed/"
     ],
     "theater": "iran"
   }

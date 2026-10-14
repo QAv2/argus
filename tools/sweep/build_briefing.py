@@ -28,6 +28,8 @@ THEATERS = [
     ('india-pakistan', 'India–Pakistan', '#ec4899', '4'),
     ('drc-great-lakes', 'DRC / Great Lakes', '#84cc16', '5'),
     ('israel-palestine', 'Israel–Palestine', '#6366f1', '6'),
+    ('ethiopia-eritrea', 'Ethiopia–Eritrea', '#d4a373', '7'),
+    ('yemen', 'Yemen', '#5eead4', '8'),
 ]
 
 TYPE_COLORS = {

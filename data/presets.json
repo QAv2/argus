@@ -209,5 +209,25 @@
     "key": "6",
     "description": "Israel–Palestine — Gaza ceasefire, West Bank settler violence",
     "layer": "conflicts"
+  },
+  {
+    "id": "ethiopia-eritrea-theater",
+    "name": "Ethiopia–Eritrea Theater",
+    "lat": 12.8,
+    "lon": 39.0,
+    "altitude": 900000,
+    "key": "7",
+    "description": "Ethiopia–Eritrea — Tigray war resumed, Mekelle, Eritrean troops, Fano insurgency in Amhara",
+    "layer": "conflicts"
+  },
+  {
+    "id": "yemen-theater",
+    "name": "Yemen Theater",
+    "lat": 15.3,
+    "lon": 45.0,
+    "altitude": 900000,
+    "key": "8",
+    "description": "Yemen — truce collapsed July 2026, Houthi–government ground war, Bab al-Mandab, Houthi–Saudi strikes",
+    "layer": "conflicts"
   }
 ]

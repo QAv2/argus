@@ -32,6 +32,8 @@ const Conflicts = (() => {
     { id: 'india-pakistan', name: 'India–Pakistan', color: '#ec4899' },
     { id: 'drc-great-lakes', name: 'DRC / Great Lakes', color: '#84cc16' },
     { id: 'israel-palestine', name: 'Israel–Palestine', color: '#6366f1' },
+    { id: 'ethiopia-eritrea', name: 'Ethiopia–Eritrea', color: '#d4a373' },
+    { id: 'yemen', name: 'Yemen', color: '#5eead4' },
   ];
 
   const activeTheaters = new Set(THEATERS.map(t => t.id));
@@ -398,9 +400,11 @@ const Conflicts = (() => {
   }
 
   function applyTheaterMask(mask) {
-    if (!mask || mask.length !== THEATERS.length) return;
+    // Shorter masks come from URLs shared before theaters were appended:
+    // they cover the first N theaters, and the newer ones stay on.
+    if (!mask || mask.length > THEATERS.length) return;
     THEATERS.forEach((t, i) => {
-      if (mask[i] === '1') {
+      if (i >= mask.length || mask[i] === '1') {
         activeTheaters.add(t.id);
       } else {
         activeTheaters.delete(t.id);

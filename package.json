@@ -8,6 +8,6 @@
     "deploy": "netlify deploy --prod"
   },
   "dependencies": {
-    "ws": "^8.19.0"
+    "ws": "^8.22.0"
   }
 }

@@ -108,4 +108,8 @@ vm.runInContext(src + '\n; this.Disasters = Disasters;', sandbox);
   const sizes = {};
   added.forEach(e => { sizes[e.billboard.width] = (sizes[e.billboard.width] || 0) + 1; });
   console.log('icon sizes:', sizes);
+  if (!D.getCurated().length || !added.length || bad.length) {
+    console.error(`HARNESS FAIL: curated=${D.getCurated().length} entities=${added.length} bad=${bad.length}`);
+    process.exit(1);
+  }
 })().catch(err => { console.error('HARNESS FAIL', err); process.exit(1); });

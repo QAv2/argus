@@ -5,9 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "npx serve . -p 8080",
+    "test": "node tools/check_static.js && node tools/sweep/test_disasters.js > /dev/null && echo \"test_disasters: OK\"",
+    "smoke": "node tools/sweep/cdp_smoke.js http://127.0.0.1:8080/ 70000",
     "deploy": "netlify deploy --prod"
   },
   "dependencies": {
-    "ws": "^8.19.0"
+    "ws": "^8.22.0"
   }
 }

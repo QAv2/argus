@@ -16,7 +16,7 @@ const getJson = (url) => new Promise((res, rej) => {
 });
 
 (async () => {
-  const chrome = spawn('google-chrome', [
+  const chrome = spawn(process.env.CHROME_BIN || 'google-chrome', [
     '--headless=new', '--no-sandbox', '--disable-gpu', '--use-angle=swiftshader',
     '--enable-unsafe-swiftshader', '--no-first-run', '--disable-extensions',
     '--window-size=1280,800', `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`,
@@ -127,7 +127,20 @@ const getJson = (url) => new Promise((res, rej) => {
     console.log('=== SHOT === ' + process.env.SHOT);
   }
 
+  // Fail on a boot that never finished or on empty local layers (these load
+  // from data/ and need no network or API keys)
+  const problems = [];
+  let parsed = null;
+  try { parsed = JSON.parse(dom); } catch { problems.push('could not read DOM state'); }
+  if (parsed) {
+    if (parsed.loadingStatus !== 'SYSTEMS ONLINE') problems.push(`boot status "${parsed.loadingStatus}"`);
+    for (const k of ['conflicts', 'disasters', 'antarctica', 'military']) {
+      if (!(parseInt(parsed.counts[k], 10) > 0)) problems.push(`layer ${k} is empty (${parsed.counts[k]})`);
+    }
+  }
+  if (problems.length) console.log('=== PROBLEMS ===\n' + problems.join('\n'));
+
   ws.close();
   chrome.kill('SIGKILL');
-  process.exit(exceptions.length ? 1 : 0);
+  process.exit(exceptions.length || problems.length ? 1 : 0);
 })().catch(err => { console.error('SMOKE FAIL', err); process.exit(2); });

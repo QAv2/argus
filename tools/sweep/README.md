@@ -8,7 +8,7 @@ Workflow (see memory `worldview-intel-globe`, session 2026-08-28):
 3. `python3 validate_disasters.py --check|--apply` → appends new events to `data/disasters.json` (inbox holds NEW events only).
 4. `node test_disasters.js` → exercises js/disasters.js headlessly against a GDACS fixture.
 5. Serve the repo (`python3 -m http.server 8080`) and `node cdp_smoke.js http://127.0.0.1:8080/ 70000`
-   → headless-Chrome boot check (console, exceptions, layer counters). Needs google-chrome.
+   → headless-Chrome boot check (console, exceptions, layer counters). Needs google-chrome, or set `CHROME_BIN` to any Chromium. Exits 1 on exceptions, an unfinished boot or an empty local layer.
    `SHOT=og-image.png` also captures a 1200×630 social card after the window (`SHOT_VIEW="lon,lat,alt"`, `SHOT_WAIT=ms`, `SHOT_KEYS=l` presses app shortcuts first — `l` hides labels, `SHOT_JS=…` runs page script to stage the card).
 6. `SWEEP_DATE=YYYY-MM-DD python3 build_briefing.py` → `~/argus-sweeps/<date>/briefing.html` for review.
 
